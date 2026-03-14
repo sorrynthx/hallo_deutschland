@@ -23,7 +23,7 @@ LOCATIONS_FILE = DATA_PATH / "locations.json"
 LOG_PATH       = Path(REPO_PATH) / "scripts" / "logs"
 LOG_PATH.mkdir(exist_ok=True)
 
-MODEL = "gemini-2.0-flash-lite"
+MODEL = "gemini-2.5-flash"
 
 # ── 요일 → 레벨 ───────────────────────────────────────────
 WEEKDAY_LEVEL = {
