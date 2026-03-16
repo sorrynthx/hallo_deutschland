@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import Ticker from '../components/Ticker'
+import { useProgress } from '../hooks/useProgress'
 
 interface LocationMeta {
     id: string
@@ -23,9 +24,15 @@ const LEARN_TYPES = [
     { id: 'expressions', icon: '🔊', label: '표현 정리' },
 ]
 
+const TOTAL_PARTS = 8
+
 export default function MissionPage() {
     const router = useRouter()
     const [locations, setLocations] = useState<LocationMeta[]>([])
+    const { totalCollected } = useProgress()
+
+    const collected = totalCollected()
+    const progressPct = Math.round((collected / TOTAL_PARTS) * 100)
 
     useEffect(() => {
         fetch('/data/locations.json')
@@ -48,19 +55,27 @@ export default function MissionPage() {
                     </div>
                 </div>
 
-                {/* 미션 상태 */}
+                {/* 미션 상태 — useProgress 연동 */}
                 <div style={{ background: 'var(--bg-panel)', border: '1.5px solid rgba(78,205,196,.3)', borderRadius: '14px', padding: '14px 16px' }}>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '10px' }}>
                         <div style={{ fontSize: '9px', color: 'var(--mint)', fontFamily: 'Space Mono, monospace', fontWeight: 700 }}>MISSION STATUS</div>
                         <div className="ufo-glow" style={{ fontSize: '24px' }}>🛸</div>
                     </div>
-                    <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginBottom: '8px' }}>마을 곳곳을 탐험하며 독일어를 배워요</div>
+                    <div style={{ fontSize: '11px', color: 'var(--text-secondary)', marginBottom: '8px' }}>
+                        {collected === 0 && '마을 곳곳을 탐험하며 독일어를 배워요'}
+                        {collected > 0 && collected < TOTAL_PARTS && `부품 ${collected}개 획득! 계속 탐험해봐요`}
+                        {collected === TOTAL_PARTS && '🎉 모든 부품을 모았어요! 우주로 돌아갈 수 있어!'}
+                    </div>
                     <div className="progress-track">
-                        <div className="progress-fill" style={{ width: '25%' }} />
+                        <div className="progress-fill" style={{ width: `${progressPct}%` }} />
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '4px' }}>
-                        <span style={{ fontSize: '9px', color: 'var(--text-dim)', fontFamily: 'Space Mono, monospace' }}>진행중</span>
-                        <span style={{ fontSize: '9px', color: 'var(--mint)', fontFamily: 'Space Mono, monospace' }}>2 / 8 부품</span>
+                        <span style={{ fontSize: '9px', color: 'var(--text-dim)', fontFamily: 'Space Mono, monospace' }}>
+                            {progressPct}%
+                        </span>
+                        <span style={{ fontSize: '9px', color: 'var(--mint)', fontFamily: 'Space Mono, monospace' }}>
+                            ⚙ {collected} / {TOTAL_PARTS} 부품
+                        </span>
                     </div>
                 </div>
 
@@ -75,12 +90,12 @@ export default function MissionPage() {
                         border: `1.5px solid ${loc.colorBorder ?? 'rgba(255,255,255,.1)'}`,
                         borderRadius: '14px',
                     }}>
-                        {/* 장소 헤더 */}
                         <div style={{
                             padding: '12px 14px',
                             borderBottom: '1px solid rgba(255,255,255,.06)',
                             display: 'flex', alignItems: 'center', gap: '10px',
                             background: 'rgba(255,255,255,.02)',
+                            borderRadius: '14px 14px 0 0',
                         }}>
                             <span style={{ fontSize: '22px' }}>{loc.icon}</span>
                             <div style={{ flex: 1 }}>
@@ -96,23 +111,20 @@ export default function MissionPage() {
                             </div>
                         </div>
 
-                        {/* 학습 유형 버튼 2x2 */}
                         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
                             {LEARN_TYPES.map((type, i) => (
                                 <button
                                     key={type.id}
                                     onClick={() => router.push(`/learn/${loc.id}/${type.id}?level=${loc.levels[0]}`)}
                                     style={{
-                                        background: 'transparent',
-                                        border: 'none',
+                                        background: 'transparent', border: 'none',
                                         borderTop: '1px solid rgba(255,255,255,.04)',
                                         borderRight: i % 2 === 0 ? '1px solid rgba(255,255,255,.04)' : 'none',
-                                        color: 'var(--text-secondary)',
-                                        padding: '10px 12px',
-                                        cursor: 'pointer',
+                                        color: 'var(--text-secondary)', padding: '10px 12px', cursor: 'pointer',
                                         display: 'flex', alignItems: 'center', gap: '6px',
                                         fontSize: '11px', fontFamily: 'Space Mono, monospace',
                                         transition: 'background .15s',
+                                        borderRadius: i === 2 ? '0 0 0 14px' : i === 3 ? '0 0 14px 0' : '0',
                                     }}
                                     onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,.04)')}
                                     onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}
