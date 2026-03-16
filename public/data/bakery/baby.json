@@ -1,0 +1,260 @@
+{
+  "location": "bakery",
+  "level": "baby",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_bakery_baby_W10_001",
+        "word": "Brot",
+        "article": "das",
+        "plural": "Brote",
+        "pronunciation": "브로트",
+        "meaning": "빵",
+        "example": "Ich möchte Brot.",
+        "example_translation": "저는 빵을 원합니다.",
+        "example_pronunciation": "이히 뫼히테 브로트.",
+        "tags": [
+          "food",
+          "bakery",
+          "noun"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_002",
+        "word": "Brötchen",
+        "article": "das",
+        "plural": "Brötchen",
+        "pronunciation": "브뢰트헨",
+        "meaning": "작은 빵, 모닝빵",
+        "example": "Ein Brötchen, bitte.",
+        "example_translation": "작은 빵 하나 주세요.",
+        "example_pronunciation": "아인 브뢰트헨, 비테.",
+        "tags": [
+          "food",
+          "bakery",
+          "noun"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_003",
+        "word": "Kuchen",
+        "article": "der",
+        "plural": "Kuchen",
+        "pronunciation": "쿠헨",
+        "meaning": "케이크, 파이",
+        "example": "Der Kuchen ist lecker.",
+        "example_translation": "이 케이크는 맛있습니다.",
+        "example_pronunciation": "데어 쿠헨 이스트 레커.",
+        "tags": [
+          "food",
+          "bakery",
+          "noun",
+          "sweet"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_004",
+        "word": "Kaffee",
+        "article": "der",
+        "plural": "null",
+        "pronunciation": "카페",
+        "meaning": "커피",
+        "example": "Einen Kaffee, bitte.",
+        "example_translation": "커피 한 잔 주세요.",
+        "example_pronunciation": "아이넨 카페, 비테.",
+        "tags": [
+          "drink",
+          "bakery",
+          "noun"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_005",
+        "word": "Wasser",
+        "article": "das",
+        "plural": "null",
+        "pronunciation": "바서",
+        "meaning": "물",
+        "example": "Ich möchte Wasser.",
+        "example_translation": "저는 물을 원합니다.",
+        "example_pronunciation": "이히 뫼히테 바서.",
+        "tags": [
+          "drink",
+          "bakery",
+          "noun"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_006",
+        "word": "Eins",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "아인스",
+        "meaning": "하나",
+        "example": "Ich nehme eins.",
+        "example_translation": "저는 하나를 가져갈게요.",
+        "example_pronunciation": "이히 네메 아인스.",
+        "tags": [
+          "number",
+          "basic"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_007",
+        "word": "Zwei",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "츠바이",
+        "meaning": "둘",
+        "example": "Ich nehme zwei Brötchen.",
+        "example_translation": "저는 작은 빵 두 개를 가져갈게요.",
+        "example_pronunciation": "이히 네메 츠바이 브뢰트헨.",
+        "tags": [
+          "number",
+          "basic"
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "voc_bakery_baby_W10_008",
+        "word": "Lecker",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "레커",
+        "meaning": "맛있는",
+        "example": "Das ist sehr lecker!",
+        "example_translation": "이것은 정말 맛있어요!",
+        "example_pronunciation": "다스 이스트 제어 레커!",
+        "tags": [
+          "adjective",
+          "food"
+        ],
+        "week": "W10"
+      }
+    ],
+    "grammar": [],
+    "conversation": [],
+    "expressions": [
+      {
+        "id": "expr_bakery_baby_W10_001",
+        "phrase": "Guten Tag!",
+        "pronunciation": "구텐 탁!",
+        "meaning": "안녕하세요!",
+        "usage": "빵집에 들어가거나 점원을 만났을 때 인사로 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Hallo!",
+            "pronunciation": "할로!",
+            "nuance": "좀 더 비격식적인 인사입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Guten Tag!",
+            "pronunciation": "구텐 탁!",
+            "translation": "안녕하세요!"
+          },
+          {
+            "text": "Hallo!",
+            "pronunciation": "할로!",
+            "translation": "안녕하세요!"
+          }
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "expr_bakery_baby_W10_002",
+        "phrase": "Ein Brötchen, bitte.",
+        "pronunciation": "아인 브뢰트헨, 비테.",
+        "meaning": "작은 빵 하나 주세요.",
+        "usage": "빵집에서 특정 물품 하나를 주문할 때 사용합니다. 'Ein' 대신 숫자를 넣어 'Zwei Brötchen, bitte.' 등으로 응용할 수 있습니다.",
+        "alternatives": [
+          {
+            "phrase": "Ein Brot, bitte.",
+            "pronunciation": "아인 브로트, 비테.",
+            "nuance": "빵 하나 주세요."
+          },
+          {
+            "phrase": "Einen Kaffee, bitte.",
+            "pronunciation": "아이넨 카페, 비테.",
+            "nuance": "커피 한 잔 주세요. (자주 쓰는 주문 표현)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Hier, bitte.",
+            "pronunciation": "히어, 비테.",
+            "translation": "여기 있습니다."
+          },
+          {
+            "text": "Gerne.",
+            "pronunciation": "게르네.",
+            "translation": "기꺼이요."
+          }
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "expr_bakery_baby_W10_003",
+        "phrase": "Danke.",
+        "pronunciation": "당케.",
+        "meaning": "감사합니다.",
+        "usage": "물건을 받거나 서비스를 받았을 때 감사를 표현합니다.",
+        "alternatives": [
+          {
+            "phrase": "Vielen Dank!",
+            "pronunciation": "필렌 당크!",
+            "nuance": "더욱 정중한 표현으로, '정말 감사합니다!'의 의미입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Bitte schön.",
+            "pronunciation": "비테 쇈.",
+            "translation": "천만에요."
+          },
+          {
+            "text": "Gern geschehen.",
+            "pronunciation": "게른 게셰헨.",
+            "translation": "천만에요. (기꺼이 한 일이라는 뉘앙스)"
+          }
+        ],
+        "week": "W10"
+      },
+      {
+        "id": "expr_bakery_baby_W10_004",
+        "phrase": "Auf Wiedersehen!",
+        "pronunciation": "아우프 비더제엔!",
+        "meaning": "안녕히 계세요! / 안녕히 가세요!",
+        "usage": "빵집을 나설 때 점원에게 작별 인사를 할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Tschüss!",
+            "pronunciation": "취스!",
+            "nuance": "좀 더 비격식적인 작별 인사입니다. 친구나 친한 사람에게 사용합니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Auf Wiedersehen!",
+            "pronunciation": "아우프 비더제엔!",
+            "translation": "안녕히 계세요!"
+          },
+          {
+            "text": "Tschüss!",
+            "pronunciation": "취스!",
+            "translation": "잘 가!"
+          }
+        ],
+        "week": "W10"
+      }
+    ]
+  },
+  "lastUpdated": "W10"
+}

@@ -1,0 +1,510 @@
+{
+  "location": "hospital",
+  "level": "a1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_hospital_a1_W11_001",
+        "word": "der Arzt",
+        "article": "der",
+        "plural": "die Ärzte",
+        "pronunciation": "데어 아르츠트",
+        "meaning": "의사",
+        "example": "Der Arzt hilft mir.",
+        "example_translation": "의사가 저를 도와줍니다.",
+        "example_pronunciation": "데어 아르츠트 힐프트 미어",
+        "tags": [
+          "직업",
+          "사람"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_002",
+        "word": "die Krankenschwester",
+        "article": "die",
+        "plural": "die Krankenschwestern",
+        "pronunciation": "디 크랑켄슈베스터",
+        "meaning": "간호사",
+        "example": "Die Krankenschwester ist sehr nett.",
+        "example_translation": "간호사는 매우 친절합니다.",
+        "example_pronunciation": "디 크랑켄슈베스터 이스트 제어 넷",
+        "tags": [
+          "직업",
+          "사람"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_003",
+        "word": "das Krankenhaus",
+        "article": "das",
+        "plural": "die Krankenhäuser",
+        "pronunciation": "다스 크랑켄하우스",
+        "meaning": "병원",
+        "example": "Ich gehe ins Krankenhaus.",
+        "example_translation": "저는 병원에 갑니다.",
+        "example_pronunciation": "이히 게에 인스 크랑켄하우스",
+        "tags": [
+          "장소"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_004",
+        "word": "der Schmerz",
+        "article": "der",
+        "plural": "die Schmerzen",
+        "pronunciation": "데어 슈메르츠",
+        "meaning": "통증",
+        "example": "Ich habe starke Schmerzen.",
+        "example_translation": "저는 심한 통증이 있습니다.",
+        "example_pronunciation": "이히 하베 슈타르케 슈메르첸",
+        "tags": [
+          "증상"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_005",
+        "word": "weh tun",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "베 툰",
+        "meaning": "아프다",
+        "example": "Mein Kopf tut weh.",
+        "example_translation": "제 머리가 아픕니다.",
+        "example_pronunciation": "마인 코프 투트 베",
+        "tags": [
+          "동사",
+          "증상"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_006",
+        "word": "die Tablette",
+        "article": "die",
+        "plural": "die Tabletten",
+        "pronunciation": "디 타블레테",
+        "meaning": "알약",
+        "example": "Bitte nehmen Sie diese Tablette.",
+        "example_translation": "이 알약을 드세요.",
+        "example_pronunciation": "비테 네멘 지 디제 타블레테",
+        "tags": [
+          "약"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_007",
+        "word": "die Apotheke",
+        "article": "die",
+        "plural": "die Apotheken",
+        "pronunciation": "디 아포테케",
+        "meaning": "약국",
+        "example": "Wo ist die nächste Apotheke?",
+        "example_translation": "가장 가까운 약국이 어디인가요?",
+        "example_pronunciation": "보 이스트 디 넥스테 아포테케",
+        "tags": [
+          "장소"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_008",
+        "word": "krank",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "크랑크",
+        "meaning": "아픈",
+        "example": "Ich bin krank.",
+        "example_translation": "저는 아픕니다.",
+        "example_pronunciation": "이히 빈 크랑크",
+        "tags": [
+          "형용사",
+          "증상"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_009",
+        "word": "die Untersuchung",
+        "article": "die",
+        "plural": "die Untersuchungen",
+        "pronunciation": "디 운터주훙",
+        "meaning": "검사, 진찰",
+        "example": "Die Untersuchung dauert lange.",
+        "example_translation": "검사는 오래 걸립니다.",
+        "example_pronunciation": "디 운터주훙 다우어트 랑게",
+        "tags": [
+          "의료행위"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a1_W11_010",
+        "word": "der Termin",
+        "article": "der",
+        "plural": "die Termine",
+        "pronunciation": "데어 테어민",
+        "meaning": "예약, 약속",
+        "example": "Ich habe einen Termin beim Arzt.",
+        "example_translation": "저는 의사에게 예약이 있습니다.",
+        "example_pronunciation": "이히 하베 아이넨 테어민 바임 아르츠트",
+        "tags": [
+          "행정"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_hospital_a1_W11_001",
+        "type": "fill_blank",
+        "topic": "Modalverb 'können' (할 수 있다)",
+        "topic_explanation": "'können'은 능력을 나타내는 조동사입니다. 주어에 따라 동사 형태가 변합니다.",
+        "question": "Ich ____ Ihnen helfen.",
+        "question_translation": "저는 당신을 도울 수 있습니다.",
+        "options": [
+          "kann",
+          "können",
+          "kannst",
+          "könnt"
+        ],
+        "answer": "kann",
+        "explanation": "'Ich' 주어에 맞는 'können'의 현재형은 'kann'입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "kann"
+          },
+          {
+            "pronoun": "du",
+            "form": "kannst"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "kann"
+          },
+          {
+            "pronoun": "wir",
+            "form": "können"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "könnt"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "können"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a1_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ mit 'weh tun' (아프다 - 3격)",
+        "topic_explanation": "'weh tun' 동사는 '누구에게' 아픈지를 나타낼 때 3격 (Dativ) 인칭대명사를 사용합니다.",
+        "question": "Mein Kopf tut ____ weh.",
+        "question_translation": "내 머리가 아프다.",
+        "options": [
+          "mich",
+          "mir",
+          "mein",
+          "meiner"
+        ],
+        "answer": "mir",
+        "explanation": "'나에게' 아프다는 의미이므로, 1격 인칭대명사 'ich'의 3격 형태인 'mir'가 정답입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "nominative": "ich",
+            "dative": "mir"
+          },
+          {
+            "pronoun": "du",
+            "nominative": "du",
+            "dative": "dir"
+          },
+          {
+            "pronoun": "er",
+            "nominative": "er",
+            "dative": "ihm"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a1_W11_003",
+        "type": "conjugation_table",
+        "topic": "Präsens von 'sein' (be 동사 'sein' 현재형)",
+        "topic_explanation": "독일어의 'sein' 동사는 영어의 be 동사와 같으며, 주어에 따라 불규칙적으로 변합니다. A1 레벨에서 매우 중요합니다.",
+        "question": "'sein' 동사의 현재형을 채우시오.",
+        "question_translation": "'sein' 동사의 현재형을 채우시오.",
+        "options": [],
+        "answer": "null",
+        "explanation": "각 인칭대명사에 맞는 'sein' 동사의 현재형을 올바르게 활용해야 합니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "bin"
+          },
+          {
+            "pronoun": "du",
+            "form": "bist"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "ist"
+          },
+          {
+            "pronoun": "wir",
+            "form": "sind"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "seid"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "sind"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_hospital_a1_W11_001",
+        "situation": "의사에게 증상 설명하기",
+        "situation_icon": "🤒",
+        "dialogue": [
+          {
+            "role": "Patient",
+            "text": "Guten Tag, Herr Doktor.",
+            "pronunciation": "구텐 탁, 헤어 독토어",
+            "translation": "안녕하세요, 의사 선생님.",
+            "isQuestion": false
+          },
+          {
+            "role": "Arzt",
+            "text": "Guten Tag. Was fehlt Ihnen?",
+            "pronunciation": "구텐 탁. 바스 펠트 이넨?",
+            "translation": "안녕하세요. 어디가 불편하세요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Patient",
+            "text": "Mir tut der Hals weh.",
+            "pronunciation": "미어 투트 데어 할스 베",
+            "translation": "목이 아픕니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich habe Durst.",
+            "pronunciation": "이히 하베 두어스트",
+            "translation": "저는 목이 마릅니다."
+          },
+          {
+            "text": "Ich habe Kopfschmerzen.",
+            "pronunciation": "이히 하베 코프슈메르첸",
+            "translation": "저는 두통이 있습니다."
+          },
+          {
+            "text": "Ich bin müde.",
+            "pronunciation": "이히 빈 뮈데",
+            "translation": "저는 피곤합니다."
+          }
+        ],
+        "answer": "Ich habe Kopfschmerzen.",
+        "explanation": "의사의 'Was fehlt Ihnen?' 질문은 '어디가 불편하세요?'라는 뜻으로, 자신의 증상을 말하는 것이 가장 적절한 대답입니다.",
+        "grammar_point": "Dativ mit 'weh tun' (3격 동반 아프다 표현) 또는 'Ich habe + 증상' 표현",
+        "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a1_W11_002",
+        "situation": "병원 접수처에서 약국 위치 묻기",
+        "situation_icon": "📍",
+        "dialogue": [
+          {
+            "role": "Patient",
+            "text": "Entschuldigen Sie, wo ist die Apotheke?",
+            "pronunciation": "엔트슐디겐 지, 보 이스트 디 아포테케?",
+            "translation": "실례합니다, 약국이 어디에 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Rezeptionist",
+            "text": "Die Apotheke ist im Erdgeschoss, links.",
+            "pronunciation": "디 아포테케 이스트 임 에어트게쇼스, 링크스",
+            "translation": "약국은 1층에, 왼쪽입니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Patient",
+            "text": "Danke schön!",
+            "pronunciation": "당케 쇤!",
+            "translation": "대단히 감사합니다!",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich bin krank.",
+            "pronunciation": "이히 빈 크랑크",
+            "translation": "저는 아픕니다."
+          },
+          {
+            "text": "Das ist gut.",
+            "pronunciation": "다스 이스트 굿",
+            "translation": "좋습니다."
+          },
+          {
+            "text": "Auf Wiedersehen!",
+            "pronunciation": "아우프 비더제엔!",
+            "translation": "안녕히 계세요!"
+          }
+        ],
+        "answer": "Auf Wiedersehen!",
+        "explanation": "안내를 받은 후 감사 인사를 하고 헤어질 때 사용하는 'Auf Wiedersehen!'이 가장 자연스러운 마무리입니다.",
+        "grammar_point": "Wo ist...? (어디에 있나요?) 질문 및 장소 전치사 사용",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_hospital_a1_W11_001",
+        "phrase": "Mir geht es nicht gut.",
+        "pronunciation": "미어 게트 에스 니히트 굿",
+        "meaning": "몸이 좋지 않습니다.",
+        "usage": "자신의 건강 상태가 좋지 않음을 표현할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Ich fühle mich nicht wohl.",
+            "pronunciation": "이히 퓔레 미히 니히트 볼",
+            "nuance": "편안하지 않거나 몸이 개운치 않음을 표현. 'Mir geht es nicht gut'과 유사하지만 좀 더 주관적인 느낌."
+          },
+          {
+            "phrase": "Ich bin krank.",
+            "pronunciation": "이히 빈 크랑크",
+            "nuance": "직접적으로 '나는 아프다'고 말하는 표현. 좀 더 단정적임."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Was fehlt Ihnen?",
+            "pronunciation": "바스 펠트 이넨?",
+            "translation": "어디가 불편하세요?"
+          },
+          {
+            "text": "Gute Besserung!",
+            "pronunciation": "구테 베서룽!",
+            "translation": "빨리 나으세요!"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a1_W11_002",
+        "phrase": "Ich habe Schmerzen.",
+        "pronunciation": "이히 하베 슈메르첸",
+        "meaning": "저는 통증이 있습니다.",
+        "usage": "특정 부위에 통증이 있음을 알릴 때 사용합니다. (예: Ich habe Kopfschmerzen. 저는 두통이 있습니다.)",
+        "alternatives": [
+          {
+            "phrase": "Es tut weh.",
+            "pronunciation": "에스 투트 베",
+            "nuance": "어딘가 아프다고 일반적인 통증을 표현할 때 사용. 주로 아픈 부위를 가리키며 말함."
+          },
+          {
+            "phrase": "Ich habe starke Schmerzen.",
+            "pronunciation": "이히 하베 슈타르케 슈메르첸",
+            "nuance": "통증이 '강하다'는 것을 강조할 때 사용."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Wo genau tut es weh?",
+            "pronunciation": "보 게나우 투트 에스 베?",
+            "translation": "정확히 어디가 아픈가요?"
+          },
+          {
+            "text": "Ich gebe Ihnen ein Medikament.",
+            "pronunciation": "이히 게베 이넨 아인 메디카멘트",
+            "translation": "약을 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a1_W11_003",
+        "phrase": "Wo ist...?",
+        "pronunciation": "보 이스트...?",
+        "meaning": "...는 어디에 있나요?",
+        "usage": "특정 장소나 사물의 위치를 물어볼 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Können Sie mir sagen, wo ... ist?",
+            "pronunciation": "쾨넨 지 미어 자겐, 보 ... 이스트?",
+            "nuance": "좀 더 공손하게 위치를 물어볼 때 사용."
+          },
+          {
+            "phrase": "Entschuldigen Sie, ich suche...",
+            "pronunciation": "엔트슐디겐 지, 이히 주헤...",
+            "nuance": "실례합니다, 저는 ...을 찾고 있습니다. 라는 의미로 길을 물을 때 사용."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Es ist dort.",
+            "pronunciation": "에스 이스트 도어트",
+            "translation": "저기 있습니다."
+          },
+          {
+            "text": "Gehen Sie geradeaus und dann links.",
+            "pronunciation": "게엔 지 게라데아우스 운트 단 링크스",
+            "translation": "직진하시고 왼쪽으로 가세요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a1_W11_004",
+        "phrase": "Gute Besserung!",
+        "pronunciation": "구테 베서룽!",
+        "meaning": "빨리 나으세요! / 쾌유를 빕니다!",
+        "usage": "아픈 사람에게 건강이 회복되기를 바라는 마음을 표현할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Ich hoffe, es geht Ihnen bald besser.",
+            "pronunciation": "이히 호페, 에스 게트 이넨 발트 베서",
+            "nuance": "빨리 나아지기를 바란다는 좀 더 긴 문장 표현."
+          },
+          {
+            "phrase": "Werden Sie schnell wieder gesund!",
+            "pronunciation": "베어덴 지 슈넬 비더 게준트!",
+            "nuance": "빨리 건강해지세요! 라는 다소 직접적인 기원."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Danke schön!",
+            "pronunciation": "당케 쇤!",
+            "translation": "대단히 감사합니다!"
+          },
+          {
+            "text": "Vielen Dank!",
+            "pronunciation": "휠렌 당크!",
+            "translation": "정말 감사합니다!"
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

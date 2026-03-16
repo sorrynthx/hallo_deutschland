@@ -1,0 +1,479 @@
+{
+  "location": "inn",
+  "level": "a1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_inn_a1_W11_001",
+        "word": "Das Essen",
+        "article": "das",
+        "plural": null,
+        "pronunciation": "다스 에쎈",
+        "meaning": "음식",
+        "example": "Das Essen ist sehr lecker.",
+        "example_translation": "그 음식은 아주 맛있어요.",
+        "example_pronunciation": "다스 에쎈 이스트 제어 레커.",
+        "tags": [
+          "음식",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_002",
+        "word": "Das Getränk",
+        "article": "das",
+        "plural": "die Getränke",
+        "pronunciation": "다스 게트랭크",
+        "meaning": "음료",
+        "example": "Möchten Sie ein Getränk?",
+        "example_translation": "음료를 원하세요?",
+        "example_pronunciation": "뫼히텐 지 아인 게트랭크?",
+        "tags": [
+          "음료",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_003",
+        "word": "Die Speisekarte",
+        "article": "die",
+        "plural": "die Speisekarten",
+        "pronunciation": "디 슈파이제카르테",
+        "meaning": "메뉴, 식단표",
+        "example": "Kann ich bitte die Speisekarte haben?",
+        "example_translation": "메뉴판 좀 주시겠어요?",
+        "example_pronunciation": "칸 이히 비테 디 슈파이제카르테 하벤?",
+        "tags": [
+          "메뉴",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_004",
+        "word": "Der Tisch",
+        "article": "der",
+        "plural": "die Tische",
+        "pronunciation": "데어 티쉬",
+        "meaning": "테이블",
+        "example": "Wir möchten einen Tisch für zwei Personen.",
+        "example_translation": "저희는 2인용 테이블을 원합니다.",
+        "example_pronunciation": "비어 뫼히텐 아이넨 티쉬 퓌어 츠바이 페어조넨.",
+        "tags": [
+          "가구",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_005",
+        "word": "Der Stuhl",
+        "article": "der",
+        "plural": "die Stühle",
+        "pronunciation": "데어 슈툴",
+        "meaning": "의자",
+        "example": "Der Stuhl ist bequem.",
+        "example_translation": "그 의자는 편안합니다.",
+        "example_pronunciation": "데어 슈툴 이스트 베퀘엠.",
+        "tags": [
+          "가구",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_006",
+        "word": "reservieren",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "레제어비렌",
+        "meaning": "예약하다",
+        "example": "Ich möchte einen Tisch reservieren.",
+        "example_translation": "테이블을 예약하고 싶습니다.",
+        "example_pronunciation": "이히 뫼히테 아이넨 티쉬 레제어비렌.",
+        "tags": [
+          "동사",
+          "예약"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_007",
+        "word": "bestellen",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "베슈텔렌",
+        "meaning": "주문하다",
+        "example": "Was möchten Sie bestellen?",
+        "example_translation": "무엇을 주문하시겠어요?",
+        "example_pronunciation": "바스 뫼히텐 지 베슈텔렌?",
+        "tags": [
+          "동사",
+          "주문"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_008",
+        "word": "Die Rechnung",
+        "article": "die",
+        "plural": "die Rechnungen",
+        "pronunciation": "디 레히눙",
+        "meaning": "계산서",
+        "example": "Die Rechnung, bitte.",
+        "example_translation": "계산서 주세요.",
+        "example_pronunciation": "디 레히눙, 비테.",
+        "tags": [
+          "계산",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_009",
+        "word": "bezahlen",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "베짤렌",
+        "meaning": "지불하다, 계산하다",
+        "example": "Kann ich mit Karte bezahlen?",
+        "example_translation": "카드로 계산할 수 있나요?",
+        "example_pronunciation": "칸 이히 밋 카르테 베짤렌?",
+        "tags": [
+          "동사",
+          "지불"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a1_W11_010",
+        "word": "Der Gast",
+        "article": "der",
+        "plural": "die Gäste",
+        "pronunciation": "데어 가스트",
+        "meaning": "손님",
+        "example": "Die Gäste warten auf das Essen.",
+        "example_translation": "손님들이 음식을 기다리고 있습니다.",
+        "example_pronunciation": "디 게스테 바르텐 아우프 다스 에쎈.",
+        "tags": [
+          "사람",
+          "명사"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_inn_a1_W11_001",
+        "type": "fill_blank",
+        "topic": "Modalverb \"möchten\"",
+        "topic_explanation": "\"...을 원하다, ...하고 싶다\"는 뜻의 정중한 표현입니다. 주어에 따라 동사가 변형됩니다.",
+        "question": "Ich ___ einen Kaffee bestellen.",
+        "question_translation": "저는 커피 한 잔을 주문하고 싶습니다.",
+        "options": [
+          "möchten",
+          "möchtest",
+          "möchte",
+          "möchtet"
+        ],
+        "answer": "möchte",
+        "explanation": "주어 \"Ich\"에 대한 \"möchten\" 동사의 올바른 형태는 \"möchte\"입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "du",
+            "form": "möchtest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "wir",
+            "form": "möchten"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "möchtet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "möchten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_a1_W11_002",
+        "type": "fill_blank",
+        "topic": "Akkusativ (Indefinite Article)",
+        "topic_explanation": "독일어에서 명사가 동사의 직접 목적어(Akkusativ)가 될 때, 부정관사(ein/eine/ein)는 성별에 따라 형태가 변합니다. 남성 명사의 경우 'einen'으로 변합니다.",
+        "question": "Ich möchte gerne ___ Kaffee.",
+        "question_translation": "저는 커피 한 잔을 마시고 싶습니다.",
+        "options": [
+          "ein",
+          "einen",
+          "eine",
+          "null"
+        ],
+        "answer": "einen",
+        "explanation": "Kaffee는 남성 명사(der Kaffee)이며, 동사 'möchte'의 목적어로 Akkusativ 형태 'einen'이 필요합니다.",
+        "related_table": [
+          {
+            "gender": "maskulin",
+            "nominativ": "ein",
+            "akkusativ": "einen"
+          },
+          {
+            "gender": "feminin",
+            "nominativ": "eine",
+            "akkusativ": "eine"
+          },
+          {
+            "gender": "neutral",
+            "nominativ": "ein",
+            "akkusativ": "ein"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_a1_W11_003",
+        "type": "fill_blank",
+        "topic": "Verb conjugation \"trinken\" (현재 시제)",
+        "topic_explanation": "\"마시다\"라는 뜻의 동사 'trinken'은 주어에 따라 다음과 같이 변형됩니다.",
+        "question": "Was ___ du gerne?",
+        "question_translation": "너는 무엇을 마시는 것을 좋아하니?",
+        "options": [
+          "trinke",
+          "trinkt",
+          "trinkst",
+          "trinken"
+        ],
+        "answer": "trinkst",
+        "explanation": "주어 'du'에 대한 동사 'trinken'의 올바른 현재 시제 형태는 'trinkst'입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "trinke"
+          },
+          {
+            "pronoun": "du",
+            "form": "trinkst"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "trinkt"
+          },
+          {
+            "pronoun": "wir",
+            "form": "trinken"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "trinkt"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "trinken"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_inn_a1_W11_001",
+        "situation": "식당에서 음료 주문하기",
+        "situation_icon": "🍽️",
+        "dialogue": [
+          {
+            "role": "Waiter",
+            "text": "Was möchten Sie trinken?",
+            "pronunciation": "바스 뫼히텐 지 트링켄?",
+            "translation": "무엇을 마시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Guest",
+            "text": "Ich hätte gerne einen Apfelsaft.",
+            "pronunciation": "이히 hätte 게르네 아이넨 아펠자프트.",
+            "translation": "저는 사과 주스 한 잔 마시고 싶어요."
+          }
+        ],
+        "choices": [
+          {
+            "text": "Die Rechnung, bitte.",
+            "pronunciation": "디 레히눙, 비테.",
+            "translation": "계산서 주세요."
+          },
+          {
+            "text": "Ich bin fertig.",
+            "pronunciation": "이히 빈 페어티히.",
+            "translation": "다 됐습니다."
+          },
+          {
+            "text": "Ich möchte noch etwas essen.",
+            "pronunciation": "이히 뫼히테 노흐 에트바스 에쎈.",
+            "translation": "저는 좀 더 먹고 싶어요."
+          }
+        ],
+        "answer": "Ich hätte gerne einen Apfelsaft.",
+        "explanation": "웨이터의 질문에 음료를 주문하는 것이 적절한 답변입니다. 'Ich hätte gerne...'는 정중하게 무언가를 요청하는 표현입니다.",
+        "grammar_point": "Modalverb 'möchten' 및 'hätte gerne' (정중한 요청)",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_a1_W11_002",
+        "situation": "식당에서 계산 요청 및 지불 방식 문의",
+        "situation_icon": "💰",
+        "dialogue": [
+          {
+            "role": "Guest",
+            "text": "Entschuldigen Sie, die Rechnung, bitte.",
+            "pronunciation": "엔트슐디겐 지, 디 레히눙, 비테.",
+            "translation": "실례합니다, 계산서 부탁합니다.",
+            "isQuestion": true
+          },
+          {
+            "role": "Waiter",
+            "text": "Gerne, einen Moment bitte.",
+            "pronunciation": "게르네, 아이넨 모멘트 비테.",
+            "translation": "네, 잠시만 기다려 주세요."
+          }
+        ],
+        "choices": [
+          {
+            "text": "Was kostet das?",
+            "pronunciation": "바스 코스테트 다스?",
+            "translation": "이것은 얼마인가요?"
+          },
+          {
+            "text": "Kann ich mit Karte zahlen?",
+            "pronunciation": "칸 이히 밋 카르테 짤렌?",
+            "translation": "카드로 계산할 수 있나요?"
+          },
+          {
+            "text": "Das Essen war sehr lecker.",
+            "pronunciation": "다스 에쎈 바어 제어 레커.",
+            "translation": "음식이 아주 맛있었어요."
+          }
+        ],
+        "answer": "Kann ich mit Karte zahlen?",
+        "explanation": "계산서를 요청한 후, 어떤 방식으로 지불할 것인지(카드 또는 현금) 묻는 것이 자연스러운 다음 질문입니다.",
+        "grammar_point": "조동사 \"können\"을 사용한 가능성 표현",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_inn_a1_W11_001",
+        "phrase": "Guten Appetit!",
+        "pronunciation": "구텐 아페티트!",
+        "meaning": "맛있게 드세요!",
+        "usage": "식사를 시작하기 전에 상대방에게 맛있게 먹기를 바랄 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Mahlzeit!",
+            "pronunciation": "말차이트!",
+            "nuance": "점심 식사 인사 겸 '맛있게 드세요!'의 의미로 비격식적으로 사용"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Danke, gleichfalls!",
+            "pronunciation": "단케, 글라이히팔스!",
+            "translation": "감사합니다, 당신도요!"
+          },
+          {
+            "text": "Danke schön!",
+            "pronunciation": "단케 쇤!",
+            "translation": "고맙습니다!"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_a1_W11_002",
+        "phrase": "Zum Wohl!",
+        "pronunciation": "춤 볼!",
+        "meaning": "건배!",
+        "usage": "음료를 마시기 전에 서로의 건강이나 행운을 빌며 건배할 때 사용합니다.",
+        "alternatives": [],
+        "responses": [
+          {
+            "text": "Zum Wohl!",
+            "pronunciation": "춤 볼!",
+            "translation": "건배!"
+          },
+          {
+            "text": "Danke!",
+            "pronunciation": "단케!",
+            "translation": "감사합니다!"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_a1_W11_003",
+        "phrase": "Zahlen, bitte.",
+        "pronunciation": "짤렌, 비테.",
+        "meaning": "계산해 주세요.",
+        "usage": "식사를 마치고 웨이터에게 계산서를 요청하거나 계산할 준비가 되었음을 알릴 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Die Rechnung, bitte.",
+            "pronunciation": "디 레히눙, 비테.",
+            "nuance": "계산서를 가져다 달라는 더 직접적인 표현"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Kommt sofort.",
+            "pronunciation": "콤트 조포르트.",
+            "translation": "곧 가져다 드리겠습니다."
+          },
+          {
+            "text": "Gerne.",
+            "pronunciation": "게르네.",
+            "translation": "네."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_a1_W11_004",
+        "phrase": "Ist dieser Tisch frei?",
+        "pronunciation": "이스트 디저 티쉬 프라이?",
+        "meaning": "이 테이블 비어있나요?",
+        "usage": "식당이나 카페에서 앉을 자리를 찾을 때, 특정 테이블이 비어있는지 물어볼 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Haben Sie einen Tisch frei?",
+            "pronunciation": "하벤 지 아이넨 티쉬 프라이?",
+            "nuance": "직원에게 빈 테이블이 있는지 묻는 더 일반적인 표현"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 앉으세요."
+          },
+          {
+            "text": "Nein, dieser Tisch ist besetzt.",
+            "pronunciation": "나인, 디저 티쉬 이스트 베제츠트.",
+            "translation": "아니요, 이 테이블은 예약되었습니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}
