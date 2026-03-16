@@ -1,0 +1,24 @@
+{
+    "name": "Alien K-9 Deutsch Quest",
+    "short_name": "독일어 퀘스트",
+    "description": "🐶 우주에서 온 강아지의 독일어 대모험!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#2D1B4E",
+    "theme_color": "#2D1B4E",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

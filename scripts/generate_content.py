@@ -129,9 +129,9 @@ def main():
     log("🐶 콘텐츠 생성 시작")
 
     # 요일 → 레벨 (테스트 시 아래 주석 해제 후 원하는 레벨 입력)
-    level = "baby"
+    #level = "baby"
     weekday = datetime.now().weekday()
-    #level   = WEEKDAY_LEVEL.get(weekday)
+    level   = WEEKDAY_LEVEL.get(weekday)
     week    = datetime.now().strftime("W%W")
 
     if not level:
