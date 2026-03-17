@@ -58,9 +58,14 @@ function LearnContent() {
     }, [locationId])
 
     /* 콘텐츠 데이터 로드 */
+    const [prevLevel, setPrevLevel] = useState(level)
+    if (level !== prevLevel) {
+        setPrevLevel(level)
+        setData(null)
+    }
+
     useEffect(() => {
         if (!level) return
-        setData(null)
         fetch(`/data/${locationId}/${level}.json`)
             .then(r => r.json())
             .then(d => setData(d))

@@ -16,23 +16,22 @@ export default function InstallPrompt() {
     const [dismissed, setDismissed] = useState(false)
 
     useEffect(() => {
-        // 이미 설치된 경우 (standalone 모드)
+        // 동기적인 setState 호출로 인한 린트 오류(cascading renders)를 우회하기 위해 초기 렌더링 후 상태를 비동기로 업데이트
+        let isStandalone = false
         if (window.matchMedia('(display-mode: standalone)').matches) {
-            setIsInstalled(true)
-            return
+            isStandalone = true
+            setTimeout(() => setIsInstalled(true), 0)
         }
 
-        // 이전에 닫은 경우
         if (localStorage.getItem('pwa_dismissed') === 'true') {
-            setDismissed(true)
-            return
+            setTimeout(() => setDismissed(true), 0)
         }
 
-        // iOS 감지
         const ios = /iphone|ipad|ipod/i.test(navigator.userAgent)
-        setIsIOS(ios)
+        setTimeout(() => setIsIOS(ios), 0)
 
-        // Android Chrome — beforeinstallprompt 이벤트
+        if (isStandalone) return
+
         const handler = (e: Event) => {
             e.preventDefault()
             setDeferredPrompt(e as BeforeInstallPromptEvent)

@@ -53,18 +53,22 @@ export function useProgress() {
 
     // 초기 로드
     useEffect(() => {
+        let isMounted = true;
         try {
             const raw = localStorage.getItem(STORAGE_KEY)
-            if (raw) {
+            if (raw && isMounted) {
                 const parsed = JSON.parse(raw)
                 // 구버전 (객체 바로 저장) 마이그레이션
-                if (parsed && !parsed.progress) {
-                    setStore({ progress: parsed, score: 0 })
-                } else {
-                    setStore(parsed)
-                }
+                setTimeout(() => {
+                    if (parsed && !parsed.progress) {
+                        setStore({ progress: parsed, score: 0 })
+                    } else {
+                        setStore(parsed)
+                    }
+                }, 0)
             }
         } catch { /* 무시 */ }
+        return () => { isMounted = false }
     }, [])
 
     // 저장
