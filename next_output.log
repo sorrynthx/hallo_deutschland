@@ -1,0 +1,19 @@
+
+> nextjs@0.1.0 dev
+> next dev
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+✓ Ready in 973ms
+○ Compiling /learn/[locationId]/[typeId] ...
+ GET /learn/cafe/conversation 200 in 5.1s (compile: 4.8s, render: 353ms)
+ GET /data/cafe/baby.json 404 in 1296ms (compile: 1074ms, render: 221ms)
+ GET / 200 in 527ms (compile: 454ms, render: 73ms)
+ GET / 200 in 71ms (compile: 6ms, render: 64ms)
+ GET /learn/cafe/conversation 200 in 96ms (compile: 27ms, render: 70ms)
+ GET /data/cafe/baby.json 404 in 50ms (compile: 4ms, render: 45ms)
+ GET /learn/bakery/conversation 200 in 94ms (compile: 24ms, render: 69ms)
+ GET /learn/bakery/vocabulary 200 in 92ms (compile: 25ms, render: 68ms)

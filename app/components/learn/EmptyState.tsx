@@ -16,23 +16,18 @@ export default function EmptyState({
 }: EmptyStateProps) {
     const router = useRouter()
     return (
-        <div style={{
-            flex: 1, display: 'flex', flexDirection: 'column',
-            alignItems: 'center', justifyContent: 'center',
-            gap: '16px', padding: '24px',
-        }}>
-            <div style={{ fontSize: '48px' }}>{comingSoon ? '🚧' : '🐶'}</div>
-            <div style={{ textAlign: 'center' }}>
-                <div style={{ fontSize: '14px', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '6px' }}>
+        <div className="flex-1 flex flex-col items-center justify-center gap-4 p-6">
+            <div className="text-[48px]">{comingSoon ? '🚧' : '🐶'}</div>
+            <div className="text-center">
+                <div className="text-[14px] font-bold text-[var(--text-primary)] mb-1.5">
                     {message}
                 </div>
-                <div style={{ fontSize: '11px', color: 'var(--text-secondary)', fontFamily: 'Space Mono, monospace' }}>
+                <div className="text-[11px] text-[var(--text-secondary)] font-mono">
                     {subMessage}
                 </div>
             </div>
             <button
-                className="btn btn-mint"
-                style={{ padding: '12px 24px' }}
+                className="btn btn-mint px-6 py-3"
                 onClick={() => router.back()}
             >
                 ← 돌아가기
