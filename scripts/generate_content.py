@@ -139,7 +139,17 @@ def git_push(week: str, level: str):
     try:
         os.chdir(REPO_PATH)
         subprocess.run(["git", "add", "public/data/"], check=True)
+
+        # 변경사항 없으면 커밋 스킵
+        result = subprocess.run(["git", "diff", "--cached", "--quiet"])
+        if result.returncode == 0:
+            log("⏭️ 변경사항 없음 — 커밋 스킵")
+            return
+
         subprocess.run(["git", "commit", "-m", f"chore: generate {level} {week}"], check=True)
+
+        # push 전에 pull --rebase 로 충돌 방지
+        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
         subprocess.run(["git", "push"], check=True)
         log(f"🚀 git push 완료")
     except subprocess.CalledProcessError as e:
