@@ -1,0 +1,417 @@
+{
+  "location": "inn",
+  "level": "a2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_inn_a2_W11_001",
+        "word": "bestellen",
+        "article": null,
+        "plural": null,
+        "pronunciation": "베슈텔렌",
+        "meaning": "주문하다",
+        "example": "Was möchten Sie bestellen?",
+        "example_translation": "무엇을 주문하시겠어요?",
+        "example_pronunciation": "바스 뫼히텐 지 베슈텔렌?",
+        "tags": [
+          "Gastronomie",
+          "Verb",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a2_W11_002",
+        "word": "Speisekarte",
+        "article": "die",
+        "plural": "Speisekarten",
+        "pronunciation": "슈파이제카르테",
+        "meaning": "메뉴판",
+        "example": "Können wir bitte die Speisekarte haben?",
+        "example_translation": "메뉴판 좀 주시겠어요?",
+        "example_pronunciation": "쾨넨 비어 비테 디 슈파이제카르테 하벤?",
+        "tags": [
+          "Gastronomie",
+          "Nomen",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a2_W11_003",
+        "word": "Kellner",
+        "article": "der",
+        "plural": "Kellner",
+        "pronunciation": "켈너",
+        "meaning": "(남자) 웨이터",
+        "example": "Entschuldigen Sie, Herr Kellner!",
+        "example_translation": "실례합니다, 웨이터분!",
+        "example_pronunciation": "엔트슐디겐 지, 헤어 켈너!",
+        "tags": [
+          "Beruf",
+          "Gastronomie",
+          "Nomen",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a2_W11_004",
+        "word": "Rechnung",
+        "article": "die",
+        "plural": "Rechnungen",
+        "pronunciation": "레히눙",
+        "meaning": "계산서, 청구서",
+        "example": "Wir möchten bitte zahlen. Bringen Sie uns die Rechnung?",
+        "example_translation": "계산하고 싶어요. 계산서를 가져다주시겠어요?",
+        "example_pronunciation": "비어 뫼히텐 비테 찰렌. 브링엔 지 운스 디 레히눙?",
+        "tags": [
+          "Gastronomie",
+          "Nomen",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_a2_W11_005",
+        "word": "Getränk",
+        "article": "das",
+        "plural": "Getränke",
+        "pronunciation": "게트렝크",
+        "meaning": "음료",
+        "example": "Ich hätte gerne ein kaltes Getränk.",
+        "example_translation": "시원한 음료 하나 주세요.",
+        "example_pronunciation": "이히 햇테 게르네 아인 칼테스 게트렝크.",
+        "tags": [
+          "Gastronomie",
+          "Nomen",
+          "A2"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_inn_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Dativobjekt (Dative object)",
+        "topic_explanation": "Verben wie 'schmecken' oder 'gefallen' erfordern oft ein Dativobjekt, um auszudrücken, wem etwas schmeckt oder gefällt. Hier wird ein Personalpronomen im Dativ verwendet.",
+        "question": "Das Schnitzel schmeckt ____ sehr gut!",
+        "question_translation": "The schnitzel tastes very good to ____!",
+        "options": [
+          "mich",
+          "mir",
+          "ich",
+          "meinen"
+        ],
+        "answer": "mir",
+        "explanation": "'Schmecken' ist ein Verb, das ein Dativobjekt erfordert, um auszudrücken, wem etwas schmeckt. 'Mir' ist die Dativform des Personalpronomens 'ich'.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "mir"
+          },
+          {
+            "pronoun": "du",
+            "form": "dir"
+          },
+          {
+            "pronoun": "er/es",
+            "form": "ihm"
+          },
+          {
+            "pronoun": "sie",
+            "form": "ihr"
+          },
+          {
+            "pronoun": "wir",
+            "form": "uns"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "euch"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "ihnen/Ihnen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Modalverb 'möchten' (Modal verb 'would like to')",
+        "topic_explanation": "Das Modalverb 'möchten' wird verwendet, um höfliche Wünsche oder Bestellungen auszudrücken. Es ist die Konjunktiv II Form von 'mögen' und wird in der Gegenwart sehr häufig verwendet.",
+        "question": "Ich ____ gerne einen Tisch für zwei Personen reservieren.",
+        "question_translation": "I ____ like to reserve a table for two people.",
+        "options": [
+          "möchte",
+          "möchten",
+          "möchtest",
+          "möchtet"
+        ],
+        "answer": "möchte",
+        "explanation": "Das Verb 'möchten' wird hier mit dem Subjekt 'ich' konjugiert. Die korrekte Form für die 1. Person Singular ist 'ich möchte'.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "du",
+            "form": "möchtest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "wir",
+            "form": "möchten"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "möchtet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "möchten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination im Dativ (Adjective declension in Dative)",
+        "topic_explanation": "Nach bestimmten Artikeln im Dativ (dem, der, den) erfahren Adjektive eine schwache Deklination und erhalten oft die Endung '-en'.",
+        "question": "Ich habe dem freundlich____ Kellner ein Trinkgeld gegeben.",
+        "question_translation": "I gave the friendly waiter a tip.",
+        "options": [
+          "e",
+          "er",
+          "en",
+          "es"
+        ],
+        "answer": "en",
+        "explanation": "Nach dem bestimmten Artikel 'dem' (Dativ Maskulinum) in Verbindung mit einem Adjektiv erhält das Adjektiv die Endung '-en' (schwache Deklination). Es heißt 'dem freundlichen Kellner'.",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_inn_a2_W11_001",
+        "situation": "Ein Gast möchte etwas bestellen und der Kellner nimmt die Bestellung auf. Der Kellner fragt nach der Beilage zum Gericht.",
+        "situation_icon": "🍽️",
+        "dialogue": [
+          {
+            "role": "Gast",
+            "text": "Entschuldigen Sie, könnten wir bitte die Speisekarte haben?",
+            "pronunciation": "Ent-shul-di-gen zee, kœn-ten veer bit-te dee shpai-ze-kar-te ha-ben?",
+            "translation": "Excuse me, could we please have the menu?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kellner",
+            "text": "Ja, natürlich, hier ist sie. Was möchten Sie trinken?",
+            "pronunciation": "Ya, na-tuer-lich, heer ist zee. Vas mœch-ten zee trin-ken?",
+            "translation": "Yes, of course, here it is. What would you like to drink?",
+            "isQuestion": false
+          },
+          {
+            "role": "Gast",
+            "text": "Ich hätte gerne ein großes Bier und dann die Schweinshaxe.",
+            "pronunciation": "Ish het-te gern ai-n gro-ses beer unt dan dee shvainz-hak-se.",
+            "translation": "I would like a large beer and then the pork hock.",
+            "isQuestion": false
+          },
+          {
+            "role": "Kellner",
+            "text": "Die Schweinshaxe. Möchten Sie dazu Kartoffelklöße oder Bratkartoffeln?",
+            "pronunciation": "Dee shvainz-hak-se. Mœch-ten zee da-tsoo kar-tof-fel-klœ-se o-der brat-kar-tof-feln?",
+            "translation": "The pork hock. Would you like potato dumplings or fried potatoes with it?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich nehme die Pommes.",
+            "pronunciation": "Ish nay-me dee pom-mes.",
+            "translation": "I'll take the fries."
+          },
+          {
+            "text": "Ich hätte gern die Kartoffelklöße.",
+            "pronunciation": "Ish het-te gern dee kar-tof-fel-klœ-se.",
+            "translation": "I'd like the potato dumplings."
+          },
+          {
+            "text": "Ich möchte keinen Salat.",
+            "pronunciation": "Ish mœch-te kai-nen sa-lat.",
+            "translation": "I don't want any salad."
+          }
+        ],
+        "answer": "Ich hätte gern die Kartoffelklöße.",
+        "explanation": "Der Kellner fragt nach der Beilage zur Schweinshaxe. 'Kartoffelklöße' ist eine der angebotenen Optionen, die der Gast wählen kann.",
+        "grammar_point": "Dativ nach Präposition 'dazu' und Akkusativ bei 'möchten'.",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_a2_W11_002",
+        "situation": "Ein Gast hat gegessen und möchte bezahlen. Der Kellner fragt nach der Zahlungsmethode.",
+        "situation_icon": "💶",
+        "dialogue": [
+          {
+            "role": "Gast",
+            "text": "Entschuldigen Sie, könnten wir bitte bezahlen?",
+            "pronunciation": "Ent-shul-di-gen zee, kœn-ten veer bit-te be-tsah-len?",
+            "translation": "Excuse me, could we please pay?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kellner",
+            "text": "Ja, natürlich. War alles in Ordnung?",
+            "pronunciation": "Ya, na-tuer-lich. Var al-les in ord-nung?",
+            "translation": "Yes, of course. Was everything alright?",
+            "isQuestion": false
+          },
+          {
+            "role": "Gast",
+            "text": "Ja, es war sehr lecker, vielen Dank.",
+            "pronunciation": "Ya, es var zair lek-ker, fee-len dank.",
+            "translation": "Yes, it was very delicious, thank you very much.",
+            "isQuestion": false
+          },
+          {
+            "role": "Kellner",
+            "text": "Gerne. Wie möchten Sie bezahlen?",
+            "pronunciation": "Gair-ne. Vee mœch-ten zee be-tsah-len?",
+            "translation": "You're welcome. How would you like to pay?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich bezahle bar.",
+            "pronunciation": "Ish be-tsah-le bar.",
+            "translation": "I'll pay cash."
+          },
+          {
+            "text": "Ich habe noch Durst.",
+            "pronunciation": "Ish ha-be noch doorst.",
+            "translation": "I'm still thirsty."
+          },
+          {
+            "text": "Ich nehme das Menü.",
+            "pronunciation": "Ish nay-me das me-nue.",
+            "translation": "I'll take the menu."
+          }
+        ],
+        "answer": "Ich bezahle bar.",
+        "explanation": "Der Kellner fragt nach der bevorzugten Zahlungsmethode. 'Bar' bedeutet mit Bargeld, was eine direkte Antwort auf die Frage ist.",
+        "grammar_point": "Frage nach Zahlungsmethode mit 'Wie' und Akkusativ bei 'bezahlen'.",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_inn_a2_W11_001",
+        "phrase": "Ich hätte gern ein Bier.",
+        "pronunciation": "이히 헷테 게른 아인 비어",
+        "meaning": "저는 맥주 한 잔 부탁드립니다.",
+        "usage": "식당이나 여관에서 음료나 음식을 주문할 때 정중하게 사용하는 표현입니다. 'Ich hätte gern'은 'I would like'에 해당하며, 특히 정중한 요청에 사용됩니다.",
+        "alternatives": [
+          {
+            "phrase": "Ich nehme ein Bier.",
+            "pronunciation": "이히 네메 아인 비어",
+            "nuance": "저는 맥주를 (주문)하겠습니다. ('Ich hätte gern'보다 약간 덜 정중하지만 흔히 사용되는 주문 표현)"
+          },
+          {
+            "phrase": "Ein Bier, bitte.",
+            "pronunciation": "아인 비어, 비테",
+            "nuance": "맥주 한 잔 주세요. (가장 간결하고 직접적인 표현)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, gern.",
+            "pronunciation": "야, 게른",
+            "translation": "네, 기꺼이요."
+          },
+          {
+            "text": "Kommt sofort.",
+            "pronunciation": "콤트 조포르트",
+            "translation": "바로 가져다 드릴게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_a2_W11_002",
+        "phrase": "Zahlen, bitte!",
+        "pronunciation": "짤렌, 비테!",
+        "meaning": "계산해주세요!",
+        "usage": "식사를 마치고 종업원에게 계산을 요청할 때 사용하는 간결하고 직접적인 표현입니다. 일반적으로 웨이터를 부를 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Die Rechnung, bitte.",
+            "pronunciation": "디 레히눙, 비테.",
+            "nuance": "계산서 주세요. ('계산서'를 직접적으로 언급하며 요청하는 표현)"
+          },
+          {
+            "phrase": "Wir möchten zahlen.",
+            "pronunciation": "비어 뫼히텐 짤렌.",
+            "nuance": "저희는 계산하고 싶습니다. (좀 더 완전한 문장으로 정중하게 요청하는 표현)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Sofort!",
+            "pronunciation": "조포르트!",
+            "translation": "바로요!"
+          },
+          {
+            "text": "Ich komme gleich.",
+            "pronunciation": "이히 콤메 글라이히.",
+            "translation": "제가 금방 갈게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_a2_W11_003",
+        "phrase": "Was empfehlen Sie?",
+        "pronunciation": "바스 엠페렌 지?",
+        "meaning": "무엇을 추천하시나요?",
+        "usage": "메뉴를 고르기 어렵거나 식당의 특별 메뉴를 알고 싶을 때 종업원에게 추천을 요청하는 정중한 표현입니다.",
+        "alternatives": [
+          {
+            "phrase": "Haben Sie eine Empfehlung?",
+            "pronunciation": "하벤 지 아이네 엠페룽?",
+            "nuance": "추천하실 만한 것이 있으신가요? (질문 형식으로 좀 더 간접적인 표현)"
+          },
+          {
+            "phrase": "Was ist gut hier?",
+            "pronunciation": "바스 이스트 굿 히어?",
+            "nuance": "여기 뭐가 맛있어요? (좀 더 비격식적이고 직접적으로 '맛있는 것'을 묻는 표현)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Unser Schnitzel ist sehr beliebt.",
+            "pronunciation": "운저 슈니첼 이스트 제어 벨리프트.",
+            "translation": "저희 슈니첼이 인기가 많습니다."
+          },
+          {
+            "text": "Ich empfehle den Gulasch.",
+            "pronunciation": "이히 엠페레 덴 굴라슈.",
+            "translation": "저는 굴라쉬를 추천합니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

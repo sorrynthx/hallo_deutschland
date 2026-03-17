@@ -1,0 +1,371 @@
+{
+  "location": "hospital",
+  "level": "a2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_hospital_a2_W11_001",
+        "word": "Arzt",
+        "article": "der",
+        "plural": "Ärzte",
+        "pronunciation": "데어 아르츠트",
+        "meaning": "의사",
+        "example": "Der Arzt hat mich untersucht.",
+        "example_translation": "의사가 저를 진찰했습니다.",
+        "example_pronunciation": "데어 아르츠트 핫 미히 운터주흐트.",
+        "tags": [
+          "Arzt",
+          "Beruf",
+          "Personal"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_002",
+        "word": "Krankenschwester",
+        "article": "die",
+        "plural": "Krankenschwestern",
+        "pronunciation": "디 크랑켄슈베스터",
+        "meaning": "간호사",
+        "example": "Die Krankenschwester gibt mir die Medikamente.",
+        "example_translation": "간호사가 저에게 약을 줍니다.",
+        "example_pronunciation": "디 크랑켄슈베스터 깁트 미어 디 메디카멘테.",
+        "tags": [
+          "Krankenschwester",
+          "Beruf",
+          "Personal"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_003",
+        "word": "Krankenhaus",
+        "article": "das",
+        "plural": "Krankenhäuser",
+        "pronunciation": "다스 크랑켄하우스",
+        "meaning": "병원",
+        "example": "Ich muss ins Krankenhaus gehen.",
+        "example_translation": "저는 병원에 가야 해요.",
+        "example_pronunciation": "이히 무스 인스 크랑켄하우스 게헨.",
+        "tags": [
+          "Krankenhaus",
+          "Ort",
+          "Gebäude"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_004",
+        "word": "Untersuchung",
+        "article": "die",
+        "plural": "Untersuchungen",
+        "pronunciation": "디 운터주훙",
+        "meaning": "검사, 진찰",
+        "example": "Heute habe ich eine wichtige Untersuchung.",
+        "example_translation": "오늘 중요한 검사가 있어요.",
+        "example_pronunciation": "호이테 하베 이히 아이네 비히티게 운터주훙.",
+        "tags": [
+          "Untersuchung",
+          "Diagnose",
+          "Termin"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_005",
+        "word": "Schmerz",
+        "article": "der",
+        "plural": "Schmerzen",
+        "pronunciation": "데어 슈메르츠",
+        "meaning": "통증, 고통",
+        "example": "Ich habe starke Schmerzen im Bauch.",
+        "example_translation": "저는 배에 심한 통증이 있어요.",
+        "example_pronunciation": "이히 하베 슈타르케 슈메르첸 임 바우흐.",
+        "tags": [
+          "Schmerz",
+          "Symptom",
+          "Körper"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_hospital_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Dativpronomen",
+        "topic_explanation": "Dativpronomen werden verwendet, um anzuzeigen, wem etwas gegeben wird oder wem geholfen wird.",
+        "question": "Der Arzt hat ____ sehr geholfen.",
+        "question_translation": "의사 선생님이 저에게 매우 도움이 되었습니다.",
+        "options": [
+          "mich",
+          "mir",
+          "ich",
+          "mein"
+        ],
+        "answer": "mir",
+        "explanation": "Das Verb 'helfen' verlangt immer ein Dativobjekt. 'Mir' ist das Dativpronomen für 'ich'.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "mir"
+          },
+          {
+            "pronoun": "du",
+            "form": "dir"
+          },
+          {
+            "pronoun": "er/es",
+            "form": "ihm"
+          },
+          {
+            "pronoun": "sie (singular)",
+            "form": "ihr"
+          },
+          {
+            "pronoun": "wir",
+            "form": "uns"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "euch"
+          },
+          {
+            "pronoun": "sie (plural)",
+            "form": "ihnen"
+          },
+          {
+            "pronoun": "Sie (formal)",
+            "form": "Ihnen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Präpositionen mit Dativ",
+        "topic_explanation": "Die Präposition 'in' wird mit Dativ verwendet, wenn es um eine feste Position geht. 'Apotheke' ist feminin.",
+        "question": "Ich war heute ____ der Apotheke, um meine Medikamente abzuholen.",
+        "question_translation": "오늘 약을 받으러 약국에 있었습니다.",
+        "options": [
+          "in",
+          "auf",
+          "an",
+          "zu"
+        ],
+        "answer": "in",
+        "explanation": "Die Präposition 'in' ist die passende Wahl für eine feste Positionierung innerhalb eines Gebäudes wie der Apotheke. Sie verlangt hier den Dativ ('der Apotheke').",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination (unbestimmter Artikel, Neutrum)",
+        "topic_explanation": "Wenn ein Adjektiv nach einem unbestimmten Artikel (ein, eine) vor einem Neutrum-Nomen im Nominativ oder Akkusativ steht, endet es auf '-es'.",
+        "question": "Ich habe ein ____ Gefühl im Bauch.",
+        "question_translation": "저는 배에 이상한 느낌이 있습니다.",
+        "options": [
+          "seltsam",
+          "seltsame",
+          "seltsamen",
+          "seltsames"
+        ],
+        "answer": "seltsames",
+        "explanation": "Das Nomen 'Gefühl' ist Neutrum (das Gefühl) und steht hier im Akkusativ nach dem unbestimmten Artikel 'ein'. Die korrekte Adjektivendung ist '-es'.",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_hospital_a2_W11_001",
+        "situation": "Eine Patientin ist beim Arzt in der Sprechstunde und wird nach ihren Beschwerden gefragt.",
+        "situation_icon": "🩺",
+        "dialogue": [
+          {
+            "role": "Arzthelferin",
+            "text": "Frau Schmidt, bitte kommen Sie herein.",
+            "pronunciation": "Frow Shmit, bit-te kom-men zee he-rain.",
+            "translation": "Mrs. Schmidt, please come in.",
+            "isQuestion": false
+          },
+          {
+            "role": "Patientin",
+            "text": "Guten Tag.",
+            "pronunciation": "Goo-ten Tag.",
+            "translation": "Good day.",
+            "isQuestion": false
+          },
+          {
+            "role": "Arzt",
+            "text": "Guten Tag, Frau Schmidt. Was fehlt Ihnen denn?",
+            "pronunciation": "Goo-ten Tag, Frow Shmit. Vas faylt ee-nen den?",
+            "translation": "Good day, Mrs. Schmidt. What's wrong with you?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich habe seit gestern starke Kopfschmerzen und Fieber.",
+            "pronunciation": "Ish ha-be zait ges-tern star-ke kopf-shmerz-en unt fee-ber.",
+            "translation": "Since yesterday, I have a bad headache and fever."
+          },
+          {
+            "text": "Ich möchte gern einen Termin für nächste Woche vereinbaren.",
+            "pronunciation": "Ish mörsh-te gern ai-nen ter-min fyur näx-te vo-khe fer-ain-bar-en.",
+            "translation": "I would like to arrange an appointment for next week."
+          },
+          {
+            "text": "Mir geht es ausgezeichnet, danke der Nachfrage.",
+            "pronunciation": "Meer gayt es oust-ge-tsaich-net, dang-ke dair nakh-fra-ge.",
+            "translation": "I am excellent, thanks for asking."
+          }
+        ],
+        "answer": "Ich habe seit gestern starke Kopfschmerzen und Fieber.",
+        "explanation": "Der Arzt fragt 'Was fehlt Ihnen denn?', was eine höfliche Art ist zu fragen, welche Beschwerden Sie haben. Die beste Antwort ist, die Symptome zu beschreiben.",
+        "grammar_point": "Ausdruck von Beschwerden und Krankheiten (z.B. 'Ich habe Kopfschmerzen', 'Mir ist schlecht').",
+        "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a2_W11_002",
+        "situation": "Ein Patient liegt im Krankenhausbett. Die Krankenschwester macht ihre Runde und fragt nach dem Wohlbefinden.",
+        "situation_icon": "🛌",
+        "dialogue": [
+          {
+            "role": "Krankenschwester",
+            "text": "Guten Morgen, Herr Fischer. Wie geht es Ihnen heute?",
+            "pronunciation": "Goo-ten mor-gen, Hair Fish-er. Vee gayt es ee-nen hoy-te?",
+            "translation": "Good morning, Mr. Fischer. How are you today?",
+            "isQuestion": false
+          },
+          {
+            "role": "Patient",
+            "text": "Nicht so gut, Schwester. Ich habe noch immer große Schmerzen im Rücken.",
+            "pronunciation": "Nisht zo goo-t, Shves-ter. Ish ha-be nokh im-mer gro-se shmerz-en im ryk-ken.",
+            "translation": "Not so good, Nurse. I still have great pain in my back.",
+            "isQuestion": false
+          },
+          {
+            "role": "Krankenschwester",
+            "text": "Oh je. Haben Sie schon Schmerzmittel bekommen?",
+            "pronunciation": "Oh yay. Ha-ben zee shon shmerz-mit-tel be-kom-men?",
+            "translation": "Oh dear. Have you already received pain medication?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nein, leider noch nicht. Könnte ich bitte etwas dagegen bekommen?",
+            "pronunciation": "Nain, lai-der nokh nisht. Kohn-te ish bit-te et-vas da-ge-gen be-kom-men?",
+            "translation": "No, unfortunately not yet. Could I please get something for it?"
+          },
+          {
+            "text": "Ja, aber es wirkt nicht mehr.",
+            "pronunciation": "Ya, a-ber es virkt nisht mayr.",
+            "translation": "Yes, but it's not working anymore."
+          },
+          {
+            "text": "Ich bin schon müde vom Schlafen.",
+            "pronunciation": "Ish bin shon myu-de fom shla-fen.",
+            "translation": "I am already tired from sleeping."
+          }
+        ],
+        "answer": "Nein, leider noch nicht. Könnte ich bitte etwas dagegen bekommen?",
+        "explanation": "Die Krankenschwester fragt, ob der Patient schon Schmerzmittel erhalten hat. Die beste Antwort ist, dass er noch keins bekommen hat und um eines bittet, um die Schmerzen zu lindern.",
+        "grammar_point": "Höfliche Bitten mit 'könnte ich bitte...' (Konjunktiv II) und Verneinungen (z.B. 'leider noch nicht').",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_hospital_a2_W11_001",
+        "phrase": "Ich habe Schmerzen.",
+        "pronunciation": "이히 하베 슈메르첸.",
+        "meaning": "저는 통증이 있어요.",
+        "usage": "Als Patient dem Arzt die eigenen Beschwerden mitteilen.",
+        "alternatives": [
+          {
+            "phrase": "Mir tut es weh.",
+            "pronunciation": "미어 툿 에스 베.",
+            "nuance": "어디가 아프다고 말할 때 더 흔하게 사용되는 표현. (예: Mir tut der Kopf weh. - 머리가 아파요.)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Wo tut es Ihnen weh?",
+            "pronunciation": "보 툿 에스 이넨 베?",
+            "translation": "어디가 아프신가요?"
+          },
+          {
+            "text": "Seit wann haben Sie Schmerzen?",
+            "pronunciation": "자잇 반 하벤 지 슈메르첸?",
+            "translation": "언제부터 아프셨어요?"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_002",
+        "phrase": "Ich möchte einen Termin vereinbaren.",
+        "pronunciation": "이히 뫼히테 아이넨 테르민 페어아인바렌.",
+        "meaning": "저는 예약을 하고 싶습니다.",
+        "usage": "Telefonisch oder persönlich einen Termin in der Arztpraxis anfragen.",
+        "alternatives": [
+          {
+            "phrase": "Ich brauche einen Termin beim Arzt.",
+            "pronunciation": "이히 브라우헤 아이넨 테르민 바임 아르츠트.",
+            "nuance": "좀 더 직접적인 표현. '저는 의사 진료 예약이 필요해요.'"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Wann möchten Sie kommen?",
+            "pronunciation": "반 뫼히텐 지 콤멘?",
+            "translation": "언제 오시겠어요?"
+          },
+          {
+            "text": "Passt Ihnen Dienstag um 10 Uhr?",
+            "pronunciation": "파스트 이넨 딘스타크 움 첸 우어?",
+            "translation": "화요일 10시가 괜찮으세요?"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_003",
+        "phrase": "Könnten Sie das bitte wiederholen?",
+        "pronunciation": "쾰른텐 지 다스 비테 비더홀렌?",
+        "meaning": "다시 한번 말씀해 주시겠어요?",
+        "usage": "Wenn man etwas nicht verstanden hat, besonders bei medizinischen Anweisungen.",
+        "alternatives": [
+          {
+            "phrase": "Ich habe das nicht verstanden.",
+            "pronunciation": "이히 하베 다스 니히트 페어슈탄덴.",
+            "nuance": "'제가 이해하지 못했어요.'라고 직접적으로 말하는 표현."
+          },
+          {
+            "phrase": "Können Sie das langsamer sagen?",
+            "pronunciation": "쾰른넨 지 다스 랑잠머 자겐?",
+            "nuance": "'좀 더 천천히 말씀해 주실 수 있나요?'"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, natürlich. Ich wiederhole es gern.",
+            "pronunciation": "야, 나튀얼리히. 이히 비더홀레 에스 게른.",
+            "translation": "네, 물론이죠. 다시 말씀드릴게요."
+          },
+          {
+            "text": "Es geht darum, dass Sie diese Tablette zweimal täglich nehmen sollen.",
+            "pronunciation": "에스 게트 다룸, 다스 지 디제 타블레테 츠바이말 태글리히 네멘 졸렌.",
+            "translation": "이 알약을 하루에 두 번 드셔야 한다는 내용입니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

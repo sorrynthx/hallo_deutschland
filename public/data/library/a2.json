@@ -1,0 +1,352 @@
+{
+  "location": "library",
+  "level": "a2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_library_a2_W11_001",
+        "word": "Buch",
+        "article": "das",
+        "plural": "Bücher",
+        "pronunciation": "부흐",
+        "meaning": "책",
+        "example": "Ich möchte dieses Buch ausleihen.",
+        "example_translation": "저는 이 책을 빌리고 싶어요.",
+        "example_pronunciation": "이히 뫼히테 디제스 부흐 아우스라이헨.",
+        "tags": [
+          "library",
+          "noun",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_002",
+        "word": "ausleihen",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "아우스라이헨",
+        "meaning": "빌리다 (도서관 등에서)",
+        "example": "Kann ich hier Bücher ausleihen?",
+        "example_translation": "여기서 책을 빌릴 수 있나요?",
+        "example_pronunciation": "칸 이히 히어 뷔허 아우스라이헨?",
+        "tags": [
+          "library",
+          "verb",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_003",
+        "word": "zurückgeben",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "추뤽게벤",
+        "meaning": "반납하다",
+        "example": "Wann muss ich das Buch zurückgeben?",
+        "example_translation": "언제 그 책을 반납해야 하나요?",
+        "example_pronunciation": "반 무스 이히 다스 부흐 추뤽게벤?",
+        "tags": [
+          "library",
+          "verb",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_004",
+        "word": "Bibliotheksausweis",
+        "article": "der",
+        "plural": "Bibliotheksausweise",
+        "pronunciation": "비블리오테크스아우스바이쓰",
+        "meaning": "도서관 회원증",
+        "example": "Haben Sie einen Bibliotheksausweis?",
+        "example_translation": "도서관 회원증이 있으신가요?",
+        "example_pronunciation": "하벤 지 아이넨 비블리오테크스아우스바이쓰?",
+        "tags": [
+          "library",
+          "noun",
+          "A2"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_005",
+        "word": "Arbeitsplatz",
+        "article": "der",
+        "plural": "Arbeitsplätze",
+        "pronunciation": "아르바이츠플라츠",
+        "meaning": "(작업/학습) 공간, 일자리",
+        "example": "Ist dieser Arbeitsplatz noch frei?",
+        "example_translation": "이 학습 공간은 아직 비어있나요?",
+        "example_pronunciation": "이스트 디저 아르바이츠플라츠 녹흐 프라이?",
+        "tags": [
+          "library",
+          "noun",
+          "A2"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_library_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Dativ Case with Preposition \"aus\"",
+        "topic_explanation": "The preposition \"aus\" (from/out of) always requires the dative case. You need to choose the correct dative definite article for \"Bibliothek\" (feminine noun).",
+        "question": "Ich hole ein Buch ____ der Bibliothek.",
+        "question_translation": "I am getting a book from the library.",
+        "options": [
+          "die",
+          "dem",
+          "der",
+          "den"
+        ],
+        "answer": "der",
+        "explanation": "The preposition \"aus\" always takes the dative case. \"Bibliothek\" is a feminine noun (\"die Bibliothek\"). The dative definite article for feminine singular nouns is \"der\". Therefore, \"aus der Bibliothek\" is correct.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_002",
+        "type": "conjugation_table",
+        "topic": "Modal Verb Conjugation (können)",
+        "topic_explanation": "This question tests your knowledge of how to conjugate the modal verb \"können\" (to be able to, can) in the present tense. Modal verbs often have irregular conjugations, especially in the singular forms (ich, du, er/sie/es).",
+        "question": "Wie lautet die korrekte Form von \"können\" für \"du\" im Präsens?\nIch kann\nDu ____\nEr/Sie/Es kann\nWir können\nIhr könnt\nSie/sie können",
+        "question_translation": "What is the correct form of \"können\" for \"du\" in the present tense?\nI can\nYou ____\nHe/She/It can\nWe can\nYou (plural informal) can\nYou (formal)/they can",
+        "options": [
+          "kann",
+          "kannst",
+          "könnt",
+          "könne"
+        ],
+        "answer": "kannst",
+        "explanation": "The correct conjugation of the modal verb \"können\" for the pronoun \"du\" in the present tense is \"kannst\".",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "kann"
+          },
+          {
+            "pronoun": "du",
+            "form": "kannst"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "kann"
+          },
+          {
+            "pronoun": "wir",
+            "form": "können"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "könnt"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "können"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_003",
+        "type": "declension_table",
+        "topic": "Adjective Endings after Indefinite Article (Accusative Neuter)",
+        "topic_explanation": "This question tests your knowledge of adjective endings when they follow an indefinite article (\"ein\") in the accusative case. The adjective takes a specific ending depending on the gender and case of the noun. \"Buch\" is a neuter noun.",
+        "question": "Welche Endung gehört zu dem Adjektiv \"interessant\" in diesem Satz?\nIch suche ein ____ Buch über die Geschichte Berlins.",
+        "question_translation": "Which ending belongs to the adjective \"interessant\" in this sentence?\nI am looking for an ____ book about the history of Berlin.",
+        "options": [
+          "-e",
+          "-er",
+          "-es",
+          "-en"
+        ],
+        "answer": "-es",
+        "explanation": "The verb \"suchen\" requires the accusative case. \"Buch\" is a neuter noun (\"das Buch\"). When an indefinite article (\"ein\") is followed by an adjective describing a neuter noun in the accusative case, the adjective takes the ending \"-es\" (e.g., ein interessantes Buch).",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_library_a2_W11_001",
+        "situation": "Sie möchten ein Buch ausleihen, haben aber noch keinen Bibliotheksausweis.",
+        "situation_icon": "📚",
+        "dialogue": [
+          {
+            "role": "Benutzer",
+            "text": "Guten Tag, ich möchte ein Buch ausleihen.",
+            "pronunciation": "GU-ten Tak, ish MÖSH-te ain Bukh AVS-lai-en.",
+            "translation": "Good day, I would like to borrow a book.",
+            "isQuestion": false
+          },
+          {
+            "role": "Bibliothekarin",
+            "text": "Haben Sie schon einen Bibliotheksausweis?",
+            "pronunciation": "HA-ben Zi shon AI-nen Bi-blio-teks-AUS-vais?",
+            "translation": "Do you already have a library card?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nein, noch nicht. Wie kann ich einen beantragen?",
+            "pronunciation": "Nain, nokh nisht. Vi kan ish AI-nen be-AN-tra-gen?",
+            "translation": "No, not yet. How can I apply for one?"
+          },
+          {
+            "text": "Ja, hier ist er.",
+            "pronunciation": "Ya, hir ist er.",
+            "translation": "Yes, here it is."
+          },
+          {
+            "text": "Das Buch ist sehr interessant.",
+            "pronunciation": "Das Bukh ist zer in-te-re-SANT.",
+            "translation": "The book is very interesting."
+          }
+        ],
+        "answer": "Nein, noch nicht. Wie kann ich einen beantragen?",
+        "explanation": "Die Bibliothekarin fragt, ob der Benutzer bereits einen Ausweis besitzt. Die korrekte Antwort, wenn man noch keinen hat, ist eine Verneinung gefolgt von der Frage nach dem Vorgehen zur Beantragung.",
+        "grammar_point": "Verneinung (noch nicht), Fragen stellen (W-Fragen: Wie kann ich...?).",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_a2_W11_002",
+        "situation": "Sie suchen ein bestimmtes Buch und fragen eine Bibliothekarin um Hilfe.",
+        "situation_icon": "📖",
+        "dialogue": [
+          {
+            "role": "Benutzer",
+            "text": "Entschuldigen Sie, wo finde ich das Buch 'Der kleine Prinz'?",
+            "pronunciation": "Ent-SHUL-di-gen Zi, vo FIN-de ish das Bukh 'Der KLAI-ne Prinz'?",
+            "translation": "Excuse me, where can I find the book 'The Little Prince'?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Es steht im Regal 3B, bei den Kinderbüchern.",
+            "pronunciation": "Es SHTET im Re-GAL drei-BE, bai den KIN-der-bü-chern.",
+            "translation": "It's on shelf 3B, with the children's books."
+          },
+          {
+            "text": "Ich habe es gestern gelesen.",
+            "pronunciation": "Ish HA-be es GES-tern ge-LE-zen.",
+            "translation": "I read it yesterday."
+          },
+          {
+            "text": "Das ist ein guter Film.",
+            "pronunciation": "Das ist ain GU-ter Film.",
+            "translation": "That is a good movie."
+          }
+        ],
+        "answer": "Es steht im Regal 3B, bei den Kinderbüchern.",
+        "explanation": "Der Benutzer fragt nach dem Standort eines Buches. Die Bibliothekarin gibt eine präzise Ortsangabe an, wo das Buch zu finden ist.",
+        "grammar_point": "Ortsangaben mit Präpositionen (im, bei), Dativ.",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_library_a2_W11_001",
+        "phrase": "Ich möchte dieses Buch ausleihen.",
+        "pronunciation": "이히 뫼히테 디제스 부흐 아우스라이헨.",
+        "meaning": "저는 이 책을 빌리고 싶어요.",
+        "usage": "Wenn Sie ein bestimmtes Buch gefunden haben und es mit nach Hause nehmen möchten.",
+        "alternatives": [
+          {
+            "phrase": "Kann ich dieses Buch ausleihen?",
+            "pronunciation": "칸 이히 디제스 부흐 아우스라이헨?",
+            "nuance": "더 직접적이고 캐주얼한 요청"
+          },
+          {
+            "phrase": "Ich würde dieses Buch gerne ausleihen.",
+            "pronunciation": "이히 뷔르데 디제스 부흐 게르네 아우스라이헨.",
+            "nuance": "정중한 표현으로 'möchte'와 의미가 유사함"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, gerne. Haben Sie Ihren Bibliotheksausweis dabei?",
+            "pronunciation": "야, 게르네. 하벤 지 이렌 비블리오테크사우스바이즈 다바이?",
+            "translation": "네, 좋습니다. 도서관 카드 가지고 계신가요?"
+          },
+          {
+            "text": "Einen Moment bitte, ich prüfe das.",
+            "pronunciation": "아이넨 모멘트 비테, 이히 프뤼페 다스.",
+            "translation": "잠시만요, 제가 확인해볼게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_002",
+        "phrase": "Wo finde ich die Bücher über Geschichte?",
+        "pronunciation": "보 핀데 이히 디 뷔헤어 위버 게쉬히테?",
+        "meaning": "역사에 대한 책들은 어디에서 찾을 수 있나요?",
+        "usage": "Wenn Sie nach Büchern zu einem bestimmten Thema suchen und ein Beispielthema angeben möchten.",
+        "alternatives": [
+          {
+            "phrase": "In welchem Bereich sind die Bücher zu [Thema]?",
+            "pronunciation": "인 벨헴 베라이히 진트 디 뷔헤어 추 [테마]?",
+            "nuance": "특정 '구역'을 묻는 더 구체적인 질문"
+          },
+          {
+            "phrase": "Können Sie mir sagen, wo die [Thema]-Bücher sind?",
+            "pronunciation": "쾨넨 지 미어 자겐, 보 디 [테마]-뷔헤어 진트?",
+            "nuance": "더 정중하게 길을 묻는 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Die Geschichtsbücher sind im zweiten Stock, links.",
+            "pronunciation": "디 게쉬히츠뷔헤어 진트 임 츠바이텐 슈톡, 링크스.",
+            "translation": "역사 책들은 2층 왼쪽에 있습니다."
+          },
+          {
+            "text": "Moment, ich zeige es Ihnen auf dem Plan.",
+            "pronunciation": "모멘트, 이히 차이게 에스 이넨 아우프 뎀 플란.",
+            "translation": "잠시만요, 제가 지도에서 보여드릴게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_003",
+        "phrase": "Ist dieses Buch verfügbar?",
+        "pronunciation": "이스트 디제스 부흐 페어푸그바르?",
+        "meaning": "이 책은 이용 가능한가요? (빌릴 수 있나요?)",
+        "usage": "Wenn Sie wissen möchten, ob ein bestimmtes Buch zum Ausleihen bereitsteht oder bereits ausgeliehen ist.",
+        "alternatives": [
+          {
+            "phrase": "Kann ich dieses Buch jetzt ausleihen?",
+            "pronunciation": "칸 이히 디제스 부흐 옛츠트 아우스라이헨?",
+            "nuance": "지금 바로 빌릴 수 있는지 직접적으로 묻는 질문"
+          },
+          {
+            "phrase": "Haben Sie dieses Buch auf Lager?",
+            "pronunciation": "하벤 지 디제스 부흐 아우프 라거?",
+            "nuance": "도서관에 이 책이 있는지 묻는 표현 (상업적 뉘앙스도 있으나 도서관에서도 사용 가능)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, es ist verfügbar. Sie können es jetzt ausleihen.",
+            "pronunciation": "야, 에스 이스트 페어푸그바르. 지 쾨넨 에스 옛츠트 아우스라이헨.",
+            "translation": "네, 이용 가능합니다. 지금 빌리실 수 있어요."
+          },
+          {
+            "text": "Nein, es ist leider gerade ausgeliehen. Es sollte nächste Woche zurückkommen.",
+            "pronunciation": "나인, 에스 이스트 라이더 게라데 아우스라이헨. 에스 졸테 넥스테 보헤 추륙콤멘.",
+            "translation": "아니요, 아쉽게도 지금 대출 중입니다. 다음 주에 돌아올 예정입니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

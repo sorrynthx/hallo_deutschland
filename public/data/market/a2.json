@@ -1,0 +1,378 @@
+{
+  "location": "market",
+  "level": "a2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_market_a2_W11_001",
+        "word": "Einkaufswagen",
+        "article": "der",
+        "plural": "Einkaufswägen",
+        "pronunciation": "아인카우프스바겐",
+        "meaning": "쇼핑카트",
+        "example": "Ich brauche einen Einkaufswagen für meinen großen Einkauf.",
+        "example_translation": "큰 쇼핑을 위해 쇼핑카트가 필요해요.",
+        "example_pronunciation": "이히 브라우헤 아이넨 아인카우프스바겐 퓌어 마이넨 그로쎈 아인카우프.",
+        "tags": [
+          "Nomen",
+          "Supermarkt",
+          "Einkaufen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_a2_W11_002",
+        "word": "Kasse",
+        "article": "die",
+        "plural": "Kassen",
+        "pronunciation": "카쎄",
+        "meaning": "계산대",
+        "example": "Bitte gehen Sie zur Kasse, um zu bezahlen.",
+        "example_translation": "계산하시려면 계산대로 가세요.",
+        "example_pronunciation": "비떼 게헨 지 쭈어 카쎄, 움 쭈 베짤렌.",
+        "tags": [
+          "Nomen",
+          "Supermarkt",
+          "Bezahlen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_a2_W11_003",
+        "word": "bezahlen",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "베짤렌",
+        "meaning": "지불하다, 계산하다",
+        "example": "Kann ich bitte mit Karte bezahlen?",
+        "example_translation": "카드로 계산해도 될까요?",
+        "example_pronunciation": "칸 이히 비떼 밋 카르테 베짤렌?",
+        "tags": [
+          "Verb",
+          "Supermarkt",
+          "Transaktion"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_a2_W11_004",
+        "word": "Tüte",
+        "article": "die",
+        "plural": "Tüten",
+        "pronunciation": "튀떼",
+        "meaning": "봉투",
+        "example": "Haben Sie eine Tüte für mich?",
+        "example_translation": "저에게 봉투 하나 주시겠어요?",
+        "example_pronunciation": "하벤 지 아이네 튀떼 퓌어 미히?",
+        "tags": [
+          "Nomen",
+          "Supermarkt",
+          "Verpackung"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_a2_W11_005",
+        "word": "Sonderangebot",
+        "article": "das",
+        "plural": "Sonderangebote",
+        "pronunciation": "존더안게보트",
+        "meaning": "특별 할인 (상품)",
+        "example": "Schauen Sie sich unsere Sonderangebote diese Woche an!",
+        "example_translation": "이번 주 특별 할인 상품들을 확인해 보세요!",
+        "example_pronunciation": "샤우엔 지 지히 운제레 존더안게보떼 디제 보헤 안!",
+        "tags": [
+          "Nomen",
+          "Supermarkt",
+          "Preis"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_market_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Dativpräposition 'mit'",
+        "topic_explanation": "Diese Frage testet Ihr Wissen über die Deklination von Artikeln im Dativ, insbesondere nach der Präposition 'mit', die immer den Dativ verlangt.",
+        "question": "Ich gehe oft mit ____ Freundin in den Supermarkt.",
+        "question_translation": "I often go to the supermarket with my girlfriend.",
+        "options": [
+          "einem",
+          "einer",
+          "einen",
+          "eine"
+        ],
+        "answer": "einer",
+        "explanation": "Die Präposition 'mit' verlangt den Dativ. 'Freundin' ist ein feminines Nomen ('die Freundin'), daher ist der unbestimmte Artikel im Dativ Singular 'einer'.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Konjugation des Modalverbs 'möchten'",
+        "topic_explanation": "Diese Frage prüft die korrekte Konjugation des Modalverbs 'möchten' (höfliche Form von 'wollen') in der Anrede 'Sie' (formelle Anrede).",
+        "question": "Entschuldigen Sie, ____ Sie mir bitte sagen, wo ich die Milch finde?",
+        "question_translation": "Excuse me, could you please tell me where I can find the milk?",
+        "options": [
+          "möchte",
+          "möchtest",
+          "möchten",
+          "möchtet"
+        ],
+        "answer": "möchten",
+        "explanation": "Für die formelle Anrede 'Sie' (Siezen) ist die korrekte Konjugation des Modalverbs 'möchten' immer 'möchten'. 'Möchten Sie' ist eine höfliche Art, eine Frage zu stellen.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "du",
+            "form": "möchtest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "wir",
+            "form": "möchten"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "möchtet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "möchten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Wechselpräposition 'in' (Akkusativ)",
+        "topic_explanation": "Diese Frage testet Ihr Verständnis von Wechselpräpositionen (z.B. 'in'), die den Akkusativ verlangen, wenn eine Bewegung oder Richtungsänderung ausgedrückt wird (Frage 'Wohin?').",
+        "question": "Ich lege die frischen Orangen in ____ Einkaufswagen.",
+        "question_translation": "I put the fresh oranges into the shopping cart.",
+        "options": [
+          "der",
+          "den",
+          "dem",
+          "des"
+        ],
+        "answer": "den",
+        "explanation": "Die Präposition 'in' ist eine Wechselpräposition. Da es sich um eine Bewegung ('legen' – wohin?) handelt, wird der Akkusativ verwendet. 'Einkaufswagen' ist ein maskulines Nomen ('der Einkaufswagen'), daher ist der bestimmte Artikel im Akkusativ Singular 'den'.",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_market_a2_W11_001",
+        "situation": "Kunde möchte Tomaten kaufen und fragt nach dem Preis an der Gemüsetheke.",
+        "situation_icon": "🍅",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Guten Tag! Ich suche Tomaten.",
+            "pronunciation": "GU-ten Tak! Ish ZU-khe To-MA-ten.",
+            "translation": "Good day! I'm looking for tomatoes.",
+            "isQuestion": false
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Ja, die sind hier vorne. Brauchen Sie Hilfe?",
+            "pronunciation": "Ya, di zint hir FOR-ne. BRAU-khen zi HIL-fe?",
+            "translation": "Yes, they are here at the front. Do you need help?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kunde",
+            "text": "Ja, danke. _____ ",
+            "pronunciation": "Ya, DAN-ke. _____ ",
+            "translation": "Yes, thanks. _____ ",
+            "isQuestion": true
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Ein Kilo kostet 2 Euro 50.",
+            "pronunciation": "Ain KI-lo KOS-tet tswei OI-ro FÜNF-tsish.",
+            "translation": "One kilo costs 2 Euros 50.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Wie viel kostet ein Kilo?",
+            "pronunciation": "Vi fil KOS-tet ain KI-lo?",
+            "translation": "How much does a kilo cost?"
+          },
+          {
+            "text": "Haben Sie Käse?",
+            "pronunciation": "HA-ben zi KÄ-ze?",
+            "translation": "Do you have cheese?"
+          },
+          {
+            "text": "Ich nehme drei Tomaten.",
+            "pronunciation": "Ish NEH-me drai To-MA-ten.",
+            "translation": "I'll take three tomatoes."
+          }
+        ],
+        "answer": "Wie viel kostet ein Kilo?",
+        "explanation": "Der Kunde fragt nach dem Preis, bevor er die Menge angibt. 'Wie viel kostet...?' ist die übliche Frage nach dem Preis.",
+        "grammar_point": "W-Fragen: Nach dem Preis fragen (Wie viel kostet...?)"
+      },
+      {
+        "id": "conv_market_a2_W11_002",
+        "situation": "Ein Kunde sucht Kaffee und fragt eine Angestellte im Supermarkt nach dem Standort.",
+        "situation_icon": "☕",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Entschuldigen Sie, ich kann den Kaffee nicht finden.",
+            "pronunciation": "Ent-SHUL-di-gen zi, ish kan den KA-fee nisht FIN-den.",
+            "translation": "Excuse me, I can't find the coffee.",
+            "isQuestion": false
+          },
+          {
+            "role": "Verkäuferin",
+            "text": "Kein Problem! _____ ",
+            "pronunciation": "Kain pro-BLEM! _____ ",
+            "translation": "No problem! _____ ",
+            "isQuestion": true
+          },
+          {
+            "role": "Kunde",
+            "text": "Vielen Dank!",
+            "pronunciation": "FI-len Dank!",
+            "translation": "Many thanks!",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Der Kaffee ist im Gang drei, links.",
+            "pronunciation": "Der KA-fee ist im Gang drai, links.",
+            "translation": "The coffee is in aisle three, left."
+          },
+          {
+            "text": "Ist der Kaffee gut?",
+            "pronunciation": "Ist der KA-fee gut?",
+            "translation": "Is the coffee good?"
+          },
+          {
+            "text": "Ich habe auch Hunger.",
+            "pronunciation": "Ish HA-be auch HUN-ger.",
+            "translation": "I am also hungry."
+          }
+        ],
+        "answer": "Der Kaffee ist im Gang drei, links.",
+        "explanation": "Die Angestellte gibt dem Kunden die Richtung und den genauen Standort des Kaffees an.",
+        "grammar_point": "Richtungs- und Ortsangaben: Präpositionen (im Gang), Ordinalzahlen (Gang drei)."
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_market_a2_W11_001",
+        "phrase": "Wo finde ich...? / Wo ist...?",
+        "pronunciation": "보 핀데 이히...? / 보 이스트...?",
+        "meaning": "...을(를) 어디서 찾을 수 있나요? / ...은(는) 어디에 있나요?",
+        "usage": "특정 상품의 위치를 직원에게 물어볼 때 사용합니다. (예: Wo finde ich das Brot? - 빵은 어디서 찾을 수 있나요?)",
+        "alternatives": [
+          {
+            "phrase": "Entschuldigung, wo sind die Nudeln?",
+            "pronunciation": "엔트슐디궁, 보 진트 디 누델른?",
+            "nuance": "좀 더 직접적으로 위치를 묻는 표현입니다. (실례합니다, 파스타는 어디에 있나요?)"
+          },
+          {
+            "phrase": "Könnten Sie mir sagen, wo der Käse ist?",
+            "pronunciation": "쾨넨 지 미어 자겐, 보 데어 케제 이스트?",
+            "nuance": "좀 더 공손하게 위치를 물어보는 표현입니다. (치즈가 어디에 있는지 말씀해주실 수 있나요?)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Das finden Sie in Gang drei, links.",
+            "pronunciation": "다스 핀덴 지 인 강 드라이, 링크스.",
+            "translation": "그것은 3번 통로 왼쪽에 있습니다."
+          },
+          {
+            "text": "Gehen Sie geradeaus, dann rechts. Es ist dort.",
+            "pronunciation": "게헨 지 게라데아우스, 단 레히츠. 에스 이스트 도르트.",
+            "translation": "곧장 가시다가 오른쪽으로 가세요. 거기 있습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_a2_W11_002",
+        "phrase": "Was kostet das? / Wie viel kostet das?",
+        "pronunciation": "바스 코스테트 다스? / 비 필 코스테트 다스?",
+        "meaning": "이거 얼마예요? / 이건 얼마인가요?",
+        "usage": "상품의 가격을 물어볼 때 사용합니다. 특정 상품을 가리키며 물어볼 수 있습니다.",
+        "alternatives": [
+          {
+            "phrase": "Was macht das insgesamt?",
+            "pronunciation": "바스 마흐트 다스 인게잠트?",
+            "nuance": "계산대에서 전체 금액을 물어볼 때 사용하는 표현입니다. (총 얼마인가요?)"
+          },
+          {
+            "phrase": "Wie teuer ist das?",
+            "pronunciation": "비 토이어 이스트 다스?",
+            "nuance": "'얼마나 비싼가요?'라는 직관적인 표현입니다. (얼마나 비싸요?)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Das kostet zwei Euro fünfzig.",
+            "pronunciation": "다스 코스테트 츠바이 오이로 퓐프치히.",
+            "translation": "그것은 2유로 50센트입니다."
+          },
+          {
+            "text": "Moment, ich schaue nach.",
+            "pronunciation": "모멘트, 이히 샤우에 나흐.",
+            "translation": "잠시만요, 제가 확인해볼게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_a2_W11_003",
+        "phrase": "Brauchen Sie eine Tüte?",
+        "pronunciation": "브라우헨 지 아이네 튀테?",
+        "meaning": "봉투 필요하세요? (주로 계산원이 손님에게 묻는 표현)",
+        "usage": "계산원이 손님에게 봉투 필요 여부를 물을 때 사용합니다. (손님 입장에서는 'Ich brauche eine Tüte.' 또는 'Haben Sie eine Tüte?'로 물을 수 있습니다.)",
+        "alternatives": [
+          {
+            "phrase": "Möchten Sie eine Tasche?",
+            "pronunciation": "뫼히텐 지 아이네 타쉐?",
+            "nuance": "'Tüte'보다 'Tasche'가 더 일반적인 가방을 의미하며, 좀 더 격식 있거나 큰 쇼핑백을 지칭할 때 쓰일 수 있습니다. 'Möchten'은 'want'보다 공손한 표현입니다."
+          },
+          {
+            "phrase": "Soll es eine Tüte sein?",
+            "pronunciation": "졸 에스 아이네 튀테 자인?",
+            "nuance": "'봉투로 드릴까요?'라는 의향을 묻는 뉘앙스입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁해요."
+          },
+          {
+            "text": "Nein, danke. Ich habe meine eigene Tasche.",
+            "pronunciation": "나인, 당케. 이히 하베 마이네 아이게네 타쉐.",
+            "translation": "아니요, 괜찮습니다. 제 가방이 있어요."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

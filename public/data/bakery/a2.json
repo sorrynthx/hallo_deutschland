@@ -1,0 +1,414 @@
+{
+  "location": "bakery",
+  "level": "a2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_bakery_a2_W11_001",
+        "word": "Brötchen",
+        "article": "das",
+        "plural": "die Brötchen",
+        "pronunciation": "브뢰트헨",
+        "meaning": "빵 (작은 빵, 롤빵)",
+        "example": "Ich möchte bitte zwei Brötchen.",
+        "example_translation": "롤빵 두 개 주세요.",
+        "example_pronunciation": "이히 뫼히테 비테 츠바이 브뢰트헨.",
+        "tags": [
+          "Bäckerei",
+          "Essen",
+          "Gebäck"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_002",
+        "word": "Brot",
+        "article": "das",
+        "plural": "die Brote",
+        "pronunciation": "브로트",
+        "meaning": "빵 (큰 빵, 식빵)",
+        "example": "Dieses Brot ist sehr frisch.",
+        "example_translation": "이 빵은 아주 신선해요.",
+        "example_pronunciation": "디제스 브로트 이스트 제어 프리쉬.",
+        "tags": [
+          "Bäckerei",
+          "Essen",
+          "Grundnahrungsmittel"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_003",
+        "word": "Kuchen",
+        "article": "der",
+        "plural": "die Kuchen",
+        "pronunciation": "쿠헨",
+        "meaning": "케이크",
+        "example": "Ich nehme ein Stück Apfelkuchen.",
+        "example_translation": "저는 사과 케이크 한 조각을 먹을게요.",
+        "example_pronunciation": "이히 네메 아인 슈튁 아플쿠헨.",
+        "tags": [
+          "Bäckerei",
+          "Essen",
+          "Gebäck",
+          "Süßigkeit"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_004",
+        "word": "Brezel",
+        "article": "die",
+        "plural": "die Brezeln",
+        "pronunciation": "브레첼",
+        "meaning": "프레첼",
+        "example": "Haben Sie frische Brezeln?",
+        "example_translation": "신선한 프레첼 있어요?",
+        "example_pronunciation": "하벤 지 프리쉐 브레첼른?",
+        "tags": [
+          "Bäckerei",
+          "Essen",
+          "Gebäck",
+          "Snack"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_005",
+        "word": "kaufen",
+        "article": null,
+        "plural": null,
+        "pronunciation": "카우펜",
+        "meaning": "사다, 구매하다",
+        "example": "Ich möchte etwas kaufen.",
+        "example_translation": "저는 무언가를 사고 싶어요.",
+        "example_pronunciation": "이히 뫼히테 에트바스 카우펜.",
+        "tags": [
+          "Bäckerei",
+          "Verb",
+          "Einkaufen"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_bakery_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Modalverb 'möchten'",
+        "topic_explanation": "Das Modalverb 'möchten' wird verwendet, um einen höflichen Wunsch oder eine Bitte auszudrücken, besonders häufig beim Bestellen oder Einkaufen.",
+        "question": "Ich ____ gerne zwei Brötchen und ein Schwarzbrot.",
+        "question_translation": "I ____ like two rolls and one black bread.",
+        "options": [
+          "möchtet",
+          "mögen",
+          "willst",
+          "möchte"
+        ],
+        "answer": "möchte",
+        "explanation": "Das Verb 'möchten' wird für die erste Person Singular (ich) zu 'möchte' konjugiert. Es drückt einen höflichen Wunsch aus.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "du",
+            "form": "möchtest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "wir",
+            "form": "möchten"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "möchtet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "möchten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ mit Präposition 'von'",
+        "topic_explanation": "Die Präposition 'von' (von/aus) verlangt immer den Dativ. Hier wird die Deklination des Artikels im Dativ für feminine Nomen geübt.",
+        "question": "Ich komme gerade von ____ Bäckerei.",
+        "question_translation": "I just came from the bakery.",
+        "options": [
+          "die",
+          "der",
+          "den",
+          "dem"
+        ],
+        "answer": "der",
+        "explanation": "Die Präposition 'von' verlangt den Dativ. 'Bäckerei' ist ein feminines Nomen (die Bäckerei), und der feminine bestimmte Artikel im Dativ ist 'der'.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_003",
+        "type": "conjugation_table",
+        "topic": "Konjugation des unregelmäßigen Verbs 'nehmen'",
+        "topic_explanation": "Das Verb 'nehmen' ist ein unregelmäßiges (starkes) Verb, dessen Stammvokal sich bei 'du', 'er/sie/es' ändert. Es ist nützlich im Kontext des Bestellens ('Ich nehme...')",
+        "question": "Füllen Sie die Lücke für die 'du'-Form des Verbs 'nehmen' im Präsens aus.",
+        "question_translation": "Fill in the blank for the 'du' form of the verb 'nehmen' in the present tense.",
+        "options": [
+          "nehme",
+          "nimmst",
+          "nimmt",
+          "nehmt"
+        ],
+        "answer": "nimmst",
+        "explanation": "Das Verb 'nehmen' ist unregelmäßig. Für die 'du'-Form ändert sich der Stammvokal von 'e' zu 'i', und die Endung ist '-st'. Die vollständige Konjugation finden Sie in der zugehörigen Tabelle.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "nehme"
+          },
+          {
+            "pronoun": "du",
+            "form": "nimmst"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "nimmt"
+          },
+          {
+            "pronoun": "wir",
+            "form": "nehmen"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "nehmt"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "nehmen"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_bakery_a2_W11_001",
+        "situation": "Eine Kundin möchte drei Brötchen kaufen. Die Bäckerin fragt nach der Menge.",
+        "situation_icon": "🍞",
+        "dialogue": [
+          {
+            "role": "Bäckerin",
+            "text": "Guten Tag! Wie kann ich Ihnen helfen?",
+            "pronunciation": "GU-ten Tag! Vee kan ihk IH-nen HEL-fen?",
+            "translation": "Good day! How can I help you?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kundin",
+            "text": "Guten Tag! Ich hätte gerne Brötchen.",
+            "pronunciation": "GU-ten Tag! Ik HET-te GER-ne BRÖT-hyen.",
+            "translation": "Good day! I would like bread rolls.",
+            "isQuestion": false
+          },
+          {
+            "role": "Bäckerin",
+            "text": "Wie viele Brötchen möchten Sie denn?",
+            "pronunciation": "Vee FIE-le BRÖT-hyen MÖSH-ten Zee den?",
+            "translation": "How many bread rolls would you like?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kundin",
+            "text": "[...]",
+            "pronunciation": "[...]",
+            "translation": "I would like three bread rolls.",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich möchte drei Brötchen.",
+            "pronunciation": "Ik MÖSH-te dry BRÖT-hyen.",
+            "translation": "I would like three bread rolls."
+          },
+          {
+            "text": "Drei Brötchen haben wollen ich.",
+            "pronunciation": "Dry BRÖT-hyen HAH-ben VOL-len ik.",
+            "translation": "Three bread rolls want I."
+          },
+          {
+            "text": "Drei Brötchen sind.",
+            "pronunciation": "Dry BRÖT-hyen ZIND.",
+            "translation": "Three bread rolls are."
+          }
+        ],
+        "answer": "Ich möchte drei Brötchen.",
+        "explanation": "Um eine gewünschte Menge auszudrücken, verwendet man typischerweise 'Ich hätte gerne...' oder 'Ich möchte...' gefolgt von der Menge und dem Nomen im Akkusativ. Die Satzstellung ist Subjekt-Modalverb-Objekt. Die anderen Optionen sind grammatisch falsch oder sehr unnatürlich.",
+        "grammar_point": "Satzbau mit Modalverben (möchten), Akkusativ, Zahlen",
+        "week": "W11"
+      },
+      {
+        "id": "conv_bakery_a2_W11_002",
+        "situation": "Ein Kunde sucht ein gutes Roggenbrot und fragt die Bäckerin nach einer Empfehlung.",
+        "situation_icon": "🥖",
+        "dialogue": [
+          {
+            "role": "Bäckerin",
+            "text": "Guten Tag! Kann ich Ihnen helfen?",
+            "pronunciation": "GU-ten Tag! Kan ik IH-nen HEL-fen?",
+            "translation": "Good day! Can I help you?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kunde",
+            "text": "Guten Tag! Ich suche ein gutes Roggenbrot.",
+            "pronunciation": "GU-ten Tag! Ik ZOO-khe ayn GOO-tes ROG-gen-brot.",
+            "translation": "Good day! I'm looking for a good rye bread.",
+            "isQuestion": false
+          },
+          {
+            "role": "Bäckerin",
+            "text": "Wir haben heute unser frisches Roggenvollkornbrot.",
+            "pronunciation": "Veer HAH-ben HOY-te UN-zer FRISH-es ROG-gen-fol-korn-brot.",
+            "translation": "Today we have our fresh whole rye bread.",
+            "isQuestion": false
+          },
+          {
+            "role": "Kunde",
+            "text": "[...]",
+            "pronunciation": "[...]",
+            "translation": "What do you recommend?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Was empfehlen Sie?",
+            "pronunciation": "Vas em-PFEH-len Zee?",
+            "translation": "What do you recommend?"
+          },
+          {
+            "text": "Empfehlen Sie was?",
+            "pronunciation": "Em-PFEH-len Zee vas?",
+            "translation": "Do you recommend something?"
+          },
+          {
+            "text": "Ihre Empfehlung ist was?",
+            "pronunciation": "EE-re em-PFEH-lung ist vas?",
+            "translation": "Your recommendation is what?"
+          }
+        ],
+        "answer": "Was empfehlen Sie?",
+        "explanation": "'Was empfehlen Sie?' ist die direkte und höfliche Art, nach einer Empfehlung zu fragen. Es ist die gebräuchlichste und natürlichste Formulierung in solchen Situationen. Die zweite Option ist umgangssprachlich und weniger höflich, die dritte ist grammatisch inkorrekt und klingt unnatürlich.",
+        "grammar_point": "W-Fragen, direkte Fragen, Verbposition im Fragesatz",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_bakery_a2_W11_001",
+        "phrase": "Ich hätte gerne ein Brötchen.",
+        "pronunciation": "이히 핟테 게르네 아인 브뢰트헨.",
+        "meaning": "저는 빵 한 개를 원해요. (빵 한 개 주세요.)",
+        "usage": "Bäcker: Was darf es sein? Kunde: Ich hätte gerne ein Brötchen.",
+        "alternatives": [
+          {
+            "phrase": "Ein Brötchen, bitte.",
+            "pronunciation": "아인 브뢰트헨, 비테.",
+            "nuance": "더 간결하고 직접적인 표현입니다."
+          },
+          {
+            "phrase": "Ich möchte gerne ein Brötchen.",
+            "pronunciation": "이히 뫼히테 게르네 아인 브뢰트헨.",
+            "nuance": "'hätte gerne'와 거의 같은 의미로, 좀 더 격식 있거나 정중한 느낌을 줍니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, hier ist es.",
+            "pronunciation": "게르네, 히어 이스트 에스.",
+            "translation": "네, 여기 있습니다."
+          },
+          {
+            "text": "Möchten Sie noch etwas?",
+            "pronunciation": "뫼히텐 지 노흐 에트바스?",
+            "translation": "다른 것도 필요하신가요?"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_002",
+        "phrase": "Ich nehme zwei Croissants.",
+        "pronunciation": "이히 네메 츠바이 크로아상스.",
+        "meaning": "크루아상 두 개 주세요.",
+        "usage": "Kunde: Die sehen lecker aus. Ich nehme zwei Croissants.",
+        "alternatives": [
+          {
+            "phrase": "Zwei Croissants, bitte.",
+            "pronunciation": "츠바이 크로아상스, 비테.",
+            "nuance": "더 간결하고 직접적인 표현입니다."
+          },
+          {
+            "phrase": "Ich hätte gerne zwei Croissants.",
+            "pronunciation": "이히 핟테 게르네 츠바이 크로아상스.",
+            "nuance": "'Ich nehme' 보다 좀 더 정중하며 '원한다'는 뉘앙스가 강합니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Kommt sofort.",
+            "pronunciation": "콤트 조포르트.",
+            "translation": "바로 드리겠습니다."
+          },
+          {
+            "text": "Noch etwas dazu?",
+            "pronunciation": "노흐 에트바스 다추?",
+            "translation": "그 외에 또 다른 것은요?"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_003",
+        "phrase": "Was macht das zusammen?",
+        "pronunciation": "바스 마흐트 다스 추잠멘?",
+        "meaning": "총 얼마인가요?",
+        "usage": "Nachdem alle gewünschten Artikel ausgewählt wurden. Kunde: Was macht das zusammen?",
+        "alternatives": [
+          {
+            "phrase": "Wie viel kostet das?",
+            "pronunciation": "비 필 코스텟 다스?",
+            "nuance": "'얼마인가요?'의 일반적인 표현으로, 단수 품목에 자주 사용됩니다."
+          },
+          {
+            "phrase": "Wie viel macht das?",
+            "pronunciation": "비 필 마흐트 다스?",
+            "nuance": "'Was macht das zusammen?'과 유사하나, 'zusammen'이 빠져 더 간결합니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Das macht fünf Euro fünfzig.",
+            "pronunciation": "다스 마흐트 퓐프 오이로 퓐프치히.",
+            "translation": "총 5유로 50센트입니다."
+          },
+          {
+            "text": "Zwei Euro achtzig, bitte.",
+            "pronunciation": "츠바이 오이로 아흐치히, 비테.",
+            "translation": "2유로 80센트입니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

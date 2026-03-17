@@ -1,0 +1,372 @@
+{
+  "location": "station",
+  "level": "a2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_station_a2_W11_001",
+        "word": "Gleis",
+        "article": "das",
+        "plural": "Gleise",
+        "pronunciation": "글라이스",
+        "meaning": "(기차) 선로, 승강장",
+        "example": "Der Zug nach Berlin fährt von Gleis 3 ab.",
+        "example_translation": "베를린행 기차는 3번 승강장에서 출발합니다.",
+        "example_pronunciation": "데어 쭉 나흐 베를린 페어트 폰 글라이스 드라이 압.",
+        "tags": [
+          "기차역",
+          "교통",
+          "여행"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_002",
+        "word": "Fahrkarte",
+        "article": "die",
+        "plural": "Fahrkarten",
+        "pronunciation": "파어카르테",
+        "meaning": "기차표, 승차권",
+        "example": "Ich brauche eine Fahrkarte nach München.",
+        "example_translation": "뮌헨행 기차표가 필요해요.",
+        "example_pronunciation": "이히 브라우헤 아이네 파어카르테 나흐 뮌셴.",
+        "tags": [
+          "기차역",
+          "교통",
+          "여행",
+          "표"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_003",
+        "word": "Abfahrt",
+        "article": "die",
+        "plural": "Abfahrten",
+        "pronunciation": "압파르트",
+        "meaning": "출발",
+        "example": "Die Abfahrt ist um 10:30 Uhr.",
+        "example_translation": "출발은 10시 30분입니다.",
+        "example_pronunciation": "디 압파르트 이스트 움 첸 드라이씨히 우어.",
+        "tags": [
+          "기차역",
+          "시간",
+          "여행"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_004",
+        "word": "Ankunft",
+        "article": "die",
+        "plural": "Ankünfte",
+        "pronunciation": "안쿤프트",
+        "meaning": "도착",
+        "example": "Wann ist die Ankunft in Hamburg?",
+        "example_translation": "함부르크에는 언제 도착하나요?",
+        "example_pronunciation": "반 이스트 디 안쿤프트 인 함부르크?",
+        "tags": [
+          "기차역",
+          "시간",
+          "여행"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_005",
+        "word": "Schalter",
+        "article": "der",
+        "plural": "Schalter",
+        "pronunciation": "샬터",
+        "meaning": "창구, 매표소",
+        "example": "Wo ist der Schalter für Fahrkarten?",
+        "example_translation": "기차표 창구는 어디에 있나요?",
+        "example_pronunciation": "보 이스트 데어 샬터 퓨어 파어카르텐?",
+        "tags": [
+          "기차역",
+          "서비스",
+          "구매"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_station_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Wechselpräpositionen (Dativ/Akkusativ)",
+        "topic_explanation": "Wechselpräpositionen wie 'in' oder 'auf' fordern den Akkusativ bei einer Bewegung/Richtung (Wohin?) und den Dativ bei einer festen Position/einem Ort (Wo?).",
+        "question": "Wir müssen schnell ____ Zug, sonst fährt er ohne uns ab.",
+        "question_translation": "We have to quickly get ____ the train, otherwise it will leave without us.",
+        "options": [
+          "im",
+          "in den",
+          "auf dem",
+          "an den"
+        ],
+        "answer": "in den",
+        "explanation": "Hier ist eine Bewegung oder Richtung (Wohin? - in den Zug hinein) gefragt, daher wird die Präposition 'in' mit dem Akkusativ verwendet. 'Der Zug' ist maskulin, Akkusativ ist 'den'.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Personalpronomen im Dativ",
+        "topic_explanation": "Bestimmte Verben wie 'sagen' oder 'helfen' fordern eine Dativergänzung (Wem?). Du musst das passende Personalpronomen im Dativ einsetzen.",
+        "question": "Entschuldigung, können Sie ____ bitte sagen, wie ich zum Gleis 5 komme?",
+        "question_translation": "Excuse me, can you please tell ____ how I get to platform 5?",
+        "options": [
+          "mich",
+          "mir",
+          "ich",
+          "meine"
+        ],
+        "answer": "mir",
+        "explanation": "Das Verb 'sagen' fordert eine Dativergänzung (Wem sagst du etwas?). Hier ist 'Sie' die ansprechende Person, und 'mir' (Personalpronomen, 1. Person Singular, Dativ) ist die Person, die die Information erhält.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "mir"
+          },
+          {
+            "pronoun": "du",
+            "form": "dir"
+          },
+          {
+            "pronoun": "er",
+            "form": "ihm"
+          },
+          {
+            "pronoun": "sie (sg)",
+            "form": "ihr"
+          },
+          {
+            "pronoun": "es",
+            "form": "ihm"
+          },
+          {
+            "pronoun": "wir",
+            "form": "uns"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "euch"
+          },
+          {
+            "pronoun": "sie (pl)",
+            "form": "ihnen"
+          },
+          {
+            "pronoun": "Sie (formal)",
+            "form": "Ihnen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination (Schwache Deklination im Nominativ)",
+        "topic_explanation": "Wenn ein Adjektiv nach einem bestimmten Artikel (der, die, das) steht, folgt es der schwachen Deklination. Im Nominativ Singular (Maskulin, Feminin, Neutral) und Akkusativ Singular Feminin/Neutral endet das Adjektiv auf '-e'.",
+        "question": "Der ____ Zug nach Hamburg fährt auf Gleis 3 ein.",
+        "question_translation": "The ____ train to Hamburg is arriving at platform 3.",
+        "options": [
+          "nächste",
+          "nächsten",
+          "nächstes",
+          "nächster"
+        ],
+        "answer": "nächste",
+        "explanation": "'Der Zug' ist maskulin und steht im Nominativ. Nach dem bestimmten Artikel 'der' im Nominativ Singular Maskulinum erhält das Adjektiv bei der schwachen Deklination die Endung '-e'.",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_station_a2_W11_001",
+        "situation": "Sie möchten am Bahnhof ein Zugticket nach Berlin kaufen.",
+        "situation_icon": "🎫",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Guten Tag, ich möchte ein Ticket nach Berlin, bitte.",
+            "pronunciation": "Gu-ten Tak, ish mösh-te ain Ti-ket nah Ber-lin, bit-te.",
+            "translation": "Good day, I would like a ticket to Berlin, please.",
+            "isQuestion": false
+          },
+          {
+            "role": "Schaltermitarbeiter",
+            "text": "Für wann benötigen Sie das Ticket?",
+            "pronunciation": "Für van be-nö-ti-gen Zi das Ti-ket?",
+            "translation": "For when do you need the ticket?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich bin Tourist hier.",
+            "pronunciation": "Ish bin Tu-rist heer.",
+            "translation": "I am a tourist here."
+          },
+          {
+            "text": "Für heute Nachmittag.",
+            "pronunciation": "Für heu-te Nahk-mit-tak.",
+            "translation": "For this afternoon."
+          },
+          {
+            "text": "Das ist sehr gut.",
+            "pronunciation": "Das ist zeer guut.",
+            "translation": "That is very good."
+          }
+        ],
+        "answer": "Für heute Nachmittag.",
+        "explanation": "Die Frage 'Für wann benötigen Sie das Ticket?' fragt nach dem gewünschten Zeitpunkt. 'Für heute Nachmittag' gibt den Zeitpunkt an.",
+        "grammar_point": "Fragepronomen 'wann' und Präposition 'für' mit Zeitangaben.",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a2_W11_002",
+        "situation": "Sie suchen Ihren Zug nach Hamburg und fragen am Informationsschalter nach dem Bahnsteig.",
+        "situation_icon": "ℹ️",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Entschuldigen Sie, welcher Bahnsteig ist für den Zug nach Hamburg?",
+            "pronunciation": "Ent-shul-di-gen Zi, vel-sher Bahn-staig ist für den Tsuk nah Ham-burk?",
+            "translation": "Excuse me, which platform is for the train to Hamburg?",
+            "isQuestion": false
+          },
+          {
+            "role": "Mitarbeiter",
+            "text": "Wann fährt Ihr Zug ab?",
+            "pronunciation": "Van faert eer Tsuk ap?",
+            "translation": "When does your train depart?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Er fährt um 14:30 Uhr ab.",
+            "pronunciation": "Er faert um fir-tseen-drai-sig Uhr ap.",
+            "translation": "It departs at 2:30 PM."
+          },
+          {
+            "text": "Das ist ein schneller Zug.",
+            "pronunciation": "Das ist ain shnel-ler Tsuk.",
+            "translation": "That is a fast train."
+          },
+          {
+            "text": "Ich habe ein Ticket.",
+            "pronunciation": "Ish ha-be ain Ti-ket.",
+            "translation": "I have a ticket."
+          }
+        ],
+        "answer": "Er fährt um 14:30 Uhr ab.",
+        "explanation": "Die Frage 'Wann fährt Ihr Zug ab?' fragt nach der Abfahrtszeit des Zuges. 'Er fährt um 14:30 Uhr ab' gibt diese Zeit korrekt an.",
+        "grammar_point": "Fragepronomen 'wann' und trennbares Verb 'abfahren'.",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_station_a2_W11_001",
+        "phrase": "Entschuldigen Sie, von welchem Gleis fährt der Zug nach Berlin ab?",
+        "pronunciation": "엔트슐디겐 지, 폰 벨헴 글라이스 페어트 데어 쭉 나흐 베를린 압?",
+        "meaning": "실례합니다, 베를린행 기차는 몇 번 플랫폼에서 출발하나요?",
+        "usage": "Sie sind am Bahnhof und suchen Ihren Zug.",
+        "alternatives": [
+          {
+            "phrase": "Wo fährt der Zug nach Berlin ab?",
+            "pronunciation": "보 페어트 데어 쭉 나흐 베를린 압?",
+            "nuance": "더 간단하게 플랫폼을 묻는 질문입니다. (A simpler way to ask for the platform.)"
+          },
+          {
+            "phrase": "Welches Gleis hat der Zug nach Berlin?",
+            "pronunciation": "벨헤스 글라이스 핫 데어 쭉 나흐 베를린?",
+            "nuance": "베를린행 기차가 몇 번 플랫폼인지 직설적으로 묻는 표현입니다. (A direct way to ask which platform the train to Berlin has.)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Der Zug fährt von Gleis 5 ab.",
+            "pronunciation": "데어 쭉 페어트 폰 글라이스 퓐프 압.",
+            "translation": "기차는 5번 플랫폼에서 출발합니다."
+          },
+          {
+            "text": "Moment, ich schaue mal nach.",
+            "pronunciation": "모멘트, 이히 샤우에 말 나흐.",
+            "translation": "잠시만요, 제가 확인해 볼게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_002",
+        "phrase": "Ich hätte gerne eine Fahrkarte nach Hamburg, bitte.",
+        "pronunciation": "이히 헷테 게르네 아이네 파어카르테 나흐 함부르크, 비테.",
+        "meaning": "함부르크행 기차표 한 장 부탁합니다. (직역: 저는 함부르크행 기차표를 갖고 싶습니다.)",
+        "usage": "Sie möchten am Schalter eine Fahrkarte kaufen.",
+        "alternatives": [
+          {
+            "phrase": "Wie viel kostet eine Fahrkarte nach Hamburg?",
+            "pronunciation": "비 필 코스테트 아이네 파어카르테 나흐 함부르크?",
+            "nuance": "가격을 직접적으로 묻는 질문입니다. (Directly asks for the price.)"
+          },
+          {
+            "phrase": "Eine Fahrkarte nach Hamburg, einfach, bitte.",
+            "pronunciation": "아이네 파어카르테 나흐 함부르크, 아인파흐, 비테.",
+            "nuance": "함부르크행 편도 티켓을 요청하는 표현입니다. (Requesting a one-way ticket to Hamburg.)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Einfach oder hin und zurück?",
+            "pronunciation": "아인파흐 오더 힌 운트 추뤽?",
+            "translation": "편도인가요, 왕복인가요?"
+          },
+          {
+            "text": "Das macht 25 Euro.",
+            "pronunciation": "다스 마흐트 퓐프운트츠반치히 오이로.",
+            "translation": "25유로입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_003",
+        "phrase": "Hat der Zug nach München Verspätung?",
+        "pronunciation": "핫 데어 쭉 나흐 뮌헨 페어슈페퉁?",
+        "meaning": "뮌헨행 기차가 연착되나요?",
+        "usage": "Sie sehen eine Verspätungsanzeige oder möchten den Status des Zuges wissen.",
+        "alternatives": [
+          {
+            "phrase": "Wann kommt der Zug aus Frankfurt an?",
+            "pronunciation": "반 콤트 데어 쭉 아우스 프랑크푸르트 안?",
+            "nuance": "프랑크푸르트발 기차의 도착 시간을 묻는 질문입니다. (Asks for the arrival time of the train from Frankfurt.)"
+          },
+          {
+            "phrase": "Ist dieser Zug pünktlich?",
+            "pronunciation": "이스트 디저 쭉 퓐크틀리히?",
+            "nuance": "이 기차가 정시인지 묻는 표현입니다. (Asks if this train is on time.)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, er hat etwa 15 Minuten Verspätung.",
+            "pronunciation": "야, 에어 핫 에트바 퓐프첸 미누텐 페어슈페퉁.",
+            "translation": "네, 약 15분 연착입니다."
+          },
+          {
+            "text": "Nein, der Zug ist pünktlich.",
+            "pronunciation": "나인, 데어 쭉 이스트 퓐크틀리히.",
+            "translation": "아니요, 기차는 정시입니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}
