@@ -1,0 +1,462 @@
+{
+  "location": "station",
+  "level": "a1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_station_a1_W11_001",
+        "word": "der Zug",
+        "article": "der",
+        "plural": "die Züge",
+        "pronunciation": "데어 쭈그",
+        "meaning": "기차",
+        "example": "Der Zug fährt um 10 Uhr ab.",
+        "example_translation": "기차는 10시에 출발합니다.",
+        "example_pronunciation": "데어 쭈그 패어트 움 첸 우어 압.",
+        "tags": [
+          "교통",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_002",
+        "word": "die Fahrkarte",
+        "article": "die",
+        "plural": "die Fahrkarten",
+        "pronunciation": "디 파어카르테",
+        "meaning": "승차권, 티켓",
+        "example": "Ich brauche eine Fahrkarte nach Berlin.",
+        "example_translation": "저는 베를린행 승차권이 필요합니다.",
+        "example_pronunciation": "이히 브라우헤 아이네 파어카르테 나흐 베를린.",
+        "tags": [
+          "구매",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_003",
+        "word": "der Bahnsteig",
+        "article": "der",
+        "plural": "die Bahnsteige",
+        "pronunciation": "데어 반슈타익",
+        "meaning": "승강장, 플랫폼",
+        "example": "Der Zug kommt auf Bahnsteig 3 an.",
+        "example_translation": "기차는 3번 승강장에 도착합니다.",
+        "example_pronunciation": "데어 쭈그 콤트 아우프 반슈타익 드라이 안.",
+        "tags": [
+          "장소",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_004",
+        "word": "das Gleis",
+        "article": "das",
+        "plural": "die Gleise",
+        "pronunciation": "다스 글라이스",
+        "meaning": "선로",
+        "example": "Von welchem Gleis fährt der Zug?",
+        "example_translation": "몇 번 선로에서 기차가 출발하나요?",
+        "example_pronunciation": "폰 벨헴 글라이스 패어트 데어 쭈그?",
+        "tags": [
+          "장소",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_005",
+        "word": "die Abfahrt",
+        "article": "die",
+        "plural": "die Abfahrten",
+        "pronunciation": "디 압파어트",
+        "meaning": "출발",
+        "example": "Die Abfahrt ist um 14 Uhr.",
+        "example_translation": "출발은 오후 2시입니다.",
+        "example_pronunciation": "디 압파어트 이스트 움 피어첸 우어.",
+        "tags": [
+          "시간",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_006",
+        "word": "die Ankunft",
+        "article": "die",
+        "plural": "die Ankünfte",
+        "pronunciation": "디 안쿤프트",
+        "meaning": "도착",
+        "example": "Wann ist die Ankunft in München?",
+        "example_translation": "뮌헨 도착은 언제인가요?",
+        "example_pronunciation": "반 이스트 디 안쿤프트 인 뮌헨?",
+        "tags": [
+          "시간",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_007",
+        "word": "reisen",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "라이젠",
+        "meaning": "여행하다",
+        "example": "Ich reise gern mit dem Zug.",
+        "example_translation": "저는 기차로 여행하는 것을 좋아합니다.",
+        "example_pronunciation": "이히 라이제 게른 밋 뎀 쭈그.",
+        "tags": [
+          "동사",
+          "여행"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_008",
+        "word": "der Schalter",
+        "article": "der",
+        "plural": "die Schalter",
+        "pronunciation": "데어 샬터",
+        "meaning": "창구",
+        "example": "Kaufen Sie die Fahrkarte am Schalter.",
+        "example_translation": "창구에서 승차권을 구매하세요.",
+        "example_pronunciation": "카우펜 지 디 파어카르테 암 샬터.",
+        "tags": [
+          "장소",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_009",
+        "word": "die Information",
+        "article": "die",
+        "plural": "die Informationen",
+        "pronunciation": "디 인포르마치온",
+        "meaning": "안내소, 정보",
+        "example": "Wo ist die Information?",
+        "example_translation": "안내소는 어디에 있나요?",
+        "example_pronunciation": "보 이스트 디 인포르마치온?",
+        "tags": [
+          "장소",
+          "명사"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a1_W11_010",
+        "word": "einfach",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "아인파흐",
+        "meaning": "편도",
+        "example": "Eine Fahrkarte einfach nach Köln, bitte.",
+        "example_translation": "쾰른행 편도 티켓 한 장 부탁합니다.",
+        "example_pronunciation": "아이네 파어카르테 아인파흐 나흐 쾰른, 비테.",
+        "tags": [
+          "형용사",
+          "여행",
+          "구매"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_station_a1_W11_001",
+        "type": "fill_blank",
+        "topic": "Sein 동사 활용 (Präsens)",
+        "topic_explanation": "독일어에서 'sein'(~이다) 동사는 불규칙 동사로, 주어에 따라 형태가 변합니다. A1 레벨에서 가장 기본적이고 필수적인 동사입니다.",
+        "question": "Entschuldigen Sie, wo ____ der Zug nach Hamburg?",
+        "question_translation": "실례합니다, 함부르크행 기차는 어디에 있나요?",
+        "options": [
+          "ist",
+          "sind",
+          "seid",
+          "bist"
+        ],
+        "answer": "ist",
+        "explanation": "'der Zug'(기차)은 3인칭 단수이므로 'sein' 동사의 현재형은 'ist'가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "bin"
+          },
+          {
+            "pronoun": "du",
+            "form": "bist"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "ist"
+          },
+          {
+            "pronoun": "wir",
+            "form": "sind"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "seid"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "sind"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a1_W11_002",
+        "type": "declension_table",
+        "topic": "정관사 격변화 (Nominativ / Akkusativ)",
+        "topic_explanation": "독일어 명사는 성(gender)과 격(case)에 따라 정관사(der, die, das)의 형태가 변합니다. 기차역 상황에서 물건을 사거나 위치를 물을 때 주로 주격(Nominativ)과 4격(Akkusativ)이 사용됩니다.",
+        "question": "다음 표를 채우시오.",
+        "question_translation": "Fill in the following table.",
+        "options": [],
+        "answer": "",
+        "explanation": "Nominativ는 주어의 역할을 하며, Akkusativ는 직접 목적어의 역할을 합니다. 중성 명사는 Nom.과 Akk.에서 형태 변화가 없습니다.",
+        "related_table": [
+          {
+            "pronoun": "Maskulin (der)",
+            "form": "der (Nom.), den (Akk.)"
+          },
+          {
+            "pronoun": "Feminin (die)",
+            "form": "die (Nom.), die (Akk.)"
+          },
+          {
+            "pronoun": "Neutral (das)",
+            "form": "das (Nom.), das (Akk.)"
+          },
+          {
+            "pronoun": "Plural (die)",
+            "form": "die (Nom.), die (Akk.)"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a1_W11_003",
+        "type": "fill_blank",
+        "topic": "방향 전치사: nach / zu",
+        "topic_explanation": "'nach'는 도시, 국가(관사 없는 경우), 방향을 나타낼 때 사용하며, 'zu'는 사람, 건물, 특정 장소(관사가 필요한 경우)로 향할 때 사용합니다.",
+        "question": "Ich fahre ____ Berlin. Und du, fährst du ____ deiner Oma?",
+        "question_translation": "나는 베를린으로 갑니다. 그리고 너는, 너의 할머니 댁으로 가니?",
+        "options": [
+          "nach / zu",
+          "zu / nach",
+          "in / zu",
+          "an / nach"
+        ],
+        "answer": "nach / zu",
+        "explanation": "'Berlin'은 관사가 없는 도시명이므로 'nach'를 사용하고, 'deiner Oma'는 사람을 나타내므로 'zu'를 사용합니다.",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_station_a1_W11_001",
+        "situation": "기차역 매표소에서 베를린행 티켓을 구매합니다. 매표원이 편도인지 왕복인지 묻습니다.",
+        "situation_icon": "🎟️",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Eine Fahrkarte nach Berlin, bitte.",
+            "pronunciation": "아이네 파어카르테 나흐 베를린, 비테.",
+            "translation": "베를린행 티켓 한 장 부탁합니다."
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Einfach oder hin und zurück?",
+            "pronunciation": "아인파흐 오더 힌 운트 쭈뤽?",
+            "translation": "편도인가요, 왕복인가요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Einfach.",
+            "pronunciation": "아인파흐.",
+            "translation": "편도요."
+          },
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Vielen Dank.",
+            "pronunciation": "필렌 당크.",
+            "translation": "대단히 감사합니다."
+          }
+        ],
+        "answer": 0,
+        "explanation": "매표원이 편도(einfach)인지 왕복(hin und zurück)인지 물었으므로, 자신의 의사에 따라 'Einfach'(편도)를 선택하는 것이 가장 적절합니다.",
+        "grammar_point": "질문 (Einfach oder...?)에 대한 적절한 답변",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a1_W11_002",
+        "situation": "기차역에서 함부르크행 기차의 출발 선로를 묻는 상황입니다.",
+        "situation_icon": "❓",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Entschuldigen Sie, von welchem Gleis fährt der Zug nach Hamburg ab?",
+            "pronunciation": "엔트슐디겐 지, 폰 벨헴 글라이스 패어트 데어 쭈그 나흐 함부르크 압?",
+            "translation": "실례합니다, 함부르크행 기차는 몇 번 선로에서 출발하나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Information",
+            "text": "Der Zug fährt von Gleis 7 ab.",
+            "pronunciation": "데어 쭈그 패어트 폰 글라이스 지벤 압.",
+            "translation": "기차는 7번 선로에서 출발합니다."
+          }
+        ],
+        "choices": [
+          {
+            "text": "Vielen Dank!",
+            "pronunciation": "필렌 당크!",
+            "translation": "정말 감사합니다!"
+          },
+          {
+            "text": "Wo ist Gleis 7?",
+            "pronunciation": "보 이스트 글라이스 지벤?",
+            "translation": "7번 선로는 어디에 있나요?"
+          },
+          {
+            "text": "Ich verstehe nicht.",
+            "pronunciation": "이히 페어슈테에 니히트.",
+            "translation": "이해하지 못했습니다."
+          }
+        ],
+        "answer": 0,
+        "explanation": "질문에 대한 답을 들었으므로, 가장 자연스러운 응답은 'Vielen Dank!' (감사합니다!)입니다. 다른 선택지는 정보를 이해하지 못했거나 추가 질문이 필요한 경우에 사용됩니다.",
+        "grammar_point": "질문에 대한 감사 표현",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_station_a1_W11_001",
+        "phrase": "Eine Fahrkarte nach ____, bitte.",
+        "pronunciation": "아이네 파어카르테 나흐 ____, 비테.",
+        "meaning": "____행 티켓 한 장 부탁합니다.",
+        "usage": "매표소에서 목적지까지 가는 기차표를 구매할 때 사용합니다. 빈칸에 도시나 지역 이름을 넣습니다.",
+        "alternatives": [
+          {
+            "phrase": "Ich hätte gern eine Fahrkarte nach ____.",
+            "pronunciation": "이히  hätte 게른 아이네 파어카르테 나흐 ____.",
+            "nuance": "조금 더 공손한 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Einfach oder hin und zurück?",
+            "pronunciation": "아인파흐 오더 힌 운트 쭈뤽?",
+            "translation": "편도인가요, 왕복인가요?"
+          },
+          {
+            "text": "Das macht ____ Euro.",
+            "pronunciation": "다스 마흐트 ____ 오이로.",
+            "translation": "____ 유로입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a1_W11_002",
+        "phrase": "Von welchem Gleis fährt der Zug nach ____ ab?",
+        "pronunciation": "폰 벨헴 글라이스 패어트 데어 쭈그 나흐 ____ 압?",
+        "meaning": "____행 기차는 몇 번 선로에서 출발하나요?",
+        "usage": "특정 목적지행 기차가 어느 선로에서 출발하는지 물어볼 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Welches Gleis hat der Zug nach ____?",
+            "pronunciation": "벨헤스 글라이스 핫 데어 쭈그 나흐 ____?",
+            "nuance": "직관적으로 물어보는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Von Gleis ____.",
+            "pronunciation": "폰 글라이스 ____.",
+            "translation": "____번 선로에서요."
+          },
+          {
+            "text": "Gleis ____.",
+            "pronunciation": "글라이스 ____.",
+            "translation": "____번 선로."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a1_W11_003",
+        "phrase": "Wann kommt der Zug an / fährt der Zug ab?",
+        "pronunciation": "반 콤트 데어 쭈그 안 / 패어트 데어 쭈그 압?",
+        "meaning": "기차는 언제 도착하나요 / 출발하나요?",
+        "usage": "기차의 도착 또는 출발 시간을 물어볼 때 사용합니다. 'ankommen'(도착하다)과 'abfahren'(출발하다)은 분리 동사입니다.",
+        "alternatives": [
+          {
+            "phrase": "Wie spät ist die Ankunft / Abfahrt?",
+            "pronunciation": "비 슈페트 이스트 디 안쿤프트 / 압파어트?",
+            "nuance": "명사형으로 '도착/출발은 몇 시인가요?'라고 묻는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Um ____ Uhr.",
+            "pronunciation": "움 ____ 우어.",
+            "translation": "____시에요."
+          },
+          {
+            "text": "In ____ Minuten.",
+            "pronunciation": "인 ____ 미누텐.",
+            "translation": "____분 후에요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a1_W11_004",
+        "phrase": "Einfach. / Hin und zurück.",
+        "pronunciation": "아인파흐. / 힌 운트 쭈뤽.",
+        "meaning": "편도요. / 왕복이요.",
+        "usage": "티켓을 구매할 때 매표원이 'Einfach oder hin und zurück?'이라고 물었을 때 대답하는 표현입니다.",
+        "alternatives": [
+          {
+            "phrase": "Nur einfach, bitte.",
+            "pronunciation": "누어 아인파흐, 비테.",
+            "nuance": "강조하는 뉘앙스('오직 편도'라는 의미)를 가집니다."
+          },
+          {
+            "phrase": "Beide Wege, bitte.",
+            "pronunciation": "바이데 베게, 비테.",
+            "nuance": "'양방향'이라는 의미로 '왕복'을 표현하는 방식입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "In Ordnung. Das macht ____ Euro.",
+            "pronunciation": "인 오르트눙. 다스 마흐트 ____ 오이로.",
+            "translation": "알겠습니다. ____ 유로입니다."
+          },
+          {
+            "text": "Hier ist Ihre Fahrkarte.",
+            "pronunciation": "히어 이스트 이레 파어카르테.",
+            "translation": "여기 티켓이 있습니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}
