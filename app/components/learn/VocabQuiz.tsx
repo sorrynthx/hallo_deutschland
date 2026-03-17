@@ -117,13 +117,13 @@ export default function VocabQuiz({ items, locationLabel, onComplete, partCollec
                 </QuizCard>
             </div>
 
-            <div className="px-4 pt-3 pb-5 flex gap-2.5">
-                <button className="btn btn-wrong flex-1 p-4 text-[14px] font-bold" disabled={!!result} onClick={() => handleAnswer('unknown')}
-                    style={{ opacity: result && result !== 'unknown' ? 0.4 : 1 }}>
+            <div style={{ padding: '12px 16px 20px', display: 'flex', gap: '10px' }}>
+                <button className="btn btn-wrong" disabled={!!result} onClick={() => handleAnswer('unknown')}
+                    style={{ flex: 1, padding: '16px', fontSize: '14px', fontWeight: 700, opacity: result && result !== 'unknown' ? 0.4 : 1 }}>
                     ❌ 몰라요
                 </button>
-                <button className="btn btn-correct glow-pulse flex-1 p-4 text-[14px] font-bold" disabled={!!result} onClick={() => handleAnswer('know')}
-                    style={{ opacity: result && result !== 'know' ? 0.4 : 1 }}>
+                <button className="btn btn-correct glow-pulse" disabled={!!result} onClick={() => handleAnswer('know')}
+                    style={{ flex: 1, padding: '16px', fontSize: '14px', fontWeight: 700, opacity: result && result !== 'know' ? 0.4 : 1 }}>
                     ⭕ 알아요!
                 </button>
             </div>

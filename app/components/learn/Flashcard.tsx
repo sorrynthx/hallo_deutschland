@@ -92,13 +92,11 @@ export default function Flashcard({ items, locationLabel, onComplete, partCollec
                     )}
                 </div>
 
-                <div className="flex gap-2.5">
-                    <button className="btn btn-wrong flex-1 p-3.5 text-[13px] font-bold" onClick={() => handleAnswer('unknown')}>
-                        😕 어려워요
-                    </button>
-                    <button className="btn btn-correct flex-1 p-3.5 text-[13px] font-bold" onClick={() => handleAnswer('know')}>
-                        😄 알아요!
-                    </button>
+                <div style={{ display: 'flex', gap: '10px' }}>
+                    <button className="btn btn-wrong" onClick={() => handleAnswer('unknown')}
+                        style={{ flex: 1, padding: '14px', fontSize: '13px', fontWeight: 700 }}>😕 어려워요</button>
+                    <button className="btn btn-correct" onClick={() => handleAnswer('know')}
+                        style={{ flex: 1, padding: '14px', fontSize: '13px', fontWeight: 700 }}>😄 알아요!</button>
                 </div>
                 <div className="text-center text-[9px] text-[var(--text-dim)] font-mono">
                     카드를 탭해서 뜻을 확인한 후 답해요
