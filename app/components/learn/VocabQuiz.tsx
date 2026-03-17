@@ -1,14 +1,29 @@
 // app/components/learn/VocabQuiz.tsx
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import CompleteScreen from './CompleteScreen'
 import EmptyState from './EmptyState'
-import { VocabItem } from '../../types'
-import { ARTICLE_COLOR } from '../../constants'
-import { useQuizLogic } from '../../hooks/useQuizLogic'
-import { ProgressBar } from '../ui/ProgressBar'
-import { QuizCard } from '../ui/QuizCard'
+
+interface VocabItem {
+    id: string
+    word: string
+    article: string | null
+    plural: string | null
+    pronunciation: string
+    meaning: string
+    example: string
+    example_translation: string
+    example_pronunciation: string
+    tags: string[]
+    week: string
+}
+
+const ARTICLE_COLOR: Record<string, string> = {
+    der: '#78b4e0',
+    die: '#e88a8a',
+    das: '#6BCB77',
+}
 
 interface VocabQuizProps {
     items: VocabItem[]
@@ -17,52 +32,39 @@ interface VocabQuizProps {
     partCollected?: boolean
 }
 
-/**
- * VocabQuiz 컴포넌트: 단어 암기 여부를 묻는 형태의 퀴즈입니다.
- * '알아요/몰라요' 버튼을 통해 상태가 기록되며 카드가 뒤집혀 뜻을 보여줍니다.
- */
 export default function VocabQuiz({ items, locationLabel, onComplete, partCollected = false }: VocabQuizProps) {
-    // 퀴즈 공통 상태(진행도, 점수) 관리 훅
-    const { index, done, score, currentItem: current, handleNext, handleRetry } = useQuizLogic(items)
-
-    // 카드가 뒤집혔는지 여부를 관리하는 로컬 상태
+    const [index, setIndex] = useState(0)
     const [flipped, setFlipped] = useState(false)
-
-    // 사용자가 방금 누른 답변('know' 또는 'unknown')을 잠시 시각적으로 표시하기 위한 상태
     const [result, setResult] = useState<'know' | 'unknown' | null>(null)
+    const [done, setDone] = useState(false)
+    const [score, setScore] = useState({ know: 0, unknown: 0 })
 
-    // React 공식 권장 패턴(렌더링 중 상태 업데이트)을 사용하여 인덱스 변경 시 로컬 상태 초기화
-    const [prevIndex, setPrevIndex] = useState(index)
+    useEffect(() => {
+        setIndex(0); setFlipped(false); setResult(null)
+        setDone(false); setScore({ know: 0, unknown: 0 })
+    }, [items])
 
-    if (index !== prevIndex) {
-        setPrevIndex(index)
-        setFlipped(false)
-        setResult(null)
-    }
+    const current = items[index]
+    const progress = items.length > 0 ? (index / items.length) * 100 : 0
 
-    /**
-     * 답변 버튼('알아요', '몰라요')을 눌렀을 때 실행됩니다.
-     * 결과(result) 상태를 잠시 유지하여 테두리 색상 등에 피드백을 주고,
-     * 일정 시간(600ms) 지연 후에 실질적인 '다음 문제로 넘어가기' 로직(handleNext)을 호출합니다.
-     */
     const handleAnswer = (answer: 'know' | 'unknown') => {
         setResult(answer)
+        setScore(prev => ({ ...prev, [answer]: prev[answer] + 1 }))
         setTimeout(() => {
-            handleNext(answer === 'know')
+            if (index + 1 >= items.length) { setDone(true) }
+            else { setIndex(i => i + 1); setFlipped(false); setResult(null) }
         }, 600)
     }
 
-    // 처음부터 다시 풀기 시 훅의 상태 리셋과 로컬 상태 리셋을 동시에 수행합니다.
-    const onRetry = () => {
-        handleRetry()
-        setFlipped(false)
-        setResult(null)
+    const handleRetry = () => {
+        setIndex(0); setFlipped(false); setResult(null)
+        setDone(false); setScore({ know: 0, unknown: 0 })
     }
 
     if (done) return (
         <CompleteScreen
             score={score}
-            onRetry={onRetry}
+            onRetry={handleRetry}
             onComplete={onComplete}
             partCollected={partCollected}
         />
@@ -71,50 +73,58 @@ export default function VocabQuiz({ items, locationLabel, onComplete, partCollec
 
     return (
         <>
-            <ProgressBar current={index + 1} total={items.length} label="진행" />
+            <div style={{ padding: '10px 16px 0' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '4px' }}>
+                    <span style={{ fontSize: '9px', color: 'var(--text-dim)', fontFamily: 'Space Mono, monospace' }}>진행</span>
+                    <span style={{ fontSize: '9px', color: 'var(--text-dim)', fontFamily: 'Space Mono, monospace' }}>{index + 1} / {items.length}</span>
+                </div>
+                <div className="progress-track"><div className="progress-fill" style={{ width: `${progress}%` }} /></div>
+            </div>
 
-            <div className="flex-1 flex flex-col p-4 gap-3.5 overflow-y-auto">
-                <div className="flex items-end gap-2.5">
-                    <div className="float-anim text-[36px] shrink-0" style={{ animationDuration: '2s' }}>🐶</div>
-                    <div className="bg-[var(--bg-panel)] border-[1.5px] border-[rgba(255,255,255,.1)] rounded-[12px_12px_12px_2px] py-2.5 px-3 flex-1">
-                        <div className="text-[10px] text-[var(--text-secondary)]">이 단어... 아는가요?</div>
-                        <div className="text-[9px] text-[var(--text-dim)] mt-0.5 italic">Kennst du dieses Wort?</div>
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: '16px', gap: '14px', overflowY: 'auto' }}>
+                <div style={{ display: 'flex', alignItems: 'flex-end', gap: '10px' }}>
+                    <div className="float-anim" style={{ fontSize: '36px', flexShrink: 0, animationDuration: '2s' }}>🐶</div>
+                    <div style={{ background: 'var(--bg-panel)', border: '1.5px solid rgba(255,255,255,.1)', borderRadius: '12px 12px 12px 2px', padding: '10px 12px', flex: 1 }}>
+                        <div style={{ fontSize: '10px', color: 'var(--text-secondary)' }}>이 단어... 아는가요?</div>
+                        <div style={{ fontSize: '9px', color: 'var(--text-dim)', marginTop: '2px', fontStyle: 'italic' }}>Kennst du dieses Wort?</div>
                     </div>
                 </div>
 
-                <QuizCard onClick={() => setFlipped(f => !f)} className="cursor-pointer text-center transition-[outline] duration-200" style={{
+                <div className="card" onClick={() => setFlipped(f => !f)} style={{
+                    cursor: 'pointer', textAlign: 'center',
                     outline: result === 'know' ? '2px solid var(--mint)' : result === 'unknown' ? '2px solid var(--wrong)' : 'none',
+                    transition: 'outline .2s',
                 }}>
                     {!flipped ? (
-                        <div className="py-3">
+                        <div style={{ padding: '12px 0' }}>
                             {current.article && (
-                                <div className="text-[11px] font-mono font-bold mb-1.5" style={{ color: ARTICLE_COLOR[current.article] ?? 'var(--text-secondary)' }}>
+                                <div style={{ fontSize: '11px', fontFamily: 'Space Mono, monospace', fontWeight: 700, color: ARTICLE_COLOR[current.article] ?? 'var(--text-secondary)', marginBottom: '6px' }}>
                                     {current.article}
-                                    {current.plural && <span className="text-[var(--text-dim)] font-normal"> · pl. {current.plural}</span>}
+                                    {current.plural && <span style={{ color: 'var(--text-dim)', fontWeight: 400 }}> · pl. {current.plural}</span>}
                                 </div>
                             )}
-                            <div className="text-[32px] font-bold text-[var(--text-primary)] tracking-[.04em]">{current.word}</div>
-                            <div className="text-[13px] text-[var(--mint)] mt-1.5 font-mono">{current.pronunciation}</div>
-                            <div className="text-[10px] text-[var(--text-dim)] mt-2.5 font-mono">탭하면 예문 보기 👆</div>
+                            <div style={{ fontSize: '32px', fontWeight: 700, color: 'var(--text-primary)', letterSpacing: '.04em' }}>{current.word}</div>
+                            <div style={{ fontSize: '13px', color: 'var(--mint)', marginTop: '6px', fontFamily: 'Space Mono, monospace' }}>{current.pronunciation}</div>
+                            <div style={{ fontSize: '10px', color: 'var(--text-dim)', marginTop: '10px', fontFamily: 'Space Mono, monospace' }}>탭하면 예문 보기 👆</div>
                         </div>
                     ) : (
-                        <div className="py-2 text-left">
-                            <div className="text-[22px] font-bold text-[var(--text-primary)] text-center mb-3">{current.meaning}</div>
-                            <div className="border-t border-[rgba(255,255,255,.08)] pt-3">
-                                <div className="text-[11px] text-[var(--text-secondary)] italic mb-1">{current.example}</div>
-                                <div className="text-[11px] text-[var(--mint)] font-mono mb-0.5">{current.example_pronunciation}</div>
-                                <div className="text-[11px] text-[var(--text-dim)]">{current.example_translation}</div>
+                        <div style={{ padding: '8px 0', textAlign: 'left' }}>
+                            <div style={{ fontSize: '22px', fontWeight: 700, color: 'var(--text-primary)', textAlign: 'center', marginBottom: '12px' }}>{current.meaning}</div>
+                            <div style={{ borderTop: '1px solid rgba(255,255,255,.08)', paddingTop: '12px' }}>
+                                <div style={{ fontSize: '11px', color: 'var(--text-secondary)', fontStyle: 'italic', marginBottom: '4px' }}>{current.example}</div>
+                                <div style={{ fontSize: '11px', color: 'var(--mint)', fontFamily: 'Space Mono, monospace', marginBottom: '2px' }}>{current.example_pronunciation}</div>
+                                <div style={{ fontSize: '11px', color: 'var(--text-dim)' }}>{current.example_translation}</div>
                             </div>
                             {current.tags?.length > 0 && (
-                                <div className="flex gap-1 flex-wrap mt-2.5">
+                                <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap', marginTop: '10px' }}>
                                     {current.tags.map(tag => (
-                                        <span key={tag} className="badge bg-[rgba(78,205,196,.08)] border border-[rgba(78,205,196,.2)] text-[var(--text-dim)] text-[8px]">{tag}</span>
+                                        <span key={tag} className="badge" style={{ background: 'rgba(78,205,196,.08)', border: '1px solid rgba(78,205,196,.2)', color: 'var(--text-dim)', fontSize: '8px' }}>{tag}</span>
                                     ))}
                                 </div>
                             )}
                         </div>
                     )}
-                </QuizCard>
+                </div>
             </div>
 
             <div style={{ padding: '12px 16px 20px', display: 'flex', gap: '10px' }}>

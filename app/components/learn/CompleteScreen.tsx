@@ -3,7 +3,6 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { QuizCard } from '../ui/QuizCard'
 
 interface CompleteScreenProps {
     score: { know: number; unknown: number }
@@ -30,59 +29,72 @@ export default function CompleteScreen({
         onComplete?.()
         // 부품 획득이면 애니메이션
         if (partCollected) {
-            const timer = setTimeout(() => setShowPart(true), 400)
-            return () => clearTimeout(timer)
+            setTimeout(() => setShowPart(true), 400)
         }
-    }, [onComplete, partCollected])
+    }, [])
 
     return (
-        <div className="flex-1 flex flex-col items-center justify-center p-6 gap-5">
-            <div className="float-anim text-[64px]">🐶</div>
+        <div style={{
+            flex: 1, display: 'flex', flexDirection: 'column',
+            alignItems: 'center', justifyContent: 'center',
+            padding: '24px', gap: '20px',
+        }}>
 
-            <div className="text-center">
-                <div className="text-[10px] text-[var(--mint)] font-mono font-bold mb-2">
+            <div className="float-anim" style={{ fontSize: '64px' }}>🐶</div>
+
+            <div style={{ textAlign: 'center' }}>
+                <div style={{ fontSize: '10px', color: 'var(--mint)', fontFamily: 'Space Mono, monospace', fontWeight: 700, marginBottom: '8px' }}>
                     COMPLETE!
                 </div>
-                <div className="text-[22px] font-bold text-[var(--text-primary)]">
+                <div style={{ fontSize: '22px', fontWeight: 700, color: 'var(--text-primary)' }}>
                     수고했어요!
                 </div>
             </div>
 
             {/* 부품 획득 */}
             {showPart && (
-                <div className="bg-[rgba(78,205,196,.12)] border-2 border-[var(--mint)] rounded-[14px] px-5 py-3.5 text-center animate-[slide-up_.4s_cubic-bezier(.22,1,.36,1)]">
-                    <div className="text-[32px] mb-1.5 ufo-glow">🛸</div>
-                    <div className="text-[10px] text-[var(--mint)] font-mono font-bold mb-1">
+                <div style={{
+                    background: 'rgba(78,205,196,.12)',
+                    border: '2px solid var(--mint)',
+                    borderRadius: '14px',
+                    padding: '14px 20px',
+                    textAlign: 'center',
+                    animation: 'slide-up .4s cubic-bezier(.22,1,.36,1)',
+                }}>
+                    <div style={{ fontSize: '32px', marginBottom: '6px' }} className="ufo-glow">🛸</div>
+                    <div style={{ fontSize: '10px', color: 'var(--mint)', fontFamily: 'Space Mono, monospace', fontWeight: 700, marginBottom: '4px' }}>
                         PART COLLECTED!
                     </div>
-                    <div className="text-[13px] text-[var(--text-primary)] font-bold">
+                    <div style={{ fontSize: '13px', color: 'var(--text-primary)', fontWeight: 700 }}>
                         우주선 부품 획득!
                     </div>
                 </div>
             )}
 
             {/* 점수 */}
-            <QuizCard className="w-full flex gap-3">
-                <div className="flex-1 text-center">
-                    <div className="text-[28px] font-bold text-[var(--mint)]">{score.know}</div>
-                    <div className="text-[10px] text-[var(--text-secondary)] font-mono">{knowLabel}</div>
+            <div className="card" style={{ width: '100%', display: 'flex', gap: '12px' }}>
+                <div style={{ flex: 1, textAlign: 'center' }}>
+                    <div style={{ fontSize: '28px', fontWeight: 700, color: 'var(--mint)' }}>{score.know}</div>
+                    <div style={{ fontSize: '10px', color: 'var(--text-secondary)', fontFamily: 'Space Mono, monospace' }}>{knowLabel}</div>
                 </div>
-                <div className="w-[1px] bg-[rgba(255,255,255,.1)]" />
-                <div className="flex-1 text-center">
-                    <div className="text-[28px] font-bold text-[var(--wrong)]">{score.unknown}</div>
-                    <div className="text-[10px] text-[var(--text-secondary)] font-mono">{unknownLabel}</div>
+                <div style={{ width: '1px', background: 'rgba(255,255,255,.1)' }} />
+                <div style={{ flex: 1, textAlign: 'center' }}>
+                    <div style={{ fontSize: '28px', fontWeight: 700, color: 'var(--wrong)' }}>{score.unknown}</div>
+                    <div style={{ fontSize: '10px', color: 'var(--text-secondary)', fontFamily: 'Space Mono, monospace' }}>{unknownLabel}</div>
                 </div>
-            </QuizCard>
+            </div>
 
-            <div className="flex flex-col gap-2.5 w-full">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%' }}>
                 <button
-                    className="btn btn-mint w-full p-3.5 text-[13px]"
+                    className="btn btn-mint"
+                    style={{ width: '100%', padding: '14px', fontSize: '13px' }}
                     onClick={onRetry}
                 >
                     🔄 다시 풀기
                 </button>
                 <button
-                    className="btn w-full p-3.5 text-[13px] border-[rgba(255,255,255,.2)] text-[var(--text-secondary)]"
+                    className="btn"
+                    style={{ width: '100%', padding: '14px', fontSize: '13px', borderColor: 'rgba(255,255,255,.2)', color: 'var(--text-secondary)' }}
                     onClick={() => router.back()}
                 >
                     ← 마을로 돌아가기

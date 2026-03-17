@@ -29,9 +29,16 @@ def build_prompt(location: dict, level: str, config: dict, week: str) -> str:
 - id 형식: gram_{loc_id}_{level}_{week}_001
 - 필드: type (fill_blank / conjugation_table / declension_table),
   topic, topic_explanation,
-  question, question_translation,
+  question (빈칸은 반드시 ____ 4개 언더바로 표시),
+  question_translation,
   options (4개 배열), answer, explanation,
-  related_table (배열, 없으면 빈 배열), week
+  related_table (배열, 없으면 반드시 빈 배열 [] 로),
+  week
+- related_table 필드명 규칙 (반드시 준수):
+  * conjugation_table: pronoun (절대 person 사용 금지), form
+  * declension_table: pronoun (절대 person 사용 금지), form
+  * fill_blank 의 related_table: pronoun (절대 person 사용 금지), form
+  * 예시: {{"pronoun": "ich", "form": "bin"}}
 - {level.upper()} 레벨에 적합한 문법""")
 
     if conv_count > 0:
@@ -61,6 +68,11 @@ def build_prompt(location: dict, level: str, config: dict, week: str) -> str:
 
 ## 생성 항목
 {types_str}
+
+## 중요 규칙
+1. related_table 의 인칭 필드는 반드시 "pronoun" 키를 사용하세요. "person" 키는 절대 사용 금지.
+2. 빈칸 표시는 반드시 ____ (언더바 4개)를 사용하세요.
+3. related_table 이 없는 경우 빈 배열 [] 로 채워주세요.
 
 ## 출력 규칙
 - 순수 JSON만 출력 (마크다운 코드블록, 설명 없이)
