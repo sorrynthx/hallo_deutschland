@@ -46,7 +46,7 @@ function FillBlank({ item, onNext }: { item: GrammarItem; onNext: (correct: bool
             </div>
 
             <div className="card" style={{ textAlign: 'center', padding: '20px' }}>
-                <div style={{ fontSize: '18px', fontWeight: 700, color: 'var(--text-primary)', lineHeight: 1.8 }}>
+                <div style={{ fontSize: '18px', fontWeight: 700, color: 'var(--text-primary)', lineHeight: 1.8, whiteSpace: 'pre-wrap', wordBreak: 'keep-all' }}>
                     {item.question.split('____').map((part, i, arr) => (
                         <span key={i}>
                             {part}
@@ -136,7 +136,7 @@ function ConjugationTable({ item, onNext }: { item: GrammarItem; onNext: (correc
                         style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', padding: '10px 12px', cursor: 'pointer', borderBottom: i < item.related_table.length - 1 ? '1px solid rgba(255,255,255,.04)' : 'none', background: revealed.has(i) ? 'rgba(78,205,196,.04)' : 'transparent' }}>
                         <span style={{ fontSize: '12px', color: 'var(--text-secondary)', fontFamily: 'Space Mono, monospace' }}>{row.pronoun}</span>
                         <span style={{ fontSize: '13px', fontWeight: 700, color: revealed.has(i) ? 'var(--mint)' : 'transparent', background: revealed.has(i) ? 'transparent' : 'rgba(255,255,255,.1)', borderRadius: '4px', padding: revealed.has(i) ? '0' : '2px 8px', transition: 'all .2s' }}>
-                            {row.form}
+                            {row.form ?? row.dative ?? row.nominative}
                         </span>
                     </div>
                 ))}
