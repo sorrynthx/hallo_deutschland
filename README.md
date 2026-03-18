@@ -6,9 +6,7 @@
 
 ---
 
-## 📖 프로젝트 개요
-## 📖 Project Overview
-## 📖 Projektübersicht
+## 📖 Project Overview / Projektübersicht
 
 혼자 독일어를 공부하기 위해 만든 개인용 모바일 학습 앱입니다.  
 A personal mobile learning app built for self-studying German.  
@@ -24,9 +22,7 @@ Die Lerninhalte werden wöchentlich automatisch mit der Google Gemini API erstel
 
 ---
 
-## 🏗️ 시스템 아키텍처
-## 🏗️ System Architecture
-## 🏗️ Systemarchitektur
+## 🏗️ System Architecture / Systemarchitektur
 
     ┌─────────────────────────────────────────────────────────┐
     │                  RASPBERRY PI 3                          │
@@ -58,9 +54,7 @@ Die Lerninhalte werden wöchentlich automatisch mit der Google Gemini API erstel
 
 ---
 
-## 🛠️ 기술 스택
 ## 🛠️ Tech Stack
-## 🛠️ Tech-Stack
 
 Frontend / Frontend / Frontend  
 Next.js 15 + TypeScript  
@@ -76,13 +70,9 @@ Vercel
 
 ---
 
-## 💡 설계 결정 이유
-## 💡 Design Decisions
-## 💡 Designentscheidungen
+## 💡 Design Decisions / Designentscheidungen
 
-### 왜 DB를 사용하지 않았나요?
-### Why no database?
-### Warum keine Datenbank?
+### Why no database? / Warum keine Datenbank?
 
 개인 앱에 DB는 불필요한 비용과 복잡성을 만듭니다.  
 A database adds unnecessary cost and complexity.  
@@ -94,9 +84,7 @@ localStorage reicht aus.
 
 ---
 
-### 왜 Raspberry Pi인가?
-### Why Raspberry Pi?
-### Warum Raspberry Pi?
+### Why Raspberry Pi? / Warum Raspberry Pi?
 
 기존 장비 활용으로 비용 0원  
 Zero cost using existing device  
@@ -104,9 +92,7 @@ Null Kosten durch vorhandenes Gerät
 
 ---
 
-## 📱 주요 기능
-## 📱 Features
-## 📱 Funktionen
+## 📱 Features / Funktionen
 
 마을 지도 기반 학습  
 Village-based learning UI  
@@ -122,9 +108,7 @@ Gamification (Punkte, Teile)
 
 ---
 
-## 🚀 실행 방법
-## 🚀 Getting Started
-## 🚀 Ausführung
+## 🚀 Getting Started / Ausführung
 
 git clone https://github.com/sorrynthx/hallo_deutschland.git  
 cd hallo_deutschland  
@@ -133,9 +117,7 @@ npm run dev
 
 ---
 
-## 📂 프로젝트 구조
-## 📂 Project Structure
-## 📂 Projektstruktur
+## 📂 Project Structure / Projektstruktur
 
     hallo-deutschland/
     ├── app/
@@ -157,9 +139,7 @@ npm run dev
 
 ---
 
-## 🎨 디자인 컨셉
-## 🎨 Design Concept
-## 🎨 Designkonzept
+## 🎨 Design Concept / Designkonzept
 
 황혼 마을 + 외계 기술 대비  
 Twilight village + alien tech  
@@ -167,9 +147,7 @@ Dämmerungsdorf + Alien-Technologie
 
 ---
 
-## 📊 비용 구조
-## 📊 Cost Structure
-## 📊 Kostenstruktur
+## 📊 Cost Structure / Kostenstruktur
 
 총 비용 $0  
 Total cost $0  
@@ -177,9 +155,7 @@ Gesamtkosten $0
 
 ---
 
-## 👨‍💻 개발자
-## 👨‍💻 Developer
-## 👨‍💻 Entwickler
+## 👨‍💻 Developer / Entwickler
 
 개인 프로젝트  
 Personal project  
