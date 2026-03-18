@@ -1,0 +1,398 @@
+{
+  "location": "library",
+  "level": "b1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_library_b1_W11_001",
+        "word": "ausleihen",
+        "article": null,
+        "plural": null,
+        "pronunciation": "아우스라이헨",
+        "meaning": "빌리다, 대출하다",
+        "example": "Ich möchte dieses Buch ausleihen.",
+        "example_translation": "저는 이 책을 빌리고 싶습니다.",
+        "example_pronunciation": "이히 뫼히테 디제스 부흐 아우스라이헨.",
+        "tags": [
+          "library",
+          "verb",
+          "borrow"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_b1_W11_002",
+        "word": "verlängern",
+        "article": null,
+        "plural": null,
+        "pronunciation": "페어랭어른",
+        "meaning": "(기간을) 연장하다",
+        "example": "Kann ich die Ausleihfrist für dieses Buch verlängern?",
+        "example_translation": "이 책의 대출 기간을 연장할 수 있나요?",
+        "example_pronunciation": "칸 이히 디 아우스라이프리스트 퓌어 디제스 부흐 페어랭어른?",
+        "tags": [
+          "library",
+          "verb",
+          "extend"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_b1_W11_003",
+        "word": "Bibliotheksausweis",
+        "article": "der",
+        "plural": "die Bibliotheksausweise",
+        "pronunciation": "비블리오텍스아우스바이쓰",
+        "meaning": "도서관 회원증",
+        "example": "Haben Sie Ihren Bibliotheksausweis dabei?",
+        "example_translation": "도서관 회원증을 가지고 계신가요?",
+        "example_pronunciation": "하벤 지 이렌 비블리오텍스아우스바이쓰 다바이?",
+        "tags": [
+          "library",
+          "noun",
+          "card"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_b1_W11_004",
+        "word": "Leihfrist",
+        "article": "die",
+        "plural": "die Leihfristen",
+        "pronunciation": "라이프리스트",
+        "meaning": "대출 기간",
+        "example": "Die Leihfrist für dieses Buch beträgt drei Wochen.",
+        "example_translation": "이 책의 대출 기간은 3주입니다.",
+        "example_pronunciation": "디 라이프리스트 퓌어 디제스 부흐 베트랙트 드라이 보헨.",
+        "tags": [
+          "library",
+          "noun",
+          "period"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_b1_W11_005",
+        "word": "Gebühr",
+        "article": "die",
+        "plural": "die Gebühren",
+        "pronunciation": "게뷔어",
+        "meaning": "요금, 수수료",
+        "example": "Für verspätete Rückgabe fällt eine Gebühr an.",
+        "example_translation": "반납이 늦어지면 요금이 부과됩니다.",
+        "example_pronunciation": "퓌어 페어슈페테테 뤽가베 팰트 아이네 게뷔어 안.",
+        "tags": [
+          "library",
+          "noun",
+          "fee"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_library_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Wechselpräpositionen mit Dativ und Akkusativ",
+        "topic_explanation": "Wechselpräpositionen wie 'auf', 'in', 'an' können je nach Frage ('wohin?' Akkusativ für eine Bewegung oder 'wo?' Dativ für eine Position) den Kasus wechseln. Hier ist eine Bewegung gefragt.",
+        "question": "Der Bibliothekar stellt die neuen Bücher ____ das oberste Regal.",
+        "question_translation": "The librarian puts the new books onto the top shelf.",
+        "options": [
+          "an",
+          "auf",
+          "in",
+          "neben"
+        ],
+        "answer": "auf",
+        "explanation": "Da es sich um eine Bewegung ('wohin?') auf eine horizontale Fläche (das Regal) handelt, wird die Wechselpräposition 'auf' mit dem Akkusativ ('das Regal') verwendet. 'An' wäre eher an eine vertikale Fläche, 'in' in einen umschlossenen Raum, und 'neben' ist 'next to'.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Konjunktiv II für höfliche Bitten oder Wünsche",
+        "topic_explanation": "Der Konjunktiv II wird oft verwendet, um höfliche Anfragen zu stellen oder Wünsche auszudrücken, besonders mit 'würde gerne' oder Modalverben wie 'könnte' und 'sollte'.",
+        "question": "Ich ____ gerne wissen, ob dieser Roman verfügbar ist, bevor ich ihn suche.",
+        "question_translation": "I would like to know if this novel is available before I look for it.",
+        "options": [
+          "wurde",
+          "würde",
+          "werde",
+          "habe"
+        ],
+        "answer": "würde",
+        "explanation": "'Ich würde gerne' ist eine gängige und höfliche Formulierung, um einen Wunsch auszudrücken. 'Wurde' ist Präteritum, 'werde' ist Präsens oder Futur, 'habe' ist Präsens von haben.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "würde"
+          },
+          {
+            "pronoun": "du",
+            "form": "würdest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "würde"
+          },
+          {
+            "pronoun": "wir",
+            "form": "würden"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "würdet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "würden"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Vorgangspassiv (Präsens)",
+        "topic_explanation": "Das Vorgangspassiv beschreibt, was mit etwas geschieht oder getan wird, wobei der Handelnde unwichtig oder unbekannt ist. Es wird mit dem konjugierten Hilfsverb 'werden' und dem Partizip II des Hauptverbs gebildet.",
+        "question": "In dieser Bibliothek ____ viele alte Dokumente digitalisiert, um sie zu erhalten.",
+        "question_translation": "In this library, many old documents are being digitized to preserve them.",
+        "options": [
+          "wird",
+          "werden",
+          "ist",
+          "sind"
+        ],
+        "answer": "werden",
+        "explanation": "Der Satz ist im Vorgangspassiv Präsens. Das Subjekt 'viele alte Dokumente' ist Plural, daher muss das Hilfsverb 'werden' in der dritten Person Plural konjugiert werden: 'werden'.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "werde"
+          },
+          {
+            "pronoun": "du",
+            "form": "wirst"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "wird"
+          },
+          {
+            "pronoun": "wir",
+            "form": "werden"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "werdet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "werden"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_library_b1_W11_001",
+        "situation": "Ein Student möchte ein Buch ausleihen, hat aber seinen Bibliotheksausweis vergessen. Er fragt die Bibliothekarin, was er tun soll.",
+        "situation_icon": "📚",
+        "dialogue": [
+          {
+            "role": "Student",
+            "text": "Guten Tag! Ich möchte dieses Buch ausleihen.",
+            "pronunciation": "ˈɡuːtn̩ taːk! ɪç ˈmœçtə ˈdiːzəs buːx ˈaʊ̯slaɪ̯ən.",
+            "translation": "Good day! I'd like to borrow this book.",
+            "isQuestion": false
+          },
+          {
+            "role": "Bibliothekarin",
+            "text": "Guten Tag! Haben Sie Ihren Bibliotheksausweis dabei?",
+            "pronunciation": "ˈɡuːtn̩ taːk! ˈhaːbn̩ ziː ˈiːrən bɪbli̯oˈteːksˌaʊ̯svaɪ̯s ˈdaːbaɪ̯?",
+            "translation": "Good day! Do you have your library card with you?",
+            "isQuestion": false
+          },
+          {
+            "role": "Student",
+            "text": "Oh nein, ich habe ihn leider vergessen. Was soll ich jetzt tun?",
+            "pronunciation": "oː naɪ̯n, ɪç ˈhaːbə iːn ˈlaɪ̯dɐ fɛɐ̯ˈɡɛsn̩. vas zɔl ɪç jɛt͡st tuːn?",
+            "translation": "Oh no, I've unfortunately forgotten it. What should I do now?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Kein Problem, Sie können es auch ohne Ausweis ausleihen.",
+            "pronunciation": "kaɪ̯n proˈbleːm, ziː ˈkœnən ɛs aʊ̯x ˈoːnə ˈaʊ̯svaɪ̯s ˈaʊ̯slaɪ̯ən.",
+            "translation": "No problem, you can borrow it even without a card."
+          },
+          {
+            "text": "Sie können den Ausweis an der Information neu beantragen.",
+            "pronunciation": "ziː ˈkœnən deːn ˈaʊ̯svaɪ̯s an dɛɐ̯ ɪnfɔʁmaˈt͡si̯oːn nɔɪ̯ bɛˈʔantʁaːɡn̩.",
+            "translation": "You can re-apply for the card at the information desk."
+          },
+          {
+            "text": "Dann kann ich Ihnen das Buch leider nicht ausleihen. Sie müssten ihn zuerst holen oder ein anderes Mal wiederkommen.",
+            "pronunciation": "dan kan ɪç ˈiːnən das buːx ˈlaɪ̯dɐ nɪçt ˈaʊ̯slaɪ̯ən. ziː ˈmʏstn̩ iːn t͡suˈɛɐ̯st ˈhoːlən oːdɐ aɪ̯n ˈandəʁəs maːl ˈviːdɐˌkɔmən.",
+            "translation": "Then I unfortunately cannot lend you the book. You would have to get it first or come back another time."
+          }
+        ],
+        "answer": "Dann kann ich Ihnen das Buch leider nicht ausleihen. Sie müssten ihn zuerst holen oder ein anderes Mal wiederkommen.",
+        "explanation": "Normalerweise ist der Bibliotheksausweis zum Ausleihen von Büchern zwingend erforderlich. Ohne ihn ist eine Ausleihe nicht möglich, und die Bibliothekarin erklärt die notwendigen Schritte.",
+        "grammar_point": "Modalverben im Konjunktiv II (müssten) zur Äußerung einer Notwendigkeit oder eines Ratschlags",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_b1_W11_002",
+        "situation": "Eine Studentin möchte die Ausleihfrist ihres Buches verlängern. Sie fragt die Bibliothekarin nach den Möglichkeiten.",
+        "situation_icon": "📅",
+        "dialogue": [
+          {
+            "role": "Studentin",
+            "text": "Entschuldigen Sie, ich hätte eine Frage zur Verlängerung meiner Bücher.",
+            "pronunciation": "ɛntˈʃʊldɪɡn̩ ziː, ɪç ˈhɛtə ˈaɪ̯nə ˈfraːɡə t͡suːɐ̯ fɛɐ̯ˈlɛŋəʁʊŋ ˈmaɪ̯nɐ ˈbyːçɐ.",
+            "translation": "Excuse me, I have a question about extending my books.",
+            "isQuestion": false
+          },
+          {
+            "role": "Bibliothekarin",
+            "text": "Ja, bitte. Worum geht es genau?",
+            "pronunciation": "jaː, ˈbɪtə. ˈvoːʁʊm ɡeːt ɛs ɡəˈnaʊ̯?",
+            "translation": "Yes, please. What is it exactly about?",
+            "isQuestion": false
+          },
+          {
+            "role": "Studentin",
+            "text": "Die Leihfrist für mein Buch läuft nächste Woche ab, und ich bin noch nicht fertig. Kann ich die Ausleihfrist verlängern?",
+            "pronunciation": "diː ˈlaɪ̯fʁɪst fyːɐ̯ maɪ̯n buːx lɔɪ̯ft ˈnɛçstə ˈvɔxə ap, ʊnt ɪç bɪn nɔx nɪçt ˈfɛʁtɪç. kan ɪç diː ˈaʊ̯slaɪ̯fʁɪst fɛɐ̯ˈlɛŋəʁn̩?",
+            "translation": "The loan period for my book expires next week, and I'm not finished yet. Can I extend the loan period?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nein, das geht nicht. Sie müssen das Buch pünktlich zurückgeben.",
+            "pronunciation": "naɪ̯n, das ɡeːt nɪçt. ziː ˈmʏsn̩ das buːx ˈpʏnktlɪç t͡suˈrʏkˌɡeːbn̩.",
+            "translation": "No, that's not possible. You must return the book on time."
+          },
+          {
+            "text": "Ja, klar. Sie können das online in Ihrem Konto oder hier am Schalter erledigen.",
+            "pronunciation": "jaː, klaːɐ̯. ziː ˈkœnən das ˈɔnlaɪ̯n ɪn ˈiːrəm ˈkɔntoː oːdɐ hiːɐ̯ am ˈʃaltɐ ɛɐ̯ˈleːdɪɡn̩.",
+            "translation": "Yes, sure. You can do that online in your account or here at the counter."
+          },
+          {
+            "text": "Das hängt davon ab, ob das Buch bereits von jemandem reserviert ist.",
+            "pronunciation": "das hɛŋt ˈdavɔn ap, ɔp das buːx bɛˈʁaɪ̯ts fɔn ˈjeːmandəm rɛzɛʁˈviːɐ̯t ɪst.",
+            "translation": "That depends on whether the book is already reserved by someone."
+          }
+        ],
+        "answer": "Ja, klar. Sie können das online in Ihrem Konto oder hier am Schalter erledigen.",
+        "explanation": "In den meisten Bibliotheken ist es üblich, dass man die Ausleihfrist von Büchern verlängern kann, oft online über das Benutzerkonto oder direkt am Serviceschalter.",
+        "grammar_point": "Modalverben (können) zur Äußerung von Möglichkeiten und Fähigkeiten, sowie Präpositionalobjekte (zur Verlängerung)",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_library_b1_W11_001",
+        "phrase": "Ich möchte dieses Buch ausleihen.",
+        "pronunciation": "이히 뫼히테 디제스 부흐 아우스라이헨.",
+        "meaning": "저는 이 책을 빌리고 싶어요.",
+        "usage": "Sagen Sie das, wenn Sie an der Theke stehen und ein Buch mitnehmen möchten.",
+        "alternatives": [
+          {
+            "phrase": "Ich würde dieses Buch gerne ausleihen.",
+            "pronunciation": "이히 뷔르데 디제스 부흐 게르네 아우스라이헨.",
+            "nuance": "'würde'를 사용하여 좀 더 정중하고 간접적인 표현입니다."
+          },
+          {
+            "phrase": "Könnte ich dieses Buch bitte ausleihen?",
+            "pronunciation": "쾨넨테 이히 디제스 부흐 비테 아우스라이헨?",
+            "nuance": "질문 형태로 더욱 공손하게 요청하는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Haben Sie Ihren Bibliotheksausweis dabei?",
+            "pronunciation": "하벤 지 이렌 비블리오테크스아우스바이쓰 다바이?",
+            "translation": "도서관 회원증 가지고 오셨나요?"
+          },
+          {
+            "text": "Moment bitte, ich scanne das Buch ein.",
+            "pronunciation": "모멘트 비테, 이히 스카네 다스 부흐 아인.",
+            "translation": "잠시만요, 제가 책을 스캔할게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_b1_W11_002",
+        "phrase": "Könnten Sie mir bitte helfen, dieses Buch zu finden?",
+        "pronunciation": "쾨넨튼 지 미어 비테 헬펜, 디제스 부흐 추 핀덴?",
+        "meaning": "이 책을 찾는 것을 도와주시겠어요?",
+        "usage": "Fragen Sie einen Bibliotheksmitarbeiter, wenn Sie ein bestimmtes Buch nicht finden können.",
+        "alternatives": [
+          {
+            "phrase": "Ich suche dieses Buch, können Sie mir helfen?",
+            "pronunciation": "이히 주헤 디제스 부흐, 쾨넨 지 미어 헬펜?",
+            "nuance": "좀 더 직접적으로 도움을 요청하는 표현입니다."
+          },
+          {
+            "phrase": "Wissen Sie, wo dieses Buch steht?",
+            "pronunciation": "비센 지, 보 디제스 부흐 슈테트?",
+            "nuance": "책의 위치를 직접적으로 묻는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja klar, haben Sie den Titel oder die ISBN-Nummer?",
+            "pronunciation": "야 클라어, 하벤 지 덴 티텔 오더 디 이스벤-눔머?",
+            "translation": "네 물론이죠, 제목이나 ISBN 번호가 있으신가요?"
+          },
+          {
+            "text": "Gerne, zeigen Sie mir den Titel.",
+            "pronunciation": "게르네, 차이겐 지 미어 덴 티텔.",
+            "translation": "기꺼이요, 제목을 보여주세요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_b1_W11_003",
+        "phrase": "Wo finde ich Bücher über deutsche Geschichte?",
+        "pronunciation": "보 핀데 이히 뷔혀 위버 도이체 게쉬히테?",
+        "meaning": "독일 역사에 관한 책들은 어디에서 찾을 수 있나요?",
+        "usage": "Nutzen Sie diesen Satz, um nach Büchern zu einem bestimmten Thema zu fragen.",
+        "alternatives": [
+          {
+            "phrase": "Haben Sie Bücher zum Thema \"deutsche Geschichte\"?",
+            "pronunciation": "하벤 지 뷔혀 춤 테마 \"도이체 게쉬히테\"?",
+            "nuance": "해당 주제의 책이 있는지 여부를 묻는 표현입니다."
+          },
+          {
+            "phrase": "In welchem Bereich stehen die Geschichtsbücher?",
+            "pronunciation": "인 벨헴 베라이히 슈테헨 디 게쉬히츠뷔혀?",
+            "nuance": "'어떤 구역에' 책들이 있는지 구체적으로 묻는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Die finden Sie im zweiten Stock, in der Abteilung für Geschichte.",
+            "pronunciation": "디 핀덴 지 임 츠바이텐 슈톡, 인 데어 압타이룽 퓌어 게쉬히테.",
+            "translation": "그것들은 2층 역사 코너에서 찾으실 수 있습니다."
+          },
+          {
+            "text": "Im Regal 34b, oder Sie können auch im Online-Katalog suchen.",
+            "pronunciation": "임 레갈 피어운트드라이씨히베, 오더 지 쾨넨 아우흐 임 온라인-카탈로그 주헨.",
+            "translation": "34b 선반에 있거나, 온라인 카탈로그에서도 검색하실 수 있습니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

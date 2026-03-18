@@ -1,0 +1,463 @@
+{
+  "location": "rathaus",
+  "level": "b1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_rathaus_b1_W11_001",
+        "word": "Antrag",
+        "article": "der",
+        "plural": "Anträge",
+        "pronunciation": "안트락",
+        "meaning": "신청, 요청",
+        "example": "Ich muss heute meinen Antrag beim Bürgeramt abgeben.",
+        "example_translation": "저는 오늘 시민청에 제 신청서를 제출해야 합니다.",
+        "example_pronunciation": "이히 무스 호이테 마이넨 안트락 바임 뷔르거암트 압게벤.",
+        "tags": [
+          "Rathaus",
+          "Bürokratie",
+          "Verwaltung"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_002",
+        "word": "Anmeldung",
+        "article": "die",
+        "plural": "Anmeldungen",
+        "pronunciation": "안멜둥",
+        "meaning": "등록, 신청",
+        "example": "Vergessen Sie nicht, Ihre neue Adresse beim Einwohnermeldeamt anzumelden.",
+        "example_translation": "새 주소를 주민등록청에 등록하는 것을 잊지 마세요.",
+        "example_pronunciation": "페르게쎈 지 니히트, 이레 노이에 아드레쎄 바임 아인보너멜데암트 안멜덴.",
+        "tags": [
+          "Rathaus",
+          "Bürgeramt",
+          "Umzug"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_003",
+        "word": "Termin",
+        "article": "der",
+        "plural": "Termine",
+        "pronunciation": "테르민",
+        "meaning": "예약, 약속",
+        "example": "Für die Passverlängerung brauche ich einen Termin beim Bürgeramt.",
+        "example_translation": "여권 갱신을 위해 시민청에 예약을 해야 합니다.",
+        "example_pronunciation": "퓨어 디 파스페어렝게룽 브라우헤 이히 아이넨 테르민 바임 뷔르거암트.",
+        "tags": [
+          "Rathaus",
+          "Organisation",
+          "Bürokratie"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_004",
+        "word": "Formular",
+        "article": "das",
+        "plural": "Formulare",
+        "pronunciation": "포르물라어",
+        "meaning": "양식, 서식",
+        "example": "Bitte füllen Sie das Antragsformular vollständig aus.",
+        "example_translation": "신청 양식을 완전히 작성해 주세요.",
+        "example_pronunciation": "비테 퓔렌 지 다스 안트락스포르물라어 폴슈탠디히 아우스.",
+        "tags": [
+          "Rathaus",
+          "Dokumente",
+          "Bürokratie"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_005",
+        "word": "Genehmigung",
+        "article": "die",
+        "plural": "Genehmigungen",
+        "pronunciation": "게네미궁",
+        "meaning": "허가, 승인",
+        "example": "Wir warten noch auf die Genehmigung für unser Bauprojekt vom Bauamt.",
+        "example_translation": "우리는 아직 건축청으로부터 우리 건축 프로젝트에 대한 허가를 기다리고 있습니다.",
+        "example_pronunciation": "비어 바르텐 노흐 아우프 디 게네미궁 퓨어 운저 바우프로옉트 폼 바우암트.",
+        "tags": [
+          "Rathaus",
+          "Verwaltung",
+          "Recht"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_rathaus_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Konjunktiv II für höfliche Bitten",
+        "topic_explanation": "Der Konjunktiv II wird oft verwendet, um höfliche Bitten, Ratschläge oder irreale Wünsche auszudrücken. Er ist besonders im Kontext von Behörden und offiziellen Anfragen nützlich.",
+        "question": "Entschuldigen Sie, ____ Sie mir bitte sagen, wo ich meinen neuen Wohnsitz anmelden kann?",
+        "question_translation": "Excuse me, could you please tell me where I can register my new residence?",
+        "options": [
+          "können",
+          "sollten",
+          "werden",
+          "könnten"
+        ],
+        "answer": "könnten",
+        "explanation": "Der Konjunktiv II von 'können' (könnten) wird hier für eine besonders höfliche Frage verwendet. Dies ist typisch für Anfragen in einem Bürgeramt oder Rathaus.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "könnte"
+          },
+          {
+            "pronoun": "du",
+            "form": "könntest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "könnte"
+          },
+          {
+            "pronoun": "wir",
+            "form": "könnten"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "könntet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "könnten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "N-Deklination (schwache Nomen)",
+        "topic_explanation": "Bestimmte maskuline Nomen, besonders Personenbezeichnungen wie 'der Beamte', 'der Kunde' oder 'der Herr', gehören zur N-Deklination. Sie erhalten in allen Fällen außer dem Nominativ Singular ein -n oder -en am Ende.",
+        "question": "Der Bürger fragt den ____ nach den Öffnungszeiten des Amtes.",
+        "question_translation": "The citizen asks the official about the opening hours of the office.",
+        "options": [
+          "Beamte",
+          "Beamten",
+          "Beamter",
+          "Beamtes"
+        ],
+        "answer": "Beamten",
+        "explanation": "Das Nomen 'Beamte' gehört zu den schwachen maskulinen Nomen (N-Deklination). Im Akkusativ Singular (hier nach 'den') bekommt es die Endung -n.",
+        "related_table": [
+          {
+            "pronoun": "Nominativ Sg.",
+            "form": "der Beamte"
+          },
+          {
+            "pronoun": "Genitiv Sg.",
+            "form": "des Beamten"
+          },
+          {
+            "pronoun": "Dativ Sg.",
+            "form": "dem Beamten"
+          },
+          {
+            "pronoun": "Akkusativ Sg.",
+            "form": "den Beamten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_003",
+        "type": "conjugation_table",
+        "topic": "Vorgangspassiv im Präsens",
+        "topic_explanation": "Das Vorgangspassiv wird verwendet, um den Fokus auf die Handlung oder den Prozess zu legen, nicht auf den Handelnden. Es wird mit einer Form von 'werden' und dem Partizip II des Hauptverbs gebildet. Konjugieren Sie das Verb 'bearbeiten'.",
+        "question": [
+          {
+            "pronoun": "Der Antrag",
+            "form": "____"
+          },
+          {
+            "pronoun": "Die Dokumente",
+            "form": "____"
+          },
+          {
+            "pronoun": "Meine Anfrage",
+            "form": "____"
+          }
+        ],
+        "question_translation": "Conjugate the verb 'bearbeiten' (to process) in the present passive voice.",
+        "options": null,
+        "answer": [
+          {
+            "pronoun": "Der Antrag",
+            "form": "wird bearbeitet"
+          },
+          {
+            "pronoun": "Die Dokumente",
+            "form": "werden bearbeitet"
+          },
+          {
+            "pronoun": "Meine Anfrage",
+            "form": "wird bearbeitet"
+          }
+        ],
+        "explanation": "Das Passiv Präsens wird mit dem konjugierten Verb 'werden' und dem Partizip II des Hauptverbs gebildet. Das Partizip II von 'bearbeiten' ist 'bearbeitet'. Die Form von 'werden' richtet sich nach dem Subjekt (Singular/Plural).",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "werde"
+          },
+          {
+            "pronoun": "du",
+            "form": "wirst"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "wird"
+          },
+          {
+            "pronoun": "wir",
+            "form": "werden"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "werdet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "werden"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_rathaus_b1_W11_001",
+        "situation": "Sie sind neu in der Stadt und müssen Ihre Adresse im Bürgeramt anmelden.",
+        "situation_icon": "🏠",
+        "dialogue": [
+          {
+            "role": "Bürger/in",
+            "text": "Guten Tag, ich möchte mich gerne anmelden.",
+            "pronunciation": "/ˌɡuːtn̩ taːk, ɪç mœçtə mɪç ˈɡɛʁnə ˈanmɛldn̩/",
+            "translation": "Good day, I would like to register.",
+            "isQuestion": false
+          },
+          {
+            "role": "Beamter/in",
+            "text": "Guten Tag. Haben Sie einen Termin?",
+            "pronunciation": "/ˌɡuːtn̩ taːk. ˈhabm̩ ziː ˈaɪ̯nən tɛʁˈmiːn/",
+            "translation": "Good day. Do you have an appointment?",
+            "isQuestion": false
+          },
+          {
+            "role": "Bürger/in",
+            "text": "Nein, leider nicht. Ist es auch ohne Termin möglich?",
+            "pronunciation": "/naɪ̯n, ˈlaɪ̯dəʁ nɪçt. ɪst ɛs aʊ̯x ˈoːnə tɛʁˈmiːn ˈmøːklɪç/",
+            "translation": "No, unfortunately not. Is it also possible without an appointment?",
+            "isQuestion": false
+          },
+          {
+            "role": "Beamter/in",
+            "text": "Normalerweise braucht man einen Termin. Aber ausnahmsweise ist heute noch etwas frei. Wir können das jetzt erledigen, wenn Sie möchten. Dazu brauche ich Ihren Personalausweis und die Wohnungsgeberbestätigung. Haben Sie diese Dokumente dabei?",
+            "pronunciation": "/nɔʁˈmaːləʁvaɪ̯zə braʊ̯xt man ˈaɪ̯nən tɛʁˈmiːn. ˈabɐ aʊ̯snaːmsˌvaɪ̯zə ɪst ˈhɔɪ̯tə nɔx ˈɛtvas fraɪ̯. viːɐ̯ kœnən das jɛt͡st ɛɐ̯ˈleːdɪɡn̩, vɛn ziː ˈmœçtn̩. daˈt͡suː braʊ̯x ɪç ˈiːʁən pɛʁzoˈnaːlˌaʊ̯svaɪ̯s ʊnt diː ˈvoːnʊŋsˌɡeːbɐbɛˌʃtɛːtɪɡʊŋ. ˈhabm̩ ziː ˈdiːzə dokuˈmɛntə daˈbaɪ̯?/",
+            "translation": "Normally you need an appointment. But exceptionally, something is still free today. We can do it now if you like. For that, I need your ID card and the landlord's confirmation of residency. Do you have these documents with you?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, die habe ich dabei.",
+            "pronunciation": "/jaː, diː ˈhabə ɪç daˈbaɪ̯/",
+            "translation": "Yes, I have them with me."
+          },
+          {
+            "text": "Nein, ich muss noch einen Termin vereinbaren.",
+            "pronunciation": "/naɪ̯n, ɪç mʊs nɔx ˈaɪ̯nən tɛʁˈmiːn fɛʁˈaɪ̯nbaʁən/",
+            "translation": "No, I still have to make an appointment."
+          },
+          {
+            "text": "Ich weiß nicht, ob ich das brauche.",
+            "pronunciation": "/ɪç vaɪ̯s nɪçt, ɔp ɪç das ˈbraʊ̯xə/",
+            "translation": "I don't know if I need that."
+          }
+        ],
+        "answer": "Ja, die habe ich dabei.",
+        "explanation": "Der Beamte fragt, ob die notwendigen Dokumente dabei sind. Die positive Antwort 'Ja, die habe ich dabei' bestätigt dies und ermöglicht die Fortsetzung des Vorgangs.",
+        "grammar_point": "Akkusativobjekt ('die') als Ersatz für 'diese Dokumente' und Fragestellung mit Inversion."
+      },
+      {
+        "id": "conv_rathaus_b1_W11_002",
+        "situation": "Sie benötigen eine Meldebescheinigung für Ihren neuen Job und fragen im Bürgeramt nach dem Ablauf.",
+        "situation_icon": "📝",
+        "dialogue": [
+          {
+            "role": "Bürger/in",
+            "text": "Guten Tag, ich bräuchte eine Meldebescheinigung.",
+            "pronunciation": "/ˌɡuːtn̩ taːk, ɪç ˈbrøːçtə ˈaɪ̯nə ˈmɛldəbəˌʃaɪ̯nɪɡʊŋ/",
+            "translation": "Good day, I would need a certificate of residency.",
+            "isQuestion": false
+          },
+          {
+            "role": "Beamter/in",
+            "text": "Ja, kein Problem. Haben Sie Ihren Personalausweis dabei?",
+            "pronunciation": "/jaː, kaɪ̯n pʁoˈbleːm. ˈhabm̩ ziː ˈiːʁən pɛʁzoˈnaːlˌaʊ̯svaɪ̯s daˈbaɪ̯/",
+            "translation": "Yes, no problem. Do you have your ID card with you?",
+            "isQuestion": false
+          },
+          {
+            "role": "Bürger/in",
+            "text": "Ja, den habe ich hier. Muss ich sonst noch etwas beachten?",
+            "pronunciation": "/jaː, deːn ˈhabə ɪç hiːɐ̯. mʊs ɪç zɔnst nɔx ˈɛtvas bəˈaxtn̩/",
+            "translation": "Yes, I have it here. Do I need to consider anything else?",
+            "isQuestion": false
+          },
+          {
+            "role": "Beamter/in",
+            "text": "Ja, die Ausstellung kostet 10 Euro. Möchten Sie bar oder mit Karte zahlen?",
+            "pronunciation": "/jaː, diː ˈaʊ̯sʃtɛlʊŋ ˈkɔstət t͡seːn ˈɔɪ̯ʁoː. ˈmœçtn̩ ziː baːɐ̯ oːdɐ mɪt ˈkaʁtə ˈt͡saːlən/",
+            "translation": "Yes, the issuance costs 10 Euros. Would you like to pay cash or by card?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich zahle gerne bar.",
+            "pronunciation": "/ɪç ˈt͡saːlə ˈɡɛʁnə baːɐ̯/",
+            "translation": "I'd like to pay cash."
+          },
+          {
+            "text": "Ich habe keine Karte dabei.",
+            "pronunciation": "/ɪç ˈhabə ˈkaɪ̯nə ˈkaʁtə daˈbaɪ̯/",
+            "translation": "I don't have a card with me."
+          },
+          {
+            "text": "Ich hole es später ab.",
+            "pronunciation": "/ɪç ˈhoːlə ɛs ˈʃpɛːtɐ ap/",
+            "translation": "I'll pick it up later."
+          }
+        ],
+        "answer": "Ich zahle gerne bar.",
+        "explanation": "Der Beamte fragt nach der bevorzugten Zahlungsmethode. Die Antwort 'Ich zahle gerne bar' gibt die gewünschte Information, welche Zahlungsoption bevorzugt wird.",
+        "grammar_point": "Fragen nach der Zahlungsmethode und der Gebrauch von Modalverben ('möchten')."
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_rathaus_b1_W11_001",
+        "phrase": "Ich würde gerne einen Termin vereinbaren.",
+        "pronunciation": "이히 뷔어데 게르네 아이넨 테르민 페어아인바렌.",
+        "meaning": "저는 약속을 잡고 싶어요.",
+        "usage": "시청에 전화하거나 직접 방문하여 담당자와의 만남을 예약할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Kann ich einen Termin bekommen?",
+            "pronunciation": "칸 이히 아이넨 테르민 베콤멘?",
+            "nuance": "조금 더 직접적이고 덜 격식적인 표현입니다."
+          },
+          {
+            "phrase": "Ich bräuchte einen Termin.",
+            "pronunciation": "이히 브뢰히테 아이넨 테르민.",
+            "nuance": "주로 무언가가 필요할 때 공손하게 표현하는 방식입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Worum geht es denn?",
+            "pronunciation": "보룸 게이트 에스 덴?",
+            "translation": "무슨 일로 오셨나요?"
+          },
+          {
+            "text": "Um welches Anliegen handelt es sich?",
+            "pronunciation": "움 벨헤스 안리겐 한델트 에스 지히?",
+            "translation": "어떤 용건이신가요?"
+          },
+          {
+            "text": "Wann passt es Ihnen am besten?",
+            "pronunciation": "반 파스트 에스 이넨 암 베스텐?",
+            "translation": "언제가 가장 좋으세요?"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_002",
+        "phrase": "Wo finde ich das Einwohnermeldeamt?",
+        "pronunciation": "보 핀데 이히 다스 아인보너멜데암트?",
+        "meaning": "주민등록사무소는 어디에 있나요?",
+        "usage": "시청 내 특정 부서(예: 주민등록사무소, 혼인신고소, 외국인청, 사회복지과 등)의 위치를 문의할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Können Sie mir sagen, wo das Einwohnermeldeamt ist?",
+            "pronunciation": "쾨넨 지 미어 자겐, 보 다스 아인보너멜데암트 이스트?",
+            "nuance": "더 공손하고 간접적인 질문입니다."
+          },
+          {
+            "phrase": "Ist das Einwohnermeldeamt hier im Gebäude?",
+            "pronunciation": "이스트 다스 아인보너멜데암트 히어 임 게보이데?",
+            "nuance": "해당 부서가 이 건물 내에 있는지 확인할 때 사용합니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Das ist im dritten Stock, Zimmer 305.",
+            "pronunciation": "다스 이스트 임 드리텐 슈톡, 침머 드라이훈데르트퓐프.",
+            "translation": "그것은 3층 305호에 있습니다."
+          },
+          {
+            "text": "Gehen Sie den Gang entlang und dann links.",
+            "pronunciation": "게헨 지 덴 강 엔트랑크 운트 단 링크스.",
+            "translation": "복도를 따라가다가 왼쪽으로 가세요."
+          },
+          {
+            "text": "Das ist leider in einem anderen Gebäude.",
+            "pronunciation": "다스 이스트 라이더 인 아이넴 안데렌 게보이데.",
+            "translation": "죄송하지만, 다른 건물에 있습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_003",
+        "phrase": "Welche Unterlagen brauche ich dafür?",
+        "pronunciation": "벨헤 운터라겐 브라우헤 이히 다퓌어?",
+        "meaning": "그것을 위해 어떤 서류들이 필요한가요?",
+        "usage": "본인의 용건(예: 주소 등록, 특정 신청)을 설명한 후, 어떤 서류를 준비해야 하는지 문의할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Was muss ich mitbringen?",
+            "pronunciation": "바스 무스 이히 미트브링엔?",
+            "nuance": "더 일반적이고 덜 격식적인 질문으로, 무엇을 가져가야 하는지 묻습니다."
+          },
+          {
+            "phrase": "Gibt es bestimmte Formulare, die ich ausfüllen muss?",
+            "pronunciation": "깁트 에스 베슈팀테 포어물라레, 디 이히 아우스퓔렌 무스?",
+            "nuance": "작성해야 할 특정 양식이 있는지 문의할 때 사용합니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Sie benötigen Ihren Personalausweis und die Wohnungsgeberbestätigung.",
+            "pronunciation": "지 베뇌티겐 이렌 페어조날아우스바이스 운트 디 보눙스게버베슈테티궁.",
+            "translation": "신분증과 주거지 제공 확인서가 필요합니다."
+          },
+          {
+            "text": "Bitte bringen Sie alle relevanten Dokumente mit.",
+            "pronunciation": "비테 브링엔 지 알레 렐레반텐 도쿠멘테 미트.",
+            "translation": "모든 관련 서류를 가져오세요."
+          },
+          {
+            "text": "Alle Informationen finden Sie auf unserer Webseite.",
+            "pronunciation": "알레 인포르마치오넨 핀덴 지 아우프 운제러 벱자이테.",
+            "translation": "모든 정보는 저희 웹사이트에서 찾으실 수 있습니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

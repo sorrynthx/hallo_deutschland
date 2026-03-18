@@ -1,0 +1,349 @@
+{
+  "location": "station",
+  "level": "b1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_station_b1_W11_001",
+        "word": "Fahrplan",
+        "article": "der",
+        "plural": "Fahrpläne",
+        "pronunciation": "파어플란",
+        "meaning": "시간표",
+        "example": "Wo finde ich den aktuellen Fahrplan für Züge nach Berlin?",
+        "example_translation": "베를린행 열차의 최신 시간표는 어디에서 찾을 수 있나요?",
+        "example_pronunciation": "보 핀데 이히 덴 악투엘렌 파어플란 퓌어 쮜게 나흐 베를린?",
+        "tags": [
+          "Zug",
+          "Reise",
+          "Information"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_b1_W11_002",
+        "word": "Gleis",
+        "article": "das",
+        "plural": "Gleise",
+        "pronunciation": "글라이스",
+        "meaning": "승강장, 선로",
+        "example": "Ihr Zug nach München fährt von Gleis 7 ab.",
+        "example_translation": "뮌헨행 열차는 7번 승강장에서 출발합니다.",
+        "example_pronunciation": "이어 쭉 나흐 뮌헨 페어트 폰 글라이스 지벤 압.",
+        "tags": [
+          "Zug",
+          "Abfahrt",
+          "Ankunft"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_b1_W11_003",
+        "word": "Anschluss",
+        "article": "der",
+        "plural": "Anschlüsse",
+        "pronunciation": "안슐루스",
+        "meaning": "연결편, 환승 (기차, 버스 등)",
+        "example": "Habe ich genug Zeit, um meinen Anschlusszug zu erreichen?",
+        "example_translation": "환승 열차를 타기에 충분한 시간이 있나요?",
+        "example_pronunciation": "하베 이히 게눅 차이트, 움 마이넨 안슐루스쭉 추 에어라이헨?",
+        "tags": [
+          "Zug",
+          "Reise",
+          "Verbindung"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_b1_W11_004",
+        "word": "Verspätung",
+        "article": "die",
+        "plural": "Verspätungen",
+        "pronunciation": "페어슈페퉁",
+        "meaning": "연착, 지연",
+        "example": "Leider hat der Zug 20 Minuten Verspätung.",
+        "example_translation": "죄송하지만, 기차가 20분 연착되었습니다.",
+        "example_pronunciation": "라이더 핫 데어 쭉 쯔반치히 미누텐 페어슈페퉁.",
+        "tags": [
+          "Zug",
+          "Problem",
+          "Information"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_b1_W11_005",
+        "word": "Fahrkarte",
+        "article": "die",
+        "plural": "Fahrkarten",
+        "pronunciation": "파어카르테",
+        "meaning": "(기차/버스) 표, 승차권",
+        "example": "Ich möchte bitte eine Fahrkarte nach Hamburg kaufen.",
+        "example_translation": "함부르크행 승차권 한 장을 사고 싶습니다.",
+        "example_pronunciation": "이히 뫼히테 비테 아이네 파어카르테 나흐 함부르크 카우펜.",
+        "tags": [
+          "Ticket",
+          "Kauf",
+          "Reise"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_station_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Wechselpräpositionen mit Akkusativ (Richtung)",
+        "topic_explanation": "Wechselpräpositionen (z.B. 'auf', 'in', 'an') verlangen den Akkusativ, wenn sie eine Bewegung oder Richtung zu einem Ort ausdrücken. Bei Flächen wie 'Gleis' oder 'Bahnsteig' wird oft 'auf' verwendet.",
+        "question": "Der ICE fährt gleich auf ____ Gleis 5 ein.",
+        "question_translation": "The ICE is arriving at platform 5 soon.",
+        "options": [
+          "der",
+          "dem",
+          "das",
+          "den"
+        ],
+        "answer": "das",
+        "explanation": "'Gleis' ist ein Neutrum-Substantiv ('das Gleis'). Da die Präposition 'auf' hier eine Bewegung ('einfahren') ausdrückt, verlangt sie den Akkusativ. Der bestimmte Artikel für Neutrum im Akkusativ ist 'das'.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Konjunktiv II (höfliche Bitten)",
+        "topic_explanation": "Der Konjunktiv II wird verwendet, um höfliche Bitten oder Anfragen auszudrücken, was in Kundenservicesituationen am Bahnhof sehr nützlich ist. Häufig werden dafür Modalverben wie 'können' oder 'dürfen' verwendet.",
+        "question": "Entschuldigen Sie, ____ Sie mir bitte sagen, wann der nächste Zug nach Berlin fährt?",
+        "question_translation": "Excuse me, could you please tell me when the next train to Berlin departs?",
+        "options": [
+          "können",
+          "konnten",
+          "könnten",
+          "dürfen"
+        ],
+        "answer": "könnten",
+        "explanation": "Um eine höfliche Frage oder Bitte an eine unbekannte Person in der 'Sie'-Form zu stellen, verwendet man den Konjunktiv II des Verbs 'können', also 'könnten'.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Relativsätze (Akkusativ)",
+        "topic_explanation": "Relativsätze liefern zusätzliche Informationen über ein Nomen im Hauptsatz. Das Relativpronomen richtet sich in Genus und Numerus nach dem Bezugswort und im Kasus nach seiner Funktion im Relativsatz.",
+        "question": "Das ist der Koffer, ____ ich gestern im Zug gefunden habe.",
+        "question_translation": "This is the suitcase, which I found yesterday on the train.",
+        "options": [
+          "der",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "den",
+        "explanation": "'Koffer' ist Maskulin ('der Koffer'). Das Relativpronomen bezieht sich auf 'der Koffer' und steht im Akkusativ, da es das direkte Objekt des Verbs 'gefunden habe' ist ('ich habe den Koffer gefunden'). Daher ist die richtige Form 'den'.",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_station_b1_W11_001",
+        "situation": "Am Fahrkartenschalter eine Fahrkarte nach Hamburg kaufen.",
+        "situation_icon": "🎟️",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Guten Tag, ich hätte gerne eine Fahrkarte nach Hamburg, bitte.",
+            "pronunciation": "Goo-ten Tak, ish het-te gair-ne ai-ne Fahr-kar-te nakh Ham-burk, bit-te.",
+            "translation": "Good day, I would like a ticket to Hamburg, please.",
+            "isQuestion": false
+          },
+          {
+            "role": "Schalterbeamter",
+            "text": "Einfach oder hin und zurück?",
+            "pronunciation": "Ain-fakh o-der hin unt tsoo-ruek?",
+            "translation": "Single or return?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nur einfach, bitte.",
+            "pronunciation": "Noor ain-fakh, bit-te.",
+            "translation": "Just single, please."
+          },
+          {
+            "text": "Ich möchte nach Berlin.",
+            "pronunciation": "Ish myoosh-te nakh Ber-lin.",
+            "translation": "I want to go to Berlin."
+          },
+          {
+            "text": "Das ist sehr schön.",
+            "pronunciation": "Das ist zair shyon.",
+            "translation": "That is very nice."
+          }
+        ],
+        "answer": "Nur einfach, bitte.",
+        "explanation": "Die Frage 'Einfach oder hin und zurück?' bezieht sich auf die Art der Fahrkarte (Einzelfahrt oder Hin- und Rückfahrt). 'Nur einfach, bitte' ist die passende Antwort, wenn man nur eine einfache Fahrt wünscht.",
+        "grammar_point": "Fragen nach der Fahrkartenart, Modalverb 'möchten', Akkusativ 'eine Fahrkarte'.",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_b1_W11_002",
+        "situation": "Am Bahnsteig nach der Abfahrtszeit und dem Gleis für einen Zug fragen.",
+        "situation_icon": "🚂",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Entschuldigen Sie, wann fährt der Zug nach München ab?",
+            "pronunciation": "Ent-shool-di-gen Zee, van färt der Tsook nakh Myun-shen ap?",
+            "translation": "Excuse me, when does the train to Munich depart?",
+            "isQuestion": false
+          },
+          {
+            "role": "Passant",
+            "text": "Der fährt um 14:30 Uhr von Gleis 7 ab. Haben Sie schon eine Fahrkarte?",
+            "pronunciation": "Der färt um fyer-tsen dray-sig oor fon Glays zee-ben ap. Ha-ben Zee shon ai-ne Fahr-kar-te?",
+            "translation": "It departs at 2:30 PM from platform 7. Do you already have a ticket?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, die habe ich schon.",
+            "pronunciation": "Ya, dee ha-be ish shon.",
+            "translation": "Yes, I already have it."
+          },
+          {
+            "text": "Ich mag München sehr.",
+            "pronunciation": "Ish mak Myun-shen zair.",
+            "translation": "I like Munich very much."
+          },
+          {
+            "text": "Nein, wann kommt der Zug an?",
+            "pronunciation": "Nayn, van komt der Tsook an?",
+            "translation": "No, when does the train arrive?"
+          }
+        ],
+        "answer": "Ja, die habe ich schon.",
+        "explanation": "Die Frage 'Haben Sie schon eine Fahrkarte?' erfordert eine Ja/Nein-Antwort bezüglich des Besitzes einer Fahrkarte. 'Ja, die habe ich schon' ist die passende positive Antwort, bei der 'die' sich auf 'die Fahrkarte' bezieht.",
+        "grammar_point": "Uhrzeiten und Gleisangaben, Fragen mit 'schon', Personalpronomen im Akkusativ.",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_station_b1_W11_001",
+        "phrase": "Entschuldigen Sie, von welchem Gleis fährt der Zug nach [Stadt] ab?",
+        "pronunciation": "엔슐디겐 지, 폰 벨험 글라이스 페어트 데어 쭉 나흐 [슈타트] 압?",
+        "meaning": "실례합니다, [도시]행 기차는 몇 번 승강장에서 출발하나요?",
+        "usage": "역에서 목적지행 기차가 어느 승강장에서 출발하는지 물어볼 때 사용합니다. '[Stadt]' 부분에 도시 이름을 넣어 사용하세요. (예: Berlin, Hamburg 등)",
+        "alternatives": [
+          {
+            "phrase": "Welcher Gleis fährt der Zug nach [Stadt]?",
+            "pronunciation": "벨허 글라이스 페어트 데어 쭉 나흐 [슈타트]?",
+            "nuance": "조금 더 캐주얼하고 직접적인 표현입니다."
+          },
+          {
+            "phrase": "Wo fährt der Zug nach [Stadt] ab?",
+            "pronunciation": "보 페어트 데어 쭉 나흐 [슈타트] 압?",
+            "nuance": "더 일반적인 질문으로, 보통 '어느 승강장'을 의미합니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Der Zug fährt von Gleis 7 ab.",
+            "pronunciation": "데어 쭉 페어트 폰 글라이스 지벤 압.",
+            "translation": "그 기차는 7번 승강장에서 출발합니다."
+          },
+          {
+            "text": "Das ist Gleis 5, gegenüber.",
+            "pronunciation": "다스 이스트 글라이스 퓐프, 게겐위버.",
+            "translation": "5번 승강장입니다, 건너편에요."
+          },
+          {
+            "text": "Schauen Sie bitte auf die Anzeigetafel.",
+            "pronunciation": "샤우엔 지 비테 아우프 디 안차이게타펠.",
+            "translation": "안내 전광판을 확인해주세요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_b1_W11_002",
+        "phrase": "Hat der Zug nach [Stadt] Verspätung?",
+        "pronunciation": "핫 데어 쭉 나흐 [슈타트] 페어슈페퉁?",
+        "meaning": "[도시]행 기차가 연착되었나요?",
+        "usage": "기차가 늦거나 지연 여부를 확인하고 싶을 때 사용합니다. '[Stadt]' 부분에 도시 이름을 넣어 사용하세요.",
+        "alternatives": [
+          {
+            "phrase": "Ist der Zug nach [Stadt] pünktlich?",
+            "pronunciation": "이스트 데어 쭉 나흐 [슈타트] 퓐크틀리히?",
+            "nuance": "제시간에 출발하는지 묻는 반대 질문입니다."
+          },
+          {
+            "phrase": "Gibt es eine Verspätung beim Zug nach [Stadt]?",
+            "pronunciation": "깁트 에스 아이네 페어슈페퉁 바임 쭉 나흐 [슈타트]?",
+            "nuance": "조금 더 격식 있는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, er hat ungefähr 15 Minuten Verspätung.",
+            "pronunciation": "야, 에어 핫 움게페어 퓐프첸 미누텐 페어슈페퉁.",
+            "translation": "네, 약 15분 연착되었습니다."
+          },
+          {
+            "text": "Nein, der Zug ist pünktlich.",
+            "pronunciation": "나인, 데어 쭉 이스트 퓐크틀리히.",
+            "translation": "아니요, 기차는 정시입니다."
+          },
+          {
+            "text": "Die aktuelle Information finden Sie auf der Anzeigetafel.",
+            "pronunciation": "디 악투엘레 인포르마치온 핀덴 지 아우프 데어 안차이게타펠.",
+            "translation": "최신 정보는 전광판에서 확인하실 수 있습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_b1_W11_003",
+        "phrase": "Muss ich umsteigen, um nach [Stadt] zu kommen?",
+        "pronunciation": "무스 이히 움슈타이겐, 움 나흐 [슈타트] 추 콤멘?",
+        "meaning": "[도시]로 가려면 갈아타야 하나요?",
+        "usage": "목적지까지 가는 길에 기차를 갈아타야 하는지 궁금할 때 사용합니다. '[Stadt]' 부분에 도시 이름을 넣어 사용하세요.",
+        "alternatives": [
+          {
+            "phrase": "Gibt es eine direkte Verbindung nach [Stadt]?",
+            "pronunciation": "깁트 에스 아이네 디렉테 페어빈둥 나흐 [슈타트]?",
+            "nuance": "직행 연결편이 있는지 직접적으로 묻는 표현입니다."
+          },
+          {
+            "phrase": "Ist das ein Direktzug nach [Stadt]?",
+            "pronunciation": "이스트 다스 아인 디렉쭉 나흐 [슈타트]?",
+            "nuance": "특정 기차가 직행인지 묻는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, Sie müssen in [Zwischenstadt] umsteigen.",
+            "pronunciation": "야, 지 뮈센 인 [츠비셴슈타트] 움슈타이겐.",
+            "translation": "네, [중간 도시]에서 갈아타셔야 합니다."
+          },
+          {
+            "text": "Nein, das ist eine direkte Verbindung.",
+            "pronunciation": "나인, 다스 이스트 아이네 디렉테 페어빈둥.",
+            "translation": "아니요, 직행 연결편입니다."
+          },
+          {
+            "text": "Das kommt darauf an, welchen Zug Sie nehmen.",
+            "pronunciation": "다스 콤트 다라우프 안, 벨헨 쭉 지 네멘.",
+            "translation": "어떤 기차를 타느냐에 따라 다릅니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

@@ -1,0 +1,385 @@
+{
+  "location": "market",
+  "level": "b1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_market_b1_W11_001",
+        "word": "Einkaufswagen",
+        "article": "der",
+        "plural": "Einkaufswagen",
+        "pronunciation": "아인카우프스바겐",
+        "meaning": "쇼핑 카트",
+        "example": "Wo finde ich einen Einkaufswagen?",
+        "example_translation": "쇼핑 카트를 어디서 찾을 수 있나요?",
+        "example_pronunciation": "보 핀데 이히 아이넨 아인카우프스바겐?",
+        "tags": [
+          "Einkauf",
+          "Transport"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_002",
+        "word": "Kasse",
+        "article": "die",
+        "plural": "Kassen",
+        "pronunciation": "카쎄",
+        "meaning": "계산대",
+        "example": "Bitte gehen Sie zur Kasse drei.",
+        "example_translation": "3번 계산대로 가주세요.",
+        "example_pronunciation": "비테 게헨 지 추어 카쎄 드라이.",
+        "tags": [
+          "Bezahlen",
+          "Ort"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_003",
+        "word": "Angebot",
+        "article": "das",
+        "plural": "Angebote",
+        "pronunciation": "앙게봇",
+        "meaning": "특별 할인, 제안",
+        "example": "Dieses Produkt ist diese Woche im Angebot.",
+        "example_translation": "이 상품은 이번 주 특별 할인 중입니다.",
+        "example_pronunciation": "디제스 프로둑트 이스트 디제 보헤 임 앙게봇.",
+        "tags": [
+          "Preis",
+          "Aktion"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_004",
+        "word": "Verpackung",
+        "article": "die",
+        "plural": "Verpackungen",
+        "pronunciation": "페어팍쿵",
+        "meaning": "포장",
+        "example": "Die Verpackung ist leider beschädigt.",
+        "example_translation": "포장이 아쉽게도 손상되었어요.",
+        "example_pronunciation": "디 페어팍쿵 이스트 라이더 베샤이딕트.",
+        "tags": [
+          "Produkt",
+          "Qualität"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_005",
+        "word": "Regal",
+        "article": "das",
+        "plural": "Regale",
+        "pronunciation": "레갈",
+        "meaning": "선반",
+        "example": "Das Brot finden Sie im dritten Regal von links.",
+        "example_translation": "빵은 왼쪽에서 세 번째 선반에서 찾을 수 있습니다.",
+        "example_pronunciation": "다스 브로트 핀덴 지 임 드리튼 레갈 폰 링크스.",
+        "tags": [
+          "Ort",
+          "Waren"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_market_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Dativ-Präpositionen",
+        "topic_explanation": "Einige Präpositionen verlangen immer den Dativ. Hier ist eine dieser Präpositionen gefragt, die eine Herkunft oder einen Ursprung ausdrückt. 'aus' beschreibt eine Bewegung aus einem geschlossenen Raum oder Bereich.",
+        "question": "Ich hole die frische Milch ____ der Kühltheke.",
+        "question_translation": "저는 신선한 우유를 냉장 코너에서 가져옵니다.",
+        "options": [
+          "aus",
+          "von",
+          "an",
+          "auf"
+        ],
+        "answer": "aus",
+        "explanation": "Die Präposition \"aus\" wird verwendet, um eine Herkunft oder eine Bewegung aus einem geschlossenen Raum oder einem Bereich zu beschreiben. \"Kühltheke\" ist feminin (die Kühltheke), im Dativ wird es \"der Kühltheke\".",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination nach bestimmten Artikeln",
+        "topic_explanation": "Adjektive, die nach einem bestimmten Artikel (der, die, das) stehen, werden in der Regel schwach dekliniert. Die Endung hängt vom Kasus, Genus und Numerus des Nomens ab. Bei maskulin Akkusativ Singular nach 'den' ist die Endung '-en'.",
+        "question": "Ich hätte gerne den ____ (groß) Apfel.",
+        "question_translation": "저는 그 큰 사과를 원합니다.",
+        "options": [
+          "große",
+          "großen",
+          "großer",
+          "großem"
+        ],
+        "answer": "großen",
+        "explanation": "Das Nomen \"Apfel\" ist maskulin und steht im Akkusativ (\"den Apfel\"). Nach einem bestimmten Artikel (den) und bei maskulin Akkusativ Singular ist die Adjektivendung immer \"-en\".",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Konjunktiv II für höfliche Bitten",
+        "topic_explanation": "Der Konjunktiv II wird oft verwendet, um höfliche Fragen oder Bitten auszudrücken. Die Form 'würden' + Infinitiv ist eine gängige und sehr höfliche Konstruktion.",
+        "question": "____ Sie mir bitte sagen, wo ich das Brot finde?",
+        "question_translation": "빵이 어디 있는지 좀 알려주시겠어요?",
+        "options": [
+          "Würden",
+          "Hätten",
+          "Seien",
+          "Wären"
+        ],
+        "answer": "Würden",
+        "explanation": "Um eine höfliche Frage oder Bitte zu formulieren, wird im Deutschen oft der Konjunktiv II mit \"würden\" + Infinitiv verwendet. Hier ist \"sagen\" der Infinitiv. \"Würden Sie ...?\" ist eine standardmäßige höfliche Frage.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "würde"
+          },
+          {
+            "pronoun": "du",
+            "form": "würdest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "würde"
+          },
+          {
+            "pronoun": "wir",
+            "form": "würden"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "würdet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "würden"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_market_b1_W11_001",
+        "situation": "Ein Kunde fragt eine Angestellte im Supermarkt nach einer Produktempfehlung für ein italienisches Gericht.",
+        "situation_icon": "🧑‍🍳",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Guten Tag! Ich möchte heute Abend ein italienisches Gericht kochen. Können Sie mir einen guten Parmesan empfehlen?",
+            "pronunciation": "GU-ten Tak! Ish MÖSH-te HOY-te A-bent ain i-ta-LI-ni-shes Ge-RISHT KO-khen. KÖN-nen Zi mir ain GU-ten Par-me-SAN emp-FEH-len?",
+            "translation": "Good day! I want to cook an Italian dish tonight. Can you recommend a good Parmesan to me?",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Ja klar, wir haben hier einen hervorragenden Parmesan aus der Region. Er ist etwas teurer, aber sehr aromatisch.",
+            "pronunciation": "Ya klar, vir HA-ben hir ain HER-fo-ra-gen-den Par-me-SAN aus der Re-GION. Er ist ET-vas TOY-rer, A-ber zer a-ro-MA-tish.",
+            "translation": "Yes, of course, we have an excellent Parmesan from the region here. It's a bit more expensive, but very aromatic.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Das klingt gut! Und _______?",
+            "pronunciation": "Das klinkt GUT! Und _______?",
+            "translation": "That sounds good! And _______?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "haben Sie auch frische Basilikum-Pesto?",
+            "pronunciation": "HA-ben Zi aukh FRISH-e Ba-si-LI-kum-PES-to?",
+            "translation": "do you also have fresh basil pesto?"
+          },
+          {
+            "text": "ist das Parken hier kostenlos?",
+            "pronunciation": "Ist das PAR-ken hir KOST-en-los?",
+            "translation": "is parking free here?"
+          },
+          {
+            "text": "wie viel kostet ein Kilo Äpfel?",
+            "pronunciation": "Vi fil KOS-tet ain KI-lo EP-fel?",
+            "translation": "how much does a kilo of apples cost?"
+          }
+        ],
+        "answer": "haben Sie auch frische Basilikum-Pesto?",
+        "explanation": "Der Kunde plant ein italienisches Gericht, daher ist die Frage nach weiteren passenden Zutaten wie Basilikum-Pesto eine logische Fortsetzung des Gesprächs.",
+        "grammar_point": "Verwendung von 'haben Sie auch...?' (Do you also have...?) um nach der Verfügbarkeit weiterer ähnlicher Produkte zu fragen.",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_002",
+        "situation": "Eine Kundin ist an der Kasse und möchte wissen, ob sie mit Karte zahlen kann, nachdem ein Preisfehler korrigiert wurde.",
+        "situation_icon": "💳",
+        "dialogue": [
+          {
+            "role": "Cashier",
+            "text": "Das macht dann 28 Euro und 50 Cent.",
+            "pronunciation": "Das makht dan acht-und-tsvantsish OY-ro und FÜNF-tsish Tsent.",
+            "translation": "That will be 28 Euros and 50 Cents.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Entschuldigen Sie, aber dieser Joghurt war doch im Angebot für 1 Euro 50, nicht 2 Euro.",
+            "pronunciation": "Ent-SHUL-di-gen Zi, a-ber DI-ser YO-gurt var dokh im AN-ge-bot für ain OY-ro FÜNF-tsish, nisht tsfai OY-ro.",
+            "translation": "Excuse me, but this yogurt was on offer for 1 Euro 50, not 2 Euros.",
+            "isQuestion": false
+          },
+          {
+            "role": "Cashier",
+            "text": "Oh, entschuldigen Sie bitte, da muss ich das schnell korrigieren.",
+            "pronunciation": "O, ent-SHUL-di-gen Zi BIT-te, da mus ish das shnel ko-ri-GI-ren.",
+            "translation": "Oh, I'm sorry, I'll have to correct that quickly.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "_______?",
+            "pronunciation": "_______?",
+            "translation": "_______?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Kann ich hier Pfandflaschen abgeben?",
+            "pronunciation": "Kan ish hir PFAND-flash-en AB-ge-ben?",
+            "translation": "Can I return deposit bottles here?"
+          },
+          {
+            "text": "Kann ich mit Karte bezahlen?",
+            "pronunciation": "Kan ish mit KAR-te be-TSA-len?",
+            "translation": "Can I pay by card?"
+          },
+          {
+            "text": "Wie lange haben Sie heute geöffnet?",
+            "pronunciation": "Vi LANG-e HA-ben Zi HOY-te ge-ÖF-net?",
+            "translation": "How long are you open today?"
+          }
+        ],
+        "answer": "Kann ich mit Karte bezahlen?",
+        "explanation": "Nach der Korrektur des Preises steht der Kunde vor der Bezahlung. Die logische nächste Frage ist die nach den verfügbaren Zahlungsmethoden.",
+        "grammar_point": "Verwendung von 'können' (can) in Fragesätzen, um eine Möglichkeit oder Erlaubnis zu erfragen.",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_market_b1_W11_001",
+        "phrase": "Entschuldigen Sie, wo finde ich die Nudeln?",
+        "pronunciation": "엔트슐디겐 지, 보 핀데 이히 디 누델른?",
+        "meaning": "실례합니다, 파스타는 어디에 있나요?",
+        "usage": "(슈퍼마켓 직원에게 물어보며) Entschuldigen Sie, wo finde ich die Nudeln? Ich brauche Spaghetti für heute Abend.",
+        "alternatives": [
+          {
+            "phrase": "Ich suche die Nudeln.",
+            "pronunciation": "이히 주헤 디 누델른.",
+            "nuance": "조금 더 직접적이고 덜 정중한 표현입니다."
+          },
+          {
+            "phrase": "Können Sie mir sagen, wo die Nudeln sind?",
+            "pronunciation": "쾨넨 지 미어 자겐, 보 디 누델른 진트?",
+            "nuance": "더 정중하고 완곡한 질문입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Die Nudeln finden Sie in Gang 5, gleich neben dem Reis.",
+            "pronunciation": "디 누델른 핀덴 지 인 강 퓐프, 글라이히 네벤 뎀 라이스.",
+            "translation": "파스타는 5번 통로, 쌀 옆에 있습니다."
+          },
+          {
+            "text": "Gehen Sie geradeaus und dann links.",
+            "pronunciation": "게헨 지 게라데아우스 운트 단 링크스.",
+            "translation": "쭉 직진하신 후 왼쪽으로 가세요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_002",
+        "phrase": "Haben Sie diesen Artikel noch da?",
+        "pronunciation": "하벤 지 디젠 아르티켈 노흐 다?",
+        "meaning": "이 상품 아직 있나요? (재고가 있나요?)",
+        "usage": "(선반에 없는 상품을 보고 직원에게 물어보며) Entschuldigen Sie, Haben Sie diesen Artikel noch da? Ich finde ihn nicht.",
+        "alternatives": [
+          {
+            "phrase": "Ist dieser Artikel noch vorrätig?",
+            "pronunciation": "이스트 디저 아르티켈 노흐 포어뢰티히?",
+            "nuance": "좀 더 공식적이고 정확한 재고 문의 표현입니다."
+          },
+          {
+            "phrase": "Haben Sie das Produkt noch auf Lager?",
+            "pronunciation": "하벤 지 다스 프로둑트 노흐 아우프 라거?",
+            "nuance": "창고 재고를 묻는 듯한 느낌을 줄 수 있습니다. (상점에서는 'vorrätig' 또는 'noch da'가 일반적입니다.)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Moment, ich schaue kurz nach.",
+            "pronunciation": "모멘트, 이히 샤우에 쿠르츠 나흐.",
+            "translation": "잠시만요, 제가 잠시 확인해 보겠습니다."
+          },
+          {
+            "text": "Ja, wir haben noch welche im Lager. Ich hole Ihnen eine Packung.",
+            "pronunciation": "야, 비어 하벤 노흐 벨헤 임 라거. 이히 홀레 이넨 아이네 파쿵.",
+            "translation": "네, 창고에 아직 몇 개 있습니다. 한 팩 가져다 드릴게요."
+          },
+          {
+            "text": "Nein, leider ist er momentan ausverkauft.",
+            "pronunciation": "나인, 라이더 이스트 에어 모멘탄 아우스페르카우프트.",
+            "translation": "아니요, 죄송하지만 현재 품절입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_003",
+        "phrase": "Kann ich mit Karte bezahlen?",
+        "pronunciation": "칸 이히 밋 카르테 베찰렌?",
+        "meaning": "카드로 결제할 수 있나요?",
+        "usage": "(계산대에서) Entschuldigen Sie, kann ich mit Karte bezahlen? Ich habe nicht genug Bargeld dabei.",
+        "alternatives": [
+          {
+            "phrase": "Geht auch Kartenzahlung?",
+            "pronunciation": "게이트 아우흐 카르텐찰룽?",
+            "nuance": "더 간결하고 비공식적인 질문입니다."
+          },
+          {
+            "phrase": "Akzeptieren Sie Kreditkarten?",
+            "pronunciation": "악쳅티렌 지 크레디트카르텐?",
+            "nuance": "신용카드 결제 여부를 명확히 묻는 표현입니다. (독일에서는 EC-Karte(직불카드)가 일반적이며, Kreditkarte는 신용카드입니다.)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, selbstverständlich. Bitte führen Sie Ihre Karte ein.",
+            "pronunciation": "야, 젤프스트페어슈탠들리히. 비테 퓨렌 지 이어레 카르테 아인.",
+            "translation": "네, 물론입니다. 카드를 넣어주세요."
+          },
+          {
+            "text": "Nur Barzahlung, leider. Unsere Kartengeräte sind momentan defekt.",
+            "pronunciation": "누어 바어찰룽, 라이더. 운저레 카르텐게레테 진트 모멘탄 데펙트.",
+            "translation": "죄송하지만 현금 결제만 됩니다. 저희 카드 기기가 현재 고장 났습니다."
+          },
+          {
+            "text": "Ja, EC-Karte geht, aber keine Kreditkarte.",
+            "pronunciation": "야, 에체 카르테 게이트, 아버 카이네 크레디트카르테.",
+            "translation": "네, 직불카드는 되지만, 신용카드는 안 됩니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

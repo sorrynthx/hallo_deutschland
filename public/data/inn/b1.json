@@ -1,0 +1,464 @@
+{
+  "location": "inn",
+  "level": "b1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_inn_b1_W11_001",
+        "word": "Speisekarte",
+        "article": "die",
+        "plural": "Speisekarten",
+        "pronunciation": "슈파이제카르테",
+        "meaning": "메뉴판",
+        "example": "Könnten Sie uns bitte die Speisekarte bringen?",
+        "example_translation": "메뉴판을 가져다주시겠어요?",
+        "example_pronunciation": "쾨는텐 지 운스 비테 디 슈파이제카르테 브링엔?",
+        "tags": [
+          "Restaurant",
+          "Bestellung",
+          "Gastronomie"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_002",
+        "word": "bestellen",
+        "article": "null",
+        "plural": "null",
+        "pronunciation": "베슈텔렌",
+        "meaning": "주문하다",
+        "example": "Was möchten Sie bestellen?",
+        "example_translation": "무엇을 주문하시겠어요?",
+        "example_pronunciation": "바스 뫼히텐 지 베슈텔렌?",
+        "tags": [
+          "Restaurant",
+          "Bestellung",
+          "Verb"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_003",
+        "word": "Rechnung",
+        "article": "die",
+        "plural": "Rechnungen",
+        "pronunciation": "레히눙",
+        "meaning": "계산서, 영수증",
+        "example": "Könnten wir bitte die Rechnung haben?",
+        "example_translation": "계산서 좀 주시겠어요?",
+        "example_pronunciation": "쾨는텐 비어 비테 디 레히눙 하벤?",
+        "tags": [
+          "Restaurant",
+          "Bezahlen",
+          "Gastronomie"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_004",
+        "word": "Tisch",
+        "article": "der",
+        "plural": "Tische",
+        "pronunciation": "티쉬",
+        "meaning": "테이블, 식탁",
+        "example": "Haben Sie noch einen Tisch für zwei Personen frei?",
+        "example_translation": "두 명 앉을 테이블 아직 있나요?",
+        "example_pronunciation": "하벤 지 노흐 아이넨 티쉬 퓌어 츠바이 페르조넨 프라이?",
+        "tags": [
+          "Restaurant",
+          "Sitzplatz",
+          "Möbel"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_005",
+        "word": "Getränk",
+        "article": "das",
+        "plural": "Getränke",
+        "pronunciation": "게트랭크",
+        "meaning": "음료",
+        "example": "Ich hätte gerne ein kaltes Getränk.",
+        "example_translation": "시원한 음료 하나 주세요.",
+        "example_pronunciation": "이히 헵테 게르네 아인 칼테스 게트랭크.",
+        "tags": [
+          "Restaurant",
+          "Bestellung",
+          "Essen und Trinken"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_inn_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Konjunktiv II (Höflichkeitsform)",
+        "topic_explanation": "Der Konjunktiv II wird oft verwendet, um höfliche Bitten oder Wünsche auszudrücken, besonders in der Gastronomie. Das Verb 'möchten' ist die Konjunktiv II-Form von 'mögen' und wird sehr häufig für Bestellungen genutzt.",
+        "question": "Guten Abend! Ich ____ gern ein Wiener Schnitzel mit Pommes.",
+        "question_translation": "Good evening! I would like a Wiener Schnitzel with fries.",
+        "options": [
+          "möchte",
+          "möchten",
+          "mochte",
+          "mag"
+        ],
+        "answer": "möchte",
+        "explanation": "Die Form 'möchte' ist die korrekte Konjunktiv II-Form von 'mögen' für die erste Person Singular (ich), um einen höflichen Wunsch auszudrücken. 'Möchten' wäre für 'wir' oder 'sie/Sie'.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "du",
+            "form": "möchtest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "möchte"
+          },
+          {
+            "pronoun": "wir",
+            "form": "möchten"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "möchtet"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "möchten"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination (nach unbestimmtem Artikel, Nominativ)",
+        "topic_explanation": "Nach einem unbestimmten Artikel im Nominativ Singular (Maskulinum und Neutrum) oder im Akkusativ Singular (Neutrum) erhält das Adjektiv spezifische Endungen. Für ein Neutrum-Nomen wie 'Ambiente' im Nominativ Singular ist die Endung '-es'.",
+        "question": "Dieses Gasthaus hat ein wirklich ____ Ambiente.",
+        "question_translation": "This inn has a really nice ambiance.",
+        "options": [
+          "gemütliche",
+          "gemütliches",
+          "gemütlichen",
+          "gemütlicher"
+        ],
+        "answer": "gemütliches",
+        "explanation": "Das Nomen 'Ambiente' ist sächlich (das Ambiente) und steht hier im Nominativ Singular. Der unbestimmte Artikel 'ein' zeigt den Kasus nicht eindeutig an, daher bekommt das Adjektiv die starke Endung des Neutrums im Nominativ: '-es'.",
+        "related_table": [
+          {
+            "case": "Nominativ",
+            "gender": "Maskulin",
+            "article": "ein",
+            "adjective_ending": "-er"
+          },
+          {
+            "case": "Nominativ",
+            "gender": "Feminin",
+            "article": "eine",
+            "adjective_ending": "-e"
+          },
+          {
+            "case": "Nominativ",
+            "gender": "Neutrum",
+            "article": "ein",
+            "adjective_ending": "-es"
+          },
+          {
+            "case": "Akkusativ",
+            "gender": "Maskulin",
+            "article": "einen",
+            "adjective_ending": "-en"
+          },
+          {
+            "case": "Akkusativ",
+            "gender": "Feminin",
+            "article": "eine",
+            "adjective_ending": "-e"
+          },
+          {
+            "case": "Akkusativ",
+            "gender": "Neutrum",
+            "article": "ein",
+            "adjective_ending": "-es"
+          },
+          {
+            "case": "Dativ",
+            "gender": "Maskulin",
+            "article": "einem",
+            "adjective_ending": "-en"
+          },
+          {
+            "case": "Dativ",
+            "gender": "Feminin",
+            "article": "einer",
+            "adjective_ending": "-en"
+          },
+          {
+            "case": "Dativ",
+            "gender": "Neutrum",
+            "article": "einem",
+            "adjective_ending": "-en"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Wechselpräpositionen (an + Dativ)",
+        "topic_explanation": "Wechselpräpositionen wie 'an' können den Dativ oder Akkusativ regieren. Bei einer Positionsangabe (Wo?) steht die Präposition mit dem Dativ. 'Am' ist eine Kurzform von 'an dem'.",
+        "question": "Entschuldigen Sie, ist der Tisch ____ Fenster noch frei?",
+        "question_translation": "Excuse me, is the table by the window still free?",
+        "options": [
+          "am",
+          "ans",
+          "an das",
+          "an"
+        ],
+        "answer": "am",
+        "explanation": "'Am' ist die Kurzform von 'an dem'. Hier wird der Dativ verwendet, weil es um eine feste Position geht (Wo? Der Tisch ist am Fenster). 'Fenster' ist ein Neutrum-Nomen (das Fenster), daher 'an dem Fenster'. 'Ans' (an das) würde Bewegung implizieren (Wohin?).",
+        "related_table": [
+          {
+            "preposition": "an",
+            "case_if_location": "Dativ",
+            "case_if_movement": "Akkusativ",
+            "example_location": "am Tisch",
+            "example_movement": "an den Tisch"
+          },
+          {
+            "preposition": "auf",
+            "case_if_location": "Dativ",
+            "case_if_movement": "Akkusativ",
+            "example_location": "auf dem Stuhl",
+            "example_movement": "auf den Stuhl"
+          },
+          {
+            "preposition": "in",
+            "case_if_location": "Dativ",
+            "case_if_movement": "Akkusativ",
+            "example_location": "im Restaurant",
+            "example_movement": "ins Restaurant"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_inn_b1_W11_001",
+        "situation": "Ein Gast fragt im Restaurant des Gasthauses nach Details zu einem empfohlenen Gericht.",
+        "situation_icon": "🍽️",
+        "dialogue": [
+          {
+            "role": "Kellner",
+            "text": "Guten Abend! Haben Sie schon gewählt?",
+            "pronunciation": "Гутен Абент! Хабен Зи шон гевельт?",
+            "translation": "Good evening! Have you already chosen?",
+            "isQuestion": false
+          },
+          {
+            "role": "Gast",
+            "text": "Guten Abend! Ich bin noch unsicher. Könnten Sie etwas empfehlen?",
+            "pronunciation": "Гутен Абент! Ихь бин нох унзихер. Кёнттен Зи этфас эмпфелен?",
+            "translation": "Good evening! I'm still unsure. Could you recommend something?",
+            "isQuestion": false
+          },
+          {
+            "role": "Kellner",
+            "text": "Ja, unser Zwiebelrostbraten mit Spätzle ist heute sehr beliebt. Oder möchten Sie lieber etwas Vegetarisches?",
+            "pronunciation": "Йа, унзер Цвибелростбратен мит Шпэцле ист хойте зер белибт. Одер мёхтен Зи либер этфас Вегетаришес?",
+            "translation": "Yes, our Zwiebelrostbraten with Spätzle is very popular today. Or would you prefer something vegetarian?",
+            "isQuestion": false
+          },
+          {
+            "role": "Gast",
+            "text": "Hmm, Zwiebelrostbraten klingt gut. Wird er mit einer Sauce serviert?",
+            "pronunciation": "Хмм, Цвибелростбратен клингт гут. Вирд эр мит айнер Зауце сервирт?",
+            "translation": "Hmm, Zwiebelrostbraten sounds good. Is it served with a sauce?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, mit einer würzigen Bratensauce.",
+            "pronunciation": "Йа, мит айнер вюрциген Братензауце.",
+            "translation": "Yes, with a spicy gravy."
+          },
+          {
+            "text": "Nein, die Sauce ist extra.",
+            "pronunciation": "Найн, ди Зауце ист экстра.",
+            "translation": "No, the sauce is extra."
+          },
+          {
+            "text": "Das ist nicht auf der Speisekarte.",
+            "pronunciation": "Дас ист нихт ауф дер Шпайзекарте.",
+            "translation": "That is not on the menu."
+          }
+        ],
+        "answer": "Ja, mit einer würzigen Bratensauce.",
+        "explanation": "Die Frage des Gastes bezieht sich auf die Beilagen oder die Art der Zubereitung des Gerichts. Eine positive und informative Antwort des Kellners ist am wahrscheinlichsten, um den Gast zur Bestellung zu animieren. 'Ja, mit einer würzigen Bratensauce' gibt eine direkte und passende Information.",
+        "grammar_point": "Passiv (Passive voice), Fragen mit 'werden' (Questions with 'werden')",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_b1_W11_002",
+        "situation": "Ein Gast checkt im Gasthaus ein und hat eine Frage zum Zimmer.",
+        "situation_icon": "🏨",
+        "dialogue": [
+          {
+            "role": "Rezeptionist",
+            "text": "Herzlich willkommen im Gasthaus 'Zum Löwen'! Haben Sie eine Reservierung?",
+            "pronunciation": "Херцлих вилькоммен им Гастхаус ' Цум Лёвен'! Хабен Зи айне Резервирунг?",
+            "translation": "Welcome to the guesthouse 'Zum Löwen'! Do you have a reservation?",
+            "isQuestion": false
+          },
+          {
+            "role": "Gast",
+            "text": "Guten Tag! Ja, mein Name ist Müller. Ich habe ein Zimmer für zwei Nächte gebucht.",
+            "pronunciation": "Гутен Таг! Йа, майн Наме ист Мюллер. Ихь хабе айн Циммер фюр цвай Нэхте гебухт.",
+            "translation": "Good day! Yes, my name is Müller. I have booked a room for two nights.",
+            "isQuestion": false
+          },
+          {
+            "role": "Rezeptionist",
+            "text": "Ah, Herr Müller, ja, Zimmer Nummer 203. Hier ist Ihr Schlüssel. Das Zimmer ist im zweiten Stock.",
+            "pronunciation": "А, Херр Мюллер, йа, Циммер Нуммер цвай-ноль-драй. Хир ист Ир Шлюссель. Дас Циммер ист им цвайтен Шток.",
+            "translation": "Ah, Mr. Müller, yes, room number 203. Here is your key. The room is on the second floor.",
+            "isQuestion": false
+          },
+          {
+            "role": "Gast",
+            "text": "Vielen Dank! Gibt es WLAN auf dem Zimmer?",
+            "pronunciation": "Филен Данк! Гибт эс Вэ-лан ауф дем Циммер?",
+            "translation": "Thank you very much! Is there Wi-Fi in the room?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, WLAN ist im ganzen Haus kostenlos verfügbar.",
+            "pronunciation": "Йа, Вэ-лан ист им ганцен Хаус костенлос ферфюгбар.",
+            "translation": "Yes, Wi-Fi is available free of charge throughout the entire building."
+          },
+          {
+            "text": "Nein, WLAN gibt es nur in der Lobby.",
+            "pronunciation": "Найн, Вэ-лан гибт эс нур ин дер Лобби.",
+            "translation": "No, Wi-Fi is only available in the lobby."
+          },
+          {
+            "text": "Das Zimmer ist sehr sauber.",
+            "pronunciation": "Дас Циммер ист зер заубер.",
+            "translation": "The room is very clean."
+          }
+        ],
+        "answer": "Ja, WLAN ist im ganzen Haus kostenlos verfügbar.",
+        "explanation": "Die Frage des Gastes bezieht sich auf die Verfügbarkeit von WLAN. Eine direkte und vollständige Antwort ist hier am passendsten. 'Ja, WLAN ist im ganzen Haus kostenlos verfügbar' beantwortet die Frage umfassend und positiv.",
+        "grammar_point": "Fragen mit 'es gibt' (Questions with 'es gibt'), Angaben zu Verfügbarkeit (Information on availability), Präpositionen des Ortes (Prepositions of place)",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_inn_b1_W11_001",
+        "phrase": "Ich hätte gerne ein Schnitzel mit Pommes.",
+        "pronunciation": "이히 핻테 게르네 아인 슈니첼 밋 폼메스.",
+        "meaning": "슈니첼과 감자튀김으로 주세요.",
+        "usage": "식당에서 공손하게 음식을 주문할 때 사용합니다. 간단히 'Ein Schnitzel, bitte.'라고 할 수도 있지만, 'Ich hätte gerne...'가 좀 더 정중한 표현입니다.",
+        "alternatives": [
+          {
+            "phrase": "Für mich bitte ein Schnitzel mit Pommes.",
+            "pronunciation": "퓌어 미히 비테 아인 슈니첼 밋 폼메스.",
+            "nuance": "좀 덜 격식적이지만 여전히 공손합니다. 웨이터가 이미 다른 사람들의 주문을 받은 후에 자신의 차례가 되었을 때 자주 사용합니다."
+          },
+          {
+            "phrase": "Ich nehme das Schnitzel mit Pommes.",
+            "pronunciation": "이히 네메 다스 슈니첼 밋 폼메스.",
+            "nuance": "좀 더 직접적이고 일상적인 표현입니다. '제가 슈니첼을 먹겠습니다.'와 같은 뉘앙스입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Kommt sofort!",
+            "pronunciation": "콤트 조포르트!",
+            "translation": "바로 나갑니다!"
+          },
+          {
+            "text": "Sehr gerne.",
+            "pronunciation": "제어 게르네.",
+            "translation": "기꺼이요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_002",
+        "phrase": "Die Rechnung, bitte.",
+        "pronunciation": "디 레히눙 비테.",
+        "meaning": "계산서 주세요.",
+        "usage": "계산하기 위해 청구서를 요청할 때 사용합니다. 손가락을 엑스자로 교차하며 신호를 보낼 수도 있습니다.",
+        "alternatives": [
+          {
+            "phrase": "Wir möchten gerne zahlen.",
+            "pronunciation": "비어 뫼히텐 게르네 잘렌.",
+            "nuance": "특히 그룹으로 식사할 때 좀 더 공손하고 완전한 표현입니다. '저희는 계산하고 싶습니다.'라는 의미입니다."
+          },
+          {
+            "phrase": "Können wir bitte bezahlen?",
+            "pronunciation": "쾨넨 비어 비테 베짤렌?",
+            "nuance": "약간 더 비격식적이지만 매우 흔히 사용되는 질문입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Kommt sofort.",
+            "pronunciation": "콤트 조포르트.",
+            "translation": "바로 가져다드리겠습니다."
+          },
+          {
+            "text": "Zahlen Sie zusammen oder getrennt?",
+            "pronunciation": "잘렌 지 추잠멘 오더 게트렌트?",
+            "translation": "같이 계산하시겠어요, 아니면 따로 하시겠어요?"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_003",
+        "phrase": "Was können Sie empfehlen?",
+        "pronunciation": "바스 쾨넨 지 엠프펠렌?",
+        "meaning": "무엇을 추천하시나요?",
+        "usage": "무엇을 주문할지 결정하지 못했고, 직원에게 추천을 받고 싶을 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Haben Sie eine Empfehlung für mich?",
+            "pronunciation": "하벤 지 아이네 엠프펠룽 퓌어 미히?",
+            "nuance": "더 직접적이고 개인적인 표현입니다. '저에게 추천해주실 것이 있나요?'라는 의미입니다."
+          },
+          {
+            "phrase": "Was ist Ihre Spezialität des Hauses?",
+            "pronunciation": "바스 이스트 이레 슈페치알리테트 데스 하우제스?",
+            "nuance": "식당의 특별 요리(하우스 스페셜)를 물어보는 표현입니다. '이곳의 특선 요리는 무엇입니까?'라는 의미입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Unser Schweinebraten ist sehr beliebt.",
+            "pronunciation": "운저 슈바인에브라텐 이스트 제어 벨리프트.",
+            "translation": "저희 돼지고기 로스트 요리가 매우 인기가 많습니다."
+          },
+          {
+            "text": "Heute gibt es frische Forelle.",
+            "pronunciation": "호이테 깁트 에스 프리쉐 포렐레.",
+            "translation": "오늘은 신선한 송어가 있습니다."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}

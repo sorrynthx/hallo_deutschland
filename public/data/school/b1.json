@@ -1,0 +1,368 @@
+{
+  "location": "school",
+  "level": "b1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_school_b1_W11_001",
+        "word": "Klausur",
+        "article": "die",
+        "plural": "Klausuren",
+        "pronunciation": "클라우주어",
+        "meaning": "시험 (필기시험, 고사)",
+        "example": "Die nächste Klausur in Mathematik ist nächste Woche.",
+        "example_translation": "다음 주 수학 시험이 있습니다.",
+        "example_pronunciation": "디 넥스테 클라우주어 인 마테마티크 이스트 넥스테 보헤.",
+        "tags": [
+          "시험",
+          "평가",
+          "학교"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b1_W11_002",
+        "word": "Referat",
+        "article": "das",
+        "plural": "Referate",
+        "pronunciation": "레페라트",
+        "meaning": "발표, 강연",
+        "example": "Er muss nächste Woche ein Referat über die Geschichte Deutschlands halten.",
+        "example_translation": "그는 다음 주에 독일 역사에 대해 발표해야 합니다.",
+        "example_pronunciation": "에어 무스 넥스테 보헤 아인 레페라트 위버 디 게쉬히테 도이칠란츠 할텐.",
+        "tags": [
+          "발표",
+          "과제",
+          "수업"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b1_W11_003",
+        "word": "Stundenplan",
+        "article": "der",
+        "plural": "Stundenpläne",
+        "pronunciation": "슈툰덴플란",
+        "meaning": "시간표",
+        "example": "Hast du deinen neuen Stundenplan schon bekommen?",
+        "example_translation": "너 새 시간표 벌써 받았니?",
+        "example_pronunciation": "하스트 두 다이넨 노이엔 슈툰덴플란 숀 베코멘?",
+        "tags": [
+          "시간표",
+          "수업",
+          "학교생활"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b1_W11_004",
+        "word": "Bibliothek",
+        "article": "die",
+        "plural": "Bibliotheken",
+        "pronunciation": "비블리오테크",
+        "meaning": "도서관",
+        "example": "Ich muss für meine Recherche in die Bibliothek gehen.",
+        "example_translation": "나는 조사를 위해 도서관에 가야 합니다.",
+        "example_pronunciation": "이히 무스 퓌어 마이네 레셰르셰 인 디 비블리오테크 게헨.",
+        "tags": [
+          "도서관",
+          "학습",
+          "시설"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b1_W11_005",
+        "word": "Hausaufgaben",
+        "article": "die",
+        "plural": null,
+        "pronunciation": "하우스아우프가벤",
+        "meaning": "숙제",
+        "example": "Hast du deine Hausaufgaben schon gemacht?",
+        "example_translation": "너 숙제 벌써 다 했니?",
+        "example_pronunciation": "하스트 두 다이네 하우스아우프가벤 숀 게마흐트?",
+        "tags": [
+          "숙제",
+          "과제",
+          "학습"
+        ],
+        "week": "W11"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_school_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Wechselpräpositionen (Dativ/Akkusativ)",
+        "topic_explanation": "Wechselpräpositionen wie 'auf', 'in', 'an' können entweder den Dativ (Frage: Wo? - Zustand) oder den Akkusativ (Frage: Wohin? - Bewegung/Richtung) regieren. Die Wahl hängt davon ab, ob eine Ortsangabe oder eine Richtungsangabe gemacht wird.",
+        "question": "Die Schultasche liegt ____ Tisch, direkt neben den Büchern.",
+        "question_translation": "The school bag is lying ____ table, right next to the books.",
+        "options": [
+          "auf dem",
+          "in dem",
+          "über dem",
+          "an dem"
+        ],
+        "answer": "auf dem",
+        "explanation": "Die Präposition 'auf' beschreibt die Lage auf einer horizontalen Fläche. Da es sich um einen Zustand (Wo? - Dativ) handelt, wird 'dem' (Dativ Singular Maskulinum) verwendet. 'Der Tisch' ist maskulin.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_school_b1_W11_002",
+        "type": "conjugation_table",
+        "topic": "Konjunktiv II (von 'sein')",
+        "topic_explanation": "Der Konjunktiv II wird verwendet, um Wünsche, hypothetische Situationen, Ratschläge oder höfliche Bitten auszudrücken. Die Konjunktiv-II-Form von 'sein' ('wäre') ist dabei besonders wichtig.",
+        "question": "Konjugiere das Verb 'sein' im Konjunktiv II Präteritum (die Form für irreale Wünsche oder Bedingungen).",
+        "question_translation": "Conjugate the verb 'sein' (to be) in the Konjunktiv II Präteritum (the form for unreal wishes or conditions).",
+        "options": [],
+        "answer": null,
+        "explanation": "Der Konjunktiv II von 'sein' ist 'wäre' und wird oft verwendet, um auszudrücken, was man sich wünschen würde oder wie etwas wäre, wenn eine Bedingung erfüllt wäre. Zum Beispiel: 'Ich wäre froh, wenn du helfen könntest.'",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "wäre"
+          },
+          {
+            "pronoun": "du",
+            "form": "wärest"
+          },
+          {
+            "pronoun": "er/sie/es",
+            "form": "wäre"
+          },
+          {
+            "pronoun": "wir",
+            "form": "wären"
+          },
+          {
+            "pronoun": "ihr",
+            "form": "wäret"
+          },
+          {
+            "pronoun": "sie/Sie",
+            "form": "wären"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_school_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination (nach bestimmtem Artikel)",
+        "topic_explanation": "Wenn ein Adjektiv nach einem bestimmten Artikel (der, die, das) steht, ändern sich seine Endungen je nach Kasus, Genus und Numerus des Nomens, das es beschreibt. Im Nominativ und Akkusativ Singular (Maskulinum, Neutrum, Femininum) sowie im Plural ist die Endung meist '-e' oder '-en'.",
+        "question": "Die neu____ Lehrerin erklärt die Grammatik sehr gut.",
+        "question_translation": "The new teacher explains the grammar very well.",
+        "options": [
+          "-e",
+          "-en",
+          "-er",
+          "-es"
+        ],
+        "answer": "-e",
+        "explanation": "Das Adjektiv 'neu' steht hier nach dem bestimmten Artikel 'die'. 'Lehrerin' ist feminin und steht im Nominativ Singular. In diesem Fall ist die korrekte Adjektivendung '-e'. (Die neue Lehrerin)",
+        "related_table": [],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_school_b1_W11_001",
+        "situation": "Ein Schüler hat seine Hausaufgaben vergessen und spricht mit der Lehrerin.",
+        "situation_icon": "🤦‍♀️",
+        "dialogue": [
+          {
+            "role": "Lehrerin",
+            "text": "Markus, hast du deine Hausaufgaben dabei?",
+            "pronunciation": "Markus, hast du dy-nuh Haus-ouf-gah-ben dah-by?",
+            "translation": "Markus, do you have your homework with you?",
+            "isQuestion": false
+          },
+          {
+            "role": "Markus",
+            "text": "Oh nein, Frau Schmidt! Es tut mir leid, ich habe sie leider vergessen.",
+            "pronunciation": "Oh nyn, Frau Shmit! Es toot mir lyt, ish hab-uh zee ly-duh fer-ges-sen.",
+            "translation": "Oh no, Ms. Schmidt! I'm sorry, I unfortunately forgot them.",
+            "isQuestion": false
+          },
+          {
+            "role": "Lehrerin",
+            "text": "Vergessen? Das ist aber ärgerlich. Kannst du sie denn morgen mitbringen?",
+            "pronunciation": "Fer-ges-sen? Das ist ah-buh er-ger-lish. Kanst doo zee den mor-gen mit-bring-en?",
+            "translation": "Forgotten? That's annoying. Can you bring them tomorrow?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, natürlich! Das mache ich dann morgen früh.",
+            "pronunciation": "Yah, nah-tür-lish! Das mach-uh ish dan mor-gen früh.",
+            "translation": "Yes, of course! I'll do that tomorrow morning."
+          },
+          {
+            "text": "Nein, ich glaube nicht.",
+            "pronunciation": "Nyn, ish glau-buh nisht.",
+            "translation": "No, I don't think so."
+          },
+          {
+            "text": "Ich habe sie schon abgegeben.",
+            "pronunciation": "Ish hab-uh zee shon ap-geh-geb-en.",
+            "translation": "I already handed them in."
+          }
+        ],
+        "answer": "Ja, natürlich! Das mache ich dann morgen früh.",
+        "explanation": "Markus entschuldigt sich und verspricht, die Hausaufgaben am nächsten Tag mitzubringen, was eine direkte und höfliche Antwort auf die Frage der Lehrerin ist.",
+        "grammar_point": "Antworten auf Ja/Nein-Fragen und Zusage formulieren",
+        "week": "W11"
+      },
+      {
+        "id": "conv_school_b1_W11_002",
+        "situation": "Zwei Schüler sprechen über eine anstehende Erdkunde-Klausur.",
+        "situation_icon": "📚",
+        "dialogue": [
+          {
+            "role": "Lena",
+            "text": "Hast du schon gehört? Nächste Woche schreiben wir die große Erdkunde-Klausur!",
+            "pronunciation": "Hast doo shon geh-hört? Näk-stuh voh-khuh shry-ben veer dee gro-ssuh Ert-kun-duh-klau-zoor!",
+            "translation": "Have you heard? Next week we're writing the big geography exam!",
+            "isQuestion": false
+          },
+          {
+            "role": "Tim",
+            "text": "Oh je, das habe ich ganz vergessen! Ich muss noch so viel lernen.",
+            "pronunciation": "Oh yeh, das hab-uh ish gants fer-ges-sen! Ish muss nokh zo feel ler-nen.",
+            "translation": "Oh dear, I completely forgot that! I still have so much to learn.",
+            "isQuestion": false
+          },
+          {
+            "role": "Lena",
+            "text": "Keine Panik, wir haben ja noch ein paar Tage. Wie bereitest du dich denn darauf vor?",
+            "pronunciation": "Ky-nuh pah-nik, veer hah-ben yah nokh ayn par tah-guh. Vee beh-ry-test doo dish den dah-rouf for?",
+            "translation": "Don't panic, we still have a few days. How are you preparing for it?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich werde mir nochmal alle wichtigen Themen ansehen und Zusammenfassungen schreiben.",
+            "pronunciation": "Ish ver-duh mir nokh-mal al-luh vish-tih-gen teh-men an-zeh-en oont tsoo-zam-men-fas-sung-en shry-ben.",
+            "translation": "I will look at all the important topics again and write summaries."
+          },
+          {
+            "text": "Ich habe schon alles gelernt.",
+            "pronunciation": "Ish hab-uh shon al-les geh-lernt.",
+            "translation": "I have already learned everything."
+          },
+          {
+            "text": "Das ist mir egal, ich schaffe das sowieso nicht.",
+            "pronunciation": "Das ist mir eh-gal, ish shaf-fuh das zo-vee-zo nisht.",
+            "translation": "I don't care, I won't manage it anyway."
+          }
+        ],
+        "answer": "Ich werde mir nochmal alle wichtigen Themen ansehen und Zusammenfassungen schreiben.",
+        "explanation": "Tim erklärt Lena, wie er sich auf die Klausur vorbereiten möchte, indem er wichtige Themen wiederholt und Zusammenfassungen erstellt, was eine sinnvolle Vorbereitung darstellt.",
+        "grammar_point": "Zukunftsform (Futur I) für Pläne und Vorsätze",
+        "week": "W11"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_school_b1_W11_001",
+        "phrase": "Könnten Sie das bitte noch einmal erklären?",
+        "pronunciation": "쾰른튼 지 다스 비테 녹 아인말 에어클래른?",
+        "meaning": "그걸 다시 한번 설명해주실 수 있나요?",
+        "usage": "Wenn ich etwas im Unterricht nicht verstanden habe und um Wiederholung oder Klärung bitte.",
+        "alternatives": [
+          {
+            "phrase": "Ich habe das nicht ganz verstanden. Könnten Sie es wiederholen?",
+            "pronunciation": "이히 하베 다스 니히트 간츠 페어슈탄덴. 쾰른튼 지 에스 비더홀렌?",
+            "nuance": "제가 그걸 완전히 이해하지 못했어요. 다시 말씀해주실 수 있나요? (이해 부족을 더 명확히 표현)"
+          },
+          {
+            "phrase": "Würden Sie diesen Punkt noch einmal genauer ausführen?",
+            "pronunciation": "뷔르덴 지 디젠 풍크트 녹 아인말 게나우어 아우스퓌렌?",
+            "nuance": "이 부분을 다시 한번 더 자세히 설명해주시겠어요? (더 상세한 설명을 요청할 때)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, klar. Was genau ist unklar?",
+            "pronunciation": "야, 클라어. 바스 게나우 이스트 운클라어?",
+            "translation": "네, 물론이죠. 정확히 어떤 점이 불분명한가요?"
+          },
+          {
+            "text": "Gerne. Ich erkläre es noch einmal mit einem anderen Beispiel.",
+            "pronunciation": "게르네. 이히 에어클래레 에스 녹 아인말 밋 아이넴 안더렌 바이슈필.",
+            "translation": "기꺼이요. 다른 예시를 들어 다시 설명해 드릴게요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_school_b1_W11_002",
+        "phrase": "Ich finde, dieses Thema ist sehr interessant/schwierig.",
+        "pronunciation": "이히 핀데, 디제스 테마 이스트 제어 인터레산트/슈비리히.",
+        "meaning": "저는 이 주제가 매우 흥미롭다고/어렵다고 생각해요.",
+        "usage": "Um meine persönliche Meinung oder Einschätzung zu einem Unterrichtsthema auszudrücken.",
+        "alternatives": [
+          {
+            "phrase": "Meiner Meinung nach ist das Thema...",
+            "pronunciation": "마이너 마이눙 나흐 이스트 다스 테마...",
+            "nuance": "제 의견으로는 그 주제는... (더 형식적으로 의견을 제시할 때)"
+          },
+          {
+            "phrase": "Ich glaube, wir sollten uns mehr auf... konzentrieren.",
+            "pronunciation": "이히 글라우베, 비어 졸텐 운스 메어 아우프... 콘첸트리렌.",
+            "nuance": "제 생각에는 우리가 ...에 더 집중해야 한다고 생각해요. (의견과 함께 제안을 할 때)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Das stimmt, ich finde es auch.",
+            "pronunciation": "다스 슈팀트, 이히 핀데 에스 아우흐.",
+            "translation": "맞아요, 저도 그렇게 생각해요."
+          },
+          {
+            "text": "Da bin ich anderer Meinung. Ich finde es eigentlich ganz einfach.",
+            "pronunciation": "다 빈 이히 안더러 마이눙. 이히 핀데 에스 아이겐틀리히 간츠 아인파흐.",
+            "translation": "저는 다른 의견이에요. 사실 저는 그게 꽤 쉽다고 생각해요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_school_b1_W11_003",
+        "phrase": "Wann müssen wir die Hausaufgaben/Präsentation abgeben?",
+        "pronunciation": "반 뮈쎈 비어 디 하우스아우프가벤/프레젠타치온 압게벤?",
+        "meaning": "우리는 숙제/발표를 언제 제출해야 하나요?",
+        "usage": "Um nach der Abgabefrist für eine Aufgabe oder ein Projekt zu fragen.",
+        "alternatives": [
+          {
+            "phrase": "Bis wann ist die Abgabefrist für die Aufgabe?",
+            "pronunciation": "비스 반 이스트 디 압가베프리스트 퓌어 디 아우프가베?",
+            "nuance": "그 과제의 제출 기한이 언제까지인가요? (제출 기한 자체를 더 직접적으로 물을 때)"
+          },
+          {
+            "phrase": "Gibt es eine Frist für diese Aufgabe?",
+            "pronunciation": "깁트 에스 아이네 프리스트 퓌어 디제 아우프가베?",
+            "nuance": "이 과제에 기한이 있나요? (기한의 유무를 먼저 확인할 때)"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Die Abgabe ist nächste Woche Freitag.",
+            "pronunciation": "디 압가베 이스트 넥스테 보헤 프라이탁.",
+            "translation": "제출은 다음 주 금요일입니다."
+          },
+          {
+            "text": "Wir haben noch bis zum Ende des Monats Zeit.",
+            "pronunciation": "비어 하벤 녹 비스 춤 엔데 데스 모나츠 차이트.",
+            "translation": "우리는 아직 이달 말까지 시간이 있어요."
+          }
+        ],
+        "week": "W11"
+      }
+    ]
+  },
+  "lastUpdated": "W11"
+}
