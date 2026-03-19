@@ -94,9 +94,9 @@
         "id": "gram_market_a2_W11_001",
         "type": "fill_blank",
         "topic": "Dativpräposition 'mit'",
-        "topic_explanation": "Diese Frage testet Ihr Wissen über die Deklination von Artikeln im Dativ, insbesondere nach der Präposition 'mit', die immer den Dativ verlangt.",
+        "topic_explanation": "이 질문은 여격에서의 관사 어형 변화, 특히 항상 여격을 요구하는 전치사 'mit' 이후의 형태에 대한 지식을 테스트합니다.",
         "question": "Ich gehe oft mit ____ Freundin in den Supermarkt.",
-        "question_translation": "I often go to the supermarket with my girlfriend.",
+        "question_translation": "나는 여자친구와 함께 슈퍼마켓에 자주 갑니다.",
         "options": [
           "einem",
           "einer",
@@ -104,7 +104,7 @@
           "eine"
         ],
         "answer": "einer",
-        "explanation": "Die Präposition 'mit' verlangt den Dativ. 'Freundin' ist ein feminines Nomen ('die Freundin'), daher ist der unbestimmte Artikel im Dativ Singular 'einer'.",
+        "explanation": "전치사 'mit'은 여격을 요구합니다. 'Freundin'은 여성 명사('die Freundin')이므로 여격 단수의 부정관사는 'einer'입니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -112,9 +112,9 @@
         "id": "gram_market_a2_W11_002",
         "type": "fill_blank",
         "topic": "Konjugation des Modalverbs 'möchten'",
-        "topic_explanation": "Diese Frage prüft die korrekte Konjugation des Modalverbs 'möchten' (höfliche Form von 'wollen') in der Anrede 'Sie' (formelle Anrede).",
+        "topic_explanation": "이 질문은 인사말 'Sie'(격식 인사말)에서 조동사 'möchten'('wollen'의 정중형)의 올바른 활용을 테스트합니다.",
         "question": "Entschuldigen Sie, ____ Sie mir bitte sagen, wo ich die Milch finde?",
-        "question_translation": "Excuse me, could you please tell me where I can find the milk?",
+        "question_translation": "실례합니다. 우유를 어디서 찾을 수 있는지 알려주실 수 있나요?",
         "options": [
           "möchte",
           "möchtest",
@@ -122,7 +122,7 @@
           "möchtet"
         ],
         "answer": "möchten",
-        "explanation": "Für die formelle Anrede 'Sie' (Siezen) ist die korrekte Konjugation des Modalverbs 'möchten' immer 'möchten'. 'Möchten Sie' ist eine höfliche Art, eine Frage zu stellen.",
+        "explanation": "형식적 인사말 'Sie'(Siezen)의 경우 조동사 'möchten'의 올바른 활용형은 항상 'möchten'입니다. 'Möchten Sie'는 정중하게 질문하는 방법입니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -155,9 +155,9 @@
         "id": "gram_market_a2_W11_003",
         "type": "fill_blank",
         "topic": "Wechselpräposition 'in' (Akkusativ)",
-        "topic_explanation": "Diese Frage testet Ihr Verständnis von Wechselpräpositionen (z.B. 'in'), die den Akkusativ verlangen, wenn eine Bewegung oder Richtungsänderung ausgedrückt wird (Frage 'Wohin?').",
+        "topic_explanation": "이 질문은 움직임이나 방향의 변화를 표현할 때 대격을 요구하는 장소 전치사(예: 'in')에 대한 이해를 테스트합니다('Wohin?' 질문).",
         "question": "Ich lege die frischen Orangen in ____ Einkaufswagen.",
-        "question_translation": "I put the fresh oranges into the shopping cart.",
+        "question_translation": "나는 신선한 오렌지를 장바구니에 담았다.",
         "options": [
           "der",
           "den",
@@ -165,7 +165,7 @@
           "des"
         ],
         "answer": "den",
-        "explanation": "Die Präposition 'in' ist eine Wechselpräposition. Da es sich um eine Bewegung ('legen' – wohin?) handelt, wird der Akkusativ verwendet. 'Einkaufswagen' ist ein maskulines Nomen ('der Einkaufswagen'), daher ist der bestimmte Artikel im Akkusativ Singular 'den'.",
+        "explanation": "전치사 'in'은 장소 전치사(Wechselpräposition)입니다. 여기서는 이동('legen' – 어디로?)을 나타내므로 대격이 사용됩니다. 'Einkaufswagen'은 남성 명사('der Einkaufswagen')이므로 남성 대격 단수의 정관사는 'den'입니다.",
         "related_table": [],
         "week": "W11"
       }
@@ -173,35 +173,35 @@
     "conversation": [
       {
         "id": "conv_market_a2_W11_001",
-        "situation": "Kunde möchte Tomaten kaufen und fragt nach dem Preis an der Gemüsetheke.",
+        "situation": "고객이 토마토를 사고 싶어 야채 판매대에 가격을 묻습니다.",
         "situation_icon": "🍅",
         "dialogue": [
           {
             "role": "Kunde",
             "text": "Guten Tag! Ich suche Tomaten.",
             "pronunciation": "GU-ten Tak! Ish ZU-khe To-MA-ten.",
-            "translation": "Good day! I'm looking for tomatoes.",
+            "translation": "안녕하세요! 토마토를 찾고 있어요.",
             "isQuestion": false
           },
           {
             "role": "Verkäufer",
             "text": "Ja, die sind hier vorne. Brauchen Sie Hilfe?",
             "pronunciation": "Ya, di zint hir FOR-ne. BRAU-khen zi HIL-fe?",
-            "translation": "Yes, they are here at the front. Do you need help?",
+            "translation": "네, 여기 앞쪽에 있어요. 도움이 필요하신가요?",
             "isQuestion": false
           },
           {
             "role": "Kunde",
             "text": "Ja, danke. _____ ",
             "pronunciation": "Ya, DAN-ke. _____ ",
-            "translation": "Yes, thanks. _____ ",
+            "translation": "네, 고마워요. _____",
             "isQuestion": true
           },
           {
             "role": "Verkäufer",
             "text": "Ein Kilo kostet 2 Euro 50.",
             "pronunciation": "Ain KI-lo KOS-tet tswei OI-ro FÜNF-tsish.",
-            "translation": "One kilo costs 2 Euros 50.",
+            "translation": "1킬로는 2유로 50입니다.",
             "isQuestion": false
           }
         ],
@@ -209,47 +209,47 @@
           {
             "text": "Wie viel kostet ein Kilo?",
             "pronunciation": "Vi fil KOS-tet ain KI-lo?",
-            "translation": "How much does a kilo cost?"
+            "translation": "1킬로는 얼마인가요?"
           },
           {
             "text": "Haben Sie Käse?",
             "pronunciation": "HA-ben zi KÄ-ze?",
-            "translation": "Do you have cheese?"
+            "translation": "치즈 있어요?"
           },
           {
             "text": "Ich nehme drei Tomaten.",
             "pronunciation": "Ish NEH-me drai To-MA-ten.",
-            "translation": "I'll take three tomatoes."
+            "translation": "토마토 3개를 사겠습니다."
           }
         ],
         "answer": "Wie viel kostet ein Kilo?",
-        "explanation": "Der Kunde fragt nach dem Preis, bevor er die Menge angibt. 'Wie viel kostet...?' ist die übliche Frage nach dem Preis.",
+        "explanation": "고객은 수량을 지정하기 전에 가격을 묻습니다. '비용이 얼마죠...?' 가격에 관한 일반적인 질문입니다.",
         "grammar_point": "W-Fragen: Nach dem Preis fragen (Wie viel kostet...?)"
       },
       {
         "id": "conv_market_a2_W11_002",
-        "situation": "Ein Kunde sucht Kaffee und fragt eine Angestellte im Supermarkt nach dem Standort.",
+        "situation": "고객이 커피를 찾고 있는데 슈퍼마켓 직원에게 위치를 묻습니다.",
         "situation_icon": "☕",
         "dialogue": [
           {
             "role": "Kunde",
             "text": "Entschuldigen Sie, ich kann den Kaffee nicht finden.",
             "pronunciation": "Ent-SHUL-di-gen zi, ish kan den KA-fee nisht FIN-den.",
-            "translation": "Excuse me, I can't find the coffee.",
+            "translation": "죄송합니다. 커피를 찾을 수 없습니다.",
             "isQuestion": false
           },
           {
             "role": "Verkäuferin",
             "text": "Kein Problem! _____ ",
             "pronunciation": "Kain pro-BLEM! _____ ",
-            "translation": "No problem! _____ ",
+            "translation": "괜찮아요! _____",
             "isQuestion": true
           },
           {
             "role": "Kunde",
             "text": "Vielen Dank!",
             "pronunciation": "FI-len Dank!",
-            "translation": "Many thanks!",
+            "translation": "정말 감사합니다!",
             "isQuestion": false
           }
         ],
@@ -257,21 +257,21 @@
           {
             "text": "Der Kaffee ist im Gang drei, links.",
             "pronunciation": "Der KA-fee ist im Gang drai, links.",
-            "translation": "The coffee is in aisle three, left."
+            "translation": "커피는 3번 통로 왼쪽에 있습니다."
           },
           {
             "text": "Ist der Kaffee gut?",
             "pronunciation": "Ist der KA-fee gut?",
-            "translation": "Is the coffee good?"
+            "translation": "커피는 맛있나요?"
           },
           {
             "text": "Ich habe auch Hunger.",
             "pronunciation": "Ish HA-be auch HUN-ger.",
-            "translation": "I am also hungry."
+            "translation": "나도 배가 고프다."
           }
         ],
         "answer": "Der Kaffee ist im Gang drei, links.",
-        "explanation": "Die Angestellte gibt dem Kunden die Richtung und den genauen Standort des Kaffees an.",
+        "explanation": "직원은 고객에게 커피가 나오는 방향과 정확한 위치를 알려준다.",
         "grammar_point": "Richtungs- und Ortsangaben: Präpositionen (im Gang), Ordinalzahlen (Gang drei)."
       }
     ],

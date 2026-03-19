@@ -89,9 +89,9 @@
         "id": "gram_hospital_b1_W11_001",
         "type": "fill_blank",
         "topic": "Adjektivendungen im Dativ",
-        "topic_explanation": "Übung der Adjektivendungen nach bestimmten und unbestimmten Artikeln im Dativ. Im Dativ werden Adjektive nach dem bestimmten Artikel (dem, der, den) meist mit '-en' und nach dem unbestimmten Artikel (einem, einer) auch mit '-en' oder spezifischer Endung versehen.",
+        "topic_explanation": "여격의 정관사와 부정관사 뒤에 형용사 어미를 연습하세요. 여격의 경우, 형용사는 일반적으로 정관사(dem, der, den) 뒤에 '-en'를 부여하고, 부정관사(ein, ein) 뒤에는 '-en' 또는 특정 어미를 부여합니다.",
         "question": "Die Krankenschwester hilft dem ____ Patienten beim Aufstehen.",
-        "question_translation": "The nurse helps the ____ patient to get up.",
+        "question_translation": "간호사는 ____ 환자가 일어날 수 있도록 도와줍니다.",
         "options": [
           "schwachen",
           "schwacher",
@@ -99,7 +99,7 @@
           "schwachem"
         ],
         "answer": "schwachen",
-        "explanation": "Nach dem bestimmten Artikel 'dem' im Dativ Maskulinum (der Patient) endet das Adjektiv auf '-en'. Der Satz benötigt den Dativ, da 'helfen' ein Dativ-Verb ist. 'Der schwache Patient' wird zu 'dem schwachen Patienten' im Dativ.",
+        "explanation": "남성 여격 정관사 'dem' (der Patient) 뒤에서 형용사는 '-en'으로 끝납니다. 'helfen'은 여격 지배 동사이므로 문장에 여격이 필요합니다. 'Der schwache Patient'는 여격에서 'dem schwachen Patienten'이 됩니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -107,9 +107,9 @@
         "id": "gram_hospital_b1_W11_002",
         "type": "fill_blank",
         "topic": "Präpositionen mit Dativ und Akkusativ",
-        "topic_explanation": "Diese Übung hilft Ihnen, Präpositionen korrekt im Dativ oder Akkusativ anzuwenden, je nach Verb und Kontext. Manche Verben verlangen spezifische Präpositionen und Fälle.",
+        "topic_explanation": "이 연습은 동사와 문맥에 따라 여격이나 목적격에서 전치사를 올바르게 사용하는 데 도움이 될 것입니다. 일부 동사에는 특정 전치사와 격이 필요합니다.",
         "question": "Der Arzt spricht ____ die Diagnose mit dem Patienten.",
-        "question_translation": "The doctor discusses ____ the diagnosis with the patient.",
+        "question_translation": "의사는 환자와 진단에 대해 ____에 대해 논의합니다.",
         "options": [
           "mit",
           "über",
@@ -117,7 +117,7 @@
           "gegen"
         ],
         "answer": "über",
-        "explanation": "Das Verb 'sprechen' wird, wenn es um ein Thema oder einen Inhalt geht, oft mit der Präposition 'über' gefolgt von dem Akkusativ verwendet (sprechen über + Akkusativ). In diesem Fall 'über die Diagnose'.",
+        "explanation": "주제나 내용에 대해 이야기할 때 동사 'sprechen'는 종종 전치사 'über' 뒤에 대격(talk about + 대격)이 오는 것과 함께 사용됩니다. 이 경우에는 'über die Diagnose'입니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -125,9 +125,9 @@
         "id": "gram_hospital_b1_W11_003",
         "type": "fill_blank",
         "topic": "Konjunktiv II (Höflichkeitsformen und Wünsche)",
-        "topic_explanation": "Der Konjunktiv II wird verwendet, um Höflichkeit, Bitten oder Wünsche auszudrücken, besonders in formellen oder sensiblen Situationen wie im Krankenhaus. Die Formen von 'können' und 'werden' sind hierbei besonders wichtig.",
+        "topic_explanation": "가정법 II는 특히 병원과 같이 공식적이거나 민감한 상황에서 공손함, 요청 또는 희망을 표현하는 데 사용됩니다. 여기서는 'können' 및 'werden' 형식이 특히 중요합니다.",
         "question": "____ Sie mir bitte sagen, wann der nächste Termin ist?",
-        "question_translation": "____ you please tell me when the next appointment is?",
+        "question_translation": "____ 다음 약속이 언제인지 알려주시겠어요?",
         "options": [
           "Könnten",
           "Wüssten",
@@ -135,7 +135,7 @@
           "Seien"
         ],
         "answer": "Könnten",
-        "explanation": "'Könnten Sie...?' ist eine sehr gängige und höfliche Formulierung, um eine Bitte oder Frage auszudrücken. Es ist die Konjunktiv II-Form des Modalverbs 'können'.",
+        "explanation": "'Könnten Sie...?'는 요청이나 질문을 표현하는 매우 일반적이고 정중한 표현입니다. 조동사 'können'의 가정법 II 형태입니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -168,21 +168,21 @@
     "conversation": [
       {
         "id": "conv_hospital_b1_W11_001",
-        "situation": "Sie sind im Krankenhaus und haben einen Termin zur Untersuchung. Sie sprechen mit der Rezeptionistin.",
+        "situation": "귀하는 병원에 있으며 검사 예약을 하고 있습니다. 당신은 접수원과 이야기를 나눕니다.",
         "situation_icon": "🏥",
         "dialogue": [
           {
             "role": "Patient",
             "text": "Guten Tag, ich habe einen Termin um 10 Uhr bei Dr. Schmidt.",
             "pronunciation": "GU-ten Tak, ich HA-be EI-nen TER-min um ZEHN UHR bei DOK-tor SCHMITT.",
-            "translation": "Good day, I have an appointment at 10 AM with Dr. Schmidt.",
+            "translation": "좋은 하루 되세요. 오전 10시에 슈미트 박사님과 약속이 있습니다.",
             "isQuestion": false
           },
           {
             "role": "Rezeptionistin",
             "text": "Könnten Sie bitte Ihren Namen und Ihr Geburtsdatum nennen?",
             "pronunciation": "KÖNN-ten ZIE BIT-te IH-ren NA-men und IHR Ge-BURTS-da-tum NEN-nen?",
-            "translation": "Could you please state your name and date of birth?",
+            "translation": "이름과 생년월일을 알려주시겠어요?",
             "isQuestion": true
           },
           {
@@ -197,34 +197,34 @@
           {
             "text": "Ja, ich bin um 10 Uhr hier.",
             "pronunciation": "Yah, ich bin um ZEHN UHR heer.",
-            "translation": "Yes, I am here at 10 o'clock."
+            "translation": "네, 저는 10시에 여기에 있어요."
           },
           {
             "text": "Mein Name ist Anna Müller, geboren am 15. Mai 1985.",
             "pronunciation": "Main NA-me ist AN-na MÜL-ler, ge-BO-ren am FÜNF-zehn-ten Mai neun-zehn-HUN-dert FÜNF-und-ACHT-zig.",
-            "translation": "My name is Anna Müller, born on May 15, 1985."
+            "translation": "내 이름은 Anna Müller이고 1985년 5월 15일에 태어났습니다."
           },
           {
             "text": "Ich habe einen Termin bei Dr. Schmidt.",
             "pronunciation": "Ich HA-be EI-nen TER-min bei DOK-tor SCHMITT.",
-            "translation": "I have an appointment with Dr. Schmidt."
+            "translation": "슈미트 박사님과 약속이 있어요."
           }
         ],
         "answer": "Mein Name ist Anna Müller, geboren am 15. Mai 1985.",
-        "explanation": "Die Rezeptionistin fragt nach Ihrem Namen und Geburtsdatum. Die korrekte Antwort gibt genau diese Informationen an.",
+        "explanation": "접수원이 귀하의 이름과 생년월일을 묻습니다. 정답은 바로 이 정보를 제공합니다.",
         "grammar_point": "Formale Anrede 'Sie' und die Nennung persönlicher Daten.",
         "week": "W11"
       },
       {
         "id": "conv_hospital_b1_W11_002",
-        "situation": "Sie sitzen im Wartezimmer und hören, wie Ihr Name von einer Krankenschwester aufgerufen wird.",
+        "situation": "당신은 대기실에 앉아 간호사가 당신의 이름을 부르는 것을 듣습니다.",
         "situation_icon": "🧑‍⚕️",
         "dialogue": [
           {
             "role": "Krankenschwester",
             "text": "Herr Müller?",
             "pronunciation": "Herr MÜL-ler?",
-            "translation": "Mr. Müller?",
+            "translation": "뮐러 씨?",
             "isQuestion": true
           },
           {
@@ -238,7 +238,7 @@
             "role": "Krankenschwester",
             "text": "Bitte folgen Sie mir ins Behandlungszimmer drei.",
             "pronunciation": "BIT-te FOL-gen ZIE mir ins Be-HAND-lungs-zim-mer DREI.",
-            "translation": "Please follow me into treatment room three.",
+            "translation": "저를 따라 3번 치료실로 가세요.",
             "isQuestion": false
           }
         ],
@@ -246,21 +246,21 @@
           {
             "text": "Ja, das bin ich. Wo soll ich hingehen?",
             "pronunciation": "Yah, das bin ich. VO soll ich HIN-ge-hen?",
-            "translation": "Yes, that's me. Where should I go?"
+            "translation": "네, 그게 바로 나예요. 어디로 가야하나요?"
           },
           {
             "text": "Ich bin Frau Schmidt.",
             "pronunciation": "Ich bin Frau SCHMITT.",
-            "translation": "I am Ms. Schmidt."
+            "translation": "저는 슈미트 씨입니다."
           },
           {
             "text": "Wann ist der nächste Bus?",
             "pronunciation": "Vann ist der NÄCHS-te BUS?",
-            "translation": "When is the next bus?"
+            "translation": "다음 버스는 언제예요?"
           }
         ],
         "answer": "Ja, das bin ich. Wo soll ich hingehen?",
-        "explanation": "Die Krankenschwester fragt, ob Sie Herr Müller sind. Sie bestätigen dies und fragen höflich nach dem weiteren Vorgehen.",
+        "explanation": "간호사가 당신이 뮐러 씨인지 묻습니다. 이를 확인하고 어떻게 진행해야 하는지 정중하게 물어보세요.",
         "grammar_point": "Bestätigung einer Identität und einfache Fragen nach dem Ort ('wo').",
         "week": "W11"
       }

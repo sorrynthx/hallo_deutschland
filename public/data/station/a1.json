@@ -215,7 +215,7 @@
         "topic": "정관사 격변화 (Nominativ / Akkusativ)",
         "topic_explanation": "독일어 명사는 성(gender)과 격(case)에 따라 정관사(der, die, das)의 형태가 변합니다. 기차역 상황에서 물건을 사거나 위치를 물을 때 주로 주격(Nominativ)과 4격(Akkusativ)이 사용됩니다.",
         "question": "다음 표를 채우시오.",
-        "question_translation": "Fill in the following table.",
+        "question_translation": "다음 표를 채워보세요.",
         "options": [],
         "answer": "",
         "explanation": "Nominativ는 주어의 역할을 하며, Akkusativ는 직접 목적어의 역할을 합니다. 중성 명사는 Nom.과 Akk.에서 형태 변화가 없습니다.",

@@ -94,9 +94,9 @@
         "id": "gram_library_a2_W11_001",
         "type": "fill_blank",
         "topic": "Dativ Case with Preposition \"aus\"",
-        "topic_explanation": "The preposition \"aus\" (from/out of) always requires the dative case. You need to choose the correct dative definite article for \"Bibliothek\" (feminine noun).",
+        "topic_explanation": "전치사 \"aus\"(from/out of)에는 항상 여격이 필요합니다. \"Bibliothek\"(여성 명사)에 대한 올바른 여격 정관사를 선택해야 합니다.",
         "question": "Ich hole ein Buch ____ der Bibliothek.",
-        "question_translation": "I am getting a book from the library.",
+        "question_translation": "나는 도서관에서 책을 구하고 있어요.",
         "options": [
           "die",
           "dem",
@@ -104,7 +104,7 @@
           "den"
         ],
         "answer": "der",
-        "explanation": "The preposition \"aus\" always takes the dative case. \"Bibliothek\" is a feminine noun (\"die Bibliothek\"). The dative definite article for feminine singular nouns is \"der\". Therefore, \"aus der Bibliothek\" is correct.",
+        "explanation": "전치사 \"aus\"는 항상 여격을 취합니다. \"Bibliothek\"은 여성명사(\"die Bibliothek\")입니다. 여성 단수 명사의 여격 정관사는 \"der\"입니다. 따라서 \"aus der Bibliothek\"이 맞습니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -112,9 +112,9 @@
         "id": "gram_library_a2_W11_002",
         "type": "conjugation_table",
         "topic": "Modal Verb Conjugation (können)",
-        "topic_explanation": "This question tests your knowledge of how to conjugate the modal verb \"können\" (to be able to, can) in the present tense. Modal verbs often have irregular conjugations, especially in the singular forms (ich, du, er/sie/es).",
+        "topic_explanation": "이 질문은 현재 시제에서 조동사 \"können\"(할 수 있다, 할 수 있다)을 활용하는 방법에 대한 지식을 테스트합니다. 조동사는 특히 단수형(ich, du, er/sie/es)에서 불규칙 활용형을 갖는 경우가 많습니다.",
         "question": "Wie lautet die korrekte Form von \"können\" für \"du\" im Präsens?\nIch kann\nDu ____\nEr/Sie/Es kann\nWir können\nIhr könnt\nSie/sie können",
-        "question_translation": "What is the correct form of \"können\" for \"du\" in the present tense?\nI can\nYou ____\nHe/She/It can\nWe can\nYou (plural informal) can\nYou (formal)/they can",
+        "question_translation": "현재 시제에서 \"du\"에 대한 \"können\"의 올바른 형태는 무엇입니까?\n나는 할 수 있다\n당신은 ____\n그/그녀/할 수 있다\n우리는 할 수 있다\n당신은 (복수형 비공식) 할 수 있습니다\n당신은 (공식적으로)/그들은 할 수 있습니다",
         "options": [
           "kann",
           "kannst",
@@ -122,7 +122,7 @@
           "könne"
         ],
         "answer": "kannst",
-        "explanation": "The correct conjugation of the modal verb \"können\" for the pronoun \"du\" in the present tense is \"kannst\".",
+        "explanation": "현재 시제에서 대명사 \"du\"에 대한 조동사 \"können\"의 올바른 활용형은 \"kannst\"입니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -155,9 +155,9 @@
         "id": "gram_library_a2_W11_003",
         "type": "declension_table",
         "topic": "Adjective Endings after Indefinite Article (Accusative Neuter)",
-        "topic_explanation": "This question tests your knowledge of adjective endings when they follow an indefinite article (\"ein\") in the accusative case. The adjective takes a specific ending depending on the gender and case of the noun. \"Buch\" is a neuter noun.",
+        "topic_explanation": "이 문제는 대격에서 부정관사(\"ein\") 뒤에 오는 형용사 어미에 대한 지식을 테스트합니다. 형용사는 명사의 성별과 격에 따라 특정한 어미를 갖습니다. \"Buch\"는 중성 명사입니다.",
         "question": "Welche Endung gehört zu dem Adjektiv \"interessant\" in diesem Satz?\nIch suche ein ____ Buch über die Geschichte Berlins.",
-        "question_translation": "Which ending belongs to the adjective \"interessant\" in this sentence?\nI am looking for an ____ book about the history of Berlin.",
+        "question_translation": "이 문장에서 형용사 \"interessant\"에 속하는 어미은 무엇입니까?\n나는 베를린의 역사에 관한 ____ 책을 찾고 있습니다.",
         "options": [
           "-e",
           "-er",
@@ -165,7 +165,7 @@
           "-en"
         ],
         "answer": "-es",
-        "explanation": "The verb \"suchen\" requires the accusative case. \"Buch\" is a neuter noun (\"das Buch\"). When an indefinite article (\"ein\") is followed by an adjective describing a neuter noun in the accusative case, the adjective takes the ending \"-es\" (e.g., ein interessantes Buch).",
+        "explanation": "동사 \"suchen\"에는 대격이 필요합니다. \"Buch\"는 중성 명사(\"das Buch\")입니다. 부정관사(\"ein\") 뒤에 대격의 중성 명사를 설명하는 형용사가 오면 형용사는 어미 \"-es\"를 취합니다(예: ein interessantes Buch).",
         "related_table": [],
         "week": "W11"
       }
@@ -173,21 +173,21 @@
     "conversation": [
       {
         "id": "conv_library_a2_W11_001",
-        "situation": "Sie möchten ein Buch ausleihen, haben aber noch keinen Bibliotheksausweis.",
+        "situation": "책을 빌리고 싶은데 아직 도서관 카드가 없습니다.",
         "situation_icon": "📚",
         "dialogue": [
           {
             "role": "Benutzer",
             "text": "Guten Tag, ich möchte ein Buch ausleihen.",
             "pronunciation": "GU-ten Tak, ish MÖSH-te ain Bukh AVS-lai-en.",
-            "translation": "Good day, I would like to borrow a book.",
+            "translation": "좋은 하루 되세요. 책을 빌리고 싶습니다.",
             "isQuestion": false
           },
           {
             "role": "Bibliothekarin",
             "text": "Haben Sie schon einen Bibliotheksausweis?",
             "pronunciation": "HA-ben Zi shon AI-nen Bi-blio-teks-AUS-vais?",
-            "translation": "Do you already have a library card?",
+            "translation": "이미 도서관 카드를 갖고 계십니까?",
             "isQuestion": true
           }
         ],
@@ -195,34 +195,34 @@
           {
             "text": "Nein, noch nicht. Wie kann ich einen beantragen?",
             "pronunciation": "Nain, nokh nisht. Vi kan ish AI-nen be-AN-tra-gen?",
-            "translation": "No, not yet. How can I apply for one?"
+            "translation": "아니요, 아직은 아닙니다. 어떻게 신청할 수 있나요?"
           },
           {
             "text": "Ja, hier ist er.",
             "pronunciation": "Ya, hir ist er.",
-            "translation": "Yes, here it is."
+            "translation": "예, 여기 있습니다."
           },
           {
             "text": "Das Buch ist sehr interessant.",
             "pronunciation": "Das Bukh ist zer in-te-re-SANT.",
-            "translation": "The book is very interesting."
+            "translation": "이 책은 매우 흥미 롭습니다."
           }
         ],
         "answer": "Nein, noch nicht. Wie kann ich einen beantragen?",
-        "explanation": "Die Bibliothekarin fragt, ob der Benutzer bereits einen Ausweis besitzt. Die korrekte Antwort, wenn man noch keinen hat, ist eine Verneinung gefolgt von der Frage nach dem Vorgehen zur Beantragung.",
+        "explanation": "사서는 고객이 이미 신분증을 가지고 있는지 묻습니다. 아직 가지고 있지 않은 경우 정답은 부정이며 신청 방법에 대한 질문이 이어집니다.",
         "grammar_point": "Verneinung (noch nicht), Fragen stellen (W-Fragen: Wie kann ich...?).",
         "week": "W11"
       },
       {
         "id": "conv_library_a2_W11_002",
-        "situation": "Sie suchen ein bestimmtes Buch und fragen eine Bibliothekarin um Hilfe.",
+        "situation": "당신은 특정 책을 찾고 있으며 사서에게 도움을 요청합니다.",
         "situation_icon": "📖",
         "dialogue": [
           {
             "role": "Benutzer",
             "text": "Entschuldigen Sie, wo finde ich das Buch 'Der kleine Prinz'?",
             "pronunciation": "Ent-SHUL-di-gen Zi, vo FIN-de ish das Bukh 'Der KLAI-ne Prinz'?",
-            "translation": "Excuse me, where can I find the book 'The Little Prince'?",
+            "translation": "죄송한데, '어린왕자' 책은 어디서 찾을 수 있나요?",
             "isQuestion": true
           }
         ],
@@ -230,21 +230,21 @@
           {
             "text": "Es steht im Regal 3B, bei den Kinderbüchern.",
             "pronunciation": "Es SHTET im Re-GAL drei-BE, bai den KIN-der-bü-chern.",
-            "translation": "It's on shelf 3B, with the children's books."
+            "translation": "3B 선반에 어린이 책이 있어요."
           },
           {
             "text": "Ich habe es gestern gelesen.",
             "pronunciation": "Ish HA-be es GES-tern ge-LE-zen.",
-            "translation": "I read it yesterday."
+            "translation": "어제 읽었습니다."
           },
           {
             "text": "Das ist ein guter Film.",
             "pronunciation": "Das ist ain GU-ter Film.",
-            "translation": "That is a good movie."
+            "translation": "정말 좋은 영화예요."
           }
         ],
         "answer": "Es steht im Regal 3B, bei den Kinderbüchern.",
-        "explanation": "Der Benutzer fragt nach dem Standort eines Buches. Die Bibliothekarin gibt eine präzise Ortsangabe an, wo das Buch zu finden ist.",
+        "explanation": "사용자가 책의 위치를 ​​묻습니다. 사서는 책을 찾을 수 있는 정확한 위치를 알려줍니다.",
         "grammar_point": "Ortsangaben mit Präpositionen (im, bei), Dativ.",
         "week": "W11"
       }

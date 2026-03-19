@@ -94,9 +94,9 @@
         "id": "gram_station_b1_W11_001",
         "type": "fill_blank",
         "topic": "Wechselpräpositionen mit Akkusativ (Richtung)",
-        "topic_explanation": "Wechselpräpositionen (z.B. 'auf', 'in', 'an') verlangen den Akkusativ, wenn sie eine Bewegung oder Richtung zu einem Ort ausdrücken. Bei Flächen wie 'Gleis' oder 'Bahnsteig' wird oft 'auf' verwendet.",
+        "topic_explanation": "장소 전치사(예: 'auf', 'in', 'an')는 위치에 대한 이동이나 방향을 표현하는 경우 대격이 필요합니다. 'Gleis' 또는 'Bahnsteig'와 같은 영역의 경우 'auf'가 자주 사용됩니다.",
         "question": "Der ICE fährt gleich auf ____ Gleis 5 ein.",
-        "question_translation": "The ICE is arriving at platform 5 soon.",
+        "question_translation": "ICE가 곧 5번 플랫폼에 도착할 예정입니다.",
         "options": [
           "der",
           "dem",
@@ -104,7 +104,7 @@
           "den"
         ],
         "answer": "das",
-        "explanation": "'Gleis' ist ein Neutrum-Substantiv ('das Gleis'). Da die Präposition 'auf' hier eine Bewegung ('einfahren') ausdrückt, verlangt sie den Akkusativ. Der bestimmte Artikel für Neutrum im Akkusativ ist 'das'.",
+        "explanation": "'Gleis'는 중성 명사('das Gleis')입니다. 여기서 전치사 'auf'는 이동('einfahren')을 나타내므로 대격을 요구합니다. 중성 대격의 정관사는 'das'입니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -112,9 +112,9 @@
         "id": "gram_station_b1_W11_002",
         "type": "fill_blank",
         "topic": "Konjunktiv II (höfliche Bitten)",
-        "topic_explanation": "Der Konjunktiv II wird verwendet, um höfliche Bitten oder Anfragen auszudrücken, was in Kundenservicesituationen am Bahnhof sehr nützlich ist. Häufig werden dafür Modalverben wie 'können' oder 'dürfen' verwendet.",
+        "topic_explanation": "가정법 II는 정중한 요청이나 요청을 표현하는 데 사용되며, 이는 기차역의 고객 서비스 상황에서 매우 유용합니다. 이를 위해 'können' 또는 'dürfen'와 같은 조동사가 자주 사용됩니다.",
         "question": "Entschuldigen Sie, ____ Sie mir bitte sagen, wann der nächste Zug nach Berlin fährt?",
-        "question_translation": "Excuse me, could you please tell me when the next train to Berlin departs?",
+        "question_translation": "죄송합니다. 베를린으로 가는 다음 기차가 언제 출발하는지 알려주실 수 있나요?",
         "options": [
           "können",
           "konnten",
@@ -122,7 +122,7 @@
           "dürfen"
         ],
         "answer": "könnten",
-        "explanation": "Um eine höfliche Frage oder Bitte an eine unbekannte Person in der 'Sie'-Form zu stellen, verwendet man den Konjunktiv II des Verbs 'können', also 'könnten'.",
+        "explanation": "알 수 없는 사람에게 'Sie' 형식으로 정중한 질문이나 요청을 하려면 동사 'können'의 가정법 II, 즉 'könnten'를 사용하세요.",
         "related_table": [],
         "week": "W11"
       },
@@ -130,9 +130,9 @@
         "id": "gram_station_b1_W11_003",
         "type": "fill_blank",
         "topic": "Relativsätze (Akkusativ)",
-        "topic_explanation": "Relativsätze liefern zusätzliche Informationen über ein Nomen im Hauptsatz. Das Relativpronomen richtet sich in Genus und Numerus nach dem Bezugswort und im Kasus nach seiner Funktion im Relativsatz.",
+        "topic_explanation": "상대절은 주절의 명사에 대한 추가 정보를 제공합니다. 관계대명사의 성별과 수는 선행 단어에 따라 달라지며, 대격은 관계사절에서의 기능에 따라 달라집니다.",
         "question": "Das ist der Koffer, ____ ich gestern im Zug gefunden habe.",
-        "question_translation": "This is the suitcase, which I found yesterday on the train.",
+        "question_translation": "이건 어제 기차에서 발견한 여행가방이에요.",
         "options": [
           "der",
           "den",
@@ -140,7 +140,7 @@
           "das"
         ],
         "answer": "den",
-        "explanation": "'Koffer' ist Maskulin ('der Koffer'). Das Relativpronomen bezieht sich auf 'der Koffer' und steht im Akkusativ, da es das direkte Objekt des Verbs 'gefunden habe' ist ('ich habe den Koffer gefunden'). Daher ist die richtige Form 'den'.",
+        "explanation": "'Koffer'는 남성형입니다('der Koffer'). 관계대명사는 'der Koffer'를 지칭하며, 동사 'gefunden habe'('ich habe den Koffer gefunden')의 직접 목적어이기 때문에 대격에 해당합니다. 따라서 올바른 형식은 'den'입니다.",
         "related_table": [],
         "week": "W11"
       }
@@ -148,21 +148,21 @@
     "conversation": [
       {
         "id": "conv_station_b1_W11_001",
-        "situation": "Am Fahrkartenschalter eine Fahrkarte nach Hamburg kaufen.",
+        "situation": "매표소에서 함부르크행 티켓을 구매하세요.",
         "situation_icon": "🎟️",
         "dialogue": [
           {
             "role": "Reisender",
             "text": "Guten Tag, ich hätte gerne eine Fahrkarte nach Hamburg, bitte.",
             "pronunciation": "Goo-ten Tak, ish het-te gair-ne ai-ne Fahr-kar-te nakh Ham-burk, bit-te.",
-            "translation": "Good day, I would like a ticket to Hamburg, please.",
+            "translation": "좋은 하루 되세요. 함부르크행 티켓을 주세요.",
             "isQuestion": false
           },
           {
             "role": "Schalterbeamter",
             "text": "Einfach oder hin und zurück?",
             "pronunciation": "Ain-fakh o-der hin unt tsoo-ruek?",
-            "translation": "Single or return?",
+            "translation": "싱글인가, 복귀인가?",
             "isQuestion": true
           }
         ],
@@ -170,41 +170,41 @@
           {
             "text": "Nur einfach, bitte.",
             "pronunciation": "Noor ain-fakh, bit-te.",
-            "translation": "Just single, please."
+            "translation": "그냥 싱글로 주세요."
           },
           {
             "text": "Ich möchte nach Berlin.",
             "pronunciation": "Ish myoosh-te nakh Ber-lin.",
-            "translation": "I want to go to Berlin."
+            "translation": "나는 베를린에 가고 싶다."
           },
           {
             "text": "Das ist sehr schön.",
             "pronunciation": "Das ist zair shyon.",
-            "translation": "That is very nice."
+            "translation": "정말 좋은데요."
           }
         ],
         "answer": "Nur einfach, bitte.",
-        "explanation": "Die Frage 'Einfach oder hin und zurück?' bezieht sich auf die Art der Fahrkarte (Einzelfahrt oder Hin- und Rückfahrt). 'Nur einfach, bitte' ist die passende Antwort, wenn man nur eine einfache Fahrt wünscht.",
+        "explanation": "'편도인가요, 왕복인가요?'라는 질문입니다. 항공권 유형(단일 여행 또는 왕복 여행)을 나타냅니다. 편도 여행만 원할 경우에는 '편도만 주세요'가 적절한 대답입니다.",
         "grammar_point": "Fragen nach der Fahrkartenart, Modalverb 'möchten', Akkusativ 'eine Fahrkarte'.",
         "week": "W11"
       },
       {
         "id": "conv_station_b1_W11_002",
-        "situation": "Am Bahnsteig nach der Abfahrtszeit und dem Gleis für einen Zug fragen.",
+        "situation": "플랫폼에서 기차 출발 시간과 플랫폼을 물어보세요.",
         "situation_icon": "🚂",
         "dialogue": [
           {
             "role": "Reisender",
             "text": "Entschuldigen Sie, wann fährt der Zug nach München ab?",
             "pronunciation": "Ent-shool-di-gen Zee, van färt der Tsook nakh Myun-shen ap?",
-            "translation": "Excuse me, when does the train to Munich depart?",
+            "translation": "실례합니다. 뮌헨행 기차는 언제 출발하나요?",
             "isQuestion": false
           },
           {
             "role": "Passant",
             "text": "Der fährt um 14:30 Uhr von Gleis 7 ab. Haben Sie schon eine Fahrkarte?",
             "pronunciation": "Der färt um fyer-tsen dray-sig oor fon Glays zee-ben ap. Ha-ben Zee shon ai-ne Fahr-kar-te?",
-            "translation": "It departs at 2:30 PM from platform 7. Do you already have a ticket?",
+            "translation": "7번 플랫폼에서 오후 2시 30분에 출발합니다. 이미 티켓을 가지고 계신가요?",
             "isQuestion": true
           }
         ],
@@ -212,21 +212,21 @@
           {
             "text": "Ja, die habe ich schon.",
             "pronunciation": "Ya, dee ha-be ish shon.",
-            "translation": "Yes, I already have it."
+            "translation": "예, 이미 가지고 있습니다."
           },
           {
             "text": "Ich mag München sehr.",
             "pronunciation": "Ish mak Myun-shen zair.",
-            "translation": "I like Munich very much."
+            "translation": "나는 뮌헨을 아주 좋아한다."
           },
           {
             "text": "Nein, wann kommt der Zug an?",
             "pronunciation": "Nayn, van komt der Tsook an?",
-            "translation": "No, when does the train arrive?"
+            "translation": "아니, 기차는 언제 도착해?"
           }
         ],
         "answer": "Ja, die habe ich schon.",
-        "explanation": "Die Frage 'Haben Sie schon eine Fahrkarte?' erfordert eine Ja/Nein-Antwort bezüglich des Besitzes einer Fahrkarte. 'Ja, die habe ich schon' ist die passende positive Antwort, bei der 'die' sich auf 'die Fahrkarte' bezieht.",
+        "explanation": "'이미 티켓을 가지고 계십니까?'라는 질문 티켓 소지 여부에 대한 예/아니요 답변이 필요합니다. '예, 이미 가지고 있습니다'가 적절한 긍정적인 대답입니다. 여기서 '저것'은 '티켓'을 의미합니다.",
         "grammar_point": "Uhrzeiten und Gleisangaben, Fragen mit 'schon', Personalpronomen im Akkusativ.",
         "week": "W11"
       }
