@@ -94,9 +94,9 @@
         "id": "gram_inn_b1_W11_001",
         "type": "fill_blank",
         "topic": "Konjunktiv II (Höflichkeitsform)",
-        "topic_explanation": "Der Konjunktiv II wird oft verwendet, um höfliche Bitten oder Wünsche auszudrücken, besonders in der Gastronomie. Das Verb 'möchten' ist die Konjunktiv II-Form von 'mögen' und wird sehr häufig für Bestellungen genutzt.",
+        "topic_explanation": "가정법 II는 특히 케이터링 산업에서 정중한 요청이나 희망을 표현하는 데 자주 사용됩니다. 동사 'möchten'는 'mögen'의 가정법 II형으로 명령에 매우 자주 사용됩니다.",
         "question": "Guten Abend! Ich ____ gern ein Wiener Schnitzel mit Pommes.",
-        "question_translation": "Good evening! I would like a Wiener Schnitzel with fries.",
+        "question_translation": "좋은 저녁이에요! 감자튀김을 곁들인 비너 슈니첼을 주세요.",
         "options": [
           "möchte",
           "möchten",
@@ -104,7 +104,7 @@
           "mag"
         ],
         "answer": "möchte",
-        "explanation": "Die Form 'möchte' ist die korrekte Konjunktiv II-Form von 'mögen' für die erste Person Singular (ich), um einen höflichen Wunsch auszudrücken. 'Möchten' wäre für 'wir' oder 'sie/Sie'.",
+        "explanation": "'möchte' 형식은 공손한 소망을 표현하기 위한 1인칭 단수(I)의 'mögen'의 올바른 가정법 II 형식입니다. 'Möchten'는 'wir' 또는 'sie/Sie'에 대한 것입니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -137,9 +137,9 @@
         "id": "gram_inn_b1_W11_002",
         "type": "fill_blank",
         "topic": "Adjektivdeklination (nach unbestimmtem Artikel, Nominativ)",
-        "topic_explanation": "Nach einem unbestimmten Artikel im Nominativ Singular (Maskulinum und Neutrum) oder im Akkusativ Singular (Neutrum) erhält das Adjektiv spezifische Endungen. Für ein Neutrum-Nomen wie 'Ambiente' im Nominativ Singular ist die Endung '-es'.",
+        "topic_explanation": "남성 및 중성 주격 단수 또는 중성 대격 단수의 부정관사 뒤에서 형용사는 특정한 어미를 갖습니다. 'Ambiente'와 같은 중성 주격 단수 명사의 경우 어미는 '-es'입니다.",
         "question": "Dieses Gasthaus hat ein wirklich ____ Ambiente.",
-        "question_translation": "This inn has a really nice ambiance.",
+        "question_translation": "이 여관은 정말 분위기가 좋아요.",
         "options": [
           "gemütliche",
           "gemütliches",
@@ -147,7 +147,7 @@
           "gemütlicher"
         ],
         "answer": "gemütliches",
-        "explanation": "Das Nomen 'Ambiente' ist sächlich (das Ambiente) und steht hier im Nominativ Singular. Der unbestimmte Artikel 'ein' zeigt den Kasus nicht eindeutig an, daher bekommt das Adjektiv die starke Endung des Neutrums im Nominativ: '-es'.",
+        "explanation": "명사 'Ambiente'는 중성(분위기)이며 주격 단수형입니다. 부정관사 'ein'는 격을 명확하게 나타내지 않으므로 형용사는 주격에서 중성의 강한 어미 '-es'를 얻습니다.",
         "related_table": [
           {
             "case": "Nominativ",
@@ -210,9 +210,9 @@
         "id": "gram_inn_b1_W11_003",
         "type": "fill_blank",
         "topic": "Wechselpräpositionen (an + Dativ)",
-        "topic_explanation": "Wechselpräpositionen wie 'an' können den Dativ oder Akkusativ regieren. Bei einer Positionsangabe (Wo?) steht die Präposition mit dem Dativ. 'Am' ist eine Kurzform von 'an dem'.",
+        "topic_explanation": "'an'와 같은 전치사는 여격이나 대격을 취할 수 있습니다. 위치를 지정할 때(Where?) 전치사는 여격과 함께 사용됩니다. 'Am'는 'an dem'의 약어입니다.",
         "question": "Entschuldigen Sie, ist der Tisch ____ Fenster noch frei?",
-        "question_translation": "Excuse me, is the table by the window still free?",
+        "question_translation": "죄송합니다. 창가 표은 아직 비어 있나요?",
         "options": [
           "am",
           "ans",
@@ -220,7 +220,7 @@
           "an"
         ],
         "answer": "am",
-        "explanation": "'Am' ist die Kurzform von 'an dem'. Hier wird der Dativ verwendet, weil es um eine feste Position geht (Wo? Der Tisch ist am Fenster). 'Fenster' ist ein Neutrum-Nomen (das Fenster), daher 'an dem Fenster'. 'Ans' (an das) würde Bewegung implizieren (Wohin?).",
+        "explanation": "'Am'은 'an dem'의 축약형입니다. 여기서는 고정된 위치를 의미하므로 여격이 사용됩니다(어디에? 테이블이 창가에 있습니다). 'Fenster'는 중성 명사(das Fenster)이므로 'an dem Fenster'가 됩니다. 'Ans'(an das)는 움직임을 암시합니다(어디로?).",
         "related_table": [
           {
             "preposition": "an",
@@ -250,35 +250,35 @@
     "conversation": [
       {
         "id": "conv_inn_b1_W11_001",
-        "situation": "Ein Gast fragt im Restaurant des Gasthauses nach Details zu einem empfohlenen Gericht.",
+        "situation": "손님이 여관 레스토랑의 추천 요리에 대해 자세히 묻습니다.",
         "situation_icon": "🍽️",
         "dialogue": [
           {
             "role": "Kellner",
             "text": "Guten Abend! Haben Sie schon gewählt?",
             "pronunciation": "Гутен Абент! Хабен Зи шон гевельт?",
-            "translation": "Good evening! Have you already chosen?",
+            "translation": "좋은 저녁이에요! 이미 선택하셨나요?",
             "isQuestion": false
           },
           {
             "role": "Gast",
             "text": "Guten Abend! Ich bin noch unsicher. Könnten Sie etwas empfehlen?",
             "pronunciation": "Гутен Абент! Ихь бин нох унзихер. Кёнттен Зи этфас эмпфелен?",
-            "translation": "Good evening! I'm still unsure. Could you recommend something?",
+            "translation": "좋은 저녁이에요! 아직 확실하지 않습니다. 뭔가 추천해주실 수 있나요?",
             "isQuestion": false
           },
           {
             "role": "Kellner",
             "text": "Ja, unser Zwiebelrostbraten mit Spätzle ist heute sehr beliebt. Oder möchten Sie lieber etwas Vegetarisches?",
             "pronunciation": "Йа, унзер Цвибелростбратен мит Шпэцле ист хойте зер белибт. Одер мёхтен Зи либер этфас Вегетаришес?",
-            "translation": "Yes, our Zwiebelrostbraten with Spätzle is very popular today. Or would you prefer something vegetarian?",
+            "translation": "예, 오늘날 Spätzle를 사용한 Zwiebelrostbraten은 매우 인기가 있습니다. 아니면 채식을 선호하시나요?",
             "isQuestion": false
           },
           {
             "role": "Gast",
             "text": "Hmm, Zwiebelrostbraten klingt gut. Wird er mit einer Sauce serviert?",
             "pronunciation": "Хмм, Цвибелростбратен клингт гут. Вирд эр мит айнер Зауце сервирт?",
-            "translation": "Hmm, Zwiebelrostbraten sounds good. Is it served with a sauce?",
+            "translation": "흠, Zwiebelrostbraten이 좋은 것 같네요. 소스와 함께 제공되나요?",
             "isQuestion": true
           }
         ],
@@ -286,55 +286,55 @@
           {
             "text": "Ja, mit einer würzigen Bratensauce.",
             "pronunciation": "Йа, мит айнер вюрциген Братензауце.",
-            "translation": "Yes, with a spicy gravy."
+            "translation": "네, 매콤한 그레이비와 함께요."
           },
           {
             "text": "Nein, die Sauce ist extra.",
             "pronunciation": "Найн, ди Зауце ист экстра.",
-            "translation": "No, the sauce is extra."
+            "translation": "아니요, 소스는 추가입니다."
           },
           {
             "text": "Das ist nicht auf der Speisekarte.",
             "pronunciation": "Дас ист нихт ауф дер Шпайзекарте.",
-            "translation": "That is not on the menu."
+            "translation": "그건 메뉴에 없어요."
           }
         ],
         "answer": "Ja, mit einer würzigen Bratensauce.",
-        "explanation": "Die Frage des Gastes bezieht sich auf die Beilagen oder die Art der Zubereitung des Gerichts. Eine positive und informative Antwort des Kellners ist am wahrscheinlichsten, um den Gast zur Bestellung zu animieren. 'Ja, mit einer würzigen Bratensauce' gibt eine direkte und passende Information.",
+        "explanation": "손님의 질문은 반찬이나 요리가 준비되는 방식과 관련이 있습니다. 웨이터의 긍정적이고 유익한 반응은 손님이 주문하도록 유도할 가능성이 가장 높습니다. '예, 매콤한 그레이비와 함께'는 직접적이고 적절한 정보를 제공합니다.",
         "grammar_point": "Passiv (Passive voice), Fragen mit 'werden' (Questions with 'werden')",
         "week": "W11"
       },
       {
         "id": "conv_inn_b1_W11_002",
-        "situation": "Ein Gast checkt im Gasthaus ein und hat eine Frage zum Zimmer.",
+        "situation": "한 손님이 여관에 체크인하고 객실에 대해 질문을 합니다.",
         "situation_icon": "🏨",
         "dialogue": [
           {
             "role": "Rezeptionist",
             "text": "Herzlich willkommen im Gasthaus 'Zum Löwen'! Haben Sie eine Reservierung?",
             "pronunciation": "Херцлих вилькоммен им Гастхаус ' Цум Лёвен'! Хабен Зи айне Резервирунг?",
-            "translation": "Welcome to the guesthouse 'Zum Löwen'! Do you have a reservation?",
+            "translation": "게스트하우스 'Zum Löwen'에 오신 것을 환영합니다! 예약이 있나요?",
             "isQuestion": false
           },
           {
             "role": "Gast",
             "text": "Guten Tag! Ja, mein Name ist Müller. Ich habe ein Zimmer für zwei Nächte gebucht.",
             "pronunciation": "Гутен Таг! Йа, майн Наме ист Мюллер. Ихь хабе айн Циммер фюр цвай Нэхте гебухт.",
-            "translation": "Good day! Yes, my name is Müller. I have booked a room for two nights.",
+            "translation": "안녕하세요! 네, 제 이름은 뮐러입니다. 이틀밤 묵을 방을 예약했어요.",
             "isQuestion": false
           },
           {
             "role": "Rezeptionist",
             "text": "Ah, Herr Müller, ja, Zimmer Nummer 203. Hier ist Ihr Schlüssel. Das Zimmer ist im zweiten Stock.",
             "pronunciation": "А, Херр Мюллер, йа, Циммер Нуммер цвай-ноль-драй. Хир ист Ир Шлюссель. Дас Циммер ист им цвайтен Шток.",
-            "translation": "Ah, Mr. Müller, yes, room number 203. Here is your key. The room is on the second floor.",
+            "translation": "아, 뮐러 씨, 네, 203호실입니다. 여기 열쇠가 있습니다. 방은 2층에 있어요.",
             "isQuestion": false
           },
           {
             "role": "Gast",
             "text": "Vielen Dank! Gibt es WLAN auf dem Zimmer?",
             "pronunciation": "Филен Данк! Гибт эс Вэ-лан ауф дем Циммер?",
-            "translation": "Thank you very much! Is there Wi-Fi in the room?",
+            "translation": "매우 감사합니다! 객실에 Wi-Fi가 있나요?",
             "isQuestion": true
           }
         ],
@@ -342,21 +342,21 @@
           {
             "text": "Ja, WLAN ist im ganzen Haus kostenlos verfügbar.",
             "pronunciation": "Йа, Вэ-лан ист им ганцен Хаус костенлос ферфюгбар.",
-            "translation": "Yes, Wi-Fi is available free of charge throughout the entire building."
+            "translation": "예, 건물 전체에서 Wi-Fi를 무료로 사용할 수 있습니다."
           },
           {
             "text": "Nein, WLAN gibt es nur in der Lobby.",
             "pronunciation": "Найн, Вэ-лан гибт эс нур ин дер Лобби.",
-            "translation": "No, Wi-Fi is only available in the lobby."
+            "translation": "아니요. Wi-Fi는 로비에서만 이용 가능합니다."
           },
           {
             "text": "Das Zimmer ist sehr sauber.",
             "pronunciation": "Дас Циммер ист зер заубер.",
-            "translation": "The room is very clean."
+            "translation": "방은 매우 깨끗합니다."
           }
         ],
         "answer": "Ja, WLAN ist im ganzen Haus kostenlos verfügbar.",
-        "explanation": "Die Frage des Gastes bezieht sich auf die Verfügbarkeit von WLAN. Eine direkte und vollständige Antwort ist hier am passendsten. 'Ja, WLAN ist im ganzen Haus kostenlos verfügbar' beantwortet die Frage umfassend und positiv.",
+        "explanation": "게스트의 질문은 Wi-Fi 이용 가능 여부에 관한 것입니다. 여기에는 직접적이고 완전한 답변이 가장 적합합니다. '네, WiFi는 집 전체에서 무료로 이용 가능합니다.'라는 질문에 포괄적이고 긍정적으로 대답합니다.",
         "grammar_point": "Fragen mit 'es gibt' (Questions with 'es gibt'), Angaben zu Verfügbarkeit (Information on availability), Präpositionen des Ortes (Prepositions of place)",
         "week": "W11"
       }

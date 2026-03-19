@@ -94,7 +94,7 @@
         "id": "gram_hospital_a2_W11_001",
         "type": "fill_blank",
         "topic": "Dativpronomen",
-        "topic_explanation": "Dativpronomen werden verwendet, um anzuzeigen, wem etwas gegeben wird oder wem geholfen wird.",
+        "topic_explanation": "여격 대명사는 누구에게 무엇을 주고 있는지, 누가 도움을 받고 있는지를 나타내는 데 사용됩니다.",
         "question": "Der Arzt hat ____ sehr geholfen.",
         "question_translation": "의사 선생님이 저에게 매우 도움이 되었습니다.",
         "options": [
@@ -104,7 +104,7 @@
           "mein"
         ],
         "answer": "mir",
-        "explanation": "Das Verb 'helfen' verlangt immer ein Dativobjekt. 'Mir' ist das Dativpronomen für 'ich'.",
+        "explanation": "동사 'helfen'에는 항상 여격 목적어가 필요합니다. 'Mir'는 'ich'의 여격대명사입니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -145,7 +145,7 @@
         "id": "gram_hospital_a2_W11_002",
         "type": "fill_blank",
         "topic": "Präpositionen mit Dativ",
-        "topic_explanation": "Die Präposition 'in' wird mit Dativ verwendet, wenn es um eine feste Position geht. 'Apotheke' ist feminin.",
+        "topic_explanation": "전치사 'in'는 고정된 위치를 나타낼 때 여격과 함께 사용됩니다. 'Apotheke'는 여성형입니다.",
         "question": "Ich war heute ____ der Apotheke, um meine Medikamente abzuholen.",
         "question_translation": "오늘 약을 받으러 약국에 있었습니다.",
         "options": [
@@ -155,7 +155,7 @@
           "zu"
         ],
         "answer": "in",
-        "explanation": "Die Präposition 'in' ist die passende Wahl für eine feste Positionierung innerhalb eines Gebäudes wie der Apotheke. Sie verlangt hier den Dativ ('der Apotheke').",
+        "explanation": "전치사 'in'는 약국과 같은 건물 내에서 고정된 위치에 대한 적절한 선택입니다. 여기에는 기본 케이스('der Apotheke')가 필요합니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -163,7 +163,7 @@
         "id": "gram_hospital_a2_W11_003",
         "type": "fill_blank",
         "topic": "Adjektivdeklination (unbestimmter Artikel, Neutrum)",
-        "topic_explanation": "Wenn ein Adjektiv nach einem unbestimmten Artikel (ein, eine) vor einem Neutrum-Nomen im Nominativ oder Akkusativ steht, endet es auf '-es'.",
+        "topic_explanation": "주격 또는 대격에서 중성 명사 앞의 부정관사(ein, eine) 뒤에 형용사가 오면 '-es' 어미로 끝납니다.",
         "question": "Ich habe ein ____ Gefühl im Bauch.",
         "question_translation": "저는 배에 이상한 느낌이 있습니다.",
         "options": [
@@ -173,7 +173,7 @@
           "seltsames"
         ],
         "answer": "seltsames",
-        "explanation": "Das Nomen 'Gefühl' ist Neutrum (das Gefühl) und steht hier im Akkusativ nach dem unbestimmten Artikel 'ein'. Die korrekte Adjektivendung ist '-es'.",
+        "explanation": "명사 'Gefühl'는 중성(느낌)이며 여기서 부정관사 'ein' 뒤에 대격에 있습니다. 올바른 형용사 어미는 '-es'입니다.",
         "related_table": [],
         "week": "W11"
       }
@@ -181,28 +181,28 @@
     "conversation": [
       {
         "id": "conv_hospital_a2_W11_001",
-        "situation": "Eine Patientin ist beim Arzt in der Sprechstunde und wird nach ihren Beschwerden gefragt.",
+        "situation": "환자가 의사의 상담을 받고 불만 사항에 대해 질문을 받았습니다.",
         "situation_icon": "🩺",
         "dialogue": [
           {
             "role": "Arzthelferin",
             "text": "Frau Schmidt, bitte kommen Sie herein.",
             "pronunciation": "Frow Shmit, bit-te kom-men zee he-rain.",
-            "translation": "Mrs. Schmidt, please come in.",
+            "translation": "슈미트 부인, 들어오세요.",
             "isQuestion": false
           },
           {
             "role": "Patientin",
             "text": "Guten Tag.",
             "pronunciation": "Goo-ten Tag.",
-            "translation": "Good day.",
+            "translation": "안녕하세요.",
             "isQuestion": false
           },
           {
             "role": "Arzt",
             "text": "Guten Tag, Frau Schmidt. Was fehlt Ihnen denn?",
             "pronunciation": "Goo-ten Tag, Frow Shmit. Vas faylt ee-nen den?",
-            "translation": "Good day, Mrs. Schmidt. What's wrong with you?",
+            "translation": "좋은 하루 되세요, 슈미트 부인. 왜 그래?",
             "isQuestion": true
           }
         ],
@@ -210,48 +210,48 @@
           {
             "text": "Ich habe seit gestern starke Kopfschmerzen und Fieber.",
             "pronunciation": "Ish ha-be zait ges-tern star-ke kopf-shmerz-en unt fee-ber.",
-            "translation": "Since yesterday, I have a bad headache and fever."
+            "translation": "어제부터 머리가 아프고 열이 나네요."
           },
           {
             "text": "Ich möchte gern einen Termin für nächste Woche vereinbaren.",
             "pronunciation": "Ish mörsh-te gern ai-nen ter-min fyur näx-te vo-khe fer-ain-bar-en.",
-            "translation": "I would like to arrange an appointment for next week."
+            "translation": "다음 주에 약속을 잡고 싶습니다."
           },
           {
             "text": "Mir geht es ausgezeichnet, danke der Nachfrage.",
             "pronunciation": "Meer gayt es oust-ge-tsaich-net, dang-ke dair nakh-fra-ge.",
-            "translation": "I am excellent, thanks for asking."
+            "translation": "저는 훌륭합니다. 물어봐주셔서 감사합니다."
           }
         ],
         "answer": "Ich habe seit gestern starke Kopfschmerzen und Fieber.",
-        "explanation": "Der Arzt fragt 'Was fehlt Ihnen denn?', was eine höfliche Art ist zu fragen, welche Beschwerden Sie haben. Die beste Antwort ist, die Symptome zu beschreiben.",
+        "explanation": "의사는 '무슨 문제가 있나요?'라고 묻습니다. 이는 증상이 무엇인지 묻는 정중한 표현입니다. 가장 좋은 대답은 증상을 설명하는 것입니다.",
         "grammar_point": "Ausdruck von Beschwerden und Krankheiten (z.B. 'Ich habe Kopfschmerzen', 'Mir ist schlecht').",
         "week": "W11"
       },
       {
         "id": "conv_hospital_a2_W11_002",
-        "situation": "Ein Patient liegt im Krankenhausbett. Die Krankenschwester macht ihre Runde und fragt nach dem Wohlbefinden.",
+        "situation": "환자가 병원 침대에 누워 있습니다. 간호사가 순찰을 돌며 기분이 어떤지 묻습니다.",
         "situation_icon": "🛌",
         "dialogue": [
           {
             "role": "Krankenschwester",
             "text": "Guten Morgen, Herr Fischer. Wie geht es Ihnen heute?",
             "pronunciation": "Goo-ten mor-gen, Hair Fish-er. Vee gayt es ee-nen hoy-te?",
-            "translation": "Good morning, Mr. Fischer. How are you today?",
+            "translation": "좋은 아침입니다, 피셔 씨. 오늘 기분이 어떠세요?",
             "isQuestion": false
           },
           {
             "role": "Patient",
             "text": "Nicht so gut, Schwester. Ich habe noch immer große Schmerzen im Rücken.",
             "pronunciation": "Nisht zo goo-t, Shves-ter. Ish ha-be nokh im-mer gro-se shmerz-en im ryk-ken.",
-            "translation": "Not so good, Nurse. I still have great pain in my back.",
+            "translation": "별로 좋지 않아요, 간호사. 아직도 허리가 많이 아프네요.",
             "isQuestion": false
           },
           {
             "role": "Krankenschwester",
             "text": "Oh je. Haben Sie schon Schmerzmittel bekommen?",
             "pronunciation": "Oh yay. Ha-ben zee shon shmerz-mit-tel be-kom-men?",
-            "translation": "Oh dear. Have you already received pain medication?",
+            "translation": "이런. 이미 진통제를 받으셨나요?",
             "isQuestion": true
           }
         ],
@@ -259,21 +259,21 @@
           {
             "text": "Nein, leider noch nicht. Könnte ich bitte etwas dagegen bekommen?",
             "pronunciation": "Nain, lai-der nokh nisht. Kohn-te ish bit-te et-vas da-ge-gen be-kom-men?",
-            "translation": "No, unfortunately not yet. Could I please get something for it?"
+            "translation": "아니요, 안타깝게도 아직은 아닙니다. 뭔가 좀 구해 주시겠어요?"
           },
           {
             "text": "Ja, aber es wirkt nicht mehr.",
             "pronunciation": "Ya, a-ber es virkt nisht mayr.",
-            "translation": "Yes, but it's not working anymore."
+            "translation": "예, 하지만 더 이상 작동하지 않습니다."
           },
           {
             "text": "Ich bin schon müde vom Schlafen.",
             "pronunciation": "Ish bin shon myu-de fom shla-fen.",
-            "translation": "I am already tired from sleeping."
+            "translation": "자느라 벌써 피곤해요."
           }
         ],
         "answer": "Nein, leider noch nicht. Könnte ich bitte etwas dagegen bekommen?",
-        "explanation": "Die Krankenschwester fragt, ob der Patient schon Schmerzmittel erhalten hat. Die beste Antwort ist, dass er noch keins bekommen hat und um eines bittet, um die Schmerzen zu lindern.",
+        "explanation": "간호사는 환자가 아직 진통제를 받았는지 묻습니다. 가장 좋은 대답은 그가 아직 하나도 얻지 못했고 고통을 덜어주기 위해 하나를 요청한다는 것입니다.",
         "grammar_point": "Höfliche Bitten mit 'könnte ich bitte...' (Konjunktiv II) und Verneinungen (z.B. 'leider noch nicht').",
         "week": "W11"
       }

@@ -96,9 +96,9 @@
         "id": "gram_bakery_a2_W11_001",
         "type": "fill_blank",
         "topic": "Modalverb 'möchten'",
-        "topic_explanation": "Das Modalverb 'möchten' wird verwendet, um einen höflichen Wunsch oder eine Bitte auszudrücken, besonders häufig beim Bestellen oder Einkaufen.",
+        "topic_explanation": "조동사 'möchten'는 특히 주문이나 쇼핑 시 공손한 소망이나 요청을 표현하는 데 사용됩니다.",
         "question": "Ich ____ gerne zwei Brötchen und ein Schwarzbrot.",
-        "question_translation": "I ____ like two rolls and one black bread.",
+        "question_translation": "나는 ____ 롤 두 개와 검은 빵 하나를 좋아합니다.",
         "options": [
           "möchtet",
           "mögen",
@@ -106,7 +106,7 @@
           "möchte"
         ],
         "answer": "möchte",
-        "explanation": "Das Verb 'möchten' wird für die erste Person Singular (ich) zu 'möchte' konjugiert. Es drückt einen höflichen Wunsch aus.",
+        "explanation": "동사 'möchten'는 1인칭 단수(I)에 대해 'möchte'와 결합됩니다. 정중한 소망을 표현한 것입니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -139,9 +139,9 @@
         "id": "gram_bakery_a2_W11_002",
         "type": "fill_blank",
         "topic": "Dativ mit Präposition 'von'",
-        "topic_explanation": "Die Präposition 'von' (von/aus) verlangt immer den Dativ. Hier wird die Deklination des Artikels im Dativ für feminine Nomen geübt.",
+        "topic_explanation": "전치사 'von'(~의/으로부터)은 항상 여격을 요구합니다. 여기서는 여성 명사에 대한 여격 관사의 어형 변화를 연습합니다.",
         "question": "Ich komme gerade von ____ Bäckerei.",
-        "question_translation": "I just came from the bakery.",
+        "question_translation": "방금 빵집에서 왔습니다.",
         "options": [
           "die",
           "der",
@@ -149,7 +149,7 @@
           "dem"
         ],
         "answer": "der",
-        "explanation": "Die Präposition 'von' verlangt den Dativ. 'Bäckerei' ist ein feminines Nomen (die Bäckerei), und der feminine bestimmte Artikel im Dativ ist 'der'.",
+        "explanation": "전치사 'von'은 여격을 요구합니다. 'Bäckerei'는 여성 명사(die Bäckerei)이고, 여성 여격의 정관사는 'der'입니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -157,9 +157,9 @@
         "id": "gram_bakery_a2_W11_003",
         "type": "conjugation_table",
         "topic": "Konjugation des unregelmäßigen Verbs 'nehmen'",
-        "topic_explanation": "Das Verb 'nehmen' ist ein unregelmäßiges (starkes) Verb, dessen Stammvokal sich bei 'du', 'er/sie/es' ändert. Es ist nützlich im Kontext des Bestellens ('Ich nehme...')",
+        "topic_explanation": "동사 'nehmen'는 'du', 'er/sie/es'에서 어간 모음이 바뀌는 불규칙(강)동사입니다. 주문과 관련하여 유용합니다('Ich nehme...').",
         "question": "Füllen Sie die Lücke für die 'du'-Form des Verbs 'nehmen' im Präsens aus.",
-        "question_translation": "Fill in the blank for the 'du' form of the verb 'nehmen' in the present tense.",
+        "question_translation": "현재시제 동사 'nehmen'의 'du'형에 해당하는 빈칸을 채워보세요.",
         "options": [
           "nehme",
           "nimmst",
@@ -167,7 +167,7 @@
           "nehmt"
         ],
         "answer": "nimmst",
-        "explanation": "Das Verb 'nehmen' ist unregelmäßig. Für die 'du'-Form ändert sich der Stammvokal von 'e' zu 'i', und die Endung ist '-st'. Die vollständige Konjugation finden Sie in der zugehörigen Tabelle.",
+        "explanation": "동사 'nehmen'은 불규칙 동사입니다. 'du' 형태에서는 어간 모음이 'e'에서 'i'로 바뀌고 어미는 '-st'가 됩니다. 전체 활용 형태는 관련 표에서 확인할 수 있습니다.",
         "related_table": [
           {
             "pronoun": "ich",
@@ -200,35 +200,35 @@
     "conversation": [
       {
         "id": "conv_bakery_a2_W11_001",
-        "situation": "Eine Kundin möchte drei Brötchen kaufen. Die Bäckerin fragt nach der Menge.",
+        "situation": "고객이 롤 3개를 구매하려고 합니다. 빵 굽는 사람이 얼마인지 묻습니다.",
         "situation_icon": "🍞",
         "dialogue": [
           {
             "role": "Bäckerin",
             "text": "Guten Tag! Wie kann ich Ihnen helfen?",
             "pronunciation": "GU-ten Tag! Vee kan ihk IH-nen HEL-fen?",
-            "translation": "Good day! How can I help you?",
+            "translation": "안녕하세요! 어떻게 도와드릴까요?",
             "isQuestion": false
           },
           {
             "role": "Kundin",
             "text": "Guten Tag! Ich hätte gerne Brötchen.",
             "pronunciation": "GU-ten Tag! Ik HET-te GER-ne BRÖT-hyen.",
-            "translation": "Good day! I would like bread rolls.",
+            "translation": "안녕하세요! 롤빵을 주세요.",
             "isQuestion": false
           },
           {
             "role": "Bäckerin",
             "text": "Wie viele Brötchen möchten Sie denn?",
             "pronunciation": "Vee FIE-le BRÖT-hyen MÖSH-ten Zee den?",
-            "translation": "How many bread rolls would you like?",
+            "translation": "롤빵을 몇 개 드릴까요?",
             "isQuestion": false
           },
           {
             "role": "Kundin",
             "text": "[...]",
             "pronunciation": "[...]",
-            "translation": "I would like three bread rolls.",
+            "translation": "롤빵 세 개 주세요.",
             "isQuestion": true
           }
         ],
@@ -236,55 +236,55 @@
           {
             "text": "Ich möchte drei Brötchen.",
             "pronunciation": "Ik MÖSH-te dry BRÖT-hyen.",
-            "translation": "I would like three bread rolls."
+            "translation": "롤빵 세 개 주세요."
           },
           {
             "text": "Drei Brötchen haben wollen ich.",
             "pronunciation": "Dry BRÖT-hyen HAH-ben VOL-len ik.",
-            "translation": "Three bread rolls want I."
+            "translation": "빵 세 개를 원해요."
           },
           {
             "text": "Drei Brötchen sind.",
             "pronunciation": "Dry BRÖT-hyen ZIND.",
-            "translation": "Three bread rolls are."
+            "translation": "롤빵은 3개 입니다."
           }
         ],
         "answer": "Ich möchte drei Brötchen.",
-        "explanation": "Um eine gewünschte Menge auszudrücken, verwendet man typischerweise 'Ich hätte gerne...' oder 'Ich möchte...' gefolgt von der Menge und dem Nomen im Akkusativ. Die Satzstellung ist Subjekt-Modalverb-Objekt. Die anderen Optionen sind grammatisch falsch oder sehr unnatürlich.",
+        "explanation": "원하는 수량을 표현하려면 일반적으로 'Ich hätte gerne...' 또는 'Ich möchte...' 뒤에 수량과 대격 명사를 사용합니다. 문장 순서는 주어-조동사-목적어 순입니다. 다른 옵션은 문법적으로 올바르지 않거나 매우 부자연스럽습니다.",
         "grammar_point": "Satzbau mit Modalverben (möchten), Akkusativ, Zahlen",
         "week": "W11"
       },
       {
         "id": "conv_bakery_a2_W11_002",
-        "situation": "Ein Kunde sucht ein gutes Roggenbrot und fragt die Bäckerin nach einer Empfehlung.",
+        "situation": "고객이 좋은 호밀빵을 찾고 있는데 제빵사에게 추천해 달라고 요청합니다.",
         "situation_icon": "🥖",
         "dialogue": [
           {
             "role": "Bäckerin",
             "text": "Guten Tag! Kann ich Ihnen helfen?",
             "pronunciation": "GU-ten Tag! Kan ik IH-nen HEL-fen?",
-            "translation": "Good day! Can I help you?",
+            "translation": "안녕하세요! 제가 도와드릴까요?",
             "isQuestion": false
           },
           {
             "role": "Kunde",
             "text": "Guten Tag! Ich suche ein gutes Roggenbrot.",
             "pronunciation": "GU-ten Tag! Ik ZOO-khe ayn GOO-tes ROG-gen-brot.",
-            "translation": "Good day! I'm looking for a good rye bread.",
+            "translation": "안녕하세요! 나는 좋은 호밀빵을 찾고 있어요.",
             "isQuestion": false
           },
           {
             "role": "Bäckerin",
             "text": "Wir haben heute unser frisches Roggenvollkornbrot.",
             "pronunciation": "Veer HAH-ben HOY-te UN-zer FRISH-es ROG-gen-fol-korn-brot.",
-            "translation": "Today we have our fresh whole rye bread.",
+            "translation": "오늘 우리는 신선한 호밀빵을 먹습니다.",
             "isQuestion": false
           },
           {
             "role": "Kunde",
             "text": "[...]",
             "pronunciation": "[...]",
-            "translation": "What do you recommend?",
+            "translation": "추천 메뉴가 무엇인가요?",
             "isQuestion": true
           }
         ],
@@ -292,21 +292,21 @@
           {
             "text": "Was empfehlen Sie?",
             "pronunciation": "Vas em-PFEH-len Zee?",
-            "translation": "What do you recommend?"
+            "translation": "추천 메뉴가 무엇인가요?"
           },
           {
             "text": "Empfehlen Sie was?",
             "pronunciation": "Em-PFEH-len Zee vas?",
-            "translation": "Do you recommend something?"
+            "translation": "뭔가 추천해 주시나요?"
           },
           {
             "text": "Ihre Empfehlung ist was?",
             "pronunciation": "EE-re em-PFEH-lung ist vas?",
-            "translation": "Your recommendation is what?"
+            "translation": "당신의 추천은 무엇입니까?"
           }
         ],
         "answer": "Was empfehlen Sie?",
-        "explanation": "'Was empfehlen Sie?' ist die direkte und höfliche Art, nach einer Empfehlung zu fragen. Es ist die gebräuchlichste und natürlichste Formulierung in solchen Situationen. Die zweite Option ist umgangssprachlich und weniger höflich, die dritte ist grammatisch inkorrekt und klingt unnatürlich.",
+        "explanation": "'추천 메뉴가 무엇인가요?' 추천을 요청하는 직접적이고 정중한 방법입니다. 그러한 상황에서 가장 일반적이고 자연스러운 표현입니다. 두 번째 옵션은 구어적이고 덜 정중하며, 세 번째 옵션은 문법적으로 올바르지 않고 부자연스럽게 들립니다.",
         "grammar_point": "W-Fragen, direkte Fragen, Verbposition im Fragesatz",
         "week": "W11"
       }

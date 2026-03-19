@@ -94,9 +94,9 @@
         "id": "gram_school_b1_W11_001",
         "type": "fill_blank",
         "topic": "Wechselpräpositionen (Dativ/Akkusativ)",
-        "topic_explanation": "Wechselpräpositionen wie 'auf', 'in', 'an' können entweder den Dativ (Frage: Wo? - Zustand) oder den Akkusativ (Frage: Wohin? - Bewegung/Richtung) regieren. Die Wahl hängt davon ab, ob eine Ortsangabe oder eine Richtungsangabe gemacht wird.",
+        "topic_explanation": "'auf', 'in', 'an'와 같은 장소 전치사는 여격(질문: where? - 상태) 또는 대격(질문: where to? - 이동/방향)을 제어할 수 있습니다. 선택은 위치나 방향이 주어지는지에 따라 달라집니다.",
         "question": "Die Schultasche liegt ____ Tisch, direkt neben den Büchern.",
-        "question_translation": "The school bag is lying ____ table, right next to the books.",
+        "question_translation": "책가방은 책 바로 옆에 ____ 표에 놓여 있습니다.",
         "options": [
           "auf dem",
           "in dem",
@@ -104,7 +104,7 @@
           "an dem"
         ],
         "answer": "auf dem",
-        "explanation": "Die Präposition 'auf' beschreibt die Lage auf einer horizontalen Fläche. Da es sich um einen Zustand (Wo? - Dativ) handelt, wird 'dem' (Dativ Singular Maskulinum) verwendet. 'Der Tisch' ist maskulin.",
+        "explanation": "전치사 'auf'는 수평면 위에서의 위치를 나타냅니다. 상태(어디에? - 여격)를 나타내므로 'dem'(남성 여격 단수)이 사용됩니다. 'Der Tisch'는 남성 명사입니다.",
         "related_table": [],
         "week": "W11"
       },
@@ -112,12 +112,12 @@
         "id": "gram_school_b1_W11_002",
         "type": "conjugation_table",
         "topic": "Konjunktiv II (von 'sein')",
-        "topic_explanation": "Der Konjunktiv II wird verwendet, um Wünsche, hypothetische Situationen, Ratschläge oder höfliche Bitten auszudrücken. Die Konjunktiv-II-Form von 'sein' ('wäre') ist dabei besonders wichtig.",
+        "topic_explanation": "가정법 II는 소망, 가상의 상황, 조언 또는 정중한 요청을 표현하는 데 사용됩니다. 'sein'('wäre')의 가정법 II 형태가 특히 중요합니다.",
         "question": "Konjugiere das Verb 'sein' im Konjunktiv II Präteritum (die Form für irreale Wünsche oder Bedingungen).",
-        "question_translation": "Conjugate the verb 'sein' (to be) in the Konjunktiv II Präteritum (the form for unreal wishes or conditions).",
+        "question_translation": "접속법 2식 과거(Präteritum)(비현실적인 소망이나 조건의 형태)에서 동사 'sein'(to be)를 활용합니다.",
         "options": [],
         "answer": null,
-        "explanation": "Der Konjunktiv II von 'sein' ist 'wäre' und wird oft verwendet, um auszudrücken, was man sich wünschen würde oder wie etwas wäre, wenn eine Bedingung erfüllt wäre. Zum Beispiel: 'Ich wäre froh, wenn du helfen könntest.'",
+        "explanation": "'sein'의 접속법 2식은 'wäre'이며, 무엇을 바라는지 또는 조건이 충족되었을 때 어떻게 될지를 표현하는 데 자주 사용됩니다. 예: '네가 도와줄 수 있다면 기쁠 거야.'",
         "related_table": [
           {
             "pronoun": "ich",
@@ -150,9 +150,9 @@
         "id": "gram_school_b1_W11_003",
         "type": "fill_blank",
         "topic": "Adjektivdeklination (nach bestimmtem Artikel)",
-        "topic_explanation": "Wenn ein Adjektiv nach einem bestimmten Artikel (der, die, das) steht, ändern sich seine Endungen je nach Kasus, Genus und Numerus des Nomens, das es beschreibt. Im Nominativ und Akkusativ Singular (Maskulinum, Neutrum, Femininum) sowie im Plural ist die Endung meist '-e' oder '-en'.",
+        "topic_explanation": "형용사가 정관사(der, die, das) 뒤에 오면 그것이 기술하는 명사의 격, 성별, 수에 따라 어미가 달라집니다. 주격 및 대격 단수(남성, 중성, 여성) 및 복수형에서는 어미가 대개 '-e' 또는 '-en'입니다.",
         "question": "Die neu____ Lehrerin erklärt die Grammatik sehr gut.",
-        "question_translation": "The new teacher explains the grammar very well.",
+        "question_translation": "새로 온 선생님이 문법을 아주 잘 설명해 주십니다.",
         "options": [
           "-e",
           "-en",
@@ -160,7 +160,7 @@
           "-es"
         ],
         "answer": "-e",
-        "explanation": "Das Adjektiv 'neu' steht hier nach dem bestimmten Artikel 'die'. 'Lehrerin' ist feminin und steht im Nominativ Singular. In diesem Fall ist die korrekte Adjektivendung '-e'. (Die neue Lehrerin)",
+        "explanation": "형용사 'neu'는 정관사 'die' 뒤에 옵니다. 'Lehrerin'는 여성형이며 주격 단수형입니다. 이 경우 올바른 형용사 어미는 '-e'입니다. (새 선생님)",
         "related_table": [],
         "week": "W11"
       }
@@ -168,28 +168,28 @@
     "conversation": [
       {
         "id": "conv_school_b1_W11_001",
-        "situation": "Ein Schüler hat seine Hausaufgaben vergessen und spricht mit der Lehrerin.",
+        "situation": "한 학생이 숙제를 잊고 선생님과 이야기를 나누고 있습니다.",
         "situation_icon": "🤦‍♀️",
         "dialogue": [
           {
             "role": "Lehrerin",
             "text": "Markus, hast du deine Hausaufgaben dabei?",
             "pronunciation": "Markus, hast du dy-nuh Haus-ouf-gah-ben dah-by?",
-            "translation": "Markus, do you have your homework with you?",
+            "translation": "마커스, 숙제 갖고 있어?",
             "isQuestion": false
           },
           {
             "role": "Markus",
             "text": "Oh nein, Frau Schmidt! Es tut mir leid, ich habe sie leider vergessen.",
             "pronunciation": "Oh nyn, Frau Shmit! Es toot mir lyt, ish hab-uh zee ly-duh fer-ges-sen.",
-            "translation": "Oh no, Ms. Schmidt! I'm sorry, I unfortunately forgot them.",
+            "translation": "아뇨, 슈미트 씨! 죄송합니다. 안타깝게도 잊어버렸어요.",
             "isQuestion": false
           },
           {
             "role": "Lehrerin",
             "text": "Vergessen? Das ist aber ärgerlich. Kannst du sie denn morgen mitbringen?",
             "pronunciation": "Fer-ges-sen? Das ist ah-buh er-ger-lish. Kanst doo zee den mor-gen mit-bring-en?",
-            "translation": "Forgotten? That's annoying. Can you bring them tomorrow?",
+            "translation": "잊어버렸나요? 짜증나네요. 내일 가져다 주실 수 있나요?",
             "isQuestion": true
           }
         ],
@@ -197,48 +197,48 @@
           {
             "text": "Ja, natürlich! Das mache ich dann morgen früh.",
             "pronunciation": "Yah, nah-tür-lish! Das mach-uh ish dan mor-gen früh.",
-            "translation": "Yes, of course! I'll do that tomorrow morning."
+            "translation": "물론이죠! 내일 아침에 그렇게 할게요."
           },
           {
             "text": "Nein, ich glaube nicht.",
             "pronunciation": "Nyn, ish glau-buh nisht.",
-            "translation": "No, I don't think so."
+            "translation": "아니요, 그렇게 생각하지 않습니다."
           },
           {
             "text": "Ich habe sie schon abgegeben.",
             "pronunciation": "Ish hab-uh zee shon ap-geh-geb-en.",
-            "translation": "I already handed them in."
+            "translation": "나는 이미 그것들을 전달했습니다."
           }
         ],
         "answer": "Ja, natürlich! Das mache ich dann morgen früh.",
-        "explanation": "Markus entschuldigt sich und verspricht, die Hausaufgaben am nächsten Tag mitzubringen, was eine direkte und höfliche Antwort auf die Frage der Lehrerin ist.",
+        "explanation": "마커스는 사과하고 다음 날 숙제를 가져오겠다고 약속하는데, 이는 선생님의 질문에 직접적이고 정중하게 대답하는 것입니다.",
         "grammar_point": "Antworten auf Ja/Nein-Fragen und Zusage formulieren",
         "week": "W11"
       },
       {
         "id": "conv_school_b1_W11_002",
-        "situation": "Zwei Schüler sprechen über eine anstehende Erdkunde-Klausur.",
+        "situation": "두 학생이 다가오는 지리 시험에 대해 이야기합니다.",
         "situation_icon": "📚",
         "dialogue": [
           {
             "role": "Lena",
             "text": "Hast du schon gehört? Nächste Woche schreiben wir die große Erdkunde-Klausur!",
             "pronunciation": "Hast doo shon geh-hört? Näk-stuh voh-khuh shry-ben veer dee gro-ssuh Ert-kun-duh-klau-zoor!",
-            "translation": "Have you heard? Next week we're writing the big geography exam!",
+            "translation": "들어보셨나요? 다음 주에 우리는 중요한 지리 시험을 치르게 됩니다!",
             "isQuestion": false
           },
           {
             "role": "Tim",
             "text": "Oh je, das habe ich ganz vergessen! Ich muss noch so viel lernen.",
             "pronunciation": "Oh yeh, das hab-uh ish gants fer-ges-sen! Ish muss nokh zo feel ler-nen.",
-            "translation": "Oh dear, I completely forgot that! I still have so much to learn.",
+            "translation": "아 이런, 나는 그걸 완전히 잊어버렸어요! 아직 배울 게 너무 많아요.",
             "isQuestion": false
           },
           {
             "role": "Lena",
             "text": "Keine Panik, wir haben ja noch ein paar Tage. Wie bereitest du dich denn darauf vor?",
             "pronunciation": "Ky-nuh pah-nik, veer hah-ben yah nokh ayn par tah-guh. Vee beh-ry-test doo dish den dah-rouf for?",
-            "translation": "Don't panic, we still have a few days. How are you preparing for it?",
+            "translation": "당황하지 마세요. 아직 며칠이 남았습니다. 어떻게 준비하고 있나요?",
             "isQuestion": true
           }
         ],
@@ -246,21 +246,21 @@
           {
             "text": "Ich werde mir nochmal alle wichtigen Themen ansehen und Zusammenfassungen schreiben.",
             "pronunciation": "Ish ver-duh mir nokh-mal al-luh vish-tih-gen teh-men an-zeh-en oont tsoo-zam-men-fas-sung-en shry-ben.",
-            "translation": "I will look at all the important topics again and write summaries."
+            "translation": "중요한 주제를 모두 다시 살펴보고 요약을 작성하겠습니다."
           },
           {
             "text": "Ich habe schon alles gelernt.",
             "pronunciation": "Ish hab-uh shon al-les geh-lernt.",
-            "translation": "I have already learned everything."
+            "translation": "나는 이미 모든 것을 배웠습니다."
           },
           {
             "text": "Das ist mir egal, ich schaffe das sowieso nicht.",
             "pronunciation": "Das ist mir eh-gal, ish shaf-fuh das zo-vee-zo nisht.",
-            "translation": "I don't care, I won't manage it anyway."
+            "translation": "상관없어, 어차피 관리 안 할 거야."
           }
         ],
         "answer": "Ich werde mir nochmal alle wichtigen Themen ansehen und Zusammenfassungen schreiben.",
-        "explanation": "Tim erklärt Lena, wie er sich auf die Klausur vorbereiten möchte, indem er wichtige Themen wiederholt und Zusammenfassungen erstellt, was eine sinnvolle Vorbereitung darstellt.",
+        "explanation": "Tim은 중요한 주제를 검토하고 요약을 작성하여 시험 준비 방법을 Lena에게 설명합니다. 이는 유용한 준비입니다.",
         "grammar_point": "Zukunftsform (Futur I) für Pläne und Vorsätze",
         "week": "W11"
       }
