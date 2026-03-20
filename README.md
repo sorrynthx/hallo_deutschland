@@ -1,166 +1,88 @@
 # 🐶🛸 Alien K-9 Deutsch Quest
 
-> 우주에서 온 강아지가 독일 마을에 불시착! 독일어를 배워 우주선을 수리하고 집으로 돌아가는 모바일 독일어 학습 앱  
-> A space-traveling dog crash-lands in a German village! A mobile app to learn German, repair the spaceship, and return home  
-> Ein Hund aus dem All landet not in einem deutschen Dorf! Eine mobile App zum Deutschlernen, um das Raumschiff zu reparieren und nach Hause zurückzukehren  
+> **우주에서 온 강아지가 독일 마을에 불시착! 독일어를 배워 우주선을 수리하고 집으로 돌아가는 모바일 독일어 학습 앱**
+> *A space-traveling dog crash-lands in a German village! A mobile app to learn German, repair the spaceship, and return home*
+> *Ein Hund aus dem All landet not in einem deutschen Dorf! Eine mobile App zum Deutschlernen, um das Raumschiff zu reparieren und nach Hause zurückzukehren*
 
 ---
 
 ## 📖 Project Overview / Projektübersicht
 
-혼자 독일어를 공부하기 위해 만든 개인용 모바일 학습 앱입니다.  
-A personal mobile learning app built for self-studying German.  
-Eine persönliche mobile Lern-App zum eigenständigen Deutschlernen.  
+**시중의 독일어 학습 앱들은 광고와 구독 모델이 많아, 직접 필요한 기능만 담은 미니멀한 학습 도구를 제작했습니다.**
+*I built a minimalist learning tool with only essential functions, avoiding the ads and subscriptions of existing apps.*
+*Ich habe ein minimalistisches Lerntool mit nur den wichtigsten Funktionen entwickelt, um Werbung und Abos bestehender Apps zu vermeiden.*
 
-시중의 독일어 학습 앱들은 광고, 구독 모델, 불필요한 기능이 많아 직접 필요한 기능만 갖춘 앱을 제작했습니다.  
-Most existing German learning apps include ads, subscriptions, and unnecessary features, so I built one with only essential functions.  
-Viele bestehende Deutschlern-Apps enthalten Werbung, Abos und unnötige Funktionen, daher habe ich eine App mit nur den wichtigsten Funktionen entwickelt.  
-
-학습 콘텐츠는 Google Gemini API를 통해 매주 자동 생성 및 업데이트됩니다.  
-Learning content is automatically generated and updated weekly using the Google Gemini API.  
-Die Lerninhalte werden wöchentlich automatisch mit der Google Gemini API erstellt und aktualisiert.  
+**독일 취업을 준비하며 직접 사용하기 위해 만든 개인 프로젝트로, 인프라 유지 비용 0원($0)과 고품질의 데이터 자동 생성을 목표로 합니다.**
+*This is a personal project built for my own use while preparing for a job in Germany, aiming for zero infrastructure costs ($0) and high-quality automated data generation.*
+*Dies ist ein persönliches Projekt, das ich für den Eigenbedarf während meiner Jobsuche in Deutschland entwickelt habe. Ziel sind null Infrastrukturkosten (0 $) und eine hochwertige, automatisierte Datengenerierung.*
 
 ---
 
 ## 🏗️ System Architecture / Systemarchitektur
 
-    ┌─────────────────────────────────────────────────────────┐
-    │                  RASPBERRY PI 3                          │
-    │                                                          │
-    │  crontab (weekly 03:00 Mon-Fri)                          │
-    │       ↓                                                  │
-    │  Python Script                                           │
-    │  ├── Read locations.json                                 │
-    │  ├── Call Google Gemini API                              │
-    │  ├── JSON parse & validate                              │
-    │  ├── Save public/data/{location}/{level}.json           │
-    │  └── git push                                           │
-    │                                                          │
-    └──────────────────────┬──────────────────────────────────┘
-                           ↓
-                  ┌────────────────┐
-                  │    GitHub      │
-                  └───────┬────────┘
-                          ↓
-                  ┌────────────────┐
-                  │    Vercel      │
-                  │  Static JSON   │
-                  └───────┬────────┘
-                          ↓
-                  ┌────────────────┐
-                  │   Mobile App   │
-                  │     (PWA)      │
-                  └────────────────┘
+**프로젝트 초기에는 Google Gemini API와 Raspberry Pi를 활용하여 데이터를 자동 생성했으나, 현재는 비용 최적화와 코드 안정성을 위해 아래와 같이 구조를 개선했습니다.**
+*Originally, I used Google Gemini API and a Raspberry Pi for automated data generation, but I have evolved the architecture for better cost-efficiency and reliability as follows:*
+*Ursprünglich wurden die Daten automatisch über die Google Gemini API und einen Raspberry Pi generiert, aber die Architektur wurde wie folgt optimiert, um die Kosteneffizienz und Zuverlässigkeit zu erhöhen:*
+
+[ Workflow: AI-Driven Content Enrichment ]
+
+1. AI Agent (Jules)  <-- Analyze locations.json & Supplement data
+       |
+       v
+2. Pull Request (PR) <-- Manual Code Review & Validation
+       |
+       v
+3. GitHub Actions    <-- Automated Deployment Trigger
+       |
+       v
+4. Vercel (Hobby)    <-- Serving Static JSON Content (Public API)
+       |
+       v
+5. Mobile App (PWA)  <-- Fetching data & LocalStorage Sync
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Tech Decision: Cost Optimization / 비용 최적화 전략
 
-Frontend / Frontend / Frontend  
-Next.js 15 + TypeScript  
-App Router 기반 라우팅 / App Router routing / App Router Routing  
+**1. From API to AI Agent (Jules)**
+**데이터 축적에 따라 급증하는 API 비용을 해결하기 위해, Gemini API 호출 방식 대신 이미 구독 중인 Jules(AI Agent)를 활용한 데이터 생성 방식으로 전환했습니다.**
+*To avoid increasing API costs as the dataset grows, I transitioned from Gemini API to Jules (AI Agent). This leverages existing subscription benefits to generate high-quality content without additional pay-as-you-go fees.*
+*Um steigende API-Gebühren bei wachsendem Datenvolumen zu vermeiden, wurde von der Gemini API auf Jules (AI Agent) umgestellt. Dies nutzt bestehende Abonnements, um hochwertige Inhalte ohne zusätzliche Kosten zu erstellen.*
 
-Styling / Styling / Styling  
-CSS Variables + Inline Style  
-빌드 없이 관리 / No build tools / Ohne Build-Tools  
+**2. Improved Workflow with PR**
+**라즈베리 파이 기반의 크론탭 자동화 대신, 개발자가 Jules와 협업하여 데이터를 보충하고 Pull Request(PR)를 통해 코드 안정성을 검토 후 병합하는 안정적인 워크플로우를 구축했습니다.**
+*Instead of automated scripts on a Raspberry Pi, I now collaborate with Jules to supplement data. This process ensures quality through a Pull Request (PR) workflow, allowing for manual review before merging.*
+*Anstelle automatisierter Skripte auf einem Raspberry Pi erfolgt die Datenergänzung nun in Zusammenarbeit mit Jules. Die Qualitätssicherung wird durch einen Pull Request (PR) Workflow gewährleistet, bei dem Änderungen vor dem Mergen geprüft werden.*
 
-Deployment / Deployment / Deployment  
-Vercel  
-자동 배포 / Auto deploy / Automatische Bereitstellung  
-
----
-
-## 💡 Design Decisions / Designentscheidungen
-
-### Why no database? / Warum keine Datenbank?
-
-개인 앱에 DB는 불필요한 비용과 복잡성을 만듭니다.  
-A database adds unnecessary cost and complexity.  
-Eine Datenbank verursacht unnötige Kosten und Komplexität.  
-
-localStorage로 충분히 저장 가능합니다.  
-localStorage is sufficient.  
-localStorage reicht aus.  
-
----
-
-### Why Raspberry Pi? / Warum Raspberry Pi?
-
-기존 장비 활용으로 비용 0원  
-Zero cost using existing device  
-Null Kosten durch vorhandenes Gerät  
-
----
-
-## 📱 Features / Funktionen
-
-마을 지도 기반 학습  
-Village-based learning UI  
-Dorfbasierte Lernoberfläche  
-
-단어/문법/대화 학습  
-Vocabulary / Grammar / Conversation  
-Vokabel / Grammatik / Dialog  
-
-게임화 (점수, 부품)  
-Gamification (score, parts)  
-Gamification (Punkte, Teile)  
-
----
-
-## 🚀 Getting Started / Ausführung
-
-git clone https://github.com/sorrynthx/hallo_deutschland.git  
-cd hallo_deutschland  
-npm install  
-npm run dev  
-
----
-
-## 📂 Project Structure / Projektstruktur
-
-    hallo-deutschland/
-    ├── app/
-    │   ├── components/
-    │   ├── hooks/
-    │   ├── learn/
-    │   ├── layout.tsx
-    │   └── page.tsx
-    │
-    ├── public/
-    │   └── data/
-    │       ├── locations.json
-    │       ├── bakery/
-    │       └── hospital/
-    │
-    └── scripts/
-        ├── generate_content.py
-        └── prompts.py
-
----
-
-## 🎨 Design Concept / Designkonzept
-
-황혼 마을 + 외계 기술 대비  
-Twilight village + alien tech  
-Dämmerungsdorf + Alien-Technologie  
+**3. Simplified Infrastructure**
+**외부 API 호출이 불필요해짐에 따라 라즈베리 파이 운영을 중단하고, GitHub과 Vercel 중심의 정적 데이터 구조로 간소화하여 유지비 0원을 달성했습니다.**
+*By removing the dependency on external APIs, the Raspberry Pi was decommissioned, resulting in a lean, GitHub-and-Vercel-centered static data architecture with zero maintenance cost.*
+*Da keine externen API-Aufrufe mehr nötig sind, wurde der Raspberry Pi außer Betrieb genommen. Das Projekt basiert nun auf einer schlanken Datenstruktur via GitHub und Vercel bei laufenden Kosten von 0 €.*
 
 ---
 
 ## 📊 Cost Structure / Kostenstruktur
 
-총 비용 $0  
-Total cost $0  
-Gesamtkosten $0  
+| Item | Cost | Note |
+| :--- | :--- | :--- |
+| **Hosting** | $0 | Vercel (Hobby Tier) |
+| **Database** | $0 | LocalStorage / Static JSON |
+| **AI Content** | **$0** | **Using Jules (Copilot Pro Subscription)** |
+| **Total** | **$0** | **Sustainable Personal Project** |
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js 15 (App Router), TypeScript
+* **Styling:** CSS Variables (Zero-build CSS management)
+* **Deployment:** Vercel (Auto-deploy via GitHub)
+* **AI Tooling:** Jules (GitHub Copilot Workspace) for Data Engineering
 
 ---
 
 ## 👨‍💻 Developer / Entwickler
 
-개인 프로젝트  
-Personal project  
-Persönliches Projekt  
-
-"필요해서 만들었고, 직접 씁니다."  
-"Built because I needed it."  
-"Ich habe es gebaut, weil ich es brauche."  
+**5년 차 이상의 백엔드 개발자로서, 실용적인 기술 스택과 비용 효율적인 아키텍처 설계에 집중합니다.**
+*As a backend developer with 5+ years of experience, I focus on practical tech stacks and cost-effective architectural designs.*
+*Als Backend-Entwickler mit über 5 Jahren Erfahrung konzentriere ich mich auf praxisnahe Tech-Stacks und kosteneffiziente Architekturdesigns.*
