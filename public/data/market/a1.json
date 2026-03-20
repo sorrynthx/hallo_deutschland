@@ -1,0 +1,101 @@
+{
+  "location": "market",
+  "level": "a1",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_market_a1_001",
+        "word": "Apfel",
+        "article": "der",
+        "plural": "Äpfel",
+        "pronunciation": "데어 압펠",
+        "meaning": "사과",
+        "example": "Ein Apfel, bitte.",
+        "example_translation": "사과 하나 주세요.",
+        "example_pronunciation": "아인 압펠, 비테",
+        "tags": [
+          "food",
+          "fruit"
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "voc_market_a1_002",
+        "word": "Milch",
+        "article": "die",
+        "plural": "null",
+        "pronunciation": "디 밀히",
+        "meaning": "우유",
+        "example": "Ich trinke Milch.",
+        "example_translation": "저는 우유를 마셔요.",
+        "example_pronunciation": "이히 트링케 밀히",
+        "tags": [
+          "drink",
+          "basic"
+        ],
+        "week": "W12"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_market_a1_001",
+        "phrase": "Wo ist die Milch?",
+        "pronunciation": "보 이스트 디 밀히?",
+        "meaning": "우유는 어디에 있나요?",
+        "usage": "슈퍼마켓에서 물건의 위치를 정중히 물어볼 때 사용해요.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W12"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "gram_market_a1_001",
+        "type": "fill_blank",
+        "topic": "Artikel",
+        "topic_explanation": "독일어 명사는 성별(남성, 여성, 중성)을 가집니다. 사과는 남성 명사예요.",
+        "question": "____ Apfel",
+        "question_translation": "그 사과",
+        "options": [
+          "Der",
+          "Die",
+          "Das",
+          "Ein"
+        ],
+        "answer": "Der",
+        "explanation": "Apfel은 남성 명사이므로 Der가 정답입니다. 아주 잘하셨어요!",
+        "related_table": [],
+        "week": "W12"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_market_a1_001",
+        "situation": "슈퍼마켓에서 사과를 살 때",
+        "situation_icon": "🍎",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Ich hätte gerne einen Apfel.",
+            "pronunciation": "이히 헤테 게르네 아이넨 압펠",
+            "translation": "사과 하나 주세요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Hier bitte.",
+            "pronunciation": "히어 비테",
+            "translation": "여기 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [],
+        "answer": "",
+        "explanation": "",
+        "grammar_point": "",
+        "week": "W12"
+      }
+    ]
+  },
+  "lastUpdated": "W12"
+}

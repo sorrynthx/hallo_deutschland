@@ -1,0 +1,39 @@
+{
+  "location": "rathaus",
+  "level": "b2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_rathaus_b2_001",
+        "word": "Formular",
+        "article": "das",
+        "plural": "Formulare",
+        "pronunciation": "다스 포어물라어",
+        "meaning": "양식, 서식",
+        "example": "Bitte füllen Sie dieses Formular aus.",
+        "example_translation": "이 양식을 작성해 주세요.",
+        "example_pronunciation": "비테 퓔렌 지 디제스 포어물라어 아우스",
+        "tags": [
+          "official",
+          "document"
+        ],
+        "week": "W12"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_rathaus_b2_001",
+        "phrase": "Ich möchte mich anmelden.",
+        "pronunciation": "이히 뫼히테 미히 안멜덴.",
+        "meaning": "전입 신고를 하고 싶습니다.",
+        "usage": "관공서에서 전입 신고를 할 때 반드시 필요한 표현이에요.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W12"
+      }
+    ],
+    "grammar": [],
+    "conversation": []
+  },
+  "lastUpdated": "W12"
+}

@@ -1,0 +1,55 @@
+{
+  "location": "bakery",
+  "level": "baby",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_bakery_baby_001",
+        "word": "Brot",
+        "article": "das",
+        "plural": "Brote",
+        "pronunciation": "다스 브로트",
+        "meaning": "빵",
+        "example": "Brot, bitte.",
+        "example_translation": "빵 주세요.",
+        "example_pronunciation": "브로트, 비테",
+        "tags": [
+          "food",
+          "basic"
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "voc_bakery_baby_002",
+        "word": "Kuchen",
+        "article": "der",
+        "plural": "Kuchen",
+        "pronunciation": "데어 쿠헨",
+        "meaning": "케이크",
+        "example": "Ich mag Kuchen.",
+        "example_translation": "저는 케이크를 좋아해요.",
+        "example_pronunciation": "이히 막 쿠헨",
+        "tags": [
+          "food",
+          "sweet"
+        ],
+        "week": "W12"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_bakery_baby_001",
+        "phrase": "Guten Appetit!",
+        "pronunciation": "구텐 아페티트!",
+        "meaning": "맛있게 드세요!",
+        "usage": "음식을 먹기 전에 친절하게 인사할 때 써요.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W12"
+      }
+    ],
+    "grammar": [],
+    "conversation": []
+  },
+  "lastUpdated": "W12"
+}
