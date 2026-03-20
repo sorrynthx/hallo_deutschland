@@ -8,12 +8,12 @@
 
 ## 📖 Project Overview / Projektübersicht
 
-**시중의 독일어 학습 앱들은 광고와 구독 모델이 많아, 직접 필요한 기능만 담은 미니멀한 학습 도구를 제작했습니다.**
-*I built a minimalist learning tool with only essential functions, avoiding the ads and subscriptions of existing apps.*
-*Ich habe ein minimalistisches Lerntool mit nur den wichtigsten Funktionen entwickelt, um Werbung und Abos bestehender Apps zu vermeiden.*
+**시중의 독일어 학습 앱들은 광고와 구독 모델이 많아, 직접 필요한 기능만 담은 미니멀한 학습 도구를 제작했습니다.**  
+*I built a minimalist learning tool with only essential functions, avoiding the ads and subscriptions of existing apps.*  
+*Ich habe ein minimalistisches Lerntool mit nur den wichtigsten Funktionen entwickelt, um Werbung und Abos bestehender Apps zu vermeiden.*  
 
-**독일 취업을 준비하며 직접 사용하기 위해 만든 개인 프로젝트로, 인프라 유지 비용 0원($0)과 고품질의 데이터 자동 생성을 목표로 합니다.**
-*This is a personal project built for my own use while preparing for a job in Germany, aiming for zero infrastructure costs ($0) and high-quality automated data generation.*
+**독일 취업을 준비하며 직접 사용하기 위해 만든 개인 프로젝트로, 인프라 유지 비용 0원($0)과 고품질의 데이터 자동 생성을 목표로 합니다.**  
+*This is a personal project built for my own use while preparing for a job in Germany, aiming for zero infrastructure costs ($0) and high-quality automated data generation.*  
 *Dies ist ein persönliches Projekt, das ich für den Eigenbedarf während meiner Jobsuche in Deutschland entwickelt habe. Ziel sind null Infrastrukturkosten (0 $) und eine hochwertige, automatisierte Datengenerierung.*
 
 ---
