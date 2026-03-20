@@ -24,8 +24,8 @@
 *Originally, I used Google Gemini API and a Raspberry Pi for automated data generation, but I have evolved the architecture for better cost-efficiency and reliability as follows:*  
 *Ursprünglich wurden die Daten automatisch über die Google Gemini API und einen Raspberry Pi generiert, aber die Architektur wurde wie folgt optimiert, um die Kosteneffizienz und Zuverlässigkeit zu erhöhen:*  
 
-[ Workflow: AI-Driven Content Enrichment ]
-
+[ Workflow: AI-Driven Content Enrichment ]  
+```
 1. AI Agent (Jules)  <-- Analyze locations.json & Supplement data
        |
        v
@@ -39,7 +39,7 @@
        |
        v
 5. Mobile App (PWA)  <-- Fetching data & LocalStorage Sync
-
+```
 ---
 
 ## 💡 Tech Decision: Cost Optimization / 비용 최적화 전략
