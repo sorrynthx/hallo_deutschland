@@ -1,0 +1,39 @@
+{
+  "location": "library",
+  "level": "b2",
+  "items": {
+    "vocabulary": [
+      {
+        "id": "voc_library_b2_001",
+        "word": "Fachbuch",
+        "article": "das",
+        "plural": "Fachbücher",
+        "pronunciation": "다스 파흐부흐",
+        "meaning": "전문 서적",
+        "example": "Ich suche ein Fachbuch über Architektur.",
+        "example_translation": "건축에 관한 전문 서적을 찾고 있습니다.",
+        "example_pronunciation": "이히 주헤 아인 파흐부흐 위버 아르히텍투어",
+        "tags": [
+          "book",
+          "study"
+        ],
+        "week": "W12"
+      }
+    ],
+    "expressions": [
+      {
+        "id": "expr_library_b2_001",
+        "phrase": "Könnten Sie mir bitte helfen?",
+        "pronunciation": "텐 지 미어 비테 헬펜?",
+        "meaning": "저를 좀 도와주시겠어요?",
+        "usage": "사서 선생님께 도움을 요청할 때 사용하는 정중한 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W12"
+      }
+    ],
+    "grammar": [],
+    "conversation": []
+  },
+  "lastUpdated": "W12"
+}
