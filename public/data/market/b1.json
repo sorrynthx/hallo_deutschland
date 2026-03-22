@@ -82,6 +82,86 @@
           "Waren"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W12_001",
+        "word": "Waage",
+        "article": "die",
+        "plural": "Waagen",
+        "pronunciation": "바게",
+        "meaning": "저울",
+        "example": "Sie müssen das Gemüse auf die Waage legen.",
+        "example_translation": "야채를 저울에 올려놓으셔야 합니다.",
+        "example_pronunciation": "지 뮈센 다스 게뮤제 아우프 디 바게 레겐.",
+        "tags": [
+          "Einkauf",
+          "Gemüse"
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "voc_market_b1_W12_002",
+        "word": "Einkaufskorb",
+        "article": "der",
+        "plural": "Einkaufskörbe",
+        "pronunciation": "아인카우프스코르프",
+        "meaning": "장바구니",
+        "example": "Ich nehme heute nur einen Einkaufskorb.",
+        "example_translation": "오늘은 장바구니만 가져갈게요.",
+        "example_pronunciation": "이히 네메 호이테 누어 아이넨 아인카우프스코르프.",
+        "tags": [
+          "Transport",
+          "Einkauf"
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "voc_market_b1_W12_003",
+        "word": "Rabatt",
+        "article": "der",
+        "plural": "Rabatte",
+        "pronunciation": "라바트",
+        "meaning": "할인",
+        "example": "Gibt es auf diesen Artikel einen Rabatt?",
+        "example_translation": "이 상품에 할인이 있나요?",
+        "example_pronunciation": "깁트 에스 아우프 디젠 아르티켈 아이넨 라바트?",
+        "tags": [
+          "Preis",
+          "Bezahlen"
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "voc_market_b1_W12_004",
+        "word": "Quittung",
+        "article": "die",
+        "plural": "Quittungen",
+        "pronunciation": "크비퉁",
+        "meaning": "영수증",
+        "example": "Brauchen Sie die Quittung?",
+        "example_translation": "영수증이 필요하신가요?",
+        "example_pronunciation": "브라우헨 지 디 크비퉁?",
+        "tags": [
+          "Kasse",
+          "Bezahlen"
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "voc_market_b1_W12_005",
+        "word": "Kühlregal",
+        "article": "das",
+        "plural": "Kühlregale",
+        "pronunciation": "퀼레갈",
+        "meaning": "냉장 선반",
+        "example": "Milchprodukte finden Sie im Kühlregal.",
+        "example_translation": "유제품은 냉장 선반에 있습니다.",
+        "example_pronunciation": "밀히프로둑테 핀덴 지 임 퀼레갈.",
+        "tags": [
+          "Ort",
+          "Lebensmittel"
+        ],
+        "week": "W12"
       }
     ],
     "grammar": [
@@ -163,6 +243,96 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W12_001",
+        "type": "fill_blank",
+        "topic": "Kausalsätze mit 'weil'",
+        "topic_explanation": "'weil'을 사용한 부사절은 이유를 나타내며, 동사는 항상 문장 맨 끝에 위치합니다.",
+        "question": "Ich kaufe dieses Brot, ____ es heute im Angebot ist.",
+        "question_translation": "이 빵이 오늘 할인 중이기 때문에 이것을 삽니다.",
+        "options": [
+          "weil",
+          "dass",
+          "ob",
+          "obwohl"
+        ],
+        "answer": "weil",
+        "explanation": "'weil'은 원인이나 이유를 나타내는 종속접속사입니다. 종속절에서 동사 'ist'는 문장 끝에 위치합니다.",
+        "related_table": [],
+        "week": "W12"
+      },
+      {
+        "id": "gram_market_b1_W12_002",
+        "type": "fill_blank",
+        "topic": "Relativpronomen im Akkusativ",
+        "topic_explanation": "관계대명사는 선행사의 성과 수에 일치하며, 격은 관계절 내의 역할에 따라 결정됩니다. 남성 대격의 경우 'den'을 사용합니다.",
+        "question": "Wo ist der Käse, ____ ich gerade in den Einkaufswagen gelegt habe?",
+        "question_translation": "내가 방금 쇼핑 카트에 넣은 치즈는 어디 있나요?",
+        "options": [
+          "der",
+          "dem",
+          "den",
+          "das"
+        ],
+        "answer": "den",
+        "explanation": "선행사 'der Käse'는 남성이며, 관계절 안에서 목적어(Akkusativ) 역할을 하므로 'den'이 맞습니다.",
+        "related_table": [],
+        "week": "W12"
+      },
+      {
+        "id": "gram_market_b1_W12_003",
+        "type": "fill_blank",
+        "topic": "Komparativ bei Adjektiven",
+        "topic_explanation": "형용사의 비교급은 뒤에 '-er'를 붙이고, 비교 대상 앞에 'als'를 사용합니다.",
+        "question": "Diese Äpfel sind viel ____ als die anderen.",
+        "question_translation": "이 사과들은 다른 것들보다 훨씬 더 쌉니다.",
+        "options": [
+          "billig",
+          "billiger",
+          "am billigsten",
+          "billige"
+        ],
+        "answer": "billiger",
+        "explanation": "'als'와 함께 비교를 나타내므로 비교급 'billiger'를 사용해야 합니다.",
+        "related_table": [],
+        "week": "W12"
+      },
+      {
+        "id": "gram_market_b1_W12_004",
+        "type": "fill_blank",
+        "topic": "Indirekte Fragesätze mit 'ob'",
+        "topic_explanation": "예/아니오로 대답할 수 있는 의문문을 간접의문문으로 바꿀 때는 'ob'(~인지 아닌지)을 사용합니다.",
+        "question": "Können Sie mir sagen, ____ Sie noch frische Tomaten haben?",
+        "question_translation": "아직 신선한 토마토가 있는지 말씀해 주시겠어요?",
+        "options": [
+          "dass",
+          "weil",
+          "wenn",
+          "ob"
+        ],
+        "answer": "ob",
+        "explanation": "예/아니오 질문('Haben Sie noch frische Tomaten?')을 간접의문문으로 만들 때는 'ob'을 사용합니다.",
+        "related_table": [],
+        "week": "W12"
+      },
+      {
+        "id": "gram_market_b1_W12_005",
+        "type": "fill_blank",
+        "topic": "Präteritum der Modalverben",
+        "topic_explanation": "조동사의 과거형(Präteritum)은 과거의 의도나 의무를 표현할 때 주로 사용됩니다. 'wollen'의 과거형은 'wollte'입니다.",
+        "question": "Ich ____ eigentlich noch Eier kaufen, habe es aber vergessen.",
+        "question_translation": "원래 계란을 더 사려고 했는데 잊어버렸어요.",
+        "options": [
+          "will",
+          "wollte",
+          "habe gewollt",
+          "würde"
+        ],
+        "answer": "wollte",
+        "explanation": "과거의 의도를 나타내기 위해 'wollen'의 과거형인 'wollte'를 사용합니다. 화행에서는 조동사의 과거형이 현재완료형보다 더 자연스럽습니다.",
+        "related_table": [],
+        "week": "W12"
       }
     ],
     "conversation": [
@@ -270,6 +440,251 @@
         "explanation": "가격이 수정된 후 고객은 결제를 진행하게 됩니다. 논리적인 다음 질문은 사용 가능한 결제 방법에 관한 것입니다.",
         "grammar_point": "Verwendung von 'können' (can) in Fragesätzen, um eine Möglichkeit oder Erlaubnis zu erfragen.",
         "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W12_001",
+        "situation": "고객이 과일을 저울에 달아야 하는지 묻습니다.",
+        "situation_icon": "⚖️",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Entschuldigung, muss ich diese Bananen selbst abwiegen?",
+            "pronunciation": "엔트슐디궁, 무스 이히 디제 바나넨 젤프스트 압비겐?",
+            "translation": "실례합니다, 이 바나나를 제가 직접 저울에 달아야 하나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Employee",
+            "text": "Nein, das machen wir hier direkt an der Kasse für Sie.",
+            "pronunciation": "나인, 다스 마헨 비어 히어 디렉트 안 데어 카쎄 퓌어 지.",
+            "translation": "아니요, 그건 저희가 여기 계산대에서 직접 해드립니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Oh, das ist praktisch. _______?",
+            "pronunciation": "오, 다스 이스트 프락티쉬. _______?",
+            "translation": "오, 편리하네요. _______?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Wo ist die Toilette?",
+            "pronunciation": "보 이스트 디 토일레테?",
+            "translation": "화장실이 어디인가요?"
+          },
+          {
+            "text": "Und was ist mit den Tomaten?",
+            "pronunciation": "운트 바스 이스트 밋 덴 토마텐?",
+            "translation": "그럼 토마토는 어떻게 하나요?"
+          },
+          {
+            "text": "Kann ich das umtauschen?",
+            "pronunciation": "칸 이히 다스 움타우셴?",
+            "translation": "이거 교환할 수 있나요?"
+          }
+        ],
+        "answer": "Und was ist mit den Tomaten?",
+        "explanation": "고객이 다른 채소(토마토)도 저울에 달아야 하는지 연속적으로 묻는 상황이 자연스럽습니다.",
+        "grammar_point": "Verwendung von 'was ist mit...' um nach einer anderen Sache im gleichen Kontext zu fragen.",
+        "week": "W12"
+      },
+      {
+        "id": "conv_market_b1_W12_002",
+        "situation": "고객이 상품의 유통기한에 대해 직원에게 묻습니다.",
+        "situation_icon": "📅",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Entschuldigen Sie, dieser Joghurt läuft morgen ab.",
+            "pronunciation": "엔트슐디겐 지, 디저 요구르트 로이프트 모르겐 압.",
+            "translation": "실례합니다, 이 요구르트는 내일까지가 유통기한입니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Oh, danke für den Hinweis. Ich nehme ihn gleich aus dem Regal.",
+            "pronunciation": "오, 당케 퓌어 덴 힌바이스. 이히 네메 인 글라이히 아우스 뎀 레갈.",
+            "translation": "오, 알려주셔서 감사합니다. 바로 선반에서 빼겠습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "_______?",
+            "pronunciation": "_______?",
+            "translation": "_______?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Haben Sie noch frischere Joghurts hinten im Lager?",
+            "pronunciation": "하벤 지 노흐 프리셔레 요구르츠 힌텐 임 라거?",
+            "translation": "창고 뒤쪽에 더 신선한 요구르트가 있나요?"
+          },
+          {
+            "text": "Wo ist der Ausgang?",
+            "pronunciation": "보 이스트 데어 아우스강?",
+            "translation": "출구가 어디인가요?"
+          },
+          {
+            "text": "Gibt es hier kostenloses WLAN?",
+            "pronunciation": "깁트 에스 히어 코스텐로제스 베란?",
+            "translation": "여기에 무료 와이파이가 있나요?"
+          }
+        ],
+        "answer": "Haben Sie noch frischere Joghurts hinten im Lager?",
+        "explanation": "유통기한이 다 된 제품을 발견한 고객이 더 신선한 제품이 있는지 묻는 것은 아주 자연스럽습니다.",
+        "grammar_point": "Komparativ 'frischere' als Attribut.",
+        "week": "W12"
+      },
+      {
+        "id": "conv_market_b1_W12_003",
+        "situation": "계산대에서 비닐봉지나 종이봉투를 요청합니다.",
+        "situation_icon": "🛍️",
+        "dialogue": [
+          {
+            "role": "Cashier",
+            "text": "Das macht 15 Euro und 20 Cent, bitte.",
+            "pronunciation": "다스 마흐트 퓐프첸 오이로 운트 츠반치히 센트, 비테.",
+            "translation": "15유로 20센트입니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Hier, bitte. _______?",
+            "pronunciation": "히어, 비테. _______?",
+            "translation": "여기 있습니다. _______?",
+            "isQuestion": true
+          },
+          {
+            "role": "Cashier",
+            "text": "Ja, wir haben Papiertüten für 20 Cent unter dem Band.",
+            "pronunciation": "야, 비어 하벤 파피어튀텐 퓌어 츠반치히 센트 운터 뎀 반트.",
+            "translation": "네, 계산대 밑에 20센트짜리 종이봉투가 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Haben Sie eine Papiertüte für mich?",
+            "pronunciation": "하벤 지 아이네 파피어튀테 퓌어 미히?",
+            "translation": "종이봉투 하나 주실 수 있나요?"
+          },
+          {
+            "text": "Können Sie das als Geschenk einpacken?",
+            "pronunciation": "쾨넨 지 다스 알스 게솅크 아인파켄?",
+            "translation": "선물용으로 포장해 주실 수 있나요?"
+          },
+          {
+            "text": "Wann machen Sie zu?",
+            "pronunciation": "반 마헨 지 추?",
+            "translation": "언제 문을 닫나요?"
+          }
+        ],
+        "answer": "Haben Sie eine Papiertüte für mich?",
+        "explanation": "직원의 대답이 종이봉투가 있다는 것이므로, 종이봉투를 요구하는 질문이 들어가야 합니다.",
+        "grammar_point": "Frage nach Verfügbarkeit von Artikeln.",
+        "week": "W12"
+      },
+      {
+        "id": "conv_market_b1_W12_004",
+        "situation": "할인 상품의 가격이 계산대에서 다르게 찍힌 경우",
+        "situation_icon": "💰",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Entschuldigen Sie, ich glaube, da ist ein Fehler. Der Kaffee sollte im Angebot sein.",
+            "pronunciation": "엔트슐디겐 지, 이히 글라우베, 다 이스트 아인 페일러. 데어 카페 졸테 임 앙게봇 자인.",
+            "translation": "실례합니다, 오류가 있는 것 같아요. 이 커피는 할인 중이어야 합니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Cashier",
+            "text": "Oh, lassen Sie mich kurz nachschauen. Wie viel stand denn auf dem Preisschild?",
+            "pronunciation": "오, 라쎈 지 미히 쿠르츠 나흐샤우엔. 비 필 슈탄트 덴 아우프 뎀 프라이스쉴트?",
+            "translation": "오, 잠시만 확인해 볼게요. 가격표에 얼마라고 적혀 있었나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Customer",
+            "text": "_______.",
+            "pronunciation": "_______.",
+            "translation": "_______.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich möchte mit Karte zahlen.",
+            "pronunciation": "이히 뫼히테 밋 카르테 찰렌.",
+            "translation": "카드로 결제하고 싶어요."
+          },
+          {
+            "text": "Da stand 3 Euro 99.",
+            "pronunciation": "다 슈탄트 드라이 오이로 노인운트노인치히.",
+            "translation": "3유로 99센트라고 적혀 있었어요."
+          },
+          {
+            "text": "Ich brauche den Kassenzettel nicht.",
+            "pronunciation": "이히 브라우헤 덴 카센체텔 니히트.",
+            "translation": "영수증은 필요 없어요."
+          }
+        ],
+        "answer": "Da stand 3 Euro 99.",
+        "explanation": "직원이 가격표에 적힌 가격을 물었으므로 구체적인 가격으로 대답해야 합니다.",
+        "grammar_point": "Präteritum von 'stehen' (stand) zur Beschreibung einer Situation in der Vergangenheit.",
+        "week": "W12"
+      },
+      {
+        "id": "conv_market_b1_W12_005",
+        "situation": "빈 병(Pfandflaschen)을 어디에 반환하는지 묻는 상황",
+        "situation_icon": "♻️",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Guten Tag! Ich habe ein paar leere Flaschen dabei.",
+            "pronunciation": "구텐 탁! 이히 하베 아인 파어 레레 플라셴 다바이.",
+            "translation": "안녕하세요! 빈 병을 몇 개 가져왔는데요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Hallo! Den Rückgabeautomaten finden Sie gleich im Eingangsbereich auf der rechten Seite.",
+            "pronunciation": "할로! 덴 뤽가베아우토마텐 핀덴 지 글라이히 임 아인가스베라이히 아우프 데어 레히텐 자이테.",
+            "translation": "안녕하세요! 빈 병 무인 회수기는 입구 쪽 바로 오른편에 있습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Danke! _______?",
+            "pronunciation": "당케! _______?",
+            "translation": "감사합니다! _______?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nimmt der Automat auch Glasflaschen?",
+            "pronunciation": "님트 데어 아우토마트 아우흐 글라스플라셴?",
+            "translation": "그 기계가 유리병도 받나요?"
+          },
+          {
+            "text": "Ist die Milch hier frisch?",
+            "pronunciation": "이스트 디 밀히 히어 프리쉬?",
+            "translation": "여기 우유는 신선한가요?"
+          },
+          {
+            "text": "Verkaufen Sie Briefmarken?",
+            "pronunciation": "페어카우펜 지 브리프마르켄?",
+            "translation": "우표도 파나요?"
+          }
+        ],
+        "answer": "Nimmt der Automat auch Glasflaschen?",
+        "explanation": "빈 병 반환에 관한 대화이므로 무인 회수기에 대한 추가 질문이 자연스럽습니다.",
+        "grammar_point": "Verwendung des Verbs 'nehmen' im Kontext von Automaten.",
+        "week": "W12"
       }
     ],
     "expressions": [
@@ -378,8 +793,138 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W12_001",
+        "phrase": "Haben Sie eine Kundenkarte?",
+        "pronunciation": "하벤 지 아이네 쿤덴카르테?",
+        "meaning": "포인트 카드(고객 카드)가 있으신가요?",
+        "usage": "(계산대에서 직원이 결제 전 자주 묻는 질문) Haben Sie eine Kundenkarte, mit der Sie Punkte sammeln möchten?",
+        "alternatives": [
+          {
+            "phrase": "Sammeln Sie Punkte?",
+            "pronunciation": "자멜른 지 풍크테?",
+            "nuance": "포인트를 적립하시냐는 직설적인 질문입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, hier bitte.",
+            "pronunciation": "야, 히어 비테.",
+            "translation": "네, 여기 있습니다."
+          },
+          {
+            "text": "Nein, habe ich nicht.",
+            "pronunciation": "나인, 하베 이히 니히트.",
+            "translation": "아니요, 없습니다."
+          }
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "expr_market_b1_W12_002",
+        "phrase": "Brauchen Sie den Kassenbon?",
+        "pronunciation": "브라우헨 지 덴 카센본?",
+        "meaning": "영수증 필요하신가요?",
+        "usage": "(결제가 끝난 후 직원이 묻는 질문) Alles erledigt. Brauchen Sie den Kassenbon?",
+        "alternatives": [
+          {
+            "phrase": "Möchten Sie die Quittung?",
+            "pronunciation": "뫼히텐 지 디 크비퉁?",
+            "nuance": "Quittung도 영수증을 뜻하며 약간 더 공식적입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 주세요."
+          },
+          {
+            "text": "Nein, danke. Den können Sie wegwerfen.",
+            "pronunciation": "나인, 당케. 덴 쾨넨 지 베크베르펜.",
+            "translation": "아니요, 괜찮습니다. 버려주셔도 돼요."
+          }
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "expr_market_b1_W12_003",
+        "phrase": "Das Mindesthaltbarkeitsdatum ist abgelaufen.",
+        "pronunciation": "다스 민데스트할트바르카이츠다툼 이스트 압겔라우펜.",
+        "meaning": "유통기한이 지났습니다.",
+        "usage": "(유통기한이 지난 상품을 발견했을 때 직원에게 알리며) Entschuldigung, bei diesem Produkt ist das Mindesthaltbarkeitsdatum ist abgelaufen.",
+        "alternatives": [
+          {
+            "phrase": "Das ist leider schon abgelaufen.",
+            "pronunciation": "다스 이스트 라이더 숀 압겔라우펜.",
+            "nuance": "더 짧고 일상적인 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Oh, vielen Dank für den Hinweis. Ich nehme es weg.",
+            "pronunciation": "오, 필렌 당크 퓌어 덴 힌바이스. 이히 네메 에스 베크.",
+            "translation": "오, 알려주셔서 대단히 감사합니다. 제가 치우겠습니다."
+          }
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "expr_market_b1_W12_004",
+        "phrase": "Wo kann ich das abwiegen?",
+        "pronunciation": "보 칸 이히 다스 압비겐?",
+        "meaning": "이것을 어디서 저울에 달 수 있나요?",
+        "usage": "(과일이나 야채 코너에서 저울을 찾지 못할 때) Entschuldigen Sie, wo kann ich das Gemüse abwiegen?",
+        "alternatives": [
+          {
+            "phrase": "Wo ist die Waage für das Obst?",
+            "pronunciation": "보 이스트 디 바게 퓌어 다스 옵스트?",
+            "nuance": "저울의 위치를 직접적으로 묻는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Die Waage befindet sich direkt am Ende des Ganges.",
+            "pronunciation": "디 바게 베핀데트 지히 디렉트 암 엔데 데스 강에스.",
+            "translation": "저울은 통로 끝에 바로 있습니다."
+          },
+          {
+            "text": "Sie müssen es nicht abwiegen, wir machen das an der Kasse.",
+            "pronunciation": "지 뮈센 에스 니히트 압비겐, 비어 마헨 다스 안 데어 카쎄.",
+            "translation": "저울에 안 다셔도 됩니다. 저희가 계산대에서 해드립니다."
+          }
+        ],
+        "week": "W12"
+      },
+      {
+        "id": "expr_market_b1_W12_005",
+        "phrase": "Können Sie mir das in Scheiben schneiden?",
+        "pronunciation": "쾨넨 지 미어 다스 인 샤이벤 슈나이덴?",
+        "meaning": "이것을 얇게 썰어 주실 수 있나요?",
+        "usage": "(치즈나 소시지 코너에서) Ich hätte gerne 200 Gramm von diesem Käse. Können Sie mir das in Scheiben schneiden?",
+        "alternatives": [
+          {
+            "phrase": "Bitte in dünne Scheiben schneiden.",
+            "pronunciation": "비테 인 뒤네 샤이벤 슈나이덴.",
+            "nuance": "얇게 썰어달라는 것을 좀 더 명확히 요구하는 표현입니다."
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne. Möchten Sie sie dick oder dünn geschnitten haben?",
+            "pronunciation": "게르네. 뫼히텐 지 지 딕 오더 뒨 게슈니텐 하벤?",
+            "translation": "기꺼이 해드리죠. 두껍게 썰어드릴까요, 얇게 썰어드릴까요?"
+          },
+          {
+            "text": "Natürlich, das mache ich sofort.",
+            "pronunciation": "나튀를리히, 다스 마헤 이히 조포르트.",
+            "translation": "물론이죠, 바로 해드리겠습니다."
+          }
+        ],
+        "week": "W12"
       }
     ]
   },
-  "lastUpdated": "W11"
+  "lastUpdated": "W12"
 }
