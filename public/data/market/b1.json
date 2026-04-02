@@ -162,6 +162,86 @@
           "Lebensmittel"
         ],
         "week": "W12"
+      },
+      {
+        "id": "voc_market_b1_W11_50b856d0",
+        "word": "Kassenzettel",
+        "article": "der",
+        "plural": "Kassenzettel",
+        "pronunciation": "데어 카센체텔",
+        "meaning": "영수증",
+        "example": "Brauchen Sie den Kassenzettel?",
+        "example_translation": "영수증이 필요하신가요?",
+        "example_pronunciation": "브라우헨 지 덴 카센체텔?",
+        "tags": [
+          "market",
+          "b1"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_60beff40",
+        "word": "Rückgeld",
+        "article": "das",
+        "plural": "Rückgelder",
+        "pronunciation": "다스 뤽겔트",
+        "meaning": "거스름돈",
+        "example": "Hier ist Ihr Rückgeld.",
+        "example_translation": "여기 거스름돈입니다.",
+        "example_pronunciation": "히어 이스트 이어 뤽겔트.",
+        "tags": [
+          "market",
+          "b1"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_2bad5f29",
+        "word": "Sonderangebot",
+        "article": "das",
+        "plural": "Sonderangebote",
+        "pronunciation": "다스 존더앙게보트",
+        "meaning": "특별 할인",
+        "example": "Die Milch ist im Sonderangebot.",
+        "example_translation": "우유가 특별 할인 중입니다.",
+        "example_pronunciation": "디 밀히 이스트 임 존더앙게보트.",
+        "tags": [
+          "market",
+          "b1"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_85c80a89",
+        "word": "Leergutautomat",
+        "article": "der",
+        "plural": "Leergutautomaten",
+        "pronunciation": "데어 레어구트아우토마트",
+        "meaning": "빈 병 회수기",
+        "example": "Der Leergutautomat ist defekt.",
+        "example_translation": "빈 병 회수기가 고장 났습니다.",
+        "example_pronunciation": "데어 레어구트아우토마트 이스트 데펙트.",
+        "tags": [
+          "market",
+          "b1"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_ab64100d",
+        "word": "Mindesthaltbarkeitsdatum",
+        "article": "das",
+        "plural": "Mindesthaltbarkeitsdaten",
+        "pronunciation": "다스 민데스트할트바르카이츠다툼",
+        "meaning": "유통기한",
+        "example": "Das Mindesthaltbarkeitsdatum ist abgelaufen.",
+        "example_translation": "유통기한이 지났습니다.",
+        "example_pronunciation": "다스 민데스트할트바르카이츠다툼 이스트 압겔라우펜.",
+        "tags": [
+          "market",
+          "b1"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -333,6 +413,96 @@
         "explanation": "과거의 의도를 나타내기 위해 'wollen'의 과거형인 'wollte'를 사용합니다. 화행에서는 조동사의 과거형이 현재완료형보다 더 자연스럽습니다.",
         "related_table": [],
         "week": "W12"
+      },
+      {
+        "id": "gram_market_b1_W11_f8c576d0",
+        "type": "fill_blank",
+        "topic": "Passiv Präsens",
+        "topic_explanation": "현재 수동태 (werden + 과거분사) 연습입니다.",
+        "question": "Die Kasse ____ gerade geöffnet.",
+        "question_translation": "계산대가 방금 열렸습니다.",
+        "options": [
+          "wird",
+          "werden",
+          "wurde",
+          "worden"
+        ],
+        "answer": "wird",
+        "explanation": "주어 Die Kasse (3인칭 단수)에 맞는 수동태 조동사 wird가 필요합니다.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_4ec9ae1c",
+        "type": "fill_blank",
+        "topic": "Relativsätze",
+        "topic_explanation": "관계대명사 연습입니다.",
+        "question": "Der Kunde, ____ vor mir steht, hat kein Geld.",
+        "question_translation": "내 앞에 서 있는 고객은 돈이 없습니다.",
+        "options": [
+          "der",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "der",
+        "explanation": "선행사 Der Kunde (남성 단수)이고 관계절 내에서 주어 역할을 하므로 주격 der를 사용합니다.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_626fd407",
+        "type": "fill_blank",
+        "topic": "Plusquamperfekt",
+        "topic_explanation": "과거완료 (hatte/war + 과거분사) 연습입니다.",
+        "question": "Als ich an der Kasse ankam, ____ ich meine Karte vergessen.",
+        "question_translation": "계산대에 도착했을 때, 나는 카드를 깜빡했다는 것을 깨달았다.",
+        "options": [
+          "hatte",
+          "habe",
+          "war",
+          "bin"
+        ],
+        "answer": "hatte",
+        "explanation": "과거의 특정 시점(ankam) 이전에 발생한 일이므로 과거완료 조동사 hatte가 필요합니다.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_221e9cea",
+        "type": "fill_blank",
+        "topic": "Konjunktiv II",
+        "topic_explanation": "가정법 2식을 활용한 공손한 표현입니다.",
+        "question": "Ich ____ gerne diese Tomaten umtauschen.",
+        "question_translation": "이 토마토를 교환하고 싶습니다.",
+        "options": [
+          "würde",
+          "werde",
+          "wurde",
+          "worden"
+        ],
+        "answer": "würde",
+        "explanation": "공손한 바람이나 요청을 나타내는 Konjunktiv II 조동사 würde를 사용합니다.",
+        "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_038dae58",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화 (부정관사 뒤) 연습입니다.",
+        "question": "Ich suche einen ____ Käse.",
+        "question_translation": "나는 부드러운 치즈를 찾고 있습니다.",
+        "options": [
+          "milden",
+          "milde",
+          "milder",
+          "mildes"
+        ],
+        "answer": "milden",
+        "explanation": "남성 4격 부정관사 einen 뒤에 오는 형용사는 -en 어미를 가집니다.",
+        "related_table": [],
+        "week": "W11"
       }
     ],
     "conversation": [
@@ -685,6 +855,251 @@
         "explanation": "빈 병 반환에 관한 대화이므로 무인 회수기에 대한 추가 질문이 자연스럽습니다.",
         "grammar_point": "Verwendung des Verbs 'nehmen' im Kontext von Automaten.",
         "week": "W12"
+      },
+      {
+        "id": "conv_market_b1_W11_8dbd4b26",
+        "situation": "상품 교환 요청",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Guten Tag. Ich möchte diese Milch umtauschen. Sie ist leider abgelaufen.",
+            "pronunciation": "구텐 탁. 이히 뫼히테 디제 밀히 움타우셴. 지 이스트 라이더 압겔라우펜.",
+            "translation": "안녕하세요. 이 우유를 교환하고 싶습니다. 유감스럽게도 유통기한이 지났네요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Oh, das tut mir aufrichtig leid. Haben Sie den Kassenbon?",
+            "pronunciation": "오, 다스 투트 미어 아우프리히티히 라이트. 하벤 지 덴 카센본?",
+            "translation": "오, 진심으로 사과드립니다. 영수증을 가지고 계신가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Customer",
+            "text": "Ja, hier ist er.",
+            "pronunciation": "야, 히어 이스트 에어.",
+            "translation": "네, 여기 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich erstatte Ihnen den Betrag.",
+            "pronunciation": "이히 에어슈타테 이넨 덴 베트라크.",
+            "translation": "금액을 환불해 드리겠습니다."
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 감사합니다."
+          },
+          {
+            "text": "Tschüss.",
+            "pronunciation": "츄스.",
+            "translation": "안녕히 가세요."
+          }
+        ],
+        "answer": "Ich erstatte Ihnen den Betrag.",
+        "explanation": "고객의 불만에 대한 직원의 적절한 후속 조치입니다.",
+        "grammar_point": "B1 수준 표현",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_dca14302",
+        "situation": "재고 문의",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Entschuldigung, haben Sie noch Bio-Eier?",
+            "pronunciation": "엔트슐디궁, 하벤 지 노흐 비오 아이어?",
+            "translation": "실례합니다, 유기농 달걀이 아직 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Employee",
+            "text": "Lassen Sie mich im Lager nachschauen.",
+            "pronunciation": "라쎈 지 미히 임 라거 나흐샤우엔.",
+            "translation": "창고에서 확인해 보겠습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Das wäre sehr freundlich.",
+            "pronunciation": "다스 베레 제어 프로인트리히.",
+            "translation": "정말 친절하시네요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Leider sind sie momentan ausverkauft.",
+            "pronunciation": "라이더 진트 지 모멘탄 아우스페어카우프트.",
+            "translation": "유감스럽게도 현재 품절입니다."
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 감사합니다."
+          },
+          {
+            "text": "Tschüss.",
+            "pronunciation": "츄스.",
+            "translation": "안녕히 가세요."
+          }
+        ],
+        "answer": "Leider sind sie momentan ausverkauft.",
+        "explanation": "재고 확인 후 품절을 알리는 적절한 표현입니다.",
+        "grammar_point": "B1 수준 표현",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_d9d2ad1b",
+        "situation": "무인 회수기 고장",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Entschuldigen Sie, der Leergutautomat nimmt meine Flaschen nicht an.",
+            "pronunciation": "엔트슐디겐 지, 데어 레어구트아우토마트 님트 마이네 플라셴 니히트 안.",
+            "translation": "실례합니다, 빈 병 회수기가 제 병을 받지 않네요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Er ist wahrscheinlich voll. Ich leere ihn sofort.",
+            "pronunciation": "에어 이스트 바어샤인리히 폴. 이히 레어레 인 조포르트.",
+            "translation": "아마 꽉 찬 것 같네요. 제가 즉시 비우겠습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Customer",
+            "text": "Soll ich so lange warten?",
+            "pronunciation": "졸 이히 조 랑에 바르텐?",
+            "translation": "그동안 제가 기다려야 할까요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Es dauert nur eine Minute.",
+            "pronunciation": "에스 다우어트 누어 아이네 미누테.",
+            "translation": "1분밖에 안 걸립니다."
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 감사합니다."
+          },
+          {
+            "text": "Tschüss.",
+            "pronunciation": "츄스.",
+            "translation": "안녕히 가세요."
+          }
+        ],
+        "answer": "Es dauert nur eine Minute.",
+        "explanation": "고객을 안심시키고 금방 해결됨을 알리는 답변입니다.",
+        "grammar_point": "B1 수준 표현",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_ab8109d6",
+        "situation": "할인 적용 오류",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Customer",
+            "text": "Auf meinem Kassenbon wurde der Rabatt für den Kaffee nicht abgezogen.",
+            "pronunciation": "아우프 마이넴 카센본 부르데 데어 라바트 퓌어 덴 카페 니히트 압게초겐.",
+            "translation": "제 영수증에 커피 할인이 적용되지 않았네요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Darf ich mal sehen? Ah, Sie haben recht. Das System hat es nicht erkannt.",
+            "pronunciation": "다르프 이히 말 제엔? 아, 지 하벤 레히트. 다스 지스템 하트 에스 니히트 에어칸트.",
+            "translation": "어디 볼까요? 아, 손님 말씀이 맞네요. 시스템이 인식하지 못했습니다.",
+            "isQuestion": true
+          },
+          {
+            "role": "Customer",
+            "text": "Bekomme ich die Differenz zurück?",
+            "pronunciation": "베코멘 이히 디 디페렌츠 추뤽?",
+            "translation": "차액을 돌려받을 수 있나요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Selbstverständlich, hier sind Ihre zwei Euro.",
+            "pronunciation": "젤프스트페어슈텐들리히, 히어 진트 이어레 츠바이 오이로.",
+            "translation": "물론이죠, 여기 2유로입니다."
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 감사합니다."
+          },
+          {
+            "text": "Tschüss.",
+            "pronunciation": "츄스.",
+            "translation": "안녕히 가세요."
+          }
+        ],
+        "answer": "Selbstverständlich, hier sind Ihre zwei Euro.",
+        "explanation": "고객의 정당한 요구에 대한 적절하고 친절한 대응입니다.",
+        "grammar_point": "B1 수준 표현",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_5ddfe052",
+        "situation": "포인트 적립",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Employee",
+            "text": "Zahlen Sie bar oder mit Karte?",
+            "pronunciation": "찰렌 지 바어 오더 미트 카르테?",
+            "translation": "현금 결제이신가요, 카드 결제이신가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Customer",
+            "text": "Mit Karte, bitte. Ach, und hier ist meine Kundenkarte.",
+            "pronunciation": "미트 카르테, 비테. 아흐, 운트 히어 이스트 마이네 쿤덴카르테.",
+            "translation": "카드로 할게요. 아, 그리고 여기 제 고객 카드입니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Employee",
+            "text": "Möchten Sie Ihre gesammelten Punkte heute einlösen?",
+            "pronunciation": "뫼히텐 지 이어레 게잠멜텐 풍크테 호이테 아인뢰젠?",
+            "translation": "오늘 모으신 포인트를 사용하시겠습니까?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nein, ich möchte sie weiter sammeln.",
+            "pronunciation": "나인, 이히 뫼히테 지 바이터 자멜른.",
+            "translation": "아니요, 계속 모으고 싶습니다."
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 감사합니다."
+          },
+          {
+            "text": "Tschüss.",
+            "pronunciation": "츄스.",
+            "translation": "안녕히 가세요."
+          }
+        ],
+        "answer": "Nein, ich möchte sie weiter sammeln.",
+        "explanation": "포인트 사용 여부에 대한 일반적이고 자연스러운 고객의 답변입니다.",
+        "grammar_point": "B1 수준 표현",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -923,8 +1338,58 @@
           }
         ],
         "week": "W12"
+      },
+      {
+        "id": "expr_market_b1_W11_6be8c2ff",
+        "phrase": "Das Produkt ist leider momentan nicht lieferbar.",
+        "pronunciation": "다스 프로둑트 이스트 라이더 모멘탄 니히트 리퍼바어.",
+        "meaning": "해당 상품은 유감스럽게도 현재 공급이 불가능합니다.",
+        "usage": "(직원이 품절된 상품에 대해 설명할 때) Das Produkt ist leider momentan nicht lieferbar.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_7804567c",
+        "phrase": "Könnten Sie bitte eine weitere Kasse öffnen?",
+        "pronunciation": "쾬텐 지 비테 아이네 바이터레 카쎄 외프넨?",
+        "meaning": "계산대를 하나 더 열어 주시겠습니까?",
+        "usage": "(계산대 줄이 길 때 다른 고객이나 직원을 향해 공손하게) Könnten Sie bitte eine weitere Kasse öffnen?",
+        "alternatives": [],
+        "responses": [],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_33ca86a7",
+        "phrase": "Dieser Artikel ist von der Umtauschaktion ausgeschlossen.",
+        "pronunciation": "디저 아르티켈 이스트 폰 데어 움타우쉬악치온 아우스게슐로쎈.",
+        "meaning": "이 상품은 교환/환불 대상에서 제외됩니다.",
+        "usage": "(직원이 교환 불가 상품에 대해 안내할 때) Dieser Artikel ist von der Umtauschaktion ausgeschlossen.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_51f85341",
+        "phrase": "Gibt es auf dieses Produkt eine Garantie?",
+        "pronunciation": "깁트 에스 아우프 디제스 프로둑트 아이네 가란티?",
+        "meaning": "이 제품에 품질 보증이 있나요?",
+        "usage": "(가전제품이나 고가품을 구매할 때 보증 여부를 물으며) Gibt es auf dieses Produkt eine Garantie?",
+        "alternatives": [],
+        "responses": [],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_29e8b09d",
+        "phrase": "Die Tiefkühlware befindet sich im hinteren Teil des Ladens.",
+        "pronunciation": "디 티프퀼바레 베핀데트 지히 임 힌테렌 타일 데스 라덴스.",
+        "meaning": "냉동식품은 매장 뒤편에 있습니다.",
+        "usage": "(직원이 냉동식품 위치를 안내할 때) Die Tiefkühlware befindet sich im hinteren Teil des Ladens.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W11"
       }
     ]
   },
-  "lastUpdated": "W12"
+  "lastUpdated": "W11"
 }
