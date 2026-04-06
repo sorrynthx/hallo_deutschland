@@ -18,6 +18,86 @@
           "study"
         ],
         "week": "W12"
+      },
+      {
+        "id": "voc_library_b2_W18_91b5ab33",
+        "word": "Buch",
+        "article": "das",
+        "plural": "Bücher",
+        "pronunciation": "부흐",
+        "meaning": "책",
+        "example": "Das Buch ist spannend.",
+        "example_translation": "그 책은 흥미진진합니다.",
+        "example_pronunciation": "다스 부흐 이스트 슈파넨트.",
+        "tags": [
+          "library",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_library_b2_W18_4ee4cb2e",
+        "word": "Ausweis",
+        "article": "der",
+        "plural": "Ausweise",
+        "pronunciation": "아우스바이스",
+        "meaning": "도서카드",
+        "example": "Wo ist mein Ausweis?",
+        "example_translation": "제 도서카드가 어디 있죠?",
+        "example_pronunciation": "보 이스트 마인 아우스바이스?",
+        "tags": [
+          "library",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_library_b2_W18_7afc256d",
+        "word": "Bibliothek",
+        "article": "die",
+        "plural": "Bibliotheken",
+        "pronunciation": "비블리오텍",
+        "meaning": "도서관",
+        "example": "Die Bibliothek ist ruhig.",
+        "example_translation": "도서관은 조용합니다.",
+        "example_pronunciation": "디 비블리오텍 이스트 루이히.",
+        "tags": [
+          "library",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_library_b2_W18_829e29bb",
+        "word": "Roman",
+        "article": "der",
+        "plural": "Romane",
+        "pronunciation": "로만",
+        "meaning": "소설",
+        "example": "Ich lese einen Roman.",
+        "example_translation": "나는 소설을 읽습니다.",
+        "example_pronunciation": "이히 레제 아이넨 로만.",
+        "tags": [
+          "library",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_library_b2_W18_f09dae11",
+        "word": "Regal",
+        "article": "das",
+        "plural": "Regale",
+        "pronunciation": "레갈",
+        "meaning": "책장",
+        "example": "Das Buch ist im Regal.",
+        "example_translation": "그 책은 책장에 있습니다.",
+        "example_pronunciation": "다스 부흐 이스트 임 레갈.",
+        "tags": [
+          "library",
+          "b2"
+        ],
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -30,10 +110,362 @@
         "alternatives": [],
         "responses": [],
         "week": "W12"
+      },
+      {
+        "id": "expr_library_b2_W18_ce0634d4",
+        "phrase": "Ich möchte dieses Buch ausleihen.",
+        "pronunciation": "이히 뫼히테 디제스 부흐 아우스라이엔.",
+        "meaning": "이 책을 대출하고 싶습니다.",
+        "usage": "도서관 데스크에서 책을 빌릴 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_library_b2_W18_c573ab52",
+        "phrase": "Wann muss ich das Buch zurückgeben?",
+        "pronunciation": "반 무스 이히 다스 부흐 추뤽게벤?",
+        "meaning": "이 책을 언제 반납해야 하나요?",
+        "usage": "대출 기한을 확인할 때 묻는 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_library_b2_W18_e035965f",
+        "phrase": "Wo ist der Lesesaal?",
+        "pronunciation": "보 이스트 데어 레제잘?",
+        "meaning": "열람실이 어디인가요?",
+        "usage": "도서관 내에서 열람실 위치를 찾을 때 씁니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_library_b2_W18_d24a277a",
+        "phrase": "Haben Sie Bücher über Geschichte?",
+        "pronunciation": "하벤 지 뷔허 위버 게쉬히테?",
+        "meaning": "역사에 관한 책이 있나요?",
+        "usage": "특정 주제의 책을 찾고 싶을 때 질문합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_library_b2_W18_8412a3c1",
+        "phrase": "Bitte seien Sie leise.",
+        "pronunciation": "비테 자이엔 지 라이제.",
+        "meaning": "조용히 해 주시길 바랍니다.",
+        "usage": "도서관에서 타인에게 정숙을 요청할 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ],
-    "grammar": [],
-    "conversation": []
+    "grammar": [
+      {
+        "id": "gram_library_b2_W18_32e2b397",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격 연습",
+        "question": "Ich leihe das ____ aus.",
+        "question_translation": "나는 그 책을 빌립니다.",
+        "options": [
+          "Buch",
+          "Ausweis",
+          "Regal",
+          "Bibliothek"
+        ],
+        "answer": "Buch",
+        "explanation": "das 뒤에는 중성 명사인 Buch가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_library_b2_W18_265c2b02",
+        "type": "fill_blank",
+        "topic": "Präpositionen",
+        "topic_explanation": "장소 전치사",
+        "question": "Wir lernen in der ____.",
+        "question_translation": "우리는 도서관에서 공부합니다.",
+        "options": [
+          "Bibliothek",
+          "Buch",
+          "Regal",
+          "Roman"
+        ],
+        "answer": "Bibliothek",
+        "explanation": "in der 뒤에는 여성 명사 Bibliothek이 적합합니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_library_b2_W18_86e69b16",
+        "type": "fill_blank",
+        "topic": "Modalverben",
+        "topic_explanation": "조동사 können",
+        "question": "____ ich das Buch ausleihen?",
+        "question_translation": "이 책을 빌릴 수 있을까요?",
+        "options": [
+          "Kann",
+          "Können",
+          "Könnt",
+          "Kannst"
+        ],
+        "answer": "Kann",
+        "explanation": "주어 ich에 맞는 können 형태는 Kann입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_library_b2_W18_d707df41",
+        "type": "fill_blank",
+        "topic": "Perfekt",
+        "topic_explanation": "현재완료",
+        "question": "Ich habe das Buch ____.",
+        "question_translation": "나는 그 책을 읽었습니다.",
+        "options": [
+          "gelesen",
+          "lese",
+          "las",
+          "leset"
+        ],
+        "answer": "gelesen",
+        "explanation": "haben 조동사와 함께 lesen의 과거분사 gelesen이 쓰입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_library_b2_W18_aad8c1cf",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "3격 지배 전치사 von",
+        "question": "Das Buch ist von dem ____.",
+        "question_translation": "그 책은 그 작가의 것입니다.",
+        "options": [
+          "Autor",
+          "Autoren",
+          "Autorin",
+          "Autors"
+        ],
+        "answer": "Autor",
+        "explanation": "dem 뒤에는 남성 3격인 Autor가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_library_b2_W18_73a28b27",
+        "situation": "도서 대출",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Leser",
+            "text": "Ich möchte dieses Buch ausleihen.",
+            "pronunciation": "이히 뫼히테 디제스 부흐 아우스라이엔.",
+            "translation": "이 책을 빌리고 싶어요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Bibliothekar",
+            "text": "Ihren Ausweis, bitte.",
+            "pronunciation": "이렌 아우스바이스, 비테.",
+            "translation": "도서카드 주세요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Hier, bitte.",
+            "pronunciation": "히어, 비테.",
+            "translation": "여기 있습니다."
+          },
+          {
+            "text": "Ich esse.",
+            "pronunciation": "이히 에쎄.",
+            "translation": "먹어요."
+          },
+          {
+            "text": "Ein Auto.",
+            "pronunciation": "아인 아우토.",
+            "translation": "자동차."
+          }
+        ],
+        "answer": "Hier, bitte.",
+        "explanation": "카드를 건네며 하는 말입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_library_b2_W18_b4eff5f5",
+        "situation": "반납 기한",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Leser",
+            "text": "Wie lange darf ich es behalten?",
+            "pronunciation": "비 랑에 다르프 이히 에스 베할텐?",
+            "translation": "얼마나 오래 가지고 있어도 되나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Bibliothekar",
+            "text": "Vier Wochen.",
+            "pronunciation": "피어 보헨.",
+            "translation": "4주입니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Verstanden.",
+            "pronunciation": "페어슈탄덴.",
+            "translation": "알겠습니다."
+          },
+          {
+            "text": "Gute Nacht.",
+            "pronunciation": "구테 나흐트.",
+            "translation": "안녕히 주무세요."
+          },
+          {
+            "text": "Ich laufe.",
+            "pronunciation": "이히 라우페.",
+            "translation": "달려요."
+          }
+        ],
+        "answer": "Verstanden.",
+        "explanation": "규정을 이해했음을 나타냅니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_library_b2_W18_d09cc379",
+        "situation": "도서 검색",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Leser",
+            "text": "Wo finde ich Romane?",
+            "pronunciation": "보 핀데 이히 로마네?",
+            "translation": "소설은 어디서 찾나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Bibliothekar",
+            "text": "Im zweiten Stock.",
+            "pronunciation": "임 츠바이텐 슈토크.",
+            "translation": "2층에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Danke schön.",
+            "pronunciation": "당케 쇤.",
+            "translation": "감사합니다."
+          },
+          {
+            "text": "Ich bin müde.",
+            "pronunciation": "이히 빈 뮈데.",
+            "translation": "피곤해요."
+          },
+          {
+            "text": "Das ist rot.",
+            "pronunciation": "다스 이스트 로트.",
+            "translation": "그건 빨개요."
+          }
+        ],
+        "answer": "Danke schön.",
+        "explanation": "안내에 대한 감사 인사입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_library_b2_W18_a9d75283",
+        "situation": "정숙 요구",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Bibliothekar",
+            "text": "Bitte seien Sie leise.",
+            "pronunciation": "비테 자이엔 지 라이제.",
+            "translation": "조용히 해주세요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Leser",
+            "text": "Entschuldigung.",
+            "pronunciation": "엔트슐디궁.",
+            "translation": "죄송합니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Kein Problem.",
+            "pronunciation": "카인 프로블렘.",
+            "translation": "괜찮습니다."
+          },
+          {
+            "text": "Ich spiele.",
+            "pronunciation": "이히 슈필레.",
+            "translation": "놀아요."
+          },
+          {
+            "text": "Die Sonne scheint.",
+            "pronunciation": "디 조네 샤인트.",
+            "translation": "햇빛이 나요."
+          }
+        ],
+        "answer": "Kein Problem.",
+        "explanation": "사과를 받아들이는 사서의 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_library_b2_W18_18aade15",
+        "situation": "연체료",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Bibliothekar",
+            "text": "Das Buch ist zu spät.",
+            "pronunciation": "다스 부흐 이스트 추 슈페트.",
+            "translation": "책 반납이 늦었습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Leser",
+            "text": "Muss ich eine Gebühr zahlen?",
+            "pronunciation": "무스 이히 아이네 게뷔어 찰렌?",
+            "translation": "연체료를 내야 하나요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, zwei Euro.",
+            "pronunciation": "야, 츠바이 오이로.",
+            "translation": "네, 2유로입니다."
+          },
+          {
+            "text": "Ich trinke Wasser.",
+            "pronunciation": "이히 트링케 바써.",
+            "translation": "물을 마셔요."
+          },
+          {
+            "text": "Der Hund bellt.",
+            "pronunciation": "데어 훈트 벨트.",
+            "translation": "개가 짖어요."
+          }
+        ],
+        "answer": "Ja, zwei Euro.",
+        "explanation": "연체료 유무를 묻는 질문에 대한 대답입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      }
+    ]
   },
-  "lastUpdated": "W12"
+  "lastUpdated": "W18"
 }

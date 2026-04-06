@@ -18,6 +18,86 @@
           "presentation"
         ],
         "week": "W12"
+      },
+      {
+        "id": "voc_school_b2_W18_a6d2e436",
+        "word": "Lehrer",
+        "article": "der",
+        "plural": "Lehrer",
+        "pronunciation": "레러",
+        "meaning": "선생님",
+        "example": "Der Lehrer ist nett.",
+        "example_translation": "선생님은 친절하십니다.",
+        "example_pronunciation": "데어 레러 이스트 네트.",
+        "tags": [
+          "school",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_school_b2_W18_d6a3c829",
+        "word": "Schüler",
+        "article": "der",
+        "plural": "Schüler",
+        "pronunciation": "쉴러",
+        "meaning": "학생",
+        "example": "Der Schüler lernt.",
+        "example_translation": "학생이 공부합니다.",
+        "example_pronunciation": "데어 쉴러 레른트.",
+        "tags": [
+          "school",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_school_b2_W18_afb4a8a5",
+        "word": "Tafel",
+        "article": "die",
+        "plural": "Tafeln",
+        "pronunciation": "타펠",
+        "meaning": "칠판",
+        "example": "Er steht an der Tafel.",
+        "example_translation": "그가 칠판 앞에 서 있습니다.",
+        "example_pronunciation": "에어 슈테트 안 데어 타펠.",
+        "tags": [
+          "school",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_school_b2_W18_b0704c02",
+        "word": "Hausaufgabe",
+        "article": "die",
+        "plural": "Hausaufgaben",
+        "pronunciation": "하우스아우프가베",
+        "meaning": "숙제",
+        "example": "Ich mache meine Hausaufgabe.",
+        "example_translation": "나는 숙제를 합니다.",
+        "example_pronunciation": "이히 마헤 마이네 하우스아우프가베.",
+        "tags": [
+          "school",
+          "b2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_school_b2_W18_746a1443",
+        "word": "Pause",
+        "article": "die",
+        "plural": "Pausen",
+        "pronunciation": "파우제",
+        "meaning": "쉬는 시간",
+        "example": "Wir haben jetzt Pause.",
+        "example_translation": "우리는 지금 쉬는 시간입니다.",
+        "example_pronunciation": "비어 하벤 예츠트 파우제.",
+        "tags": [
+          "school",
+          "b2"
+        ],
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -30,10 +110,362 @@
         "alternatives": [],
         "responses": [],
         "week": "W12"
+      },
+      {
+        "id": "expr_school_b2_W18_b162cceb",
+        "phrase": "Haben Sie Fragen?",
+        "pronunciation": "하벤 지 프라겐?",
+        "meaning": "질문 있나요?",
+        "usage": "수업 중 선생님이 학생들의 이해도를 확인할 때 묻습니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_school_b2_W18_0a302f7c",
+        "phrase": "Schlagt bitte die Bücher auf.",
+        "pronunciation": "슐라크트 비테 디 뷔허 아우프.",
+        "meaning": "책을 펴세요.",
+        "usage": "수업 시작 시 선생님이 지시할 때 사용하는 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_school_b2_W18_d2f2cfe9",
+        "phrase": "Ich habe meine Hausaufgaben vergessen.",
+        "pronunciation": "이히 하베 마이네 하우스아우프가벤 페어게쎈.",
+        "meaning": "숙제를 깜빡했어요.",
+        "usage": "학생이 숙제를 해오지 않았을 때 변명하는 말입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_school_b2_W18_9787b071",
+        "phrase": "Wann ist die Prüfung?",
+        "pronunciation": "반 이스트 디 프뤼풍?",
+        "meaning": "시험이 언제인가요?",
+        "usage": "학생이 시험 일정을 확인할 때 묻는 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_school_b2_W18_4f0ef2be",
+        "phrase": "Das ist leider falsch.",
+        "pronunciation": "다스 이스트 라이더 팔쉬.",
+        "meaning": "유감스럽지만 틀렸습니다.",
+        "usage": "학생의 오답에 대해 선생님이 피드백을 줄 때 씁니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ],
-    "grammar": [],
-    "conversation": []
+    "grammar": [
+      {
+        "id": "gram_school_b2_W18_22b8e7d5",
+        "type": "fill_blank",
+        "topic": "Personalpronomen",
+        "topic_explanation": "인칭대명사",
+        "question": "____ lernt Deutsch.",
+        "question_translation": "그는 독일어를 배웁니다.",
+        "options": [
+          "Er",
+          "Ich",
+          "Wir",
+          "Ihr"
+        ],
+        "answer": "Er",
+        "explanation": "동사 lernt에 맞는 3인칭 단수 주어는 Er입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_school_b2_W18_6901ae3a",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재시제",
+        "question": "Wir ____ in der Schule.",
+        "question_translation": "우리는 학교에 있습니다.",
+        "options": [
+          "sind",
+          "ist",
+          "bin",
+          "seid"
+        ],
+        "answer": "sind",
+        "explanation": "주어 Wir에 맞는 동사 sein의 형태는 sind입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_school_b2_W18_a80d6b99",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격",
+        "question": "Ich frage den ____.",
+        "question_translation": "나는 선생님에게 묻습니다.",
+        "options": [
+          "Lehrer",
+          "Lehrers",
+          "Tafel",
+          "Schule"
+        ],
+        "answer": "Lehrer",
+        "explanation": "den 뒤에는 남성 4격인 Lehrer가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_school_b2_W18_92aba7ee",
+        "type": "fill_blank",
+        "topic": "Imperativ",
+        "topic_explanation": "명령법",
+        "question": "____ deine Hausaufgabe!",
+        "question_translation": "너의 숙제를 해라!",
+        "options": [
+          "Mach",
+          "Macht",
+          "Machen",
+          "Machst"
+        ],
+        "answer": "Mach",
+        "explanation": "친근한 단수(du)에 대한 명령은 Mach입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_school_b2_W18_f47596c4",
+        "type": "fill_blank",
+        "topic": "Präpositionen (Zeit)",
+        "topic_explanation": "시간 전치사",
+        "question": "Wir haben ____ acht Uhr Unterricht.",
+        "question_translation": "우리는 8시에 수업이 있습니다.",
+        "options": [
+          "um",
+          "am",
+          "im",
+          "von"
+        ],
+        "answer": "um",
+        "explanation": "구체적인 시각 앞에는 전치사 um을 씁니다.",
+        "related_table": [],
+        "week": "W18"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_school_b2_W18_e8237c69",
+        "situation": "수업 시작",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Lehrer",
+            "text": "Guten Morgen, Klasse!",
+            "pronunciation": "구텐 모르겐, 클라쎄!",
+            "translation": "안녕, 반 학생들!",
+            "isQuestion": false
+          },
+          {
+            "role": "Schüler",
+            "text": "Guten Morgen, Herr Müller!",
+            "pronunciation": "구텐 모르겐, 헤어 뮐러!",
+            "translation": "안녕하세요, 뮐러 선생님!",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Setzt euch bitte.",
+            "pronunciation": "제츠트 오이히 비테.",
+            "translation": "자리에 앉으세요."
+          },
+          {
+            "text": "Ich schlafe.",
+            "pronunciation": "이히 슐라페.",
+            "translation": "자요."
+          },
+          {
+            "text": "Das Auto.",
+            "pronunciation": "다스 아우토.",
+            "translation": "자동차."
+          }
+        ],
+        "answer": "Setzt euch bitte.",
+        "explanation": "인사 후 교사가 학생들에게 하는 자연스러운 지시입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_school_b2_W18_8b5d2358",
+        "situation": "질문",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Schüler",
+            "text": "Ich habe eine Frage.",
+            "pronunciation": "이히 하베 아이네 프라게.",
+            "translation": "질문이 있습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Lehrer",
+            "text": "Ja, bitte?",
+            "pronunciation": "야, 비테?",
+            "translation": "네, 말씀하세요.",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Was bedeutet dieses Wort?",
+            "pronunciation": "바스 베도이테트 디제스 보르트?",
+            "translation": "이 단어 뜻이 뭐예요?"
+          },
+          {
+            "text": "Ich trinke.",
+            "pronunciation": "이히 트링케.",
+            "translation": "마셔요."
+          },
+          {
+            "text": "Rot.",
+            "pronunciation": "로트.",
+            "translation": "빨강."
+          }
+        ],
+        "answer": "Was bedeutet dieses Wort?",
+        "explanation": "질문을 허락받은 학생이 이어서 하는 말입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_school_b2_W18_1d601ae6",
+        "situation": "숙제 확인",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Lehrer",
+            "text": "Habt ihr die Hausaufgabe gemacht?",
+            "pronunciation": "합트 이어 디 하우스아우프가베 게마흐트?",
+            "translation": "숙제 다 했니?",
+            "isQuestion": true
+          },
+          {
+            "role": "Schüler",
+            "text": "Ja, hier ist sie.",
+            "pronunciation": "야, 히어 이스트 지.",
+            "translation": "네, 여기 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Sehr gut.",
+            "pronunciation": "제어 구트.",
+            "translation": "아주 잘했다."
+          },
+          {
+            "text": "Gute Nacht.",
+            "pronunciation": "구테 나흐트.",
+            "translation": "안녕히 주무세요."
+          },
+          {
+            "text": "Der Baum.",
+            "pronunciation": "데어 바움.",
+            "translation": "나무."
+          }
+        ],
+        "answer": "Sehr gut.",
+        "explanation": "숙제를 잘 해온 학생에 대한 칭찬입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_school_b2_W18_c15b13d1",
+        "situation": "이해 확인",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Lehrer",
+            "text": "Habt ihr das verstanden?",
+            "pronunciation": "합트 이어 다스 페어슈탄덴?",
+            "translation": "이해했나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Schüler",
+            "text": "Nein, können Sie das wiederholen?",
+            "pronunciation": "나인, 쾬넨 지 다스 비더홀렌?",
+            "translation": "아니요, 다시 설명해 주실 수 있나요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Natürlich.",
+            "pronunciation": "나튀를리히.",
+            "translation": "물론이지."
+          },
+          {
+            "text": "Ich laufe.",
+            "pronunciation": "이히 라우페.",
+            "translation": "달려요."
+          },
+          {
+            "text": "Das ist ein Hund.",
+            "pronunciation": "다스 이스트 아인 훈트.",
+            "translation": "그건 개야."
+          }
+        ],
+        "answer": "Natürlich.",
+        "explanation": "학생의 재설명 요청을 흔쾌히 수락하는 대답입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_school_b2_W18_a316512a",
+        "situation": "쉬는 시간",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Schüler",
+            "text": "Wann ist Pause?",
+            "pronunciation": "반 이스트 파우제?",
+            "translation": "쉬는 시간이 언제인가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Lehrer",
+            "text": "In fünf Minuten.",
+            "pronunciation": "인 퓐프 미누텐.",
+            "translation": "5분 후란다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Endlich!",
+            "pronunciation": "엔틀리히!",
+            "translation": "드디어!"
+          },
+          {
+            "text": "Ich lese.",
+            "pronunciation": "이히 레제.",
+            "translation": "읽어요."
+          },
+          {
+            "text": "Kalt.",
+            "pronunciation": "칼트.",
+            "translation": "추워."
+          }
+        ],
+        "answer": "Endlich!",
+        "explanation": "쉬는 시간을 기대하는 학생의 자연스러운 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      }
+    ]
   },
-  "lastUpdated": "W12"
+  "lastUpdated": "W18"
 }
