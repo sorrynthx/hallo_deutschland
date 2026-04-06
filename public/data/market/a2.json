@@ -87,6 +87,86 @@
           "Preis"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_market_a2_W18_acd6f47d",
+        "word": "Apfel",
+        "article": "der",
+        "plural": "Äpfel",
+        "pronunciation": "압펠",
+        "meaning": "사과",
+        "example": "Der Apfel ist rot.",
+        "example_translation": "그 사과는 빨갛습니다.",
+        "example_pronunciation": "데어 압펠 이스트 로트.",
+        "tags": [
+          "market",
+          "a2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_market_a2_W18_370ddd53",
+        "word": "Milch",
+        "article": "die",
+        "plural": "Milch",
+        "pronunciation": "밀히",
+        "meaning": "우유",
+        "example": "Ich trinke kalte Milch.",
+        "example_translation": "나는 차가운 우유를 마십니다.",
+        "example_pronunciation": "이히 트링케 칼테 밀히.",
+        "tags": [
+          "market",
+          "a2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_market_a2_W18_5d526b93",
+        "word": "Kasse",
+        "article": "die",
+        "plural": "Kassen",
+        "pronunciation": "카쎄",
+        "meaning": "계산대",
+        "example": "Ich gehe zur Kasse.",
+        "example_translation": "나는 계산대로 갑니다.",
+        "example_pronunciation": "이히 게헤 추어 카쎄.",
+        "tags": [
+          "market",
+          "a2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_market_a2_W18_008fcaf3",
+        "word": "Geld",
+        "article": "das",
+        "plural": "Gelder",
+        "pronunciation": "겔트",
+        "meaning": "돈",
+        "example": "Hast du genug Geld?",
+        "example_translation": "너 돈 충분히 있니?",
+        "example_pronunciation": "하스트 두 게누크 겔트?",
+        "tags": [
+          "market",
+          "a2"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_market_a2_W18_67fa5538",
+        "word": "Gemüse",
+        "article": "das",
+        "plural": "Gemüse",
+        "pronunciation": "게뮤제",
+        "meaning": "채소",
+        "example": "Das Gemüse ist frisch.",
+        "example_translation": "채소가 신선합니다.",
+        "example_pronunciation": "다스 게뮤제 이스트 프리쉬.",
+        "tags": [
+          "market",
+          "a2"
+        ],
+        "week": "W18"
       }
     ],
     "grammar": [
@@ -168,6 +248,96 @@
         "explanation": "전치사 'in'은 장소 전치사(Wechselpräposition)입니다. 여기서는 이동('legen' – 어디로?)을 나타내므로 대격이 사용됩니다. 'Einkaufswagen'은 남성 명사('der Einkaufswagen')이므로 남성 대격 단수의 정관사는 'den'입니다.",
         "related_table": [],
         "week": "W11"
+      },
+      {
+        "id": "gram_market_a2_W18_381b1a85",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격 연습",
+        "question": "Ich brauche einen ____.",
+        "question_translation": "나는 사과가 필요합니다.",
+        "options": [
+          "Apfel",
+          "Milch",
+          "Kasse",
+          "Geld"
+        ],
+        "answer": "Apfel",
+        "explanation": "einen 뒤에는 남성 명사인 Apfel이 와야 합니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_market_a2_W18_7867304a",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격 연습",
+        "question": "Die ____ ist dort.",
+        "question_translation": "계산대는 저기 있습니다.",
+        "options": [
+          "Kasse",
+          "Kassen",
+          "Apfel",
+          "Geld"
+        ],
+        "answer": "Kasse",
+        "explanation": "Die 뒤에는 여성 명사 Kasse가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_market_a2_W18_ff011d22",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미",
+        "question": "Ich kaufe frisches ____.",
+        "question_translation": "나는 신선한 채소를 삽니다.",
+        "options": [
+          "Gemüse",
+          "Apfel",
+          "Kasse",
+          "Tomate"
+        ],
+        "answer": "Gemüse",
+        "explanation": "frisches 뒤에는 중성 명사인 Gemüse가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_market_a2_W18_b668efac",
+        "type": "fill_blank",
+        "topic": "Präpositionen (Ort)",
+        "topic_explanation": "장소 전치사",
+        "question": "Wir treffen uns im ____.",
+        "question_translation": "우리는 슈퍼마켓에서 만납니다.",
+        "options": [
+          "Supermarkt",
+          "Kasse",
+          "Regal",
+          "Wagen"
+        ],
+        "answer": "Supermarkt",
+        "explanation": "im(in dem) 뒤에는 남성 3격인 Supermarkt가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_market_a2_W18_718eb591",
+        "type": "fill_blank",
+        "topic": "Plural",
+        "topic_explanation": "복수형 연습",
+        "question": "Ich kaufe drei ____.",
+        "question_translation": "나는 사과 세 개를 삽니다.",
+        "options": [
+          "Äpfel",
+          "Apfel",
+          "Geld",
+          "Milch"
+        ],
+        "answer": "Äpfel",
+        "explanation": "Apfel의 복수형은 Äpfel입니다.",
+        "related_table": [],
+        "week": "W18"
       }
     ],
     "conversation": [
@@ -273,6 +443,216 @@
         "answer": "Der Kaffee ist im Gang drei, links.",
         "explanation": "직원은 고객에게 커피가 나오는 방향과 정확한 위치를 알려준다.",
         "grammar_point": "Richtungs- und Ortsangaben: Präpositionen (im Gang), Ordinalzahlen (Gang drei)."
+      },
+      {
+        "id": "conv_market_a2_W18_dcb52b25",
+        "situation": "사과 위치",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Wo finde ich die Äpfel?",
+            "pronunciation": "보 핀데 이히 디 에펠?",
+            "translation": "사과는 어디 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Mitarbeiter",
+            "text": "Dort drüben beim Gemüse.",
+            "pronunciation": "도르트 드뤼벤 바임 게뮤제.",
+            "translation": "저기 채소 코너 옆에요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Vielen Dank.",
+            "pronunciation": "필렌 당크.",
+            "translation": "감사합니다."
+          },
+          {
+            "text": "Ich bin Arzt.",
+            "pronunciation": "이히 빈 아르츠트.",
+            "translation": "전 의사예요."
+          },
+          {
+            "text": "Ein Auto.",
+            "pronunciation": "아인 아우토.",
+            "translation": "자동차 하나."
+          }
+        ],
+        "answer": "Vielen Dank.",
+        "explanation": "안내에 대한 감사 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_market_a2_W18_92fef97a",
+        "situation": "계산",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Mitarbeiter",
+            "text": "Das macht zehn Euro, bitte.",
+            "pronunciation": "다스 마흐트 첸 오이로, 비테.",
+            "translation": "10유로입니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Kunde",
+            "text": "Hier, bitte.",
+            "pronunciation": "히어, 비테.",
+            "translation": "여기 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Danke schön.",
+            "pronunciation": "당케 쇤.",
+            "translation": "감사합니다."
+          },
+          {
+            "text": "Das ist ein Baum.",
+            "pronunciation": "다스 이스트 아인 바움.",
+            "translation": "저건 나무예요."
+          },
+          {
+            "text": "Ich laufe.",
+            "pronunciation": "이히 라우페.",
+            "translation": "전 달려요."
+          }
+        ],
+        "answer": "Danke schön.",
+        "explanation": "돈을 받고 하는 감사 인사입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_market_a2_W18_0c4d33b9",
+        "situation": "봉투 필요",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Mitarbeiter",
+            "text": "Brauchen Sie eine Tüte?",
+            "pronunciation": "브라우헨 지 아이네 튀테?",
+            "translation": "봉투 필요하세요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Kunde",
+            "text": "Nein, ich habe eine Tasche.",
+            "pronunciation": "나인, 이히 하베 아이네 타셰.",
+            "translation": "아니요, 가방이 있어요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Sehr gut.",
+            "pronunciation": "제어 구트.",
+            "translation": "잘하셨네요."
+          },
+          {
+            "text": "Ich lese.",
+            "pronunciation": "이히 레제.",
+            "translation": "읽어요."
+          },
+          {
+            "text": "Kalt.",
+            "pronunciation": "칼트.",
+            "translation": "추워요."
+          }
+        ],
+        "answer": "Sehr gut.",
+        "explanation": "환경을 생각하는 고객에게 할 수 있는 긍정적 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_market_a2_W18_c0145ff9",
+        "situation": "영수증 필요",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Mitarbeiter",
+            "text": "Möchten Sie den Kassenzettel?",
+            "pronunciation": "뫼히텐 지 덴 카센체텔?",
+            "translation": "영수증 드릴까요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Kunde",
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 주세요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Hier ist er.",
+            "pronunciation": "히어 이스트 에어.",
+            "translation": "여기 있습니다."
+          },
+          {
+            "text": "Mein Hund.",
+            "pronunciation": "마인 훈트.",
+            "translation": "내 개."
+          },
+          {
+            "text": "Tschüss.",
+            "pronunciation": "츄스.",
+            "translation": "안녕."
+          }
+        ],
+        "answer": "Hier ist er.",
+        "explanation": "영수증을 건네며 하는 말입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_market_a2_W18_fcf65857",
+        "situation": "카드 결제",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Kann ich mit Karte zahlen?",
+            "pronunciation": "칸 이히 미트 카르테 찰렌?",
+            "translation": "카드로 결제할 수 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Mitarbeiter",
+            "text": "Ja, natürlich.",
+            "pronunciation": "야, 나튀를리히.",
+            "translation": "네, 물론이죠.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Perfekt.",
+            "pronunciation": "페르펙트.",
+            "translation": "완벽해요."
+          },
+          {
+            "text": "Es regnet.",
+            "pronunciation": "에스 레그네트.",
+            "translation": "비가 와요."
+          },
+          {
+            "text": "Ein Buch.",
+            "pronunciation": "아인 부흐.",
+            "translation": "책."
+          }
+        ],
+        "answer": "Perfekt.",
+        "explanation": "원하는 결제 방식이 가능함을 확인한 후의 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -371,8 +751,58 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "expr_market_a2_W18_4adb8118",
+        "phrase": "Entschuldigung, wo ist die Milch?",
+        "pronunciation": "엔트슐디궁, 보 이스트 디 밀히?",
+        "meaning": "실례합니다, 우유는 어디에 있나요?",
+        "usage": "슈퍼마켓에서 특정 물건의 위치를 물어볼 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_market_a2_W18_2e689f49",
+        "phrase": "Was kostet das?",
+        "pronunciation": "바스 코스테트 다스?",
+        "meaning": "이것은 얼마인가요?",
+        "usage": "가격표가 없거나 불분명할 때 가격을 묻는 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_market_a2_W18_316dd5f5",
+        "phrase": "Ich zahle bar.",
+        "pronunciation": "이히 찰레 바어.",
+        "meaning": "현금으로 계산할게요.",
+        "usage": "현금으로 지불하고 싶을 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_market_a2_W18_a0536787",
+        "phrase": "Haben Sie noch Äpfel?",
+        "pronunciation": "하벤 지 노흐 에펠?",
+        "meaning": "사과가 아직 있나요?",
+        "usage": "재고가 다 떨어졌는지 확인할 때 묻습니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_market_a2_W18_92166d1b",
+        "phrase": "Brauchen Sie eine Tüte?",
+        "pronunciation": "브라우헨 지 아이네 튀테?",
+        "meaning": "봉투 필요하신가요?",
+        "usage": "계산대에서 직원이 자주 묻는 질문입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ]
   },
-  "lastUpdated": "W11"
+  "lastUpdated": "W18"
 }

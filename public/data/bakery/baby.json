@@ -34,6 +34,86 @@
           "sweet"
         ],
         "week": "W12"
+      },
+      {
+        "id": "voc_bakery_baby_W18_1b01cb4b",
+        "word": "Brötchen",
+        "article": "das",
+        "plural": "Brötchen",
+        "pronunciation": "브뢰첸",
+        "meaning": "작은 빵",
+        "example": "Ich esse ein Brötchen.",
+        "example_translation": "나는 작은 빵을 먹습니다.",
+        "example_pronunciation": "이히 에쎄 아인 브뢰첸.",
+        "tags": [
+          "bakery",
+          "baby"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_bakery_baby_W18_40fcc680",
+        "word": "Kuchen",
+        "article": "der",
+        "plural": "Kuchen",
+        "pronunciation": "쿠헨",
+        "meaning": "케이크",
+        "example": "Der Kuchen ist lecker.",
+        "example_translation": "그 케이크는 맛있습니다.",
+        "example_pronunciation": "데어 쿠헨 이스트 레커.",
+        "tags": [
+          "bakery",
+          "baby"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_bakery_baby_W18_9665cdd6",
+        "word": "Brezel",
+        "article": "die",
+        "plural": "Brezeln",
+        "pronunciation": "브레첼",
+        "meaning": "브레첼",
+        "example": "Die Brezel ist salzig.",
+        "example_translation": "브레첼이 짭짤합니다.",
+        "example_pronunciation": "디 브레첼 이스트 잘치히.",
+        "tags": [
+          "bakery",
+          "baby"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_bakery_baby_W18_833acaf7",
+        "word": "Mehl",
+        "article": "das",
+        "plural": "Mehle",
+        "pronunciation": "멜",
+        "meaning": "밀가루",
+        "example": "Wir brauchen viel Mehl.",
+        "example_translation": "우리는 많은 밀가루가 필요합니다.",
+        "example_pronunciation": "비어 브라우헨 필 멜.",
+        "tags": [
+          "bakery",
+          "baby"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_bakery_baby_W18_8e506339",
+        "word": "Torte",
+        "article": "die",
+        "plural": "Torten",
+        "pronunciation": "토르테",
+        "meaning": "타르트",
+        "example": "Die Torte ist für dich.",
+        "example_translation": "그 타르트는 너를 위한 거야.",
+        "example_pronunciation": "디 토르테 이스트 퓌어 디히.",
+        "tags": [
+          "bakery",
+          "baby"
+        ],
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -46,10 +126,362 @@
         "alternatives": [],
         "responses": [],
         "week": "W12"
+      },
+      {
+        "id": "expr_bakery_baby_W18_7565604c",
+        "phrase": "Ich hätte gerne ein Brot.",
+        "pronunciation": "이히 헤테 게르네 아인 브로트.",
+        "meaning": "빵 하나 주세요.",
+        "usage": "빵집에서 정중하게 빵을 주문할 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_bakery_baby_W18_41c15cad",
+        "phrase": "Ist der Kuchen von heute?",
+        "pronunciation": "이스트 데어 쿠헨 폰 호이테?",
+        "meaning": "이 케이크 오늘 만든 건가요?",
+        "usage": "제품의 신선도를 물어볼 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_bakery_baby_W18_ffe95747",
+        "phrase": "Das ist alles, danke.",
+        "pronunciation": "다스 이스트 알레스, 당케.",
+        "meaning": "그게 전부입니다, 감사합니다.",
+        "usage": "주문을 마칠 때 유용한 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_bakery_baby_W18_92ae688d",
+        "phrase": "Haben Sie auch Brezeln?",
+        "pronunciation": "하벤 지 아우흐 브레첼른?",
+        "meaning": "브레첼도 있나요?",
+        "usage": "특정 빵의 재고를 물어볼 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_bakery_baby_W18_bb16c0cc",
+        "phrase": "Einen schönen Tag noch!",
+        "pronunciation": "아이넨 쇤넨 탁 노흐!",
+        "meaning": "좋은 하루 보내세요!",
+        "usage": "가게를 나설 때 하는 친절한 인사입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ],
-    "grammar": [],
-    "conversation": []
+    "grammar": [
+      {
+        "id": "gram_bakery_baby_W18_7eb2278f",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "Akkusativ (목적격) 연습",
+        "question": "Ich kaufe den ____.",
+        "question_translation": "나는 그 케이크를 삽니다.",
+        "options": [
+          "Kuchen",
+          "Brötchen",
+          "Brezel",
+          "Torte"
+        ],
+        "answer": "Kuchen",
+        "explanation": "Kuchen은 남성명사(der)이고 목적어이므로 den Kuchen이 됩니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_bakery_baby_W18_878be8f0",
+        "type": "fill_blank",
+        "topic": "Modalverben",
+        "topic_explanation": "Modalverben (화법조동사) 연습",
+        "question": "Ich möchte einen Kuchen ____.",
+        "question_translation": "나는 케이크를 사고 싶습니다.",
+        "options": [
+          "kaufen",
+          "kaufe",
+          "kaufst",
+          "gekauft"
+        ],
+        "answer": "kaufen",
+        "explanation": "조동사 möchte 뒤에는 동사원형 kaufen이 문장 끝에 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_bakery_baby_W18_3f85b371",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein ____ Brot.",
+        "question_translation": "이것은 신선한 빵입니다.",
+        "options": [
+          "frisches",
+          "frische",
+          "frischen",
+          "frischer"
+        ],
+        "answer": "frisches",
+        "explanation": "Brot은 중성명사(das)이므로 부정관사 ein 뒤에서 -es 어미가 붙습니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_bakery_baby_W18_9345e057",
+        "type": "fill_blank",
+        "topic": "Präpositionen",
+        "topic_explanation": "전치사 in 연습",
+        "question": "Wir sind in der ____.",
+        "question_translation": "우리는 빵집에 있습니다.",
+        "options": [
+          "Bäckerei",
+          "Bäcker",
+          "Brot",
+          "Kuchen"
+        ],
+        "answer": "Bäckerei",
+        "explanation": "in + Dativ에서 Bäckerei(여성)는 der Bäckerei가 됩니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_bakery_baby_W18_9c7cb789",
+        "type": "fill_blank",
+        "topic": "Plural",
+        "topic_explanation": "복수형 연습",
+        "question": "Ich nehme zwei ____.",
+        "question_translation": "나는 브레첼 두 개를 살게요.",
+        "options": [
+          "Brezeln",
+          "Brezel",
+          "Brot",
+          "Kuchen"
+        ],
+        "answer": "Brezeln",
+        "explanation": "Brezel의 복수형은 Brezeln입니다.",
+        "related_table": [],
+        "week": "W18"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_bakery_baby_W18_660b78c9",
+        "situation": "빵 주문 1",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Ein Brot, bitte.",
+            "pronunciation": "아인 브로트, 비테.",
+            "translation": "빵 하나 주세요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Gerne. Sonst noch etwas?",
+            "pronunciation": "게르네. 존스트 노흐 에트바스?",
+            "translation": "네. 더 필요하신 건요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 감사합니다."
+          },
+          {
+            "text": "Ich schwimme.",
+            "pronunciation": "이히 슈비메.",
+            "translation": "수영합니다."
+          },
+          {
+            "text": "Ja, ein Auto.",
+            "pronunciation": "야, 아인 아우토.",
+            "translation": "네, 자동차요."
+          }
+        ],
+        "answer": "Nein, danke.",
+        "explanation": "추가 주문을 거절하는 자연스러운 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_bakery_baby_W18_26b7ff00",
+        "situation": "빵 주문 2",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Was kostet der Kuchen?",
+            "pronunciation": "바스 코스테트 데어 쿠헨?",
+            "translation": "그 케이크 얼마인가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Er kostet drei Euro.",
+            "pronunciation": "에어 코스테트 드라이 오이로.",
+            "translation": "3유로입니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ich nehme ihn.",
+            "pronunciation": "이히 네메 인.",
+            "translation": "그걸로 할게요."
+          },
+          {
+            "text": "Das ist ein Tisch.",
+            "pronunciation": "다스 이스트 아인 티쉬.",
+            "translation": "그건 책상이에요."
+          },
+          {
+            "text": "Ich laufe.",
+            "pronunciation": "이히 라우페.",
+            "translation": "달립니다."
+          }
+        ],
+        "answer": "Ich nehme ihn.",
+        "explanation": "가격을 듣고 구매하겠다는 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_bakery_baby_W18_7e62bfd9",
+        "situation": "빵 주문 3",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Verkäufer",
+            "text": "Möchten Sie eine Tüte?",
+            "pronunciation": "뫼히텐 지 아이네 튀테?",
+            "translation": "봉투 필요하세요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Kunde",
+            "text": "Ja, bitte. Danke.",
+            "pronunciation": "야, 비테. 당케.",
+            "translation": "네, 주세요. 감사합니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Schönen Tag noch!",
+            "pronunciation": "쇤넨 탁 노흐!",
+            "translation": "좋은 하루 되세요!"
+          },
+          {
+            "text": "Gute Nacht.",
+            "pronunciation": "구테 나흐트.",
+            "translation": "안녕히 주무세요."
+          },
+          {
+            "text": "Ich bin müde.",
+            "pronunciation": "이히 빈 뮈데.",
+            "translation": "피곤해요."
+          }
+        ],
+        "answer": "Schönen Tag noch!",
+        "explanation": "계산이 끝나고 나누는 일상적인 인사입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_bakery_baby_W18_e117972c",
+        "situation": "빵 추천",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Ist das Brot frisch?",
+            "pronunciation": "이스트 다스 브로트 프리쉬?",
+            "translation": "이 빵 신선한가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Ja, ganz frisch gebacken.",
+            "pronunciation": "야, 간츠 프리쉬 게바켄.",
+            "translation": "네, 방금 구웠습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Das klingt gut.",
+            "pronunciation": "다스 클링크트 구트.",
+            "translation": "좋네요."
+          },
+          {
+            "text": "Ich spiele Fußball.",
+            "pronunciation": "이히 슈필레 푸스발.",
+            "translation": "축구합니다."
+          },
+          {
+            "text": "Regen.",
+            "pronunciation": "레겐.",
+            "translation": "비."
+          }
+        ],
+        "answer": "Das klingt gut.",
+        "explanation": "신선하다는 말에 대한 긍정적인 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_bakery_baby_W18_7f3bafad",
+        "situation": "수량 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Verkäufer",
+            "text": "Wie viele Brötchen möchten Sie?",
+            "pronunciation": "비 필레 브뢰첸 뫼히텐 지?",
+            "translation": "작은 빵 몇 개 드릴까요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Kunde",
+            "text": "Vier Stück, bitte.",
+            "pronunciation": "피어 슈튁, 비테.",
+            "translation": "네 개 주세요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Kommt sofort.",
+            "pronunciation": "콤트 조포르트.",
+            "translation": "금방 준비해드릴게요."
+          },
+          {
+            "text": "Ich heiße Anna.",
+            "pronunciation": "이히 하이쎄 안나.",
+            "translation": "내 이름은 안나야."
+          },
+          {
+            "text": "Blau.",
+            "pronunciation": "블라우.",
+            "translation": "파란색."
+          }
+        ],
+        "answer": "Kommt sofort.",
+        "explanation": "주문을 접수한 후의 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      }
+    ]
   },
-  "lastUpdated": "W12"
+  "lastUpdated": "W18"
 }

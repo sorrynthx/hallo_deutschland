@@ -82,6 +82,86 @@
           "의료행위"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_hospital_b1_W18_98b78906",
+        "word": "Arzt",
+        "article": "der",
+        "plural": "Ärzte",
+        "pronunciation": "아르츠트",
+        "meaning": "의사",
+        "example": "Der Arzt ist freundlich.",
+        "example_translation": "그 의사는 친절합니다.",
+        "example_pronunciation": "데어 아르츠트 이스트 프로인트리히.",
+        "tags": [
+          "hospital",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_hospital_b1_W18_a28888b2",
+        "word": "Medizin",
+        "article": "die",
+        "plural": "Medizinen",
+        "pronunciation": "메디친",
+        "meaning": "약",
+        "example": "Ich nehme die Medizin.",
+        "example_translation": "나는 약을 먹습니다.",
+        "example_pronunciation": "이히 네메 디 메디친.",
+        "tags": [
+          "hospital",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_hospital_b1_W18_849cfa42",
+        "word": "Schmerz",
+        "article": "der",
+        "plural": "Schmerzen",
+        "pronunciation": "슈메르츠",
+        "meaning": "통증",
+        "example": "Ich habe Schmerzen.",
+        "example_translation": "나는 통증이 있습니다.",
+        "example_pronunciation": "이히 하베 슈메르첸.",
+        "tags": [
+          "hospital",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_hospital_b1_W18_1e8fc4d7",
+        "word": "Krankenhaus",
+        "article": "das",
+        "plural": "Krankenhäuser",
+        "pronunciation": "크랑켄하우스",
+        "meaning": "병원",
+        "example": "Das Krankenhaus ist groß.",
+        "example_translation": "그 병원은 큽니다.",
+        "example_pronunciation": "다스 크랑켄하우스 이스트 그로쓰.",
+        "tags": [
+          "hospital",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_hospital_b1_W18_aa6493be",
+        "word": "Fieber",
+        "article": "das",
+        "plural": "Fieber",
+        "pronunciation": "피버",
+        "meaning": "열",
+        "example": "Er hat Fieber.",
+        "example_translation": "그는 열이 납니다.",
+        "example_pronunciation": "에어 하트 피버.",
+        "tags": [
+          "hospital",
+          "b1"
+        ],
+        "week": "W18"
       }
     ],
     "grammar": [
@@ -163,6 +243,96 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "gram_hospital_b1_W18_868040bd",
+        "type": "fill_blank",
+        "topic": "Haben + Nomen",
+        "topic_explanation": "증상 말하기",
+        "question": "Ich ____ Kopfschmerzen.",
+        "question_translation": "나는 두통이 있습니다.",
+        "options": [
+          "habe",
+          "bin",
+          "hatte",
+          "habst"
+        ],
+        "answer": "habe",
+        "explanation": "통증을 표현할 때는 haben 동사를 사용합니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_hospital_b1_W18_49b938a9",
+        "type": "fill_blank",
+        "topic": "Modalverben",
+        "topic_explanation": "조동사 sollen",
+        "question": "Sie ____ im Bett bleiben.",
+        "question_translation": "당신은 침대에 머물러야 합니다.",
+        "options": [
+          "sollen",
+          "sollst",
+          "sollt",
+          "soll"
+        ],
+        "answer": "sollen",
+        "explanation": "존칭 Sie에는 sollen이 맞습니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_hospital_b1_W18_987e605a",
+        "type": "fill_blank",
+        "topic": "Präpositionen",
+        "topic_explanation": "장소 전치사",
+        "question": "Er ist im ____.",
+        "question_translation": "그는 병원에 있습니다.",
+        "options": [
+          "Krankenhaus",
+          "Arzt",
+          "Schmerz",
+          "Medizin"
+        ],
+        "answer": "Krankenhaus",
+        "explanation": "im(in dem) 뒤에는 중성 3격인 Krankenhaus가 적합합니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_hospital_b1_W18_f123e363",
+        "type": "fill_blank",
+        "topic": "Imperativ",
+        "topic_explanation": "명령법",
+        "question": "____ Sie die Medizin.",
+        "question_translation": "약을 드세요.",
+        "options": [
+          "Nehmen",
+          "Nimm",
+          "Nehmt",
+          "Nimmst"
+        ],
+        "answer": "Nehmen",
+        "explanation": "존칭 Sie에 대한 명령은 동사원형 Nehmen입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_hospital_b1_W18_e51b1247",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "3격 지배 전치사 mit",
+        "question": "Er spricht mit dem ____.",
+        "question_translation": "그는 의사와 이야기합니다.",
+        "options": [
+          "Arzt",
+          "Ärzte",
+          "Ärzten",
+          "Arztes"
+        ],
+        "answer": "Arzt",
+        "explanation": "mit 뒤에는 남성 3격인 dem Arzt가 옵니다.",
+        "related_table": [],
+        "week": "W18"
       }
     ],
     "conversation": [
@@ -263,6 +433,216 @@
         "explanation": "간호사가 당신이 뮐러 씨인지 묻습니다. 이를 확인하고 어떻게 진행해야 하는지 정중하게 물어보세요.",
         "grammar_point": "Bestätigung einer Identität und einfache Fragen nach dem Ort ('wo').",
         "week": "W11"
+      },
+      {
+        "id": "conv_hospital_b1_W18_2c3d5a65",
+        "situation": "증상 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Arzt",
+            "text": "Was fehlt Ihnen?",
+            "pronunciation": "바스 펠트 이넨?",
+            "translation": "어디가 아프신가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Patient",
+            "text": "Ich habe Fieber.",
+            "pronunciation": "이히 하베 피버.",
+            "translation": "열이 납니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Wir untersuchen das.",
+            "pronunciation": "비어 운터주헨 다스.",
+            "translation": "검사해 봅시다."
+          },
+          {
+            "text": "Ich spiele.",
+            "pronunciation": "이히 슈필레.",
+            "translation": "놀아요."
+          },
+          {
+            "text": "Ein Auto.",
+            "pronunciation": "아인 아우토.",
+            "translation": "자동차."
+          }
+        ],
+        "answer": "Wir untersuchen das.",
+        "explanation": "환자의 증상을 들은 의사의 적절한 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_hospital_b1_W18_4389c86d",
+        "situation": "통증 기간",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Arzt",
+            "text": "Seit wann haben Sie Schmerzen?",
+            "pronunciation": "자이트 반 하벤 지 슈메르첸?",
+            "translation": "언제부터 아프셨나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Patient",
+            "text": "Seit drei Tagen.",
+            "pronunciation": "자이트 드라이 타겐.",
+            "translation": "3일 전부터요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Okay, ich verstehe.",
+            "pronunciation": "오케이, 이히 페어슈테에.",
+            "translation": "알겠습니다."
+          },
+          {
+            "text": "Gute Nacht.",
+            "pronunciation": "구테 나흐트.",
+            "translation": "안녕히 주무세요."
+          },
+          {
+            "text": "Rot.",
+            "pronunciation": "로트.",
+            "translation": "빨강."
+          }
+        ],
+        "answer": "Okay, ich verstehe.",
+        "explanation": "정보를 확인한 의사의 대답입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_hospital_b1_W18_4af3ad66",
+        "situation": "약 처방",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Arzt",
+            "text": "Ich verschreibe Ihnen eine Medizin.",
+            "pronunciation": "이히 페어슈라이베 이넨 아이네 메디친.",
+            "translation": "약을 처방해 드리겠습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Patient",
+            "text": "Danke, Herr Doktor.",
+            "pronunciation": "당케, 헤어 독토어.",
+            "translation": "감사합니다, 의사 선생님.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Gute Besserung!",
+            "pronunciation": "구테 베써룽!",
+            "translation": "쾌유를 빕니다!"
+          },
+          {
+            "text": "Ich renne.",
+            "pronunciation": "이히 레네.",
+            "translation": "달려요."
+          },
+          {
+            "text": "Tisch.",
+            "pronunciation": "티쉬.",
+            "translation": "책상."
+          }
+        ],
+        "answer": "Gute Besserung!",
+        "explanation": "진료를 마치며 환자에게 하는 인사입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_hospital_b1_W18_7dd32b3b",
+        "situation": "응급실",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Patient",
+            "text": "Wo ist die Notaufnahme?",
+            "pronunciation": "보 이스트 디 노트아우프나메?",
+            "translation": "응급실이 어디인가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Mitarbeiter",
+            "text": "Gleich hier links.",
+            "pronunciation": "글라이히 히어 링크스.",
+            "translation": "바로 여기 왼쪽입니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Vielen Dank.",
+            "pronunciation": "필렌 당크.",
+            "translation": "정말 감사합니다."
+          },
+          {
+            "text": "Ich schwimme.",
+            "pronunciation": "이히 슈비메.",
+            "translation": "수영해요."
+          },
+          {
+            "text": "Ein Hund.",
+            "pronunciation": "아인 훈트.",
+            "translation": "개."
+          }
+        ],
+        "answer": "Vielen Dank.",
+        "explanation": "안내를 받은 후의 감사 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_hospital_b1_W18_e184da78",
+        "situation": "예약 확인",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Patient",
+            "text": "Ich habe einen Termin um zehn.",
+            "pronunciation": "이히 하베 아이넨 테르민 움 첸.",
+            "translation": "10시에 예약이 있습니다.",
+            "isQuestion": false
+          },
+          {
+            "role": "Empfang",
+            "text": "Bitte nehmen Sie im Wartezimmer Platz.",
+            "pronunciation": "비테 네멘 지 임 바르테치머 플라츠.",
+            "translation": "대기실에 앉아 계세요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Mach ich.",
+            "pronunciation": "마흐 이히.",
+            "translation": "그럴게요."
+          },
+          {
+            "text": "Ich lache.",
+            "pronunciation": "이히 라헤.",
+            "translation": "웃어요."
+          },
+          {
+            "text": "Blau.",
+            "pronunciation": "블라우.",
+            "translation": "파랑."
+          }
+        ],
+        "answer": "Mach ich.",
+        "explanation": "안내에 따르겠다는 자연스러운 대답입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -361,8 +741,58 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "expr_hospital_b1_W18_0d415622",
+        "phrase": "Ich habe Kopfschmerzen.",
+        "pronunciation": "이히 하베 코프슈메르첸.",
+        "meaning": "두통이 있습니다.",
+        "usage": "머리가 아플 때 증상을 설명하는 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_hospital_b1_W18_e144e6a2",
+        "phrase": "Wo tut es weh?",
+        "pronunciation": "보 투트 에스 베?",
+        "meaning": "어디가 아프신가요?",
+        "usage": "의사가 환자의 통증 부위를 물어볼 때 자주 씁니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_hospital_b1_W18_5907905a",
+        "phrase": "Gute Besserung!",
+        "pronunciation": "구테 베써룽!",
+        "meaning": "빠른 쾌유를 빕니다!",
+        "usage": "아픈 사람에게 인사할 때 사용하는 따뜻한 말입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_hospital_b1_W18_a32e0da8",
+        "phrase": "Ich brauche einen Arzt.",
+        "pronunciation": "이히 브라우헤 아이넨 아르츠트.",
+        "meaning": "의사가 필요해요.",
+        "usage": "응급 상황에서 의료진을 찾을 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_hospital_b1_W18_1fbd81bf",
+        "phrase": "Nehmen Sie diese Tabletten zweimal täglich.",
+        "pronunciation": "네멘 지 디제 타블레텐 츠바이말 테글리히.",
+        "meaning": "이 알약을 하루 두 번 복용하세요.",
+        "usage": "의사나 약사가 약 복용법을 설명할 때 씁니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ]
   },
-  "lastUpdated": "W11"
+  "lastUpdated": "W18"
 }

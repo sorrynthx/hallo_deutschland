@@ -92,6 +92,86 @@
           "B1"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_park_b1_W18_901b2fbf",
+        "word": "Baum",
+        "article": "der",
+        "plural": "Bäume",
+        "pronunciation": "바움",
+        "meaning": "나무",
+        "example": "Der Baum ist grün.",
+        "example_translation": "그 나무는 초록색입니다.",
+        "example_pronunciation": "데어 바움 이스트 그륀.",
+        "tags": [
+          "park",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_park_b1_W18_b0552639",
+        "word": "Blume",
+        "article": "die",
+        "plural": "Blumen",
+        "pronunciation": "블루메",
+        "meaning": "꽃",
+        "example": "Die Blume ist schön.",
+        "example_translation": "그 꽃은 예쁩니다.",
+        "example_pronunciation": "디 블루메 이스트 쇤.",
+        "tags": [
+          "park",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_park_b1_W18_14075e7d",
+        "word": "Bank",
+        "article": "die",
+        "plural": "Bänke",
+        "pronunciation": "방크",
+        "meaning": "벤치",
+        "example": "Ich sitze auf der Bank.",
+        "example_translation": "나는 벤치에 앉습니다.",
+        "example_pronunciation": "이히 지체 아우프 데어 방크.",
+        "tags": [
+          "park",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_park_b1_W18_c972efc1",
+        "word": "Hund",
+        "article": "der",
+        "plural": "Hunde",
+        "pronunciation": "훈트",
+        "meaning": "개",
+        "example": "Der Hund spielt.",
+        "example_translation": "개가 놉니다.",
+        "example_pronunciation": "데어 훈트 슈필트.",
+        "tags": [
+          "park",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_park_b1_W18_9d4243bb",
+        "word": "Spaziergang",
+        "article": "der",
+        "plural": "Spaziergänge",
+        "pronunciation": "슈파치어강",
+        "meaning": "산책",
+        "example": "Wir machen einen Spaziergang.",
+        "example_translation": "우리는 산책을 합니다.",
+        "example_pronunciation": "비어 마헨 아이넨 슈파치어강.",
+        "tags": [
+          "park",
+          "b1"
+        ],
+        "week": "W18"
       }
     ],
     "grammar": [
@@ -168,6 +248,96 @@
         "explanation": "참조어 'Der Mann'는 남성 단수입니다. 관계사절에서 동사 'begegnen'에는 항상 여격(누군가를 만나다)이 필요합니다. 따라서 여격 남성 단수형의 올바른 관계대명사는 'dem'입니다.",
         "related_table": [],
         "week": "W11"
+      },
+      {
+        "id": "gram_park_b1_W18_dbcb0641",
+        "type": "fill_blank",
+        "topic": "Präpositionen (Ort)",
+        "topic_explanation": "장소 전치사 auf",
+        "question": "Die Blume ist auf der ____.",
+        "question_translation": "꽃이 잔디밭에 있습니다.",
+        "options": [
+          "Wiese",
+          "Wiesen",
+          "Baum",
+          "Bank"
+        ],
+        "answer": "Wiese",
+        "explanation": "auf der 뒤에는 여성 명사 Wiese가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_park_b1_W18_6a485b7f",
+        "type": "fill_blank",
+        "topic": "Verben",
+        "topic_explanation": "동사 spielen 연습",
+        "question": "Die Kinder ____ im Park.",
+        "question_translation": "아이들이 공원에서 놉니다.",
+        "options": [
+          "spielen",
+          "spielt",
+          "spiele",
+          "spielst"
+        ],
+        "answer": "spielen",
+        "explanation": "복수 주어 Die Kinder에 맞는 동사는 spielen입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_park_b1_W18_391b5097",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격",
+        "question": "Ich sehe einen ____.",
+        "question_translation": "나는 나무 한 그루를 봅니다.",
+        "options": [
+          "Baum",
+          "Blume",
+          "Bank",
+          "Park"
+        ],
+        "answer": "Baum",
+        "explanation": "einen 뒤에는 남성 4격 명사인 Baum이 적합합니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_park_b1_W18_f05e95a9",
+        "type": "fill_blank",
+        "topic": "Präteritum",
+        "topic_explanation": "과거시제",
+        "question": "Wir ____ gestern im Park.",
+        "question_translation": "우리는 어제 공원에 있었습니다.",
+        "options": [
+          "waren",
+          "war",
+          "wart",
+          "sind"
+        ],
+        "answer": "waren",
+        "explanation": "주어 Wir에 맞는 sein 동사의 과거형은 waren입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_park_b1_W18_1969e929",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미",
+        "question": "Der ____ Baum ist alt.",
+        "question_translation": "그 큰 나무는 오래되었습니다.",
+        "options": [
+          "große",
+          "großer",
+          "großen",
+          "großem"
+        ],
+        "answer": "große",
+        "explanation": "정관사 der 뒤의 주격 형용사 어미는 -e가 됩니다.",
+        "related_table": [],
+        "week": "W18"
       }
     ],
     "conversation": [
@@ -296,6 +466,216 @@
         "explanation": "관광객은 더 느린 속도로 지시를 반복하도록 정중하게 요청합니다. 도움이 되는 응답은 요청에 응하고 친절하게 설명을 반복하는 것입니다.",
         "grammar_point": "Höfliche Bitten (\"Könnten Sie...?\" + Infinitiv), Verständnisfragen (\"noch einmal wiederholen\"), Wegbeschreibungen geben (Imperativ, Präpositionen).",
         "week": "W11"
+      },
+      {
+        "id": "conv_park_b1_W18_bfc935f1",
+        "situation": "산책",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Das Wetter ist toll heute.",
+            "pronunciation": "다스 베터 이스트 톨 호이테.",
+            "translation": "오늘 날씨 정말 좋네요.",
+            "isQuestion": false
+          },
+          {
+            "role": "B",
+            "text": "Ja, lass uns in den Park gehen.",
+            "pronunciation": "야, 라스 운스 인 덴 파르크 게엔.",
+            "translation": "네, 공원에 가요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Gute Idee.",
+            "pronunciation": "구테 이데.",
+            "translation": "좋은 생각이네요."
+          },
+          {
+            "text": "Ich schlafe.",
+            "pronunciation": "이히 슐라페.",
+            "translation": "자요."
+          },
+          {
+            "text": "Das ist ein Tisch.",
+            "pronunciation": "다스 이스트 아인 티쉬.",
+            "translation": "그건 책상이에요."
+          }
+        ],
+        "answer": "Gute Idee.",
+        "explanation": "산책 제안에 긍정적으로 동의하는 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_park_b1_W18_14f2e8ef",
+        "situation": "벤치 휴식",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Ist die Bank frei?",
+            "pronunciation": "이스트 디 방크 프라이?",
+            "translation": "이 벤치 비어 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, bitte setzen Sie sich.",
+            "pronunciation": "야, 비테 제첸 지 지히.",
+            "translation": "네, 앉으세요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Danke schön.",
+            "pronunciation": "당케 쇤.",
+            "translation": "감사합니다."
+          },
+          {
+            "text": "Ich laufe.",
+            "pronunciation": "이히 라우페.",
+            "translation": "달려요."
+          },
+          {
+            "text": "Es regnet.",
+            "pronunciation": "에스 레그네트.",
+            "translation": "비가 와요."
+          }
+        ],
+        "answer": "Danke schön.",
+        "explanation": "자리를 허락받은 후의 인사입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_park_b1_W18_670f3a2e",
+        "situation": "개와 놀기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Darf ich Ihren Hund streicheln?",
+            "pronunciation": "다르프 이히 이렌 훈트 슈트라이헬른?",
+            "translation": "개 좀 쓰다듬어도 될까요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, er ist ganz lieb.",
+            "pronunciation": "야, 에어 이스트 간츠 립.",
+            "translation": "네, 아주 순해요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Oh, wie süß!",
+            "pronunciation": "오, 비 쉬쓰!",
+            "translation": "오, 정말 귀엽네요!"
+          },
+          {
+            "text": "Ich trinke Wasser.",
+            "pronunciation": "이히 트링케 바써.",
+            "translation": "물을 마셔요."
+          },
+          {
+            "text": "Rot.",
+            "pronunciation": "로트.",
+            "translation": "빨강."
+          }
+        ],
+        "answer": "Oh, wie süß!",
+        "explanation": "개를 귀여워하며 하는 자연스러운 말입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_park_b1_W18_49250a88",
+        "situation": "길 안내",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Wo ist der See?",
+            "pronunciation": "보 이스트 데어 제?",
+            "translation": "호수가 어디 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Gleich da vorne.",
+            "pronunciation": "글라이히 다 포르네.",
+            "translation": "바로 저 앞이요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ah, ich sehe ihn.",
+            "pronunciation": "아, 이히 제에 인.",
+            "translation": "아, 보이네요."
+          },
+          {
+            "text": "Gute Nacht.",
+            "pronunciation": "구테 나흐트.",
+            "translation": "안녕히 주무세요."
+          },
+          {
+            "text": "Ich bin Arzt.",
+            "pronunciation": "이히 빈 아르츠트.",
+            "translation": "전 의사예요."
+          }
+        ],
+        "answer": "Ah, ich sehe ihn.",
+        "explanation": "안내를 받고 대상을 발견했을 때의 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_park_b1_W18_87f26b4b",
+        "situation": "풍경 감상",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Die Blumen sind so schön.",
+            "pronunciation": "디 블루멘 진트 조 쇤.",
+            "translation": "꽃들이 정말 예뻐요.",
+            "isQuestion": false
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Frühling ist da.",
+            "pronunciation": "야, 데어 프륄링 이스트 다.",
+            "translation": "네, 봄이 왔네요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Das stimmt.",
+            "pronunciation": "다스 슈팀트.",
+            "translation": "맞아요."
+          },
+          {
+            "text": "Ich esse Brot.",
+            "pronunciation": "이히 에쎄 브로트.",
+            "translation": "빵을 먹어요."
+          },
+          {
+            "text": "Kalt.",
+            "pronunciation": "칼트.",
+            "translation": "추워요."
+          }
+        ],
+        "answer": "Das stimmt.",
+        "explanation": "상대방의 의견에 동의하는 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -409,8 +789,58 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "expr_park_b1_W18_cef6b52a",
+        "phrase": "Das Wetter ist heute wunderschön.",
+        "pronunciation": "다스 베터 이스트 호이테 분더쇤.",
+        "meaning": "오늘 날씨가 정말 아름답네요.",
+        "usage": "공원에서 날씨를 칭찬할 때 쓰는 일상적인 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_park_b1_W18_e019f2db",
+        "phrase": "Lass uns einen Spaziergang machen.",
+        "pronunciation": "라스 운스 아이넨 슈파치어강 마헨.",
+        "meaning": "우리 산책하러 가자.",
+        "usage": "친구에게 공원 산책을 제안할 때 씁니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_park_b1_W18_b82db1d6",
+        "phrase": "Darf ich mich hierhin setzen?",
+        "pronunciation": "다르프 이히 미히 히어힌 제첸?",
+        "meaning": "여기 앉아도 될까요?",
+        "usage": "벤치에 다른 사람이 있을 때 자리를 물어보는 예의 바른 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_park_b1_W18_e2d1518f",
+        "phrase": "Bitte die Hunde an die Leine nehmen.",
+        "pronunciation": "비테 디 훈데 안 디 라이네 네멘.",
+        "meaning": "개는 목줄을 채워주세요.",
+        "usage": "공원에서 자주 볼 수 있는 표지판 문구입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_park_b1_W18_9f10bf9b",
+        "phrase": "Das Betreten des Rasens ist verboten.",
+        "pronunciation": "다스 베트레텐 데스 라젠스 이스트 페어보텐.",
+        "meaning": "잔디밭 출입 금지입니다.",
+        "usage": "공원 내 금지 구역을 알리는 공식적인 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ]
   },
-  "lastUpdated": "W11"
+  "lastUpdated": "W18"
 }

@@ -87,6 +87,86 @@
           "Reise"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_station_b1_W18_7752de62",
+        "word": "Zug",
+        "article": "der",
+        "plural": "Züge",
+        "pronunciation": "추크",
+        "meaning": "기차",
+        "example": "Der Zug ist schnell.",
+        "example_translation": "그 기차는 빠릅니다.",
+        "example_pronunciation": "데어 추크 이스트 슈넬.",
+        "tags": [
+          "station",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_station_b1_W18_4482be9f",
+        "word": "Fahrkarte",
+        "article": "die",
+        "plural": "Fahrkarten",
+        "pronunciation": "파르카르테",
+        "meaning": "승차권",
+        "example": "Wo ist meine Fahrkarte?",
+        "example_translation": "내 승차권이 어디 있지?",
+        "example_pronunciation": "보 이스트 마이네 파르카르테?",
+        "tags": [
+          "station",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_station_b1_W18_58266dcd",
+        "word": "Gleis",
+        "article": "das",
+        "plural": "Gleise",
+        "pronunciation": "글라이스",
+        "meaning": "플랫폼",
+        "example": "Wir warten am Gleis 3.",
+        "example_translation": "우리는 3번 플랫폼에서 기다립니다.",
+        "example_pronunciation": "비어 바르텐 암 글라이스 드라이.",
+        "tags": [
+          "station",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_station_b1_W18_192df1ca",
+        "word": "Bahnhof",
+        "article": "der",
+        "plural": "Bahnhöfe",
+        "pronunciation": "반호프",
+        "meaning": "기차역",
+        "example": "Der Bahnhof ist groß.",
+        "example_translation": "그 기차역은 큽니다.",
+        "example_pronunciation": "데어 반호프 이스트 그로쓰.",
+        "tags": [
+          "station",
+          "b1"
+        ],
+        "week": "W18"
+      },
+      {
+        "id": "voc_station_b1_W18_65d2215d",
+        "word": "Verspätung",
+        "article": "die",
+        "plural": "Verspätungen",
+        "pronunciation": "페어슈페퉁",
+        "meaning": "지연",
+        "example": "Der Zug hat Verspätung.",
+        "example_translation": "기차가 연착되었습니다.",
+        "example_pronunciation": "데어 추크 하트 페어슈페퉁.",
+        "tags": [
+          "station",
+          "b1"
+        ],
+        "week": "W18"
       }
     ],
     "grammar": [
@@ -143,6 +223,96 @@
         "explanation": "'Koffer'는 남성형입니다('der Koffer'). 관계대명사는 'der Koffer'를 지칭하며, 동사 'gefunden habe'('ich habe den Koffer gefunden')의 직접 목적어이기 때문에 대격에 해당합니다. 따라서 올바른 형식은 'den'입니다.",
         "related_table": [],
         "week": "W11"
+      },
+      {
+        "id": "gram_station_b1_W18_4505a2f5",
+        "type": "fill_blank",
+        "topic": "Präpositionen (Ort)",
+        "topic_explanation": "장소를 나타내는 전치사",
+        "question": "Wir sind am ____.",
+        "question_translation": "우리는 기차역에 있습니다.",
+        "options": [
+          "Bahnhof",
+          "Zug",
+          "Gleis",
+          "Fahrkarte"
+        ],
+        "answer": "Bahnhof",
+        "explanation": "am(an dem) 뒤에는 남성 3격인 Bahnhof가 자연스럽습니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_station_b1_W18_d889caa2",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "여격(Dativ) 연습",
+        "question": "Ich fahre mit dem ____.",
+        "question_translation": "나는 기차를 타고 갑니다.",
+        "options": [
+          "Zug",
+          "Züge",
+          "Zügen",
+          "Zuges"
+        ],
+        "answer": "Zug",
+        "explanation": "mit은 항상 3격(Dativ)을 지배하므로 dem Zug가 됩니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_station_b1_W18_e28c7924",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(Akkusativ) 연습",
+        "question": "Ich kaufe eine ____.",
+        "question_translation": "나는 승차권을 삽니다.",
+        "options": [
+          "Fahrkarte",
+          "Gleis",
+          "Bahnhof",
+          "Zug"
+        ],
+        "answer": "Fahrkarte",
+        "explanation": "eine 뒤에는 여성 명사 Fahrkarte가 옵니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_station_b1_W18_439e5992",
+        "type": "fill_blank",
+        "topic": "Modalverben",
+        "topic_explanation": "조동사 müssen 연습",
+        "question": "Wir ____ uns beeilen.",
+        "question_translation": "우리는 서둘러야 합니다.",
+        "options": [
+          "müssen",
+          "muss",
+          "müsst",
+          "musst"
+        ],
+        "answer": "müssen",
+        "explanation": "주어 Wir에 맞는 조동사는 müssen입니다.",
+        "related_table": [],
+        "week": "W18"
+      },
+      {
+        "id": "gram_station_b1_W18_01bd8122",
+        "type": "fill_blank",
+        "topic": "Perfekt",
+        "topic_explanation": "현재완료형 연습",
+        "question": "Der Zug ist ____.",
+        "question_translation": "기차가 출발했습니다.",
+        "options": [
+          "abgefahren",
+          "abfahren",
+          "abfährt",
+          "abfuhrt"
+        ],
+        "answer": "abgefahren",
+        "explanation": "조동사 ist와 함께 이동을 나타내는 동사 abfahren의 과거분사 abgefahren이 쓰입니다.",
+        "related_table": [],
+        "week": "W18"
       }
     ],
     "conversation": [
@@ -229,6 +399,216 @@
         "explanation": "'이미 티켓을 가지고 계십니까?'라는 질문 티켓 소지 여부에 대한 예/아니요 답변이 필요합니다. '예, 이미 가지고 있습니다'가 적절한 긍정적인 대답입니다. 여기서 '저것'은 '티켓'을 의미합니다.",
         "grammar_point": "Uhrzeiten und Gleisangaben, Fragen mit 'schon', Personalpronomen im Akkusativ.",
         "week": "W11"
+      },
+      {
+        "id": "conv_station_b1_W18_c5ed5c19",
+        "situation": "승차권 구입",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Kunde",
+            "text": "Eine Fahrkarte nach Berlin, bitte.",
+            "pronunciation": "아이네 파르카르테 나흐 베를린, 비테.",
+            "translation": "베를린 가는 표 한 장 주세요.",
+            "isQuestion": false
+          },
+          {
+            "role": "Verkäufer",
+            "text": "Gerne. Hin und zurück?",
+            "pronunciation": "게르네. 힌 운트 추뤽?",
+            "translation": "네. 왕복이신가요?",
+            "isQuestion": true
+          }
+        ],
+        "choices": [
+          {
+            "text": "Nur Hinfahrt, bitte.",
+            "pronunciation": "누어 힌파르트, 비테.",
+            "translation": "편도만 주세요."
+          },
+          {
+            "text": "Ein Apfel.",
+            "pronunciation": "아인 압펠.",
+            "translation": "사과 하나."
+          },
+          {
+            "text": "Ich bin müde.",
+            "pronunciation": "이히 빈 뮈데.",
+            "translation": "피곤해요."
+          }
+        ],
+        "answer": "Nur Hinfahrt, bitte.",
+        "explanation": "왕복인지 묻는 질문에 편도라고 대답하는 자연스러운 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_station_b1_W18_84ec989b",
+        "situation": "플랫폼 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Wo ist Gleis 4?",
+            "pronunciation": "보 이스트 글라이스 피어?",
+            "translation": "4번 플랫폼은 어디인가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Mitarbeiter",
+            "text": "Gleis 4 ist dort drüben.",
+            "pronunciation": "글라이스 피어 이스트 도르트 드뤼벤.",
+            "translation": "4번 플랫폼은 저쪽입니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Vielen Dank.",
+            "pronunciation": "필렌 당크.",
+            "translation": "정말 감사합니다."
+          },
+          {
+            "text": "Gute Nacht.",
+            "pronunciation": "구테 나흐트.",
+            "translation": "안녕히 주무세요."
+          },
+          {
+            "text": "Das ist ein Hund.",
+            "pronunciation": "다스 이스트 아인 훈트.",
+            "translation": "그건 개입니다."
+          }
+        ],
+        "answer": "Vielen Dank.",
+        "explanation": "길 안내를 받은 후의 감사 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_station_b1_W18_891fe12a",
+        "situation": "지연 확인",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Hat der Zug Verspätung?",
+            "pronunciation": "하트 데어 추크 페어슈페퉁?",
+            "translation": "기차가 연착되나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Mitarbeiter",
+            "text": "Ja, etwa zehn Minuten.",
+            "pronunciation": "야, 에트바 첸 미누텐.",
+            "translation": "네, 약 10분 정도요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Alles klar.",
+            "pronunciation": "알레스 클라.",
+            "translation": "알겠습니다."
+          },
+          {
+            "text": "Ich trinke Kaffee.",
+            "pronunciation": "이히 트링케 카페.",
+            "translation": "커피를 마십니다."
+          },
+          {
+            "text": "Rot.",
+            "pronunciation": "로트.",
+            "translation": "빨간색."
+          }
+        ],
+        "answer": "Alles klar.",
+        "explanation": "상황을 이해했음을 나타내는 표현입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_station_b1_W18_4785de36",
+        "situation": "자리 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Ist dieser Platz frei?",
+            "pronunciation": "이스트 디저 플라츠 프라이?",
+            "translation": "이 자리 비어 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Passagier",
+            "text": "Ja, setzen Sie sich gern.",
+            "pronunciation": "야, 제첸 지 지히 게른.",
+            "translation": "네, 앉으세요.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Danke sehr.",
+            "pronunciation": "당케 제어.",
+            "translation": "대단히 감사합니다."
+          },
+          {
+            "text": "Ich schwimme.",
+            "pronunciation": "이히 슈비메.",
+            "translation": "수영합니다."
+          },
+          {
+            "text": "Das ist kalt.",
+            "pronunciation": "다스 이스트 칼트.",
+            "translation": "차갑네요."
+          }
+        ],
+        "answer": "Danke sehr.",
+        "explanation": "자리를 양보받거나 허락받은 후의 감사 인사입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
+      },
+      {
+        "id": "conv_station_b1_W18_63e0ed55",
+        "situation": "하차 확인",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "Reisender",
+            "text": "Ist das die Station Frankfurt?",
+            "pronunciation": "이스트 다스 디 슈타치온 프랑크푸르트?",
+            "translation": "여기가 프랑크푸르트 역인가요?",
+            "isQuestion": true
+          },
+          {
+            "role": "Passagier",
+            "text": "Nein, die nächste.",
+            "pronunciation": "나인, 디 넥스테.",
+            "translation": "아니요, 다음 역입니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Oh, danke.",
+            "pronunciation": "오, 당케.",
+            "translation": "오, 감사합니다."
+          },
+          {
+            "text": "Mein Name ist Tom.",
+            "pronunciation": "마인 나메 이스트 톰.",
+            "translation": "내 이름은 톰입니다."
+          },
+          {
+            "text": "Ich esse Brot.",
+            "pronunciation": "이히 에쎄 브로트.",
+            "translation": "빵을 먹습니다."
+          }
+        ],
+        "answer": "Oh, danke.",
+        "explanation": "정보를 얻고 고마워하는 반응입니다.",
+        "grammar_point": "Situationsgerechter Ausdruck",
+        "week": "W18"
       }
     ],
     "expressions": [
@@ -342,8 +722,58 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "expr_station_b1_W18_984c8cc8",
+        "phrase": "Wann fährt der Zug ab?",
+        "pronunciation": "반 페어트 데어 추크 압?",
+        "meaning": "기차가 언제 출발하나요?",
+        "usage": "기차의 출발 시간을 물어볼 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_station_b1_W18_52290d3b",
+        "phrase": "Wo kann ich eine Fahrkarte kaufen?",
+        "pronunciation": "보 칸 이히 아이네 파르카르테 카우펜?",
+        "meaning": "승차권은 어디서 살 수 있나요?",
+        "usage": "매표소나 발권기 위치를 찾을 때 사용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_station_b1_W18_c212281e",
+        "phrase": "Auf welchem Gleis fährt der Zug?",
+        "pronunciation": "아우프 벨헴 글라이스 페어트 데어 추크?",
+        "meaning": "기차는 어느 플랫폼에서 출발하나요?",
+        "usage": "탑승 플랫폼을 확인할 때 유용합니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_station_b1_W18_bc70daf8",
+        "phrase": "Der Zug hat Verspätung.",
+        "pronunciation": "데어 추크 하트 페어슈페퉁.",
+        "meaning": "기차가 연착되었습니다.",
+        "usage": "기차가 제시간에 오지 않을 때 쓰는 표현입니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
+      },
+      {
+        "id": "expr_station_b1_W18_b6a62f14",
+        "phrase": "Ist dieser Platz noch frei?",
+        "pronunciation": "이스트 디저 플라츠 노흐 프라이?",
+        "meaning": "이 자리 비어 있나요?",
+        "usage": "기차 안에서 빈자리에 앉기 전에 물어볼 때 씁니다.",
+        "alternatives": [],
+        "responses": [],
+        "week": "W18"
       }
     ]
   },
-  "lastUpdated": "W11"
+  "lastUpdated": "W18"
 }
