@@ -87,6 +87,86 @@
           "Essen und Trinken"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_001",
+        "word": "Bier",
+        "article": "das",
+        "plural": "Biere",
+        "pronunciation": "비어",
+        "meaning": "맥주",
+        "example": "Ich suche das Bier, können Sie mir helfen?",
+        "example_translation": "저는 맥주을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Bier, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Inn",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_002",
+        "word": "Tisch",
+        "article": "der",
+        "plural": "Tische",
+        "pronunciation": "티쉬",
+        "meaning": "테이블",
+        "example": "Ich suche den Tisch, können Sie mir helfen?",
+        "example_translation": "저는 테이블을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Tisch, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Inn",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_003",
+        "word": "Speisekarte",
+        "article": "die",
+        "plural": "Speisekarten",
+        "pronunciation": "슈파이제카르테",
+        "meaning": "메뉴판",
+        "example": "Ich suche die Speisekarte, können Sie mir helfen?",
+        "example_translation": "저는 메뉴판을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Speisekarte, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Inn",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_004",
+        "word": "Rechnung",
+        "article": "die",
+        "plural": "Rechnungen",
+        "pronunciation": "레히눙",
+        "meaning": "계산서",
+        "example": "Ich suche die Rechnung, können Sie mir helfen?",
+        "example_translation": "저는 계산서을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Rechnung, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Inn",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_inn_b1_W11_005",
+        "word": "Kellner",
+        "article": "der",
+        "plural": "Kellner",
+        "pronunciation": "켈너",
+        "meaning": "웨이터",
+        "example": "Ich suche den Kellner, können Sie mir helfen?",
+        "example_translation": "저는 웨이터을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Kellner, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Inn",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -245,6 +325,121 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Bier.",
+        "question_translation": "나는 그 맥주이/가 필요해.",
+        "options": [
+          "die",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "das",
+        "explanation": "Bier은/는 das 명사이므로, Akkusativ 형태는 das입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Tisch.",
+        "question_translation": "나는 그 테이블와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "dem"
+        ],
+        "answer": "dem",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Tisch은/는 der 명사이므로 dem가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Speisekarte.",
+        "question_translation": "여기에 그 메뉴판이/가 있다.",
+        "options": [
+          "den",
+          "das",
+          "der",
+          "die"
+        ],
+        "answer": "die",
+        "explanation": "Speisekarte은/는 die 명사이므로, Nominativ 형태는 die입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum inn.",
+        "question_translation": "우리는 오늘 inn에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_inn_b1_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
       }
     ],
     "conversation": [
@@ -359,6 +554,216 @@
         "explanation": "게스트의 질문은 Wi-Fi 이용 가능 여부에 관한 것입니다. 여기에는 직접적이고 완전한 답변이 가장 적합합니다. '네, WiFi는 집 전체에서 무료로 이용 가능합니다.'라는 질문에 포괄적이고 긍정적으로 대답합니다.",
         "grammar_point": "Fragen mit 'es gibt' (Questions with 'es gibt'), Angaben zu Verfügbarkeit (Information on availability), Präpositionen des Ortes (Prepositions of place)",
         "week": "W11"
+      },
+      {
+        "id": "conv_inn_b1_W11_001",
+        "situation": "맥주 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Bier vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Bier 포르레티히 하벤?",
+            "translation": "맥주 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Bier ist dort hinten.",
+            "pronunciation": "야, das Bier 이스트 도르트 힌텐.",
+            "translation": "네, 맥주은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Bier?",
+            "pronunciation": "보 핀데 이히 das Bier?",
+            "translation": "맥주을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Bier?",
+        "explanation": "맥주의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_b1_W11_002",
+        "situation": "테이블 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Tisch vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Tisch 포르레티히 하벤?",
+            "translation": "테이블 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Tisch ist dort hinten.",
+            "pronunciation": "야, der Tisch 이스트 도르트 힌텐.",
+            "translation": "네, 테이블은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Tisch?",
+            "pronunciation": "보 핀데 이히 den Tisch?",
+            "translation": "테이블을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Tisch?",
+        "explanation": "테이블의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_b1_W11_003",
+        "situation": "메뉴판 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Speisekarte vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Speisekarte 포르레티히 하벤?",
+            "translation": "메뉴판 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Speisekarte ist dort hinten.",
+            "pronunciation": "야, die Speisekarte 이스트 도르트 힌텐.",
+            "translation": "네, 메뉴판은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Speisekarte?",
+            "pronunciation": "보 핀데 이히 die Speisekarte?",
+            "translation": "메뉴판을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Speisekarte?",
+        "explanation": "메뉴판의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_b1_W11_004",
+        "situation": "계산서 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Rechnung vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Rechnung 포르레티히 하벤?",
+            "translation": "계산서 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Rechnung ist dort hinten.",
+            "pronunciation": "야, die Rechnung 이스트 도르트 힌텐.",
+            "translation": "네, 계산서은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Rechnung?",
+            "pronunciation": "보 핀데 이히 die Rechnung?",
+            "translation": "계산서을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Rechnung?",
+        "explanation": "계산서의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_inn_b1_W11_005",
+        "situation": "웨이터 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Kellner vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Kellner 포르레티히 하벤?",
+            "translation": "웨이터 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Kellner ist dort hinten.",
+            "pronunciation": "야, der Kellner 이스트 도르트 힌텐.",
+            "translation": "네, 웨이터은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Kellner?",
+            "pronunciation": "보 핀데 이히 den Kellner?",
+            "translation": "웨이터을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Kellner?",
+        "explanation": "웨이터의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -454,6 +859,116 @@
             "text": "Heute gibt es frische Forelle.",
             "pronunciation": "호이테 깁트 에스 프리쉐 포렐레.",
             "translation": "오늘은 신선한 송어가 있습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_001",
+        "phrase": "Ich interessiere mich für das Bier.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 das Bier.",
+        "meaning": "저는 그 맥주에 관심이 있습니다.",
+        "usage": "맥주을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Bier.",
+            "pronunciation": "게벤 지 미어 비테 das Bier.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_002",
+        "phrase": "Ich interessiere mich für den Tisch.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Tisch.",
+        "meaning": "저는 그 테이블에 관심이 있습니다.",
+        "usage": "테이블을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Tisch.",
+            "pronunciation": "게벤 지 미어 비테 den Tisch.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_003",
+        "phrase": "Ich interessiere mich für die Speisekarte.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Speisekarte.",
+        "meaning": "저는 그 메뉴판에 관심이 있습니다.",
+        "usage": "메뉴판을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Speisekarte.",
+            "pronunciation": "게벤 지 미어 비테 die Speisekarte.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_004",
+        "phrase": "Ich interessiere mich für die Rechnung.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Rechnung.",
+        "meaning": "저는 그 계산서에 관심이 있습니다.",
+        "usage": "계산서을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Rechnung.",
+            "pronunciation": "게벤 지 미어 비테 die Rechnung.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_inn_b1_W11_005",
+        "phrase": "Ich interessiere mich für den Kellner.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Kellner.",
+        "meaning": "저는 그 웨이터에 관심이 있습니다.",
+        "usage": "웨이터을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Kellner.",
+            "pronunciation": "게벤 지 미어 비테 den Kellner.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"

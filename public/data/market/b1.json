@@ -242,6 +242,86 @@
           "b1"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_001",
+        "word": "Apfel",
+        "article": "der",
+        "plural": "Äpfel",
+        "pronunciation": "압펠",
+        "meaning": "사과",
+        "example": "Ich suche den Apfel, können Sie mir helfen?",
+        "example_translation": "저는 사과을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Apfel, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Market",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_002",
+        "word": "Milch",
+        "article": "die",
+        "plural": "Milchen",
+        "pronunciation": "밀히",
+        "meaning": "우유",
+        "example": "Ich suche die Milch, können Sie mir helfen?",
+        "example_translation": "저는 우유을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Milch, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Market",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_003",
+        "word": "Käse",
+        "article": "der",
+        "plural": "Käse",
+        "pronunciation": "캐제",
+        "meaning": "치즈",
+        "example": "Ich suche den Käse, können Sie mir helfen?",
+        "example_translation": "저는 치즈을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Käse, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Market",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_004",
+        "word": "Fleisch",
+        "article": "das",
+        "plural": "-",
+        "pronunciation": "플라이쉬",
+        "meaning": "고기",
+        "example": "Ich suche das Fleisch, können Sie mir helfen?",
+        "example_translation": "저는 고기을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Fleisch, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Market",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_market_b1_W11_005",
+        "word": "Gemüse",
+        "article": "das",
+        "plural": "Gemüse",
+        "pronunciation": "게뮈제",
+        "meaning": "채소",
+        "example": "Ich suche das Gemüse, können Sie mir helfen?",
+        "example_translation": "저는 채소을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Gemüse, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Market",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -502,6 +582,121 @@
         "answer": "milden",
         "explanation": "남성 4격 부정관사 einen 뒤에 오는 형용사는 -en 어미를 가집니다.",
         "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Apfel.",
+        "question_translation": "나는 그 사과이/가 필요해.",
+        "options": [
+          "die",
+          "das",
+          "der",
+          "den"
+        ],
+        "answer": "den",
+        "explanation": "Apfel은/는 der 명사이므로, Akkusativ 형태는 den입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Milch.",
+        "question_translation": "나는 그 우유와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "der"
+        ],
+        "answer": "der",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Milch은/는 die 명사이므로 der가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Käse.",
+        "question_translation": "여기에 그 치즈이/가 있다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "der"
+        ],
+        "answer": "der",
+        "explanation": "Käse은/는 der 명사이므로, Nominativ 형태는 der입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum market.",
+        "question_translation": "우리는 오늘 market에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_market_b1_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
         "week": "W11"
       }
     ],
@@ -1100,6 +1295,216 @@
         "explanation": "포인트 사용 여부에 대한 일반적이고 자연스러운 고객의 답변입니다.",
         "grammar_point": "B1 수준 표현",
         "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_001",
+        "situation": "사과 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Apfel vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Apfel 포르레티히 하벤?",
+            "translation": "사과 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Apfel ist dort hinten.",
+            "pronunciation": "야, der Apfel 이스트 도르트 힌텐.",
+            "translation": "네, 사과은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Apfel?",
+            "pronunciation": "보 핀데 이히 den Apfel?",
+            "translation": "사과을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Apfel?",
+        "explanation": "사과의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_002",
+        "situation": "우유 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Milch vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Milch 포르레티히 하벤?",
+            "translation": "우유 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Milch ist dort hinten.",
+            "pronunciation": "야, die Milch 이스트 도르트 힌텐.",
+            "translation": "네, 우유은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Milch?",
+            "pronunciation": "보 핀데 이히 die Milch?",
+            "translation": "우유을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Milch?",
+        "explanation": "우유의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_003",
+        "situation": "치즈 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Käse vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Käse 포르레티히 하벤?",
+            "translation": "치즈 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Käse ist dort hinten.",
+            "pronunciation": "야, der Käse 이스트 도르트 힌텐.",
+            "translation": "네, 치즈은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Käse?",
+            "pronunciation": "보 핀데 이히 den Käse?",
+            "translation": "치즈을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Käse?",
+        "explanation": "치즈의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_004",
+        "situation": "고기 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Fleisch vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Fleisch 포르레티히 하벤?",
+            "translation": "고기 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Fleisch ist dort hinten.",
+            "pronunciation": "야, das Fleisch 이스트 도르트 힌텐.",
+            "translation": "네, 고기은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Fleisch?",
+            "pronunciation": "보 핀데 이히 das Fleisch?",
+            "translation": "고기을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Fleisch?",
+        "explanation": "고기의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_market_b1_W11_005",
+        "situation": "채소 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Gemüse vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Gemüse 포르레티히 하벤?",
+            "translation": "채소 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Gemüse ist dort hinten.",
+            "pronunciation": "야, das Gemüse 이스트 도르트 힌텐.",
+            "translation": "네, 채소은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Gemüse?",
+            "pronunciation": "보 핀데 이히 das Gemüse?",
+            "translation": "채소을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Gemüse?",
+        "explanation": "채소의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -1387,6 +1792,116 @@
         "usage": "(직원이 냉동식품 위치를 안내할 때) Die Tiefkühlware befindet sich im hinteren Teil des Ladens.",
         "alternatives": [],
         "responses": [],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_001",
+        "phrase": "Ich interessiere mich für den Apfel.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Apfel.",
+        "meaning": "저는 그 사과에 관심이 있습니다.",
+        "usage": "사과을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Apfel.",
+            "pronunciation": "게벤 지 미어 비테 den Apfel.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_002",
+        "phrase": "Ich interessiere mich für die Milch.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Milch.",
+        "meaning": "저는 그 우유에 관심이 있습니다.",
+        "usage": "우유을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Milch.",
+            "pronunciation": "게벤 지 미어 비테 die Milch.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_003",
+        "phrase": "Ich interessiere mich für den Käse.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Käse.",
+        "meaning": "저는 그 치즈에 관심이 있습니다.",
+        "usage": "치즈을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Käse.",
+            "pronunciation": "게벤 지 미어 비테 den Käse.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_004",
+        "phrase": "Ich interessiere mich für das Fleisch.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 das Fleisch.",
+        "meaning": "저는 그 고기에 관심이 있습니다.",
+        "usage": "고기을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Fleisch.",
+            "pronunciation": "게벤 지 미어 비테 das Fleisch.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_market_b1_W11_005",
+        "phrase": "Ich interessiere mich für das Gemüse.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 das Gemüse.",
+        "meaning": "저는 그 채소에 관심이 있습니다.",
+        "usage": "채소을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Gemüse.",
+            "pronunciation": "게벤 지 미어 비테 das Gemüse.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
         "week": "W11"
       }
     ]

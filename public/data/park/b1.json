@@ -92,6 +92,86 @@
           "B1"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_park_b1_W11_001",
+        "word": "Baum",
+        "article": "der",
+        "plural": "Bäume",
+        "pronunciation": "바움",
+        "meaning": "나무",
+        "example": "Ich suche den Baum, können Sie mir helfen?",
+        "example_translation": "저는 나무을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Baum, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Park",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_park_b1_W11_002",
+        "word": "Bank",
+        "article": "die",
+        "plural": "Bänke",
+        "pronunciation": "방크",
+        "meaning": "벤치",
+        "example": "Ich suche die Bank, können Sie mir helfen?",
+        "example_translation": "저는 벤치을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Bank, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Park",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_park_b1_W11_003",
+        "word": "Blume",
+        "article": "die",
+        "plural": "Blumen",
+        "pronunciation": "블루메",
+        "meaning": "꽃",
+        "example": "Ich suche die Blume, können Sie mir helfen?",
+        "example_translation": "저는 꽃을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Blume, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Park",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_park_b1_W11_004",
+        "word": "Weg",
+        "article": "der",
+        "plural": "Wege",
+        "pronunciation": "베크",
+        "meaning": "길",
+        "example": "Ich suche den Weg, können Sie mir helfen?",
+        "example_translation": "저는 길을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Weg, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Park",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_park_b1_W11_005",
+        "word": "Wiese",
+        "article": "die",
+        "plural": "Wiesen",
+        "pronunciation": "비제",
+        "meaning": "잔디밭",
+        "example": "Ich suche die Wiese, können Sie mir helfen?",
+        "example_translation": "저는 잔디밭을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Wiese, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Park",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -167,6 +247,121 @@
         "answer": "dem",
         "explanation": "참조어 'Der Mann'는 남성 단수입니다. 관계사절에서 동사 'begegnen'에는 항상 여격(누군가를 만나다)이 필요합니다. 따라서 여격 남성 단수형의 올바른 관계대명사는 'dem'입니다.",
         "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_park_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Baum.",
+        "question_translation": "나는 그 나무이/가 필요해.",
+        "options": [
+          "die",
+          "das",
+          "der",
+          "den"
+        ],
+        "answer": "den",
+        "explanation": "Baum은/는 der 명사이므로, Akkusativ 형태는 den입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_park_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Bank.",
+        "question_translation": "나는 그 벤치와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "der"
+        ],
+        "answer": "der",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Bank은/는 die 명사이므로 der가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_park_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Blume.",
+        "question_translation": "여기에 그 꽃이/가 있다.",
+        "options": [
+          "den",
+          "das",
+          "der",
+          "die"
+        ],
+        "answer": "die",
+        "explanation": "Blume은/는 die 명사이므로, Nominativ 형태는 die입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_park_b1_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum park.",
+        "question_translation": "우리는 오늘 park에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_park_b1_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
         "week": "W11"
       }
     ],
@@ -296,6 +491,216 @@
         "explanation": "관광객은 더 느린 속도로 지시를 반복하도록 정중하게 요청합니다. 도움이 되는 응답은 요청에 응하고 친절하게 설명을 반복하는 것입니다.",
         "grammar_point": "Höfliche Bitten (\"Könnten Sie...?\" + Infinitiv), Verständnisfragen (\"noch einmal wiederholen\"), Wegbeschreibungen geben (Imperativ, Präpositionen).",
         "week": "W11"
+      },
+      {
+        "id": "conv_park_b1_W11_001",
+        "situation": "나무 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Baum vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Baum 포르레티히 하벤?",
+            "translation": "나무 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Baum ist dort hinten.",
+            "pronunciation": "야, der Baum 이스트 도르트 힌텐.",
+            "translation": "네, 나무은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Baum?",
+            "pronunciation": "보 핀데 이히 den Baum?",
+            "translation": "나무을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Baum?",
+        "explanation": "나무의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_park_b1_W11_002",
+        "situation": "벤치 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Bank vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Bank 포르레티히 하벤?",
+            "translation": "벤치 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Bank ist dort hinten.",
+            "pronunciation": "야, die Bank 이스트 도르트 힌텐.",
+            "translation": "네, 벤치은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Bank?",
+            "pronunciation": "보 핀데 이히 die Bank?",
+            "translation": "벤치을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Bank?",
+        "explanation": "벤치의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_park_b1_W11_003",
+        "situation": "꽃 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Blume vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Blume 포르레티히 하벤?",
+            "translation": "꽃 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Blume ist dort hinten.",
+            "pronunciation": "야, die Blume 이스트 도르트 힌텐.",
+            "translation": "네, 꽃은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Blume?",
+            "pronunciation": "보 핀데 이히 die Blume?",
+            "translation": "꽃을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Blume?",
+        "explanation": "꽃의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_park_b1_W11_004",
+        "situation": "길 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Weg vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Weg 포르레티히 하벤?",
+            "translation": "길 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Weg ist dort hinten.",
+            "pronunciation": "야, der Weg 이스트 도르트 힌텐.",
+            "translation": "네, 길은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Weg?",
+            "pronunciation": "보 핀데 이히 den Weg?",
+            "translation": "길을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Weg?",
+        "explanation": "길의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_park_b1_W11_005",
+        "situation": "잔디밭 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Wiese vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Wiese 포르레티히 하벤?",
+            "translation": "잔디밭 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Wiese ist dort hinten.",
+            "pronunciation": "야, die Wiese 이스트 도르트 힌텐.",
+            "translation": "네, 잔디밭은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Wiese?",
+            "pronunciation": "보 핀데 이히 die Wiese?",
+            "translation": "잔디밭을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Wiese?",
+        "explanation": "잔디밭의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -406,6 +811,116 @@
             "text": "Ja, aber manchmal ist es mir zu voll.",
             "pronunciation": "야, 아버 만히말 이스트 에스 미어 추 폴.",
             "translation": "네, 하지만 가끔은 너무 붐벼요."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_park_b1_W11_001",
+        "phrase": "Ich interessiere mich für den Baum.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Baum.",
+        "meaning": "저는 그 나무에 관심이 있습니다.",
+        "usage": "나무을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Baum.",
+            "pronunciation": "게벤 지 미어 비테 den Baum.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_park_b1_W11_002",
+        "phrase": "Ich interessiere mich für die Bank.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Bank.",
+        "meaning": "저는 그 벤치에 관심이 있습니다.",
+        "usage": "벤치을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Bank.",
+            "pronunciation": "게벤 지 미어 비테 die Bank.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_park_b1_W11_003",
+        "phrase": "Ich interessiere mich für die Blume.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Blume.",
+        "meaning": "저는 그 꽃에 관심이 있습니다.",
+        "usage": "꽃을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Blume.",
+            "pronunciation": "게벤 지 미어 비테 die Blume.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_park_b1_W11_004",
+        "phrase": "Ich interessiere mich für den Weg.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Weg.",
+        "meaning": "저는 그 길에 관심이 있습니다.",
+        "usage": "길을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Weg.",
+            "pronunciation": "게벤 지 미어 비테 den Weg.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_park_b1_W11_005",
+        "phrase": "Ich interessiere mich für die Wiese.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Wiese.",
+        "meaning": "저는 그 잔디밭에 관심이 있습니다.",
+        "usage": "잔디밭을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Wiese.",
+            "pronunciation": "게벤 지 미어 비테 die Wiese.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"

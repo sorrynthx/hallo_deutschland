@@ -87,6 +87,86 @@
           "Recht"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_001",
+        "word": "Formular",
+        "article": "das",
+        "plural": "Formulare",
+        "pronunciation": "포르물라",
+        "meaning": "서식",
+        "example": "Ich suche das Formular, können Sie mir helfen?",
+        "example_translation": "저는 서식을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Formular, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Rathaus",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_002",
+        "word": "Unterschrift",
+        "article": "die",
+        "plural": "Unterschriften",
+        "pronunciation": "운터슈리프트",
+        "meaning": "서명",
+        "example": "Ich suche die Unterschrift, können Sie mir helfen?",
+        "example_translation": "저는 서명을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Unterschrift, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Rathaus",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_003",
+        "word": "Termin",
+        "article": "der",
+        "plural": "Termine",
+        "pronunciation": "테어민",
+        "meaning": "예약",
+        "example": "Ich suche den Termin, können Sie mir helfen?",
+        "example_translation": "저는 예약을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Termin, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Rathaus",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_004",
+        "word": "Beamte",
+        "article": "der",
+        "plural": "Beamten",
+        "pronunciation": "베암테",
+        "meaning": "공무원",
+        "example": "Ich suche den Beamte, können Sie mir helfen?",
+        "example_translation": "저는 공무원을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Beamte, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Rathaus",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_rathaus_b1_W11_005",
+        "word": "Pass",
+        "article": "der",
+        "plural": "Pässe",
+        "pronunciation": "파스",
+        "meaning": "여권",
+        "example": "Ich suche den Pass, können Sie mir helfen?",
+        "example_translation": "저는 여권을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Pass, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Rathaus",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -231,6 +311,121 @@
           }
         ],
         "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Formular.",
+        "question_translation": "나는 그 서식이/가 필요해.",
+        "options": [
+          "die",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "das",
+        "explanation": "Formular은/는 das 명사이므로, Akkusativ 형태는 das입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Unterschrift.",
+        "question_translation": "나는 그 서명와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "der"
+        ],
+        "answer": "der",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Unterschrift은/는 die 명사이므로 der가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Termin.",
+        "question_translation": "여기에 그 예약이/가 있다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "der"
+        ],
+        "answer": "der",
+        "explanation": "Termin은/는 der 명사이므로, Nominativ 형태는 der입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum rathaus.",
+        "question_translation": "우리는 오늘 rathaus에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_rathaus_b1_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
       }
     ],
     "conversation": [
@@ -343,6 +538,216 @@
         "answer": "Ich zahle gerne bar.",
         "explanation": "경찰관은 선호하는 지불 방법을 묻습니다. '나는 현금으로 지불하는 것을 좋아합니다'라는 대답은 어떤 지불 옵션이 선호되는지에 대한 원하는 정보를 제공합니다.",
         "grammar_point": "Fragen nach der Zahlungsmethode und der Gebrauch von Modalverben ('möchten')."
+      },
+      {
+        "id": "conv_rathaus_b1_W11_001",
+        "situation": "서식 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Formular vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Formular 포르레티히 하벤?",
+            "translation": "서식 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Formular ist dort hinten.",
+            "pronunciation": "야, das Formular 이스트 도르트 힌텐.",
+            "translation": "네, 서식은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Formular?",
+            "pronunciation": "보 핀데 이히 das Formular?",
+            "translation": "서식을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Formular?",
+        "explanation": "서식의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_rathaus_b1_W11_002",
+        "situation": "서명 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Unterschrift vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Unterschrift 포르레티히 하벤?",
+            "translation": "서명 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Unterschrift ist dort hinten.",
+            "pronunciation": "야, die Unterschrift 이스트 도르트 힌텐.",
+            "translation": "네, 서명은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Unterschrift?",
+            "pronunciation": "보 핀데 이히 die Unterschrift?",
+            "translation": "서명을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Unterschrift?",
+        "explanation": "서명의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_rathaus_b1_W11_003",
+        "situation": "예약 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Termin vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Termin 포르레티히 하벤?",
+            "translation": "예약 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Termin ist dort hinten.",
+            "pronunciation": "야, der Termin 이스트 도르트 힌텐.",
+            "translation": "네, 예약은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Termin?",
+            "pronunciation": "보 핀데 이히 den Termin?",
+            "translation": "예약을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Termin?",
+        "explanation": "예약의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_rathaus_b1_W11_004",
+        "situation": "공무원 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Beamte vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Beamte 포르레티히 하벤?",
+            "translation": "공무원 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Beamte ist dort hinten.",
+            "pronunciation": "야, der Beamte 이스트 도르트 힌텐.",
+            "translation": "네, 공무원은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Beamte?",
+            "pronunciation": "보 핀데 이히 den Beamte?",
+            "translation": "공무원을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Beamte?",
+        "explanation": "공무원의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_rathaus_b1_W11_005",
+        "situation": "여권 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Pass vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Pass 포르레티히 하벤?",
+            "translation": "여권 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Pass ist dort hinten.",
+            "pronunciation": "야, der Pass 이스트 도르트 힌텐.",
+            "translation": "네, 여권은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Pass?",
+            "pronunciation": "보 핀데 이히 den Pass?",
+            "translation": "여권을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Pass?",
+        "explanation": "여권의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -453,6 +858,116 @@
             "text": "Alle Informationen finden Sie auf unserer Webseite.",
             "pronunciation": "알레 인포르마치오넨 핀덴 지 아우프 운제러 벱자이테.",
             "translation": "모든 정보는 저희 웹사이트에서 찾으실 수 있습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_001",
+        "phrase": "Ich interessiere mich für das Formular.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 das Formular.",
+        "meaning": "저는 그 서식에 관심이 있습니다.",
+        "usage": "서식을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Formular.",
+            "pronunciation": "게벤 지 미어 비테 das Formular.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_002",
+        "phrase": "Ich interessiere mich für die Unterschrift.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Unterschrift.",
+        "meaning": "저는 그 서명에 관심이 있습니다.",
+        "usage": "서명을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Unterschrift.",
+            "pronunciation": "게벤 지 미어 비테 die Unterschrift.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_003",
+        "phrase": "Ich interessiere mich für den Termin.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Termin.",
+        "meaning": "저는 그 예약에 관심이 있습니다.",
+        "usage": "예약을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Termin.",
+            "pronunciation": "게벤 지 미어 비테 den Termin.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_004",
+        "phrase": "Ich interessiere mich für den Beamte.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Beamte.",
+        "meaning": "저는 그 공무원에 관심이 있습니다.",
+        "usage": "공무원을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Beamte.",
+            "pronunciation": "게벤 지 미어 비테 den Beamte.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_rathaus_b1_W11_005",
+        "phrase": "Ich interessiere mich für den Pass.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Pass.",
+        "meaning": "저는 그 여권에 관심이 있습니다.",
+        "usage": "여권을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Pass.",
+            "pronunciation": "게벤 지 미어 비테 den Pass.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"

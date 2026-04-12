@@ -88,6 +88,86 @@
           "구매"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_001",
+        "word": "Zug",
+        "article": "der",
+        "plural": "Züge",
+        "pronunciation": "추크",
+        "meaning": "기차",
+        "example": "Ich suche den Zug, können Sie mir helfen?",
+        "example_translation": "저는 기차을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Zug, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Station",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_002",
+        "word": "Gleis",
+        "article": "das",
+        "plural": "Gleise",
+        "pronunciation": "글라이스",
+        "meaning": "플랫폼",
+        "example": "Ich suche das Gleis, können Sie mir helfen?",
+        "example_translation": "저는 플랫폼을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Gleis, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Station",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_003",
+        "word": "Fahrkarte",
+        "article": "die",
+        "plural": "Fahrkarten",
+        "pronunciation": "파르카르테",
+        "meaning": "승차권",
+        "example": "Ich suche die Fahrkarte, können Sie mir helfen?",
+        "example_translation": "저는 승차권을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Fahrkarte, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Station",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_004",
+        "word": "Verspätung",
+        "article": "die",
+        "plural": "Verspätungen",
+        "pronunciation": "페어슈패퉁",
+        "meaning": "지연",
+        "example": "Ich suche die Verspätung, können Sie mir helfen?",
+        "example_translation": "저는 지연을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Verspätung, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Station",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_station_a2_W11_005",
+        "word": "Bahnhof",
+        "article": "der",
+        "plural": "Bahnhöfe",
+        "pronunciation": "반호프",
+        "meaning": "기차역",
+        "example": "Ich suche den Bahnhof, können Sie mir helfen?",
+        "example_translation": "저는 기차역을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Bahnhof, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Station",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -181,6 +261,121 @@
         "explanation": "'Der Zug'은 남성 명사이며 주격에 위치합니다. 남성 주격 단수의 정관사 'der' 뒤에 오는 형용사는 약변화에서 '-e' 어미를 갖습니다.",
         "related_table": [],
         "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Zug.",
+        "question_translation": "나는 그 기차이/가 필요해.",
+        "options": [
+          "die",
+          "das",
+          "der",
+          "den"
+        ],
+        "answer": "den",
+        "explanation": "Zug은/는 der 명사이므로, Akkusativ 형태는 den입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Gleis.",
+        "question_translation": "나는 그 플랫폼와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "dem"
+        ],
+        "answer": "dem",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Gleis은/는 das 명사이므로 dem가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Fahrkarte.",
+        "question_translation": "여기에 그 승차권이/가 있다.",
+        "options": [
+          "den",
+          "das",
+          "der",
+          "die"
+        ],
+        "answer": "die",
+        "explanation": "Fahrkarte은/는 die 명사이므로, Nominativ 형태는 die입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum station.",
+        "question_translation": "우리는 오늘 station에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_station_a2_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
       }
     ],
     "conversation": [
@@ -266,6 +461,216 @@
         "answer": "Er fährt um 14:30 Uhr ab.",
         "explanation": "'당신의 기차는 언제 출발합니까?'라는 질문이 있습니다. 기차 출발 시간을 묻는다. '그는 오후 2시 30분에 출발합니다.' 이 시간을 올바르게 제공합니다.",
         "grammar_point": "Fragepronomen 'wann' und trennbares Verb 'abfahren'.",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a2_W11_001",
+        "situation": "기차 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Zug?",
+            "pronunciation": "하벤 지 노흐 Zug?",
+            "translation": "아직 기차 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Zug ist dort hinten.",
+            "pronunciation": "야, der Zug 이스트 도르트 힌텐.",
+            "translation": "네, 기차은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Zug?",
+            "pronunciation": "보 핀데 이히 den Zug?",
+            "translation": "기차을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Zug?",
+        "explanation": "기차의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a2_W11_002",
+        "situation": "플랫폼 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Gleis?",
+            "pronunciation": "하벤 지 노흐 Gleis?",
+            "translation": "아직 플랫폼 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Gleis ist dort hinten.",
+            "pronunciation": "야, das Gleis 이스트 도르트 힌텐.",
+            "translation": "네, 플랫폼은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Gleis?",
+            "pronunciation": "보 핀데 이히 das Gleis?",
+            "translation": "플랫폼을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Gleis?",
+        "explanation": "플랫폼의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a2_W11_003",
+        "situation": "승차권 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Fahrkarte?",
+            "pronunciation": "하벤 지 노흐 Fahrkarte?",
+            "translation": "아직 승차권 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Fahrkarte ist dort hinten.",
+            "pronunciation": "야, die Fahrkarte 이스트 도르트 힌텐.",
+            "translation": "네, 승차권은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Fahrkarte?",
+            "pronunciation": "보 핀데 이히 die Fahrkarte?",
+            "translation": "승차권을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Fahrkarte?",
+        "explanation": "승차권의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a2_W11_004",
+        "situation": "지연 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Verspätung?",
+            "pronunciation": "하벤 지 노흐 Verspätung?",
+            "translation": "아직 지연 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Verspätung ist dort hinten.",
+            "pronunciation": "야, die Verspätung 이스트 도르트 힌텐.",
+            "translation": "네, 지연은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Verspätung?",
+            "pronunciation": "보 핀데 이히 die Verspätung?",
+            "translation": "지연을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Verspätung?",
+        "explanation": "지연의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_station_a2_W11_005",
+        "situation": "기차역 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Bahnhof?",
+            "pronunciation": "하벤 지 노흐 Bahnhof?",
+            "translation": "아직 기차역 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Bahnhof ist dort hinten.",
+            "pronunciation": "야, der Bahnhof 이스트 도르트 힌텐.",
+            "translation": "네, 기차역은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Bahnhof?",
+            "pronunciation": "보 핀데 이히 den Bahnhof?",
+            "translation": "기차역을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Bahnhof?",
+        "explanation": "기차역의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
         "week": "W11"
       }
     ],
@@ -362,6 +767,116 @@
             "text": "Nein, der Zug ist pünktlich.",
             "pronunciation": "나인, 데어 쭉 이스트 퓐크틀리히.",
             "translation": "아니요, 기차는 정시입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_001",
+        "phrase": "Ich hätte gern den Zug.",
+        "pronunciation": "이히 헤테 게른 den Zug.",
+        "meaning": "저는 그 기차을/를 원합니다.",
+        "usage": "기차을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Zug.",
+            "pronunciation": "게벤 지 미어 비테 den Zug.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_002",
+        "phrase": "Ich hätte gern das Gleis.",
+        "pronunciation": "이히 헤테 게른 das Gleis.",
+        "meaning": "저는 그 플랫폼을/를 원합니다.",
+        "usage": "플랫폼을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Gleis.",
+            "pronunciation": "게벤 지 미어 비테 das Gleis.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_003",
+        "phrase": "Ich hätte gern die Fahrkarte.",
+        "pronunciation": "이히 헤테 게른 die Fahrkarte.",
+        "meaning": "저는 그 승차권을/를 원합니다.",
+        "usage": "승차권을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Fahrkarte.",
+            "pronunciation": "게벤 지 미어 비테 die Fahrkarte.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_004",
+        "phrase": "Ich hätte gern die Verspätung.",
+        "pronunciation": "이히 헤테 게른 die Verspätung.",
+        "meaning": "저는 그 지연을/를 원합니다.",
+        "usage": "지연을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Verspätung.",
+            "pronunciation": "게벤 지 미어 비테 die Verspätung.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_station_a2_W11_005",
+        "phrase": "Ich hätte gern den Bahnhof.",
+        "pronunciation": "이히 헤테 게른 den Bahnhof.",
+        "meaning": "저는 그 기차역을/를 원합니다.",
+        "usage": "기차역을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Bahnhof.",
+            "pronunciation": "게벤 지 미어 비테 den Bahnhof.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"
