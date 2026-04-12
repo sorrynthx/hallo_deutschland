@@ -87,6 +87,86 @@
           "Körper"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_001",
+        "word": "Arzt",
+        "article": "der",
+        "plural": "Ärzte",
+        "pronunciation": "아르츠트",
+        "meaning": "의사",
+        "example": "Ich suche den Arzt, können Sie mir helfen?",
+        "example_translation": "저는 의사을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Arzt, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Hospital",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_002",
+        "word": "Schmerz",
+        "article": "der",
+        "plural": "Schmerzen",
+        "pronunciation": "슈메르츠",
+        "meaning": "통증",
+        "example": "Ich suche den Schmerz, können Sie mir helfen?",
+        "example_translation": "저는 통증을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Schmerz, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Hospital",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_003",
+        "word": "Rezept",
+        "article": "das",
+        "plural": "Rezepte",
+        "pronunciation": "레쳅트",
+        "meaning": "처방전",
+        "example": "Ich suche das Rezept, können Sie mir helfen?",
+        "example_translation": "저는 처방전을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Rezept, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Hospital",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_004",
+        "word": "Apotheke",
+        "article": "die",
+        "plural": "Apotheken",
+        "pronunciation": "아포테케",
+        "meaning": "약국",
+        "example": "Ich suche die Apotheke, können Sie mir helfen?",
+        "example_translation": "저는 약국을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Apotheke, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Hospital",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_hospital_a2_W11_005",
+        "word": "Fieber",
+        "article": "das",
+        "plural": "-",
+        "pronunciation": "피버",
+        "meaning": "열",
+        "example": "Ich suche das Fieber, können Sie mir helfen?",
+        "example_translation": "저는 열을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Fieber, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Hospital",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -175,6 +255,121 @@
         "answer": "seltsames",
         "explanation": "명사 'Gefühl'는 중성(느낌)이며 여기서 부정관사 'ein' 뒤에 대격에 있습니다. 올바른 형용사 어미는 '-es'입니다.",
         "related_table": [],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Arzt.",
+        "question_translation": "나는 그 의사이/가 필요해.",
+        "options": [
+          "die",
+          "das",
+          "der",
+          "den"
+        ],
+        "answer": "den",
+        "explanation": "Arzt은/는 der 명사이므로, Akkusativ 형태는 den입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Schmerz.",
+        "question_translation": "나는 그 통증와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "dem"
+        ],
+        "answer": "dem",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Schmerz은/는 der 명사이므로 dem가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Rezept.",
+        "question_translation": "여기에 그 처방전이/가 있다.",
+        "options": [
+          "die",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "das",
+        "explanation": "Rezept은/는 das 명사이므로, Nominativ 형태는 das입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum hospital.",
+        "question_translation": "우리는 오늘 hospital에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_hospital_a2_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
         "week": "W11"
       }
     ],
@@ -276,6 +471,216 @@
         "explanation": "간호사는 환자가 아직 진통제를 받았는지 묻습니다. 가장 좋은 대답은 그가 아직 하나도 얻지 못했고 고통을 덜어주기 위해 하나를 요청한다는 것입니다.",
         "grammar_point": "Höfliche Bitten mit 'könnte ich bitte...' (Konjunktiv II) und Verneinungen (z.B. 'leider noch nicht').",
         "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a2_W11_001",
+        "situation": "의사 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Arzt?",
+            "pronunciation": "하벤 지 노흐 Arzt?",
+            "translation": "아직 의사 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Arzt ist dort hinten.",
+            "pronunciation": "야, der Arzt 이스트 도르트 힌텐.",
+            "translation": "네, 의사은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Arzt?",
+            "pronunciation": "보 핀데 이히 den Arzt?",
+            "translation": "의사을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Arzt?",
+        "explanation": "의사의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a2_W11_002",
+        "situation": "통증 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Schmerz?",
+            "pronunciation": "하벤 지 노흐 Schmerz?",
+            "translation": "아직 통증 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Schmerz ist dort hinten.",
+            "pronunciation": "야, der Schmerz 이스트 도르트 힌텐.",
+            "translation": "네, 통증은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Schmerz?",
+            "pronunciation": "보 핀데 이히 den Schmerz?",
+            "translation": "통증을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Schmerz?",
+        "explanation": "통증의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a2_W11_003",
+        "situation": "처방전 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Rezept?",
+            "pronunciation": "하벤 지 노흐 Rezept?",
+            "translation": "아직 처방전 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Rezept ist dort hinten.",
+            "pronunciation": "야, das Rezept 이스트 도르트 힌텐.",
+            "translation": "네, 처방전은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Rezept?",
+            "pronunciation": "보 핀데 이히 das Rezept?",
+            "translation": "처방전을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Rezept?",
+        "explanation": "처방전의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a2_W11_004",
+        "situation": "약국 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Apotheke?",
+            "pronunciation": "하벤 지 노흐 Apotheke?",
+            "translation": "아직 약국 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Apotheke ist dort hinten.",
+            "pronunciation": "야, die Apotheke 이스트 도르트 힌텐.",
+            "translation": "네, 약국은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Apotheke?",
+            "pronunciation": "보 핀데 이히 die Apotheke?",
+            "translation": "약국을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Apotheke?",
+        "explanation": "약국의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_hospital_a2_W11_005",
+        "situation": "열 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Fieber?",
+            "pronunciation": "하벤 지 노흐 Fieber?",
+            "translation": "아직 열 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Fieber ist dort hinten.",
+            "pronunciation": "야, das Fieber 이스트 도르트 힌텐.",
+            "translation": "네, 열은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Fieber?",
+            "pronunciation": "보 핀데 이히 das Fieber?",
+            "translation": "열을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Fieber?",
+        "explanation": "열의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -361,6 +766,116 @@
             "text": "Es geht darum, dass Sie diese Tablette zweimal täglich nehmen sollen.",
             "pronunciation": "에스 게트 다룸, 다스 지 디제 타블레테 츠바이말 태글리히 네멘 졸렌.",
             "translation": "이 알약을 하루에 두 번 드셔야 한다는 내용입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_001",
+        "phrase": "Ich hätte gern den Arzt.",
+        "pronunciation": "이히 헤테 게른 den Arzt.",
+        "meaning": "저는 그 의사을/를 원합니다.",
+        "usage": "의사을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Arzt.",
+            "pronunciation": "게벤 지 미어 비테 den Arzt.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_002",
+        "phrase": "Ich hätte gern den Schmerz.",
+        "pronunciation": "이히 헤테 게른 den Schmerz.",
+        "meaning": "저는 그 통증을/를 원합니다.",
+        "usage": "통증을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Schmerz.",
+            "pronunciation": "게벤 지 미어 비테 den Schmerz.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_003",
+        "phrase": "Ich hätte gern das Rezept.",
+        "pronunciation": "이히 헤테 게른 das Rezept.",
+        "meaning": "저는 그 처방전을/를 원합니다.",
+        "usage": "처방전을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Rezept.",
+            "pronunciation": "게벤 지 미어 비테 das Rezept.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_004",
+        "phrase": "Ich hätte gern die Apotheke.",
+        "pronunciation": "이히 헤테 게른 die Apotheke.",
+        "meaning": "저는 그 약국을/를 원합니다.",
+        "usage": "약국을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Apotheke.",
+            "pronunciation": "게벤 지 미어 비테 die Apotheke.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_hospital_a2_W11_005",
+        "phrase": "Ich hätte gern das Fieber.",
+        "pronunciation": "이히 헤테 게른 das Fieber.",
+        "meaning": "저는 그 열을/를 원합니다.",
+        "usage": "열을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Fieber.",
+            "pronunciation": "게벤 지 미어 비테 das Fieber.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"

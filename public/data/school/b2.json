@@ -18,6 +18,86 @@
           "presentation"
         ],
         "week": "W12"
+      },
+      {
+        "id": "voc_school_b2_W11_001",
+        "word": "Lehrer",
+        "article": "der",
+        "plural": "Lehrer",
+        "pronunciation": "레러",
+        "meaning": "선생님",
+        "example": "Ich suche den Lehrer, können Sie mir helfen?",
+        "example_translation": "저는 선생님을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Lehrer, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "School",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b2_W11_002",
+        "word": "Schüler",
+        "article": "der",
+        "plural": "Schüler",
+        "pronunciation": "쉴러",
+        "meaning": "학생",
+        "example": "Ich suche den Schüler, können Sie mir helfen?",
+        "example_translation": "저는 학생을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Schüler, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "School",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b2_W11_003",
+        "word": "Klasse",
+        "article": "die",
+        "plural": "Klassen",
+        "pronunciation": "클라쎄",
+        "meaning": "학급",
+        "example": "Ich suche die Klasse, können Sie mir helfen?",
+        "example_translation": "저는 학급을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Klasse, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "School",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b2_W11_004",
+        "word": "Hausaufgabe",
+        "article": "die",
+        "plural": "Hausaufgaben",
+        "pronunciation": "하우스아우프가베",
+        "meaning": "숙제",
+        "example": "Ich suche die Hausaufgabe, können Sie mir helfen?",
+        "example_translation": "저는 숙제을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Hausaufgabe, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "School",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_school_b2_W11_005",
+        "word": "Tafel",
+        "article": "die",
+        "plural": "Tafeln",
+        "pronunciation": "타펠",
+        "meaning": "칠판",
+        "example": "Ich suche die Tafel, können Sie mir helfen?",
+        "example_translation": "저는 칠판을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Tafel, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "School",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -30,10 +110,447 @@
         "alternatives": [],
         "responses": [],
         "week": "W12"
+      },
+      {
+        "id": "expr_school_b2_W11_001",
+        "phrase": "Ich interessiere mich für den Lehrer.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Lehrer.",
+        "meaning": "저는 그 선생님에 관심이 있습니다.",
+        "usage": "선생님을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Lehrer.",
+            "pronunciation": "게벤 지 미어 비테 den Lehrer.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_school_b2_W11_002",
+        "phrase": "Ich interessiere mich für den Schüler.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 den Schüler.",
+        "meaning": "저는 그 학생에 관심이 있습니다.",
+        "usage": "학생을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Schüler.",
+            "pronunciation": "게벤 지 미어 비테 den Schüler.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_school_b2_W11_003",
+        "phrase": "Ich interessiere mich für die Klasse.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Klasse.",
+        "meaning": "저는 그 학급에 관심이 있습니다.",
+        "usage": "학급을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Klasse.",
+            "pronunciation": "게벤 지 미어 비테 die Klasse.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_school_b2_W11_004",
+        "phrase": "Ich interessiere mich für die Hausaufgabe.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Hausaufgabe.",
+        "meaning": "저는 그 숙제에 관심이 있습니다.",
+        "usage": "숙제을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Hausaufgabe.",
+            "pronunciation": "게벤 지 미어 비테 die Hausaufgabe.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_school_b2_W11_005",
+        "phrase": "Ich interessiere mich für die Tafel.",
+        "pronunciation": "이히 인터레시어레 미히 퓌어 die Tafel.",
+        "meaning": "저는 그 칠판에 관심이 있습니다.",
+        "usage": "칠판을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Tafel.",
+            "pronunciation": "게벤 지 미어 비테 die Tafel.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
       }
     ],
-    "grammar": [],
-    "conversation": []
+    "grammar": [
+      {
+        "id": "gram_school_b2_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Lehrer.",
+        "question_translation": "나는 그 선생님이/가 필요해.",
+        "options": [
+          "die",
+          "das",
+          "der",
+          "den"
+        ],
+        "answer": "den",
+        "explanation": "Lehrer은/는 der 명사이므로, Akkusativ 형태는 den입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_school_b2_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Schüler.",
+        "question_translation": "나는 그 학생와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "dem"
+        ],
+        "answer": "dem",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Schüler은/는 der 명사이므로 dem가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_school_b2_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Klasse.",
+        "question_translation": "여기에 그 학급이/가 있다.",
+        "options": [
+          "den",
+          "das",
+          "der",
+          "die"
+        ],
+        "answer": "die",
+        "explanation": "Klasse은/는 die 명사이므로, Nominativ 형태는 die입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_school_b2_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum school.",
+        "question_translation": "우리는 오늘 school에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_school_b2_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      }
+    ],
+    "conversation": [
+      {
+        "id": "conv_school_b2_W11_001",
+        "situation": "선생님 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Lehrer vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Lehrer 포르레티히 하벤?",
+            "translation": "선생님 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Lehrer ist dort hinten.",
+            "pronunciation": "야, der Lehrer 이스트 도르트 힌텐.",
+            "translation": "네, 선생님은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Lehrer?",
+            "pronunciation": "보 핀데 이히 den Lehrer?",
+            "translation": "선생님을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Lehrer?",
+        "explanation": "선생님의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_school_b2_W11_002",
+        "situation": "학생 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Schüler vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Schüler 포르레티히 하벤?",
+            "translation": "학생 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Schüler ist dort hinten.",
+            "pronunciation": "야, der Schüler 이스트 도르트 힌텐.",
+            "translation": "네, 학생은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Schüler?",
+            "pronunciation": "보 핀데 이히 den Schüler?",
+            "translation": "학생을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Schüler?",
+        "explanation": "학생의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_school_b2_W11_003",
+        "situation": "학급 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Klasse vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Klasse 포르레티히 하벤?",
+            "translation": "학급 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Klasse ist dort hinten.",
+            "pronunciation": "야, die Klasse 이스트 도르트 힌텐.",
+            "translation": "네, 학급은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Klasse?",
+            "pronunciation": "보 핀데 이히 die Klasse?",
+            "translation": "학급을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Klasse?",
+        "explanation": "학급의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_school_b2_W11_004",
+        "situation": "숙제 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Hausaufgabe vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Hausaufgabe 포르레티히 하벤?",
+            "translation": "숙제 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Hausaufgabe ist dort hinten.",
+            "pronunciation": "야, die Hausaufgabe 이스트 도르트 힌텐.",
+            "translation": "네, 숙제은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Hausaufgabe?",
+            "pronunciation": "보 핀데 이히 die Hausaufgabe?",
+            "translation": "숙제을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Hausaufgabe?",
+        "explanation": "숙제의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_school_b2_W11_005",
+        "situation": "칠판 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Könnten Sie mir bitte sagen, ob Sie noch Tafel vorrätig haben?",
+            "pronunciation": "쾨넨 지 미어 비테 자겐, 옵 지 노흐 Tafel 포르레티히 하벤?",
+            "translation": "칠판 재고가 아직 있는지 말씀해 주시겠어요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Tafel ist dort hinten.",
+            "pronunciation": "야, die Tafel 이스트 도르트 힌텐.",
+            "translation": "네, 칠판은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Tafel?",
+            "pronunciation": "보 핀데 이히 die Tafel?",
+            "translation": "칠판을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Tafel?",
+        "explanation": "칠판의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      }
+    ]
   },
-  "lastUpdated": "W12"
+  "lastUpdated": "W11"
 }

@@ -89,6 +89,86 @@
           "Einkaufen"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_001",
+        "word": "Brot",
+        "article": "das",
+        "plural": "Brote",
+        "pronunciation": "브로트",
+        "meaning": "빵",
+        "example": "Ich suche das Brot, können Sie mir helfen?",
+        "example_translation": "저는 빵을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Brot, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Bakery",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_002",
+        "word": "Kuchen",
+        "article": "der",
+        "plural": "Kuchen",
+        "pronunciation": "쿠헨",
+        "meaning": "케이크",
+        "example": "Ich suche den Kuchen, können Sie mir helfen?",
+        "example_translation": "저는 케이크을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Kuchen, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Bakery",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_003",
+        "word": "Torte",
+        "article": "die",
+        "plural": "Torten",
+        "pronunciation": "토르테",
+        "meaning": "크림 케이크",
+        "example": "Ich suche die Torte, können Sie mir helfen?",
+        "example_translation": "저는 크림 케이크을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Torte, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Bakery",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_004",
+        "word": "Brezel",
+        "article": "die",
+        "plural": "Brezeln",
+        "pronunciation": "브레첼",
+        "meaning": "프레즐",
+        "example": "Ich suche die Brezel, können Sie mir helfen?",
+        "example_translation": "저는 프레즐을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Brezel, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Bakery",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_bakery_a2_W11_005",
+        "word": "Brötchen",
+        "article": "das",
+        "plural": "Brötchen",
+        "pronunciation": "브뢰첸",
+        "meaning": "작은 빵",
+        "example": "Ich suche das Brötchen, können Sie mir helfen?",
+        "example_translation": "저는 작은 빵을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Brötchen, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Bakery",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -192,6 +272,121 @@
           {
             "pronoun": "sie/Sie",
             "form": "nehmen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Brot.",
+        "question_translation": "나는 그 빵이/가 필요해.",
+        "options": [
+          "die",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "das",
+        "explanation": "Brot은/는 das 명사이므로, Akkusativ 형태는 das입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Kuchen.",
+        "question_translation": "나는 그 케이크와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "dem"
+        ],
+        "answer": "dem",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Kuchen은/는 der 명사이므로 dem가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Torte.",
+        "question_translation": "여기에 그 크림 케이크이/가 있다.",
+        "options": [
+          "den",
+          "das",
+          "der",
+          "die"
+        ],
+        "answer": "die",
+        "explanation": "Torte은/는 die 명사이므로, Nominativ 형태는 die입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum bakery.",
+        "question_translation": "우리는 오늘 bakery에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_bakery_a2_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
           }
         ],
         "week": "W11"
@@ -309,6 +504,216 @@
         "explanation": "'추천 메뉴가 무엇인가요?' 추천을 요청하는 직접적이고 정중한 방법입니다. 그러한 상황에서 가장 일반적이고 자연스러운 표현입니다. 두 번째 옵션은 구어적이고 덜 정중하며, 세 번째 옵션은 문법적으로 올바르지 않고 부자연스럽게 들립니다.",
         "grammar_point": "W-Fragen, direkte Fragen, Verbposition im Fragesatz",
         "week": "W11"
+      },
+      {
+        "id": "conv_bakery_a2_W11_001",
+        "situation": "빵 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Brot?",
+            "pronunciation": "하벤 지 노흐 Brot?",
+            "translation": "아직 빵 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Brot ist dort hinten.",
+            "pronunciation": "야, das Brot 이스트 도르트 힌텐.",
+            "translation": "네, 빵은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Brot?",
+            "pronunciation": "보 핀데 이히 das Brot?",
+            "translation": "빵을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Brot?",
+        "explanation": "빵의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_bakery_a2_W11_002",
+        "situation": "케이크 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Kuchen?",
+            "pronunciation": "하벤 지 노흐 Kuchen?",
+            "translation": "아직 케이크 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Kuchen ist dort hinten.",
+            "pronunciation": "야, der Kuchen 이스트 도르트 힌텐.",
+            "translation": "네, 케이크은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Kuchen?",
+            "pronunciation": "보 핀데 이히 den Kuchen?",
+            "translation": "케이크을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Kuchen?",
+        "explanation": "케이크의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_bakery_a2_W11_003",
+        "situation": "크림 케이크 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Torte?",
+            "pronunciation": "하벤 지 노흐 Torte?",
+            "translation": "아직 크림 케이크 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Torte ist dort hinten.",
+            "pronunciation": "야, die Torte 이스트 도르트 힌텐.",
+            "translation": "네, 크림 케이크은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Torte?",
+            "pronunciation": "보 핀데 이히 die Torte?",
+            "translation": "크림 케이크을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Torte?",
+        "explanation": "크림 케이크의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_bakery_a2_W11_004",
+        "situation": "프레즐 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Brezel?",
+            "pronunciation": "하벤 지 노흐 Brezel?",
+            "translation": "아직 프레즐 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Brezel ist dort hinten.",
+            "pronunciation": "야, die Brezel 이스트 도르트 힌텐.",
+            "translation": "네, 프레즐은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Brezel?",
+            "pronunciation": "보 핀데 이히 die Brezel?",
+            "translation": "프레즐을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Brezel?",
+        "explanation": "프레즐의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_bakery_a2_W11_005",
+        "situation": "작은 빵 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Brötchen?",
+            "pronunciation": "하벤 지 노흐 Brötchen?",
+            "translation": "아직 작은 빵 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Brötchen ist dort hinten.",
+            "pronunciation": "야, das Brötchen 이스트 도르트 힌텐.",
+            "translation": "네, 작은 빵은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Brötchen?",
+            "pronunciation": "보 핀데 이히 das Brötchen?",
+            "translation": "작은 빵을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Brötchen?",
+        "explanation": "작은 빵의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
       }
     ],
     "expressions": [
@@ -404,6 +809,116 @@
             "text": "Zwei Euro achtzig, bitte.",
             "pronunciation": "츠바이 오이로 아흐치히, 비테.",
             "translation": "2유로 80센트입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_001",
+        "phrase": "Ich hätte gern das Brot.",
+        "pronunciation": "이히 헤테 게른 das Brot.",
+        "meaning": "저는 그 빵을/를 원합니다.",
+        "usage": "빵을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Brot.",
+            "pronunciation": "게벤 지 미어 비테 das Brot.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_002",
+        "phrase": "Ich hätte gern den Kuchen.",
+        "pronunciation": "이히 헤테 게른 den Kuchen.",
+        "meaning": "저는 그 케이크을/를 원합니다.",
+        "usage": "케이크을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Kuchen.",
+            "pronunciation": "게벤 지 미어 비테 den Kuchen.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_003",
+        "phrase": "Ich hätte gern die Torte.",
+        "pronunciation": "이히 헤테 게른 die Torte.",
+        "meaning": "저는 그 크림 케이크을/를 원합니다.",
+        "usage": "크림 케이크을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Torte.",
+            "pronunciation": "게벤 지 미어 비테 die Torte.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_004",
+        "phrase": "Ich hätte gern die Brezel.",
+        "pronunciation": "이히 헤테 게른 die Brezel.",
+        "meaning": "저는 그 프레즐을/를 원합니다.",
+        "usage": "프레즐을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Brezel.",
+            "pronunciation": "게벤 지 미어 비테 die Brezel.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_bakery_a2_W11_005",
+        "phrase": "Ich hätte gern das Brötchen.",
+        "pronunciation": "이히 헤테 게른 das Brötchen.",
+        "meaning": "저는 그 작은 빵을/를 원합니다.",
+        "usage": "작은 빵을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Brötchen.",
+            "pronunciation": "게벤 지 미어 비테 das Brötchen.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"

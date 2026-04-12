@@ -87,6 +87,86 @@
           "A2"
         ],
         "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_001",
+        "word": "Buch",
+        "article": "das",
+        "plural": "Bücher",
+        "pronunciation": "부흐",
+        "meaning": "책",
+        "example": "Ich suche das Buch, können Sie mir helfen?",
+        "example_translation": "저는 책을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Buch, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Library",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_002",
+        "word": "Ausweis",
+        "article": "der",
+        "plural": "Ausweise",
+        "pronunciation": "아우스바이스",
+        "meaning": "신분증",
+        "example": "Ich suche den Ausweis, können Sie mir helfen?",
+        "example_translation": "저는 신분증을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 den Ausweis, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Library",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_003",
+        "word": "Frist",
+        "article": "die",
+        "plural": "Fristen",
+        "pronunciation": "프리스크",
+        "meaning": "기한",
+        "example": "Ich suche die Frist, können Sie mir helfen?",
+        "example_translation": "저는 기한을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Frist, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Library",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_004",
+        "word": "Mahnung",
+        "article": "die",
+        "plural": "Mahnungen",
+        "pronunciation": "마눙",
+        "meaning": "연체 통지",
+        "example": "Ich suche die Mahnung, können Sie mir helfen?",
+        "example_translation": "저는 연체 통지을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 die Mahnung, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Library",
+          "Nomen"
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "voc_library_a2_W11_005",
+        "word": "Regal",
+        "article": "das",
+        "plural": "Regale",
+        "pronunciation": "레갈",
+        "meaning": "선반",
+        "example": "Ich suche das Regal, können Sie mir helfen?",
+        "example_translation": "저는 선반을/를 찾고 있습니다. 도와주실 수 있나요?",
+        "example_pronunciation": "이히 주헤 das Regal, 쾨넨 지 미어 헬펜?",
+        "tags": [
+          "Library",
+          "Nomen"
+        ],
+        "week": "W11"
       }
     ],
     "grammar": [
@@ -168,6 +248,121 @@
         "explanation": "동사 \"suchen\"에는 대격이 필요합니다. \"Buch\"는 중성 명사(\"das Buch\")입니다. 부정관사(\"ein\") 뒤에 대격의 중성 명사를 설명하는 형용사가 오면 형용사는 어미 \"-es\"를 취합니다(예: ein interessantes Buch).",
         "related_table": [],
         "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_001",
+        "type": "fill_blank",
+        "topic": "Akkusativ",
+        "topic_explanation": "목적격(4격) 관사 채우기",
+        "question": "Ich brauche ____ Buch.",
+        "question_translation": "나는 그 책이/가 필요해.",
+        "options": [
+          "die",
+          "den",
+          "dem",
+          "das"
+        ],
+        "answer": "das",
+        "explanation": "Buch은/는 das 명사이므로, Akkusativ 형태는 das입니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "brauche"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_002",
+        "type": "fill_blank",
+        "topic": "Dativ",
+        "topic_explanation": "전치사 mit 다음 여격(3격)",
+        "question": "Ich komme mit ____ Ausweis.",
+        "question_translation": "나는 그 신분증와/과 함께 온다.",
+        "options": [
+          "die",
+          "den",
+          "das",
+          "dem"
+        ],
+        "answer": "dem",
+        "explanation": "mit 다음에는 Dativ가 옵니다. Ausweis은/는 der 명사이므로 dem가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "ich",
+            "form": "komme"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_003",
+        "type": "fill_blank",
+        "topic": "Nominativ",
+        "topic_explanation": "주격(1격) 관사 채우기",
+        "question": "Hier ist ____ Frist.",
+        "question_translation": "여기에 그 기한이/가 있다.",
+        "options": [
+          "den",
+          "das",
+          "der",
+          "die"
+        ],
+        "answer": "die",
+        "explanation": "Frist은/는 die 명사이므로, Nominativ 형태는 die입니다.",
+        "related_table": [
+          {
+            "pronoun": "es",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_004",
+        "type": "fill_blank",
+        "topic": "Präsens",
+        "topic_explanation": "현재 시제 동사 변화",
+        "question": "Wir ____ heute zum library.",
+        "question_translation": "우리는 오늘 library에 간다.",
+        "options": [
+          "gehen",
+          "gehe",
+          "geht",
+          "gehst"
+        ],
+        "answer": "gehen",
+        "explanation": "주어가 Wir(우리)일 때 동사원형(gehen) 형태를 사용합니다.",
+        "related_table": [
+          {
+            "pronoun": "wir",
+            "form": "gehen"
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "gram_library_a2_W11_005",
+        "type": "fill_blank",
+        "topic": "Adjektivdeklination",
+        "topic_explanation": "형용사 어미 변화",
+        "question": "Das ist ein schön____ Tag.",
+        "question_translation": "아름다운 날이다.",
+        "options": [
+          "er",
+          "es",
+          "e",
+          "en"
+        ],
+        "answer": "er",
+        "explanation": "Tag은 남성 명사이므로, 부정관사 ein 뒤 주격 형태인 schöner가 됩니다.",
+        "related_table": [
+          {
+            "pronoun": "er",
+            "form": "ist"
+          }
+        ],
+        "week": "W11"
       }
     ],
     "conversation": [
@@ -246,6 +441,216 @@
         "answer": "Es steht im Regal 3B, bei den Kinderbüchern.",
         "explanation": "사용자가 책의 위치를 ​​묻습니다. 사서는 책을 찾을 수 있는 정확한 위치를 알려줍니다.",
         "grammar_point": "Ortsangaben mit Präpositionen (im, bei), Dativ.",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_a2_W11_001",
+        "situation": "책 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Buch?",
+            "pronunciation": "하벤 지 노흐 Buch?",
+            "translation": "아직 책 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Buch ist dort hinten.",
+            "pronunciation": "야, das Buch 이스트 도르트 힌텐.",
+            "translation": "네, 책은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Buch?",
+            "pronunciation": "보 핀데 이히 das Buch?",
+            "translation": "책을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Buch?",
+        "explanation": "책의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_a2_W11_002",
+        "situation": "신분증 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Ausweis?",
+            "pronunciation": "하벤 지 노흐 Ausweis?",
+            "translation": "아직 신분증 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, der Ausweis ist dort hinten.",
+            "pronunciation": "야, der Ausweis 이스트 도르트 힌텐.",
+            "translation": "네, 신분증은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich den Ausweis?",
+            "pronunciation": "보 핀데 이히 den Ausweis?",
+            "translation": "신분증을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich den Ausweis?",
+        "explanation": "신분증의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_a2_W11_003",
+        "situation": "기한 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Frist?",
+            "pronunciation": "하벤 지 노흐 Frist?",
+            "translation": "아직 기한 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Frist ist dort hinten.",
+            "pronunciation": "야, die Frist 이스트 도르트 힌텐.",
+            "translation": "네, 기한은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Frist?",
+            "pronunciation": "보 핀데 이히 die Frist?",
+            "translation": "기한을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Frist?",
+        "explanation": "기한의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_a2_W11_004",
+        "situation": "연체 통지 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Mahnung?",
+            "pronunciation": "하벤 지 노흐 Mahnung?",
+            "translation": "아직 연체 통지 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, die Mahnung ist dort hinten.",
+            "pronunciation": "야, die Mahnung 이스트 도르트 힌텐.",
+            "translation": "네, 연체 통지은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich die Mahnung?",
+            "pronunciation": "보 핀데 이히 die Mahnung?",
+            "translation": "연체 통지을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich die Mahnung?",
+        "explanation": "연체 통지의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
+        "week": "W11"
+      },
+      {
+        "id": "conv_library_a2_W11_005",
+        "situation": "선반 유무 묻기",
+        "situation_icon": "💬",
+        "dialogue": [
+          {
+            "role": "A",
+            "text": "Haben Sie noch Regal?",
+            "pronunciation": "하벤 지 노흐 Regal?",
+            "translation": "아직 선반 있나요?",
+            "isQuestion": true
+          },
+          {
+            "role": "B",
+            "text": "Ja, das Regal ist dort hinten.",
+            "pronunciation": "야, das Regal 이스트 도르트 힌텐.",
+            "translation": "네, 선반은/는 저기 뒤에 있습니다.",
+            "isQuestion": false
+          }
+        ],
+        "choices": [
+          {
+            "text": "Ja, bitte.",
+            "pronunciation": "야, 비테.",
+            "translation": "네, 부탁합니다."
+          },
+          {
+            "text": "Wo finde ich das Regal?",
+            "pronunciation": "보 핀데 이히 das Regal?",
+            "translation": "선반을/를 어디서 찾을 수 있나요?"
+          },
+          {
+            "text": "Nein, danke.",
+            "pronunciation": "나인, 당케.",
+            "translation": "아니요, 괜찮습니다."
+          }
+        ],
+        "answer": "Wo finde ich das Regal?",
+        "explanation": "선반의 위치를 묻는 적절한 질문을 고릅니다.",
+        "grammar_point": "의문사 Wo와 Akkusativ",
         "week": "W11"
       }
     ],
@@ -342,6 +747,116 @@
             "text": "Nein, es ist leider gerade ausgeliehen. Es sollte nächste Woche zurückkommen.",
             "pronunciation": "나인, 에스 이스트 라이더 게라데 아우스라이헨. 에스 졸테 넥스테 보헤 추륙콤멘.",
             "translation": "아니요, 아쉽게도 지금 대출 중입니다. 다음 주에 돌아올 예정입니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_001",
+        "phrase": "Ich hätte gern das Buch.",
+        "pronunciation": "이히 헤테 게른 das Buch.",
+        "meaning": "저는 그 책을/를 원합니다.",
+        "usage": "책을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Buch.",
+            "pronunciation": "게벤 지 미어 비테 das Buch.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_002",
+        "phrase": "Ich hätte gern den Ausweis.",
+        "pronunciation": "이히 헤테 게른 den Ausweis.",
+        "meaning": "저는 그 신분증을/를 원합니다.",
+        "usage": "신분증을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte den Ausweis.",
+            "pronunciation": "게벤 지 미어 비테 den Ausweis.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_003",
+        "phrase": "Ich hätte gern die Frist.",
+        "pronunciation": "이히 헤테 게른 die Frist.",
+        "meaning": "저는 그 기한을/를 원합니다.",
+        "usage": "기한을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Frist.",
+            "pronunciation": "게벤 지 미어 비테 die Frist.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_004",
+        "phrase": "Ich hätte gern die Mahnung.",
+        "pronunciation": "이히 헤테 게른 die Mahnung.",
+        "meaning": "저는 그 연체 통지을/를 원합니다.",
+        "usage": "연체 통지을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte die Mahnung.",
+            "pronunciation": "게벤 지 미어 비테 die Mahnung.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
+          }
+        ],
+        "week": "W11"
+      },
+      {
+        "id": "expr_library_a2_W11_005",
+        "phrase": "Ich hätte gern das Regal.",
+        "pronunciation": "이히 헤테 게른 das Regal.",
+        "meaning": "저는 그 선반을/를 원합니다.",
+        "usage": "선반을/를 요청하거나 말할 때 사용합니다.",
+        "alternatives": [
+          {
+            "phrase": "Geben Sie mir bitte das Regal.",
+            "pronunciation": "게벤 지 미어 비테 das Regal.",
+            "nuance": "정중한 요청"
+          }
+        ],
+        "responses": [
+          {
+            "text": "Gerne, sofort.",
+            "pronunciation": "게르네, 조포르트.",
+            "translation": "기꺼이, 바로 드리겠습니다."
           }
         ],
         "week": "W11"
