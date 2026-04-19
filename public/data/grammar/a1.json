@@ -1,0 +1,64 @@
+{
+  "level": "A1",
+  "lessons": [
+    {
+      "id": "gram_a1_001",
+      "topic": "Modalverb 'möchten' (조동사: 원하다)",
+      "explanation": "'möchten'은 무언가를 '원하다' 또는 '하고 싶다'는 소망을 정중하게 표현할 때 사용되는 조동사입니다. A1 레벨에서 상점을 방문하거나 무언가를 주문할 때 가장 많이 쓰이는 필수 표현입니다.",
+      "examples": [
+        {
+          "german": "Ich möchte gerne ein Brötchen.",
+          "korean": "저는 롤빵 하나를 원합니다.",
+          "pronunciation": "이히 뫼히테 게르네 아인 브뢰트헨"
+        }
+      ],
+      "conjugation_table": [
+        {"pronoun": "ich", "form": "möchte"},
+        {"pronoun": "du", "form": "möchtest"},
+        {"pronoun": "er/sie/es", "form": "möchte"},
+        {"pronoun": "wir", "form": "möchten"},
+        {"pronoun": "ihr", "form": "möchtet"},
+        {"pronoun": "sie/Sie", "form": "möchten"}
+      ]
+    },
+    {
+      "id": "gram_a1_002",
+      "topic": "Akkusativ (4격 목적어 변화)",
+      "explanation": "독일어에서는 동사의 목적어가 되는 명사가 4격(Akkusativ)으로 변합니다. 여성, 중성, 복수 명사의 정관사는 1격과 동일하지만, 남성 명사의 정관사 'der'는 'den'으로 변하는 것에 주의해야 합니다.",
+      "examples": [
+        {
+          "german": "Ich möchte den Kaffee, bitte.",
+          "korean": "그 커피 한 잔 주세요. (der Kaffee -> den Kaffee)",
+          "pronunciation": "이히 뫼히테 덴 카페, 비테"
+        }
+      ],
+      "conjugation_table": [
+        {"pronoun": "Maskulin (남성: der)", "form": "den"},
+        {"pronoun": "Feminin (여성: die)", "form": "die"},
+        {"pronoun": "Neutral (중성: das)", "form": "das"},
+        {"pronoun": "Plural (복수: die)", "form": "die"}
+      ]
+    },
+    {
+      "id": "gram_a1_003",
+      "topic": "Das Verb 'sein' (~이다)",
+      "explanation": "'sein' 동사는 영어의 'to be(am/are/is)'와 같이 상태나 정체성을 나타낼 때 사용되는 가장 기본적인 불규칙 동사입니다.",
+      "examples": [
+        {
+          "german": "Der Kuchen ist sehr frisch.",
+          "korean": "그 케이크는 매우 신선합니다.",
+          "pronunciation": "데어 쿠헨 이스트 제어 프리쉬"
+        }
+      ],
+      "conjugation_table": [
+        {"pronoun": "ich", "form": "bin"},
+        {"pronoun": "du", "form": "bist"},
+        {"pronoun": "er/sie/es", "form": "ist"},
+        {"pronoun": "wir", "form": "sind"},
+        {"pronoun": "ihr", "form": "seid"},
+        {"pronoun": "sie/Sie", "form": "sind"}
+      ]
+    }
+  ],
+  "lastUpdated": "2026-04-19"
+}

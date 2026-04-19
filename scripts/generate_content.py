@@ -1,49 +1,87 @@
 """
-Alien K-9 Deutsch Quest — 콘텐츠 자동 생성
-실행: python3 generate_content.py
-crontab: 0 3 * * 1-5 /usr/bin/python3 /home/pi/hallo_deutschland/scripts/generate_content.py
+Hallo Deutschland — Gemini 기반 학습 데이터 자동 생성 스크립트
+실행: python3 generate_content.py [--level a1] [--type vocabulary|grammar]
+crontab(예시): 0 9 * * MON /usr/bin/python3 /path/to/scripts/generate_content.py
 """
 
-import os
-import json
-import subprocess
+import os, json, argparse, subprocess
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
 from google import genai
-from prompts import build_prompt_single
 
-# ── 환경변수 ───────────────────────────────────────────────
 load_dotenv()
-API_KEY   = os.getenv("GEMINI_API_KEY")
-REPO_PATH = os.getenv("REPO_PATH", "/home/pi/hallo_deutschland")
 
-DATA_PATH      = Path(REPO_PATH) / "public" / "data"
-LOCATIONS_FILE = DATA_PATH / "locations.json"
-LOG_PATH       = Path(REPO_PATH) / "scripts" / "logs"
+API_KEY   = os.getenv("GEMINI_API_KEY")
+REPO_PATH = os.getenv("REPO_PATH", str(Path(__file__).resolve().parent.parent))
+DATA_PATH = Path(REPO_PATH) / "public" / "data"
+LOG_PATH  = Path(__file__).parent / "logs"
 LOG_PATH.mkdir(exist_ok=True)
 
 MODEL = "gemini-2.5-flash"
 
-# ── 요일 → 레벨 ───────────────────────────────────────────
-WEEKDAY_LEVEL = {
-    0: "baby",
-    1: "a1",
-    2: "a2",
-    3: "b1",
-    4: "b2",
-}
+LEVELS = ["a1", "a2", "b1", "b2"]
 
-# ── 레벨별 생성 개수 ───────────────────────────────────────
-LEVEL_CONFIG = {
-    "baby": { "vocabulary": 5,  "expressions": 3, "grammar": 0, "conversation": 0 },
-    "a1":   { "vocabulary": 5,  "expressions": 3, "grammar": 3, "conversation": 2 },
-    "a2":   { "vocabulary": 5,  "expressions": 3, "grammar": 3, "conversation": 2 },
-    "b1":   { "vocabulary": 5,  "expressions": 3, "grammar": 3, "conversation": 2 },
-    "b2":   { "vocabulary": 5,  "expressions": 3, "grammar": 3, "conversation": 2 },
-}
+# ── 데이터 저장 경로 ──────────────────────────────────────────
+# public/data/vocabulary/{level}.json
+# public/data/grammar/{level}.json
 
-# ── 로그 ──────────────────────────────────────────────────
+VOCAB_PROMPT = """
+You are a German language teacher. Generate {count} German vocabulary entries for level {level_upper} learners.
+Return ONLY a valid JSON object in this exact format (no markdown, no extra text):
+{{
+  "words": [
+    {{
+      "id": "voc_{level}_{timestamp}_001",
+      "word": "...",
+      "article": "der|die|das|null",
+      "plural": "...|null",
+      "pronunciation": "한국어 발음 표기",
+      "meaning": "한국어 뜻",
+      "example": "Example German sentence.",
+      "example_translation": "한국어 번역",
+      "example_pronunciation": "한국어 발음 표기",
+      "tags": ["noun|verb|adjective|...", "topic_tag"]
+    }}
+  ]
+}}
+Rules:
+- {level_upper} level vocabulary only
+- article must be "der", "die", "das", or null for verbs/adjectives
+- pronunciation must be in Korean (한국어)
+- example sentence must demonstrate real usage
+- tags: first tag = word type (noun/verb/adjective/adverb), second = topic
+"""
+
+GRAMMAR_PROMPT = """
+You are a German grammar teacher. Generate {count} grammar lesson(s) for level {level_upper} learners.
+Return ONLY a valid JSON object in this exact format (no markdown, no extra text):
+{{
+  "lessons": [
+    {{
+      "id": "gram_{level}_{timestamp}_001",
+      "topic": "Grammar topic name (Korean OK)",
+      "explanation": "2-3 sentences explaining the grammar point clearly in Korean.",
+      "examples": [
+        {{
+          "german": "German example sentence.",
+          "korean": "한국어 번역",
+          "pronunciation": "한국어 발음 표기"
+        }}
+      ],
+      "conjugation_table": [
+        {{"pronoun": "...", "form": "..."}}
+      ]
+    }}
+  ]
+}}
+Rules:
+- {level_upper} level grammar only
+- explanation must be in Korean, clear and concise
+- conjugation_table is optional — only include if relevant to the topic
+- focus on practical, real-world usage
+"""
+
 def log(msg: str):
     now  = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     line = f"[{now}] {msg}"
@@ -52,171 +90,111 @@ def log(msg: str):
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(line + "\n")
 
-# ── locations.json 읽기 ───────────────────────────────────
-def load_locations() -> list:
-    if not LOCATIONS_FILE.exists():
-        log("❌ locations.json 없음!")
-        return []
-    with open(LOCATIONS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f).get("locations", [])
-
-# ── 기존 파일 읽기 ─────────────────────────────────────────
-def load_existing(location_id: str, level: str) -> dict:
-    path = DATA_PATH / location_id / f"{level}.json"
-    if not path.exists():
-        return {
-            "location": location_id,
-            "level": level,
-            "items": { "vocabulary": [], "grammar": [], "conversation": [], "expressions": [] }
-        }
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-# ── JSON 파싱 ──────────────────────────────────────────────
 def parse_json(text: str) -> dict | None:
-    # 마크다운 코드블록 제거
     if "```" in text:
         lines = [l for l in text.split("\n") if not l.strip().startswith("```")]
         text  = "\n".join(lines)
-    # 앞뒤 공백 제거 후 { 로 시작하는 부분만 추출
-    text = text.strip()
+    text  = text.strip()
     start = text.find("{")
     end   = text.rfind("}") + 1
     if start == -1 or end == 0:
-        log("❌ JSON 구조를 찾을 수 없음")
+        log("❌ JSON 구조 없음")
         return None
-    text = text[start:end]
     try:
-        return json.loads(text)
+        return json.loads(text[start:end])
     except json.JSONDecodeError as e:
         log(f"❌ JSON 파싱 실패: {e}")
-        log(f"응답 앞 300자: {text[:300]}")
         return None
 
-# ── 타입별 개별 호출 ───────────────────────────────────────
-def generate_single_type(
-    client, location: dict, level: str,
-    content_type: str, count: int, week: str
-) -> list:
-    """타입 하나만 생성 — JSON 잘림 방지"""
-    prompt = build_prompt_single(location, level, content_type, count, week)
-    try:
-        response = client.models.generate_content(model=MODEL, contents=prompt)
-        raw = response.text.strip()
-        data = parse_json(raw)
-        if data and isinstance(data.get("items"), list):
-            return data["items"]
-        log(f"⚠️ {content_type} 파싱 실패 — 빈 배열 반환")
-        return []
-    except Exception as e:
-        log(f"❌ {content_type} API 호출 실패: {e}")
-        return []
+def load_existing(data_type: str, level: str) -> dict:
+    path = DATA_PATH / data_type / f"{level}.json"
+    if not path.exists():
+        return {"level": level.upper(), "words" if data_type == "vocabulary" else "lessons": [], "lastUpdated": ""}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-# ── 파일 저장 ──────────────────────────────────────────────
-def save_data(location_id: str, level: str, new_items: dict, week: str):
-    folder = DATA_PATH / location_id
+def save_data(data_type: str, level: str, new_data: dict):
+    folder = DATA_PATH / data_type
     folder.mkdir(parents=True, exist_ok=True)
     path = folder / f"{level}.json"
 
-    existing = load_existing(location_id, level)
+    existing = load_existing(data_type, level)
+    key = "words" if data_type == "vocabulary" else "lessons"
 
-    total = 0
-    for t in ["vocabulary", "grammar", "conversation", "expressions"]:
-        items = new_items.get(t, [])
-        existing["items"].setdefault(t, [])
-        existing["items"][t].extend(items)
-        total += len(items)
-
-    existing["lastUpdated"] = week
+    existing.setdefault(key, [])
+    new_items = new_data.get(key, [])
+    existing[key].extend(new_items)
+    existing["lastUpdated"] = datetime.now().strftime("%Y-%m-%d")
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(existing, f, ensure_ascii=False, indent=2)
 
-    log(f"✅ 저장: {location_id}/{level}.json (+{total}개)")
+    log(f"✅ 저장: {data_type}/{level}.json (+{len(new_items)}개)")
 
-# ── git push ───────────────────────────────────────────────
-def git_push(week: str, level: str):
+def generate(client, data_type: str, level: str, count: int):
+    timestamp = datetime.now().strftime("%Y%m%d")
+    template  = VOCAB_PROMPT if data_type == "vocabulary" else GRAMMAR_PROMPT
+    prompt    = template.format(
+        count       = count,
+        level       = level,
+        level_upper = level.upper(),
+        timestamp   = timestamp,
+    )
+    log(f"   → {data_type} ({count}개) 생성 중...")
+    try:
+        response  = client.models.generate_content(model=MODEL, contents=prompt)
+        data      = parse_json(response.text.strip())
+        if data:
+            save_data(data_type, level, data)
+        else:
+            log(f"⚠️ {data_type} 파싱 실패")
+    except Exception as e:
+        log(f"❌ {data_type} API 호출 실패: {e}")
+
+def git_push(level: str):
     try:
         os.chdir(REPO_PATH)
         subprocess.run(["git", "add", "public/data/"], check=True)
-
-        # 변경사항 없으면 커밋 스킵
         result = subprocess.run(["git", "diff", "--cached", "--quiet"])
         if result.returncode == 0:
             log("⏭️ 변경사항 없음 — 커밋 스킵")
             return
-
-        subprocess.run(["git", "commit", "-m", f"chore: generate {level} {week}"], check=True)
-
-        # push 전에 pull --rebase 로 충돌 방지
+        msg = f"chore(data): add {level.upper()} content {datetime.now().strftime('%Y-%m-%d')}"
+        subprocess.run(["git", "commit", "-m", msg], check=True)
         subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=True)
         subprocess.run(["git", "push"], check=True)
-        log(f"🚀 git push 완료")
+        log("🚀 git push 완료 → Vercel 자동 배포 시작")
     except subprocess.CalledProcessError as e:
         log(f"❌ git push 실패: {e}")
 
-# ── 메인 ──────────────────────────────────────────────────
 def main():
+    parser = argparse.ArgumentParser(description="Hallo Deutschland 학습 데이터 생성기")
+    parser.add_argument("--level", choices=LEVELS, default="a1", help="생성 레벨 (기본: a1)")
+    parser.add_argument("--type",  choices=["vocabulary", "grammar", "all"], default="all", help="생성 타입 (기본: all)")
+    parser.add_argument("--count", type=int, default=5, help="생성 개수 (기본: 5)")
+    parser.add_argument("--push",  action="store_true", help="생성 후 git push")
+    args = parser.parse_args()
+
     log("=" * 50)
-    log("🐶 콘텐츠 생성 시작")
-
-    # 요일 → 레벨 (테스트 시 아래 주석 해제)
-    # level = "a1"
-    weekday = datetime.now().weekday()
-    level   = WEEKDAY_LEVEL.get(weekday)
-    week    = datetime.now().strftime("W%W")
-
-    if not level:
-        log(f"⏭️  오늘은 생성 스케줄 없음 (weekday={weekday}). 종료.")
-        return
-
-    log(f"📅 레벨: {level.upper()} / 주차: {week}")
+    log(f"🐶 Hallo Deutschland 데이터 생성 시작")
+    log(f"   레벨: {args.level.upper()} / 타입: {args.type} / 개수: {args.count}")
 
     if not API_KEY:
-        log("❌ GEMINI_API_KEY 없음!")
+        log("❌ GEMINI_API_KEY 없음! .env 파일 확인")
         return
 
-    locations = load_locations()
-    if not locations:
-        return
+    client = genai.Client(api_key=API_KEY)
 
-    config  = LEVEL_CONFIG.get(level, {})
-    targets = [loc for loc in locations if level in loc.get("levels", [])]
-    log(f"🗺️  대상: {[l['id'] for l in targets]}")
+    if args.type in ("vocabulary", "all"):
+        generate(client, "vocabulary", args.level, args.count)
+    if args.type in ("grammar", "all"):
+        generate(client, "grammar", args.level, args.count)
 
-    client  = genai.Client(api_key=API_KEY)
-    success = 0
-    fail    = 0
+    if args.push:
+        git_push(args.level)
 
-    for loc in targets:
-        log(f"\n── {loc['label']} ({loc['korean']}) ...")
-        try:
-            new_items = { "vocabulary": [], "grammar": [], "conversation": [], "expressions": [] }
-
-            # ── 타입별로 개별 호출 ──
-            for content_type, count in config.items():
-                if count <= 0:
-                    continue
-                log(f"   → {content_type} ({count}개) 생성중...")
-                items = generate_single_type(client, loc, level, content_type, count, week)
-                new_items[content_type] = items
-                log(f"   ✓ {content_type}: {len(items)}개 생성됨")
-
-            save_data(loc["id"], level, new_items, week)
-            success += 1
-
-        except Exception as e:
-            log(f"❌ {loc['id']} 실패: {e}")
-            fail += 1
-
-    log(f"\n📊 성공 {success} / 실패 {fail}")
-
-    if success > 0:
-        git_push(week, level)
-
-    log("🐶 완료!")
+    log("✅ 완료!")
     log("=" * 50)
-
 
 if __name__ == "__main__":
     main()

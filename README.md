@@ -1,88 +1,128 @@
-# 🐶🛸 Alien K-9 Deutsch Quest
+# Hallo Deutschland 🐶
 
-> **우주에서 온 강아지가 독일 마을에 불시착! 독일어를 배워 우주선을 수리하고 집으로 돌아가는 모바일 독일어 학습 앱**  
-> *A space-traveling dog crash-lands in a German village! A mobile app to learn German, repair the spaceship, and return home*  
-> *Ein Hund aus dem All landet not in einem deutschen Dorf! Eine mobile App zum Deutschlernen, um das Raumschiff zu reparieren und nach Hause zurückzukehren*
+**A self-built German learning app — created while preparing to relocate to Germany.**
 
----
-
-## 📖 Project Overview / Projektübersicht
-
-**시중의 독일어 학습 앱들은 광고와 구독 모델이 많아, 직접 필요한 기능만 담은 미니멀한 학습 도구를 제작했습니다.**  
-*I built a minimalist learning tool with only essential functions, avoiding the ads and subscriptions of existing apps.*  
-*Ich habe ein minimalistisches Lerntool mit nur den wichtigsten Funktionen entwickelt, um Werbung und Abos bestehender Apps zu vermeiden.*  
-
-**독일 취업을 준비하며 직접 사용하기 위해 만든 개인 프로젝트로, 인프라 유지 비용 0원($0)과 고품질의 데이터 자동 생성을 목표로 합니다.**  
-*This is a personal project built for my own use while preparing for a job in Germany, aiming for zero infrastructure costs ($0) and high-quality automated data generation.*  
-*Dies ist ein persönliches Projekt, das ich für den Eigenbedarf während meiner Jobsuche in Deutschland entwickelt habe. Ziel sind null Infrastrukturkosten (0 $) und eine hochwertige, automatisierte Datengenerierung.*
+> *„Man lernt eine Sprache am besten, wenn man sie täglich braucht."*  
+> *"You learn a language best when you need it every day."*
 
 ---
 
-## 🏗️ System Architecture / Systemarchitektur
+## What is this? / Was ist das?
 
-**프로젝트 초기에는 Google Gemini API와 Raspberry Pi를 활용하여 데이터를 자동 생성했으나, 현재는 비용 최적화와 코드 안정성을 위해 아래와 같이 구조를 개선했습니다.**  
-*Originally, I used Google Gemini API and a Raspberry Pi for automated data generation, but I have evolved the architecture for better cost-efficiency and reliability as follows:*  
-*Ursprünglich wurden die Daten automatisch über die Google Gemini API und einen Raspberry Pi generiert, aber die Architektur wurde wie folgt optimiert, um die Kosteneffizienz und Zuverlässigkeit zu erhöhen:*  
+A flashcard-style German vocabulary and grammar learning app (A1–B2), built entirely without a backend or database.
 
-[ Workflow: AI-Driven Content Enrichment ]  
+Eine Lernapp für deutschen Wortschatz und Grammatik (A1–B2), vollständig ohne Backend oder Datenbank entwickelt.
+
+---
+
+## Why I built it / Warum ich es gebaut habe
+
+I'm actively preparing to work in Germany and have been studying German independently. Instead of just using an existing app, I wanted to demonstrate both my technical skills and my commitment to learning the language — so I built my own.
+
+Ich bereite mich aktiv darauf vor, in Deutschland zu arbeiten, und lerne Deutsch selbstständig. Anstatt nur eine bestehende App zu nutzen, wollte ich sowohl meine technischen Fähigkeiten als auch mein Engagement für das Sprachenlernen zeigen — also habe ich meine eigene gebaut.
+
+---
+
+## Zero-Cost Architecture / Kostenfreie Architektur
+
+The entire system runs at **€0/month**.
+
+Das gesamte System läuft für **0 €/Monat**.
+
 ```
-1. AI Agent (Jules)  <-- Analyze locations.json & Supplement data
-       |
-       v
-2. Pull Request (PR) <-- Manual Code Review & Validation
-       |
-       v
-3. GitHub Actions    <-- Automated Deployment Trigger
-       |
-       v
-4. Vercel (Hobby)    <-- Serving Static JSON Content (Public API)
-       |
-       v
-5. Mobile App (PWA)  <-- Fetching data & LocalStorage Sync
+  You (Prompt)
+       │
+       ▼
+ Google Jules (AI Coding Agent)
+       │  Generates structured JSON data
+       │  Opens a Pull Request on GitHub
+       ▼
+  GitHub PR Review & Merge
+       │
+       ▼
+  Vercel (Auto-deploy on merge)
+       │
+       ▼
+  Static JSON → Next.js App
+  (No server. No database. No cost.)
 ```
----
 
-## 💡 Tech Decision: Cost Optimization / 비용 최적화 전략
-
-**1. From API to AI Agent (Jules)**
-**데이터 축적에 따라 급증하는 API 비용을 해결하기 위해, Gemini API 호출 방식 대신 이미 구독 중인 Jules(AI Agent)를 활용한 데이터 생성 방식으로 전환했습니다.**  
-*To avoid increasing API costs as the dataset grows, I transitioned from Gemini API to Jules (AI Agent). This leverages existing subscription benefits to generate high-quality content without additional pay-as-you-go fees.*  
-*Um steigende API-Gebühren bei wachsendem Datenvolumen zu vermeiden, wurde von der Gemini API auf Jules (AI Agent) umgestellt. Dies nutzt bestehende Abonnements, um hochwertige Inhalte ohne zusätzliche Kosten zu erstellen.*  
-
-**2. Improved Workflow with PR**
-**라즈베리 파이 기반의 크론탭 자동화 대신, 개발자가 Jules와 협업하여 데이터를 보충하고 Pull Request(PR)를 통해 코드 안정성을 검토 후 병합하는 안정적인 워크플로우를 구축했습니다.**  
-*Instead of automated scripts on a Raspberry Pi, I now collaborate with Jules to supplement data. This process ensures quality through a Pull Request (PR) workflow, allowing for manual review before merging.*  
-*Anstelle automatisierter Skripte auf einem Raspberry Pi erfolgt die Datenergänzung nun in Zusammenarbeit mit Jules. Die Qualitätssicherung wird durch einen Pull Request (PR) Workflow gewährleistet, bei dem Änderungen vor dem Mergen geprüft werden.*  
-
-**3. Simplified Infrastructure**
-**외부 API 호출이 불필요해짐에 따라 라즈베리 파이 운영을 중단하고, GitHub과 Vercel 중심의 정적 데이터 구조로 간소화하여 유지비 0원을 달성했습니다.**  
-*By removing the dependency on external APIs, the Raspberry Pi was decommissioned, resulting in a lean, GitHub-and-Vercel-centered static data architecture with zero maintenance cost.*  
-*Da keine externen API-Aufrufe mehr nötig sind, wurde der Raspberry Pi außer Betrieb genommen. Das Projekt basiert nun auf einer schlanken Datenstruktur via GitHub und Vercel bei laufenden Kosten von 0 €.*  
+| Step | Tool | Cost |
+|------|------|------|
+| Data generation | Google Jules (Free) | €0 |
+| Hosting & CI/CD | Vercel Free Plan | €0 |
+| Frontend | Next.js + Tailwind CSS | €0 |
+| **Total** | | **€0 / month** |
 
 ---
 
-## 📊 Cost Structure / Kostenstruktur
+## How the data pipeline works / Wie die Datenpipeline funktioniert
 
-| Item | Cost | Note |
-| :--- | :--- | :--- |
-| **Hosting** | $0 | Vercel (Hobby Tier) |
-| **Database** | $0 | LocalStorage / Static JSON |
-| **AI Content** | **$0** | **Using Jules (Copilot Pro Subscription)** |
-| **Total** | **$0** | **Sustainable Personal Project** |
+1. **Prompt** — I write a prompt describing what vocabulary or grammar content to generate for a given level (A1–B2).
+2. **Jules** — Google's AI coding agent reads the repository context, generates properly formatted JSON, and opens a Pull Request.
+3. **Review & Merge** — I review the PR, check the content quality, and merge it into `main`.
+4. **Auto-deploy** — Vercel detects the new commit and automatically rebuilds and deploys the app.
 
 ---
 
-## 🛠️ Tech Stack
+**Auf Deutsch:**
 
-* **Frontend:** Next.js 15 (App Router), TypeScript
-* **Styling:** CSS Variables (Zero-build CSS management)
-* **Deployment:** Vercel (Auto-deploy via GitHub)
-* **AI Tooling:** Jules (GitHub Copilot Workspace) for Data Engineering
+1. **Prompt** — Ich schreibe eine Anfrage, welche Vokabeln oder Grammatikthemen für ein bestimmtes Niveau (A1–B2) generiert werden sollen.
+2. **Jules** — Googles KI-Coding-Agent liest den Repository-Kontext, erstellt korrekt formatierte JSON-Dateien und öffnet einen Pull Request.
+3. **Review & Merge** — Ich überprüfe den PR und merge ihn nach Prüfung in `main`.
+4. **Auto-Deploy** — Vercel erkennt den neuen Commit und baut die App automatisch neu und stellt sie bereit.
 
 ---
 
-## 👨‍💻 Developer / Entwickler
+## Data Format / Datenformat
 
-**5년 차 이상의 백엔드 개발자로서, 실용적인 기술 스택과 비용 효율적인 아키텍처 설계에 집중합니다.**  
-*As a backend developer with 5+ years of experience, I focus on practical tech stacks and cost-effective architectural designs.*  
-*Als Backend-Entwickler mit über 5 Jahren Erfahrung konzentriere ich mich auf praxisnahe Tech-Stacks und kosteneffiziente Architekturdesigns.*  
+Content is stored as flat, human-readable JSON files — easy for both humans and AI to read and extend.
+
+```
+public/data/
+├── vocabulary/
+│   ├── a1.json    ← { "words": [...] }
+│   ├── a2.json
+│   ├── b1.json
+│   └── b2.json
+└── grammar/
+    ├── a1.json    ← { "lessons": [...] }
+    ├── a2.json
+    ├── b1.json
+    └── b2.json
+```
+
+---
+
+## Tech Stack / Technologie-Stack
+
+| | |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS v4 |
+| Font | Nunito (Google Fonts) |
+| Data | Static JSON (AI-generated via Google Jules) |
+| Deployment | Vercel |
+
+---
+
+## Run locally / Lokal starten
+
+```bash
+git clone https://github.com/your-username/hallo-deutschland
+npm install
+npm run dev
+# → http://localhost:3000
+```
+
+---
+
+## Current progress / Aktueller Stand
+
+- [x] A1 vocabulary & grammar data
+- [ ] A2, B1, B2 — expanding weekly via Jules
+
+---
+
+*Built with curiosity, caffeine, and Kaffeekuchen.* ☕

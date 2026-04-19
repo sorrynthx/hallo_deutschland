@@ -1,0 +1,70 @@
+{
+  "topic": "baeckerei",
+  "topic_label": "Bäckerei",
+  "topic_korean": "빵집",
+  "topic_icon": "🥐",
+  "level": "A1",
+  "words": [
+    {
+      "id": "voc_a1_baeckerei_001",
+      "word": "Brot",
+      "article": "das",
+      "plural": "Brote",
+      "pronunciation": "다스 브로트",
+      "meaning": "빵",
+      "example": "Ich möchte ein Brot kaufen.",
+      "example_translation": "저는 빵을 사고 싶어요.",
+      "example_pronunciation": "이히 뫼히테 아인 브로트 카우펜",
+      "tags": ["food", "noun"]
+    },
+    {
+      "id": "voc_a1_baeckerei_002",
+      "word": "kosten",
+      "article": null,
+      "plural": null,
+      "pronunciation": "코스텐",
+      "meaning": "~의 비용이 들다",
+      "example": "Wie viel kostet das Brötchen?",
+      "example_translation": "이 롤빵은 얼마인가요?",
+      "example_pronunciation": "비 필 코스테트 다스 브뢰트헨",
+      "tags": ["verb"]
+    },
+    {
+      "id": "voc_a1_baeckerei_003",
+      "word": "Kaffee",
+      "article": "der",
+      "plural": null,
+      "pronunciation": "데어 카페",
+      "meaning": "커피",
+      "example": "Einen Kaffee bitte.",
+      "example_translation": "커피 한 잔 주세요.",
+      "example_pronunciation": "아이넨 카페 비테",
+      "tags": ["drink", "noun"]
+    },
+    {
+      "id": "voc_a1_baeckerei_004",
+      "word": "Wasser",
+      "article": "das",
+      "plural": null,
+      "pronunciation": "다스 바서",
+      "meaning": "물",
+      "example": "Ich möchte ein Wasser.",
+      "example_translation": "저는 물 한 병을 원해요.",
+      "example_pronunciation": "이히 뫼히테 아인 바서",
+      "tags": ["drink", "noun"]
+    },
+    {
+      "id": "voc_a1_baeckerei_005",
+      "word": "bezahlen",
+      "article": null,
+      "plural": null,
+      "pronunciation": "베찰렌",
+      "meaning": "지불하다",
+      "example": "Ich möchte jetzt bezahlen.",
+      "example_translation": "지금 계산하고 싶어요.",
+      "example_pronunciation": "이히 뫼히테 예츠트 베찰렌",
+      "tags": ["verb"]
+    }
+  ],
+  "lastUpdated": "2026-04-19"
+}
