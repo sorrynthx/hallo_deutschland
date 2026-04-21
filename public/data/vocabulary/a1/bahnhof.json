@@ -1,0 +1,130 @@
+{
+  "topic": "bahnhof",
+  "topic_label": "Bahnhof",
+  "topic_korean": "기차역",
+  "topic_icon": "🚉",
+  "level": "A1",
+  "words": [
+    {
+      "id": "voc_a1_bahnhof_001",
+      "word": "Bahnhof",
+      "article": "der",
+      "plural": "Bahnhöfe",
+      "pronunciation": "데어 반호프",
+      "meaning": "기차역",
+      "example": "Wo ist der Bahnhof?",
+      "example_translation": "기차역이 어디에 있나요?",
+      "example_pronunciation": "보 이스트 데어 반호프",
+      "tags": ["noun", "place"]
+    },
+    {
+      "id": "voc_a1_bahnhof_002",
+      "word": "Zug",
+      "article": "der",
+      "plural": "Züge",
+      "pronunciation": "데어 추크",
+      "meaning": "기차",
+      "example": "Der Zug kommt um acht Uhr.",
+      "example_translation": "기차가 8시에 옵니다.",
+      "example_pronunciation": "데어 추크 콤트 움 아흐트 우어",
+      "tags": ["noun", "transport"]
+    },
+    {
+      "id": "voc_a1_bahnhof_003",
+      "word": "Fahrkarte",
+      "article": "die",
+      "plural": "Fahrkarten",
+      "pronunciation": "디 파르카르테",
+      "meaning": "승차권",
+      "example": "Ich brauche eine Fahrkarte nach Berlin.",
+      "example_translation": "저는 베를린행 승차권이 필요해요.",
+      "example_pronunciation": "이히 브라우헤 아이네 파르카르테 나흐 베를린",
+      "tags": ["noun", "ticket"]
+    },
+    {
+      "id": "voc_a1_bahnhof_004",
+      "word": "Gleis",
+      "article": "das",
+      "plural": "Gleise",
+      "pronunciation": "다스 글라이스",
+      "meaning": "선로, 플랫폼",
+      "example": "Der Zug fährt von Gleis zwei ab.",
+      "example_translation": "기차는 2번 플랫폼에서 출발합니다.",
+      "example_pronunciation": "데어 추크 패르트 폰 글라이스 츠바이 압",
+      "tags": ["noun", "place"]
+    },
+    {
+      "id": "voc_a1_bahnhof_005",
+      "word": "Fahrplan",
+      "article": "der",
+      "plural": "Fahrpläne",
+      "pronunciation": "데어 파르플란",
+      "meaning": "시간표",
+      "example": "Der Fahrplan hängt dort.",
+      "example_translation": "시간표가 저기에 걸려 있어요.",
+      "example_pronunciation": "데어 파르플란 헹트 도르트",
+      "tags": ["noun", "information"]
+    },
+    {
+      "id": "voc_a1_bahnhof_006",
+      "word": "Abfahrt",
+      "article": "die",
+      "plural": "Abfahrten",
+      "pronunciation": "디 압파르트",
+      "meaning": "출발",
+      "example": "Die Abfahrt ist um zehn Uhr.",
+      "example_translation": "출발은 10시입니다.",
+      "example_pronunciation": "디 압파르트 이스트 움 첸 우어",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "voc_a1_bahnhof_007",
+      "word": "Ankunft",
+      "article": "die",
+      "plural": "Ankünfte",
+      "pronunciation": "디 안쿤프트",
+      "meaning": "도착",
+      "example": "Die Ankunft ist pünktlich.",
+      "example_translation": "도착은 제시간에 합니다.",
+      "example_pronunciation": "디 안쿤프트 이스트 퓡크틀리히",
+      "tags": ["noun", "time"]
+    },
+    {
+      "id": "voc_a1_bahnhof_008",
+      "word": "Schalter",
+      "article": "der",
+      "plural": "Schalter",
+      "pronunciation": "데어 샬터",
+      "meaning": "창구",
+      "example": "Ich kaufe die Fahrkarte am Schalter.",
+      "example_translation": "저는 창구에서 승차권을 삽니다.",
+      "example_pronunciation": "이히 카우페 디 파르카르테 암 샬터",
+      "tags": ["noun", "place"]
+    },
+    {
+      "id": "voc_a1_bahnhof_009",
+      "word": "Gepäck",
+      "article": "das",
+      "plural": null,
+      "pronunciation": "다스 게페크",
+      "meaning": "수하물",
+      "example": "Haben Sie viel Gepäck?",
+      "example_translation": "짐이 많으신가요?",
+      "example_pronunciation": "하벤 지 필 게페크",
+      "tags": ["noun", "luggage"]
+    },
+    {
+      "id": "voc_a1_bahnhof_010",
+      "word": "einsteigen",
+      "article": null,
+      "plural": null,
+      "pronunciation": "아인슈타이겐",
+      "meaning": "탑승하다",
+      "example": "Wir müssen jetzt einsteigen.",
+      "example_translation": "우리는 지금 타야 해요.",
+      "example_pronunciation": "비어 뮈센 예츠트 아인슈타이겐",
+      "tags": ["verb", "action"]
+    }
+  ],
+  "lastUpdated": "2026-04-21"
+}
