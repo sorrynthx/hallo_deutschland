@@ -2,7 +2,8 @@
   "_comment": "All available vocabulary topics per level. Jules updates this file when adding a new topic.",
   "topics": {
     "a1": [
-      { "id": "baeckerei", "label": "Bäckerei",  "korean": "빵집",  "icon": "🥐" }
+      { "id": "baeckerei", "label": "Bäckerei",  "korean": "빵집",  "icon": "🥐" },
+      { "id": "bahnhof", "label": "Bahnhof", "korean": "기차역", "icon": "🚉" }
     ],
     "a2": [],
     "b1": [],
