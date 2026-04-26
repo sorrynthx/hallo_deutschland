@@ -13,12 +13,30 @@
         }
       ],
       "conjugation_table": [
-        {"pronoun": "ich", "form": "möchte"},
-        {"pronoun": "du", "form": "möchtest"},
-        {"pronoun": "er/sie/es", "form": "möchte"},
-        {"pronoun": "wir", "form": "möchten"},
-        {"pronoun": "ihr", "form": "möchtet"},
-        {"pronoun": "sie/Sie", "form": "möchten"}
+        {
+          "pronoun": "ich",
+          "form": "möchte"
+        },
+        {
+          "pronoun": "du",
+          "form": "möchtest"
+        },
+        {
+          "pronoun": "er/sie/es",
+          "form": "möchte"
+        },
+        {
+          "pronoun": "wir",
+          "form": "möchten"
+        },
+        {
+          "pronoun": "ihr",
+          "form": "möchtet"
+        },
+        {
+          "pronoun": "sie/Sie",
+          "form": "möchten"
+        }
       ]
     },
     {
@@ -33,10 +51,22 @@
         }
       ],
       "conjugation_table": [
-        {"pronoun": "Maskulin (남성: der)", "form": "den"},
-        {"pronoun": "Feminin (여성: die)", "form": "die"},
-        {"pronoun": "Neutral (중성: das)", "form": "das"},
-        {"pronoun": "Plural (복수: die)", "form": "die"}
+        {
+          "pronoun": "Maskulin (남성: der)",
+          "form": "den"
+        },
+        {
+          "pronoun": "Feminin (여성: die)",
+          "form": "die"
+        },
+        {
+          "pronoun": "Neutral (중성: das)",
+          "form": "das"
+        },
+        {
+          "pronoun": "Plural (복수: die)",
+          "form": "die"
+        }
       ]
     },
     {
@@ -51,14 +81,75 @@
         }
       ],
       "conjugation_table": [
-        {"pronoun": "ich", "form": "bin"},
-        {"pronoun": "du", "form": "bist"},
-        {"pronoun": "er/sie/es", "form": "ist"},
-        {"pronoun": "wir", "form": "sind"},
-        {"pronoun": "ihr", "form": "seid"},
-        {"pronoun": "sie/Sie", "form": "sind"}
+        {
+          "pronoun": "ich",
+          "form": "bin"
+        },
+        {
+          "pronoun": "du",
+          "form": "bist"
+        },
+        {
+          "pronoun": "er/sie/es",
+          "form": "ist"
+        },
+        {
+          "pronoun": "wir",
+          "form": "sind"
+        },
+        {
+          "pronoun": "ihr",
+          "form": "seid"
+        },
+        {
+          "pronoun": "sie/Sie",
+          "form": "sind"
+        }
+      ]
+    },
+    {
+      "id": "gram_a1_004",
+      "topic": "Das Verb 'haben' (가지고 있다)",
+      "explanation": "'haben' 동사는 영어의 'to have'와 같이 소유나 상태를 나타낼 때 사용되는 매우 중요한 불규칙 동사입니다. A1 레벨에서 기초적인 회화를 할 때 필수적으로 알아야 합니다.",
+      "examples": [
+        {
+          "german": "Ich habe einen Hund.",
+          "korean": "나는 개를 한 마리 가지고 있습니다.",
+          "pronunciation": "이히 하베 아이넨 훈트"
+        },
+        {
+          "german": "Hast du Zeit?",
+          "korean": "너 시간 있니?",
+          "pronunciation": "하스트 두 차이트?"
+        }
+      ],
+      "conjugation_table": [
+        {
+          "pronoun": "ich",
+          "form": "habe"
+        },
+        {
+          "pronoun": "du",
+          "form": "hast"
+        },
+        {
+          "pronoun": "er/sie/es",
+          "form": "hat"
+        },
+        {
+          "pronoun": "wir",
+          "form": "haben"
+        },
+        {
+          "pronoun": "ihr",
+          "form": "habt"
+        },
+        {
+          "pronoun": "sie/Sie",
+          "form": "haben"
+        }
       ]
     }
   ],
-  "lastUpdated": "2026-04-19"
+  "lastUpdated": "2026-04-26"
 }
