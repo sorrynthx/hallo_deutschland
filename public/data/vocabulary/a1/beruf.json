@@ -1,0 +1,130 @@
+{
+  "topic": "beruf",
+  "topic_label": "Beruf",
+  "topic_korean": "직업",
+  "topic_icon": "💼",
+  "level": "a1",
+  "words": [
+    {
+      "id": "voc_a1_beruf_001",
+      "word": "Beruf",
+      "article": "der",
+      "plural": "Berufe",
+      "pronunciation": "데어 베루프",
+      "meaning": "직업",
+      "example": "Was ist Ihr Beruf?",
+      "example_translation": "당신의 직업은 무엇입니까?",
+      "example_pronunciation": "바스 이스트 이어 베루프",
+      "tags": ["noun", "beruf"]
+    },
+    {
+      "id": "voc_a1_beruf_002",
+      "word": "Arbeit",
+      "article": "die",
+      "plural": "Arbeiten",
+      "pronunciation": "디 아르바이트",
+      "meaning": "일, 직장",
+      "example": "Ich gehe zur Arbeit.",
+      "example_translation": "나는 일하러 갑니다.",
+      "example_pronunciation": "이히 게에 추어 아르바이트",
+      "tags": ["noun", "beruf"]
+    },
+    {
+      "id": "voc_a1_beruf_003",
+      "word": "arbeiten",
+      "article": "null",
+      "plural": "null",
+      "pronunciation": "아르바이텐",
+      "meaning": "일하다",
+      "example": "Er arbeitet jeden Tag.",
+      "example_translation": "그는 매일 일합니다.",
+      "example_pronunciation": "에어 아르바이테트 예덴 타크",
+      "tags": ["verb", "beruf"]
+    },
+    {
+      "id": "voc_a1_beruf_004",
+      "word": "Büro",
+      "article": "das",
+      "plural": "Büros",
+      "pronunciation": "다스 뷔로",
+      "meaning": "사무실",
+      "example": "Sie arbeitet im Büro.",
+      "example_translation": "그녀는 사무실에서 일합니다.",
+      "example_pronunciation": "지 아르바이테트 임 뷔로",
+      "tags": ["noun", "beruf"]
+    },
+    {
+      "id": "voc_a1_beruf_005",
+      "word": "Lehrer",
+      "article": "der",
+      "plural": "Lehrer",
+      "pronunciation": "데어 레어러",
+      "meaning": "선생님 (남성)",
+      "example": "Mein Vater ist Lehrer.",
+      "example_translation": "나의 아버지는 선생님입니다.",
+      "example_pronunciation": "마인 파터 이스트 레어러",
+      "tags": ["noun", "beruf", "person"]
+    },
+    {
+      "id": "voc_a1_beruf_006",
+      "word": "Arzt",
+      "article": "der",
+      "plural": "Ärzte",
+      "pronunciation": "데어 아르츠트",
+      "meaning": "의사 (남성)",
+      "example": "Ich muss zum Arzt gehen.",
+      "example_translation": "나는 의사에게 가야 합니다.",
+      "example_pronunciation": "이히 무스 춤 아르츠트 게엔",
+      "tags": ["noun", "beruf", "person"]
+    },
+    {
+      "id": "voc_a1_beruf_007",
+      "word": "Firma",
+      "article": "die",
+      "plural": "Firmen",
+      "pronunciation": "디 피르마",
+      "meaning": "회사",
+      "example": "Die Firma ist groß.",
+      "example_translation": "그 회사는 큽니다.",
+      "example_pronunciation": "디 피르마 이스트 그로스",
+      "tags": ["noun", "beruf"]
+    },
+    {
+      "id": "voc_a1_beruf_008",
+      "word": "Kollege",
+      "article": "der",
+      "plural": "Kollegen",
+      "pronunciation": "데어 콜레거",
+      "meaning": "동료 (남성)",
+      "example": "Er ist mein netter Kollege.",
+      "example_translation": "그는 나의 친절한 동료입니다.",
+      "example_pronunciation": "에어 이스트 마인 네터 콜레거",
+      "tags": ["noun", "beruf", "person"]
+    },
+    {
+      "id": "voc_a1_beruf_009",
+      "word": "Chef",
+      "article": "der",
+      "plural": "Chefs",
+      "pronunciation": "데어 셰프",
+      "meaning": "상사, 사장 (남성)",
+      "example": "Der Chef ist heute nicht da.",
+      "example_translation": "사장은 오늘 여기에 없습니다.",
+      "example_pronunciation": "데어 셰프 이스트 호이테 니히트 다",
+      "tags": ["noun", "beruf", "person"]
+    },
+    {
+      "id": "voc_a1_beruf_010",
+      "word": "Student",
+      "article": "der",
+      "plural": "Studenten",
+      "pronunciation": "데어 슈투덴트",
+      "meaning": "대학생 (남성)",
+      "example": "Ich bin Student an der Universität.",
+      "example_translation": "나는 대학교의 대학생입니다.",
+      "example_pronunciation": "이히 빈 슈투덴트 안 데어 우니베르지테트",
+      "tags": ["noun", "beruf", "person"]
+    }
+  ],
+  "lastUpdated": "2024-04-26"
+}
