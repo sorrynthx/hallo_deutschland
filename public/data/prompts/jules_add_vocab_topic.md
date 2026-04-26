@@ -1,90 +1,73 @@
-# Jules Prompt — 어휘 토픽 추가 템플릿
+# Jules Prompt — 어휘 토픽 추가 템플릿 (Smart)
 
-> `{중괄호}` 부분만 바꿔서 Jules에 그대로 붙여넣기 하면 됩니다.
+> 상단의 `{level}`과 `{topic}`만 작성해서 Jules에 전달하면, 나머지(아이콘, 독일어명, ID 등)는 Jules가 알아서 판단하여 생성합니다.
 
 ---
 
 ## Jules에게 보낼 프롬프트
 
 ```
-Please generate German vocabulary for the topic "{topic_id}" and add it 
-to the Hallo Deutschland app.
+I want to add a new vocabulary topic to the Hallo Deutschland app.
 
-### Task 1 — Create vocabulary file
+Target Level: {level}
+Target Topic: {topic}
 
-Create the file: `public/data/vocabulary/{level}/{topic_id}.json`
+### Instructions for Jules:
 
-Use this exact JSON format — do NOT change the structure:
-{
-  "topic": "{topic_id}",
-  "topic_label": "{topic_label}",
-  "topic_korean": "{topic_korean}",
-  "topic_icon": "{topic_icon}",
-  "level": "{LEVEL}",
-  "words": [
-    {
-      "id": "voc_{level}_{topic_id}_001",
-      "word": "...",
-      "article": "der | die | das | null",
-      "plural": "... | null",
-      "pronunciation": "한국어 발음 표기 (예: 데어 티슈)",
-      "meaning": "한국어 뜻",
-      "example": "A simple {LEVEL}-level German sentence using this word.",
-      "example_translation": "예문의 한국어 번역",
-      "example_pronunciation": "예문의 한국어 발음 표기",
-      "tags": ["noun | verb | adjective", "topic_tag"]
-    }
-  ],
-  "lastUpdated": "today's date (YYYY-MM-DD)"
-}
+1. **Information Extraction**:
+   - Infer the **topic_korean** name and a suitable **topic_icon** (emoji) for the given "{topic}".
+   - Create a clean **topic_id** (snake_case, English).
+   - Determine the correct **topic_label** (German capitalized name).
 
-Generate exactly 10 words relevant to "{topic_korean}" in a real-life context.
+2. **Task 1 — Create vocabulary file**:
+   - Create the file: `public/data/vocabulary/{level}/[topic_id].json`
+   - Use the standard JSON structure:
+   {
+     "topic": "[topic_id]",
+     "topic_label": "[topic_label]",
+     "topic_korean": "[topic_korean]",
+     "topic_icon": "[topic_icon]",
+     "level": "{LEVEL}",
+     "words": [
+       {
+         "id": "voc_{level}_[topic_id]_001",
+         "word": "...",
+         "article": "der | die | das | null",
+         "plural": "...",
+         "pronunciation": "Korean phonetics",
+         "meaning": "Korean meaning",
+         "example": "German example sentence",
+         "example_translation": "Korean translation",
+         "example_pronunciation": "Korean phonetics",
+         "tags": ["noun | verb | adjective", "[topic_id]"]
+       }
+     ],
+     "lastUpdated": "YYYY-MM-DD"
+   }
+   - Generate exactly 10 essential words for this topic at the {LEVEL} level.
+
+3. **Task 2 — Register the topic in index.json**:
+   - In `public/data/index.json`, add the entry to the "{level}" array:
+   { "id": "[topic_id]", "label": "[topic_label]", "korean": "[topic_korean]", "icon": "[topic_icon]" }
 
 Rules:
-- {LEVEL} level only (appropriate difficulty)
-- article must be "der", "die", "das", or null (null for verbs/adjectives)
-- pronunciation MUST be in Korean phonetics (한국어 발음)
-- example sentence must be a real, natural sentence at {LEVEL} level
-- no duplicate words
-- id format: voc_{level}_{topic_id}_001, 002, 003... (sequential)
-
-### Task 2 — Register the topic in index.json
-
-In `public/data/index.json`, add this entry to the "{level}" array
-if it does not already exist:
-
-{ "id": "{topic_id}", "label": "{topic_label}", "korean": "{topic_korean}", "icon": "{topic_icon}" }
-
-IMPORTANT: Do NOT remove or modify any existing entries in index.json.
+- level: {level} (a1, a2, etc.)
+- Use Korean for all meanings, translations, and explanations.
+- Pronunciation MUST be in Korean phonetics.
+- Do not repeat words.
+- Ensure natural German sentences.
 ```
 
 ---
 
-## 변수 설명
-
-| 변수 | 설명 | 예시 |
-|---|---|---|
-| `{level}` | 소문자 레벨 | `a1`, `a2`, `b1`, `b2` |
-| `{LEVEL}` | 대문자 레벨 | `A1`, `A2`, `B1`, `B2` |
-| `{topic_id}` | 파일명 (소문자, 영문) | `restaurant`, `bahnhof`, `arzt` |
-| `{topic_label}` | 독일어 표기 | `Restaurant`, `Bahnhof`, `Arztpraxis` |
-| `{topic_korean}` | 한국어 이름 | `레스토랑`, `기차역`, `병원` |
-| `{topic_icon}` | 이모지 | `🍽️`, `🚉`, `🏥` |
-
----
-
-## 채우기 예시 (레스토랑 A1)
+## 사용 예시
 
 ```
-{level}        → a1
-{LEVEL}        → A1
-{topic_id}     → restaurant
-{topic_label}  → Restaurant
-{topic_korean} → 레스토랑
-{topic_icon}   → 🍽️
+Target Level: a1
+Target Topic: 공항 (Airport)
 ```
 
-→ 생성 파일: `public/data/vocabulary/a1/restaurant.json`
+Jules는 위 요청을 받으면 자동으로 `id: airport`, `label: Flughafen`, `icon: ✈️` 등을 설정하여 파일을 생성하고 `index.json`에 등록합니다.
 
 ---
 
