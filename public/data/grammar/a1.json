@@ -149,7 +149,50 @@
           "form": "haben"
         }
       ]
+    },
+    {
+      "id": "gram_a1_005",
+      "topic": "Regelmäßige Verben im Präsens (규칙 동사의 현재 시제 변화)",
+      "explanation": "독일어의 규칙 동사(약변화 동사)는 현재 시제에서 주어의 인칭과 수에 따라 어미가 일정한 규칙을 가지고 변합니다. 어간(동사 원형에서 '-en'을 뺀 부분)에 인칭에 맞는 어미(-e, -st, -t, -en, -t, -en)를 붙여줍니다.",
+      "examples": [
+        {
+          "german": "Ich lerne Deutsch.",
+          "korean": "나는 독일어를 배운다.",
+          "pronunciation": "이히 레르네 도이치"
+        },
+        {
+          "german": "Lernst du auch Deutsch?",
+          "korean": "너도 독일어를 배우니?",
+          "pronunciation": "레른스트 두 아우흐 도이치?"
+        }
+      ],
+      "conjugation_table": [
+        {
+          "pronoun": "ich",
+          "form": "lerne (-e)"
+        },
+        {
+          "pronoun": "du",
+          "form": "lernst (-st)"
+        },
+        {
+          "pronoun": "er/sie/es",
+          "form": "lernt (-t)"
+        },
+        {
+          "pronoun": "wir",
+          "form": "lernen (-en)"
+        },
+        {
+          "pronoun": "ihr",
+          "form": "lernt (-t)"
+        },
+        {
+          "pronoun": "sie/Sie",
+          "form": "lernen (-en)"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-04-26"
+  "lastUpdated": "2026-05-02"
 }
