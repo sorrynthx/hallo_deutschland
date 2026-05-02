@@ -1,0 +1,130 @@
+{
+  "topic": "supermarkt",
+  "topic_label": "Supermarkt",
+  "topic_korean": "슈퍼마켓",
+  "topic_icon": "🛒",
+  "level": "A1",
+  "words": [
+    {
+      "id": "voc_a1_supermarkt_001",
+      "word": "Supermarkt",
+      "article": "der",
+      "plural": "Supermärkte",
+      "pronunciation": "데어 주퍼마르크트",
+      "meaning": "슈퍼마켓",
+      "example": "Ich gehe in den Supermarkt.",
+      "example_translation": "저는 슈퍼마켓에 갑니다.",
+      "example_pronunciation": "이히 게헤 인 덴 주퍼마르크트",
+      "tags": ["place", "noun", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_002",
+      "word": "Einkaufswagen",
+      "article": "der",
+      "plural": "Einkaufswagen",
+      "pronunciation": "데어 아인카우프스바겐",
+      "meaning": "쇼핑 카트",
+      "example": "Ich brauche einen Einkaufswagen.",
+      "example_translation": "저는 쇼핑 카트가 필요해요.",
+      "example_pronunciation": "이히 브라우헤 아이넨 아인카우프스바겐",
+      "tags": ["object", "noun", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_003",
+      "word": "Kasse",
+      "article": "die",
+      "plural": "Kassen",
+      "pronunciation": "디 카세",
+      "meaning": "계산대",
+      "example": "Wo ist die Kasse?",
+      "example_translation": "계산대는 어디에 있나요?",
+      "example_pronunciation": "보 이스트 디 카세",
+      "tags": ["place", "noun", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_004",
+      "word": "kaufen",
+      "article": "null",
+      "plural": "null",
+      "pronunciation": "카우펜",
+      "meaning": "사다",
+      "example": "Ich kaufe Äpfel und Brot.",
+      "example_translation": "저는 사과와 빵을 삽니다.",
+      "example_pronunciation": "이히 카우페 옙펠 운트 브로트",
+      "tags": ["verb", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_005",
+      "word": "bezahlen",
+      "article": "null",
+      "plural": "null",
+      "pronunciation": "베찰렌",
+      "meaning": "지불하다, 계산하다",
+      "example": "Kann ich mit Karte bezahlen?",
+      "example_translation": "카드로 계산할 수 있나요?",
+      "example_pronunciation": "칸 이히 미트 카르테 베찰렌",
+      "tags": ["verb", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_006",
+      "word": "Geld",
+      "article": "das",
+      "plural": "Gelder",
+      "pronunciation": "다스 겔트",
+      "meaning": "돈",
+      "example": "Ich habe kein Geld dabei.",
+      "example_translation": "저는 지금 돈이 없어요.",
+      "example_pronunciation": "이히 하베 카인 겔트 다바이",
+      "tags": ["noun", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_007",
+      "word": "teuer",
+      "article": "null",
+      "plural": "null",
+      "pronunciation": "토이어",
+      "meaning": "비싼",
+      "example": "Das Fleisch ist sehr teuer.",
+      "example_translation": "그 고기는 매우 비싸요.",
+      "example_pronunciation": "다스 플라이쉬 이스트 제어 토이어",
+      "tags": ["adjective", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_008",
+      "word": "billig",
+      "article": "null",
+      "plural": "null",
+      "pronunciation": "빌리히",
+      "meaning": "싼, 저렴한",
+      "example": "Die Bananen sind heute billig.",
+      "example_translation": "바나나가 오늘은 저렴해요.",
+      "example_pronunciation": "디 바나넨 진트 호이테 빌리히",
+      "tags": ["adjective", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_009",
+      "word": "Tüte",
+      "article": "die",
+      "plural": "Tüten",
+      "pronunciation": "디 튀테",
+      "meaning": "봉투, 가방",
+      "example": "Brauchen Sie eine Tüte?",
+      "example_translation": "봉투가 필요하신가요?",
+      "example_pronunciation": "브라우헨 지 아이네 튀테",
+      "tags": ["object", "noun", "supermarkt"]
+    },
+    {
+      "id": "voc_a1_supermarkt_010",
+      "word": "Lebensmittel",
+      "article": "das",
+      "plural": "Lebensmittel",
+      "pronunciation": "다스 레벤스미텔",
+      "meaning": "식료품",
+      "example": "Wir brauchen frische Lebensmittel.",
+      "example_translation": "우리는 신선한 식료품이 필요해요.",
+      "example_pronunciation": "비어 브라우헨 프리쉐 레벤스미텔",
+      "tags": ["food", "noun", "supermarkt"]
+    }
+  ],
+  "lastUpdated": "2026-05-02"
+}
