@@ -4,7 +4,8 @@
     "a1": [
       { "id": "baeckerei", "label": "Bäckerei",  "korean": "빵집",  "icon": "🥐" },
       { "id": "bahnhof", "label": "Bahnhof", "korean": "기차역", "icon": "🚉" },
-      { "id": "beruf", "label": "Beruf", "korean": "직업", "icon": "💼" }
+      { "id": "beruf", "label": "Beruf", "korean": "직업", "icon": "💼" },
+      { "id": "supermarkt", "label": "Supermarkt", "korean": "슈퍼마켓", "icon": "🛒" }
     ],
     "a2": [],
     "b1": [],
