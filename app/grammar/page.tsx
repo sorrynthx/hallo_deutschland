@@ -1,17 +1,51 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useRouter } from 'next/navigation'
 import { useLevel } from '../contexts/LevelContext'
+
+/* ── helpers ──────────────────────────────────────── */
+
+/** topic 문자열에서 짧은 태그 레이블 추출
+ *  예) "Das Verb 'sein' (~이다)"  →  "sein"
+ *      "Akkusativ (4격 목적어 변화)"  →  "Akkusativ"
+ */
+function extractTagLabel(topic: string): string {
+  const beforeParen = topic.split('(')[0].trim()
+  return beforeParen
+    .replace(/^Das Verb\s+/i, '')
+    .replace(/^Die Verben\s+/i, '')
+    .replace(/'/g, '')
+    .trim()
+}
+
+/** 레슨이 검색어와 매칭되는지 확인 (한/영/독 통합) */
+function lessonMatchesSearch(lesson: any, query: string): boolean {
+  if (!query) return true
+  const q = query.toLowerCase()
+  const fields: string[] = [
+    lesson.topic ?? '',
+    lesson.explanation ?? '',
+    ...(lesson.examples ?? []).flatMap((e: any) => [e.german ?? '', e.korean ?? '', e.pronunciation ?? '']),
+    ...(lesson.conjugation_table ?? []).map((r: any) => `${r.pronoun ?? ''} ${r.form ?? ''}`),
+  ]
+  return fields.some(f => f.toLowerCase().includes(q))
+}
+
+/* ── page ─────────────────────────────────────────── */
 
 export default function GrammarPage() {
   const router = useRouter()
   const { level } = useLevel()
   const [lessons, setLessons] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [activeTag, setActiveTag] = useState<string | null>(null)
 
   useEffect(() => {
     setLoading(true)
+    setSearchQuery('')
+    setActiveTag(null)
     fetch(`/data/grammar/${level.toLowerCase()}.json`)
       .then(async r => {
         if (!r.ok) throw new Error('not found')
@@ -22,27 +56,183 @@ export default function GrammarPage() {
       .finally(() => setLoading(false))
   }, [level])
 
+  /* 레슨에서 태그 목록 생성 */
+  const tags = useMemo(
+    () => lessons.map(l => ({ id: l.id, label: extractTagLabel(l.topic) })),
+    [lessons],
+  )
+
+  /* 필터링된 레슨 */
+  const filteredLessons = useMemo(() => {
+    let result = lessons
+    if (activeTag) result = result.filter(l => l.id === activeTag)
+    if (searchQuery.trim()) result = result.filter(l => lessonMatchesSearch(l, searchQuery.trim()))
+    return result
+  }, [lessons, activeTag, searchQuery])
+
+  const isFiltered = !!(activeTag || searchQuery.trim())
+
+  const handleSearch = (q: string) => {
+    setSearchQuery(q)
+    if (q.trim()) setActiveTag(null)
+  }
+
+  const handleTag = (id: string) => {
+    if (activeTag === id) {
+      setActiveTag(null)
+    } else {
+      setActiveTag(id)
+      setSearchQuery('')
+    }
+  }
+
+  const clearAll = () => {
+    setActiveTag(null)
+    setSearchQuery('')
+  }
+
   return (
     <main style={{ flex: 1, display: 'flex', flexDirection: 'column', background: 'var(--gray-100)', minHeight: '100dvh' }}>
 
-      {/* ── TOP BAR ── */}
+      {/* ── STICKY HEADER ── */}
       <div style={{
-        padding: '16px 16px 12px',
-        display: 'flex', alignItems: 'center', gap: 12,
         background: 'var(--white)',
         borderBottom: '2.5px solid var(--gray-300)',
         position: 'sticky', top: 0, zIndex: 30,
       }}>
-        <button
-          onClick={() => router.back()}
-          style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--gray-500)', fontSize: 22, fontWeight: 900, padding: 4, lineHeight: 1, flexShrink: 0 }}
-        >
-          ✕
-        </button>
-        <div style={{ flex: 1, height: 16, borderRadius: 999, background: 'var(--gray-300)', overflow: 'hidden', position: 'relative' }}>
-          <div style={{ position: 'absolute', inset: 0, width: '100%', background: 'var(--blue)', borderRadius: 999 }} />
-          <div style={{ position: 'absolute', top: 3, left: 6, right: 6, height: 4, background: 'rgba(255,255,255,0.35)', borderRadius: 999 }} />
+
+        {/* 진행 바 행 */}
+        <div style={{
+          padding: '16px 16px 12px',
+          display: 'flex', alignItems: 'center', gap: 12,
+        }}>
+          <button
+            onClick={() => router.back()}
+            style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--gray-500)', fontSize: 22, fontWeight: 900, padding: 4, lineHeight: 1, flexShrink: 0 }}
+          >
+            ✕
+          </button>
+          <div style={{ flex: 1, height: 16, borderRadius: 999, background: 'var(--gray-300)', overflow: 'hidden', position: 'relative' }}>
+            <div style={{ position: 'absolute', inset: 0, width: '100%', background: 'var(--blue)', borderRadius: 999 }} />
+            <div style={{ position: 'absolute', top: 3, left: 6, right: 6, height: 4, background: 'rgba(255,255,255,0.35)', borderRadius: 999 }} />
+          </div>
         </div>
+
+        {/* 검색 바 + 태그 (레슨이 있을 때만) */}
+        {!loading && lessons.length > 0 && (
+          <>
+            {/* 검색 바 */}
+            <div style={{ padding: '0 16px 10px' }}>
+              <div style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                background: 'var(--gray-100)',
+                border: '2px solid',
+                borderColor: searchQuery ? 'var(--blue)' : 'var(--gray-300)',
+                borderRadius: 14,
+                padding: '10px 14px',
+                transition: 'border-color 0.15s ease',
+              }}>
+                <span style={{ fontSize: 16, color: searchQuery ? 'var(--blue)' : 'var(--gray-500)', flexShrink: 0, transition: 'color 0.15s' }}>
+                  🔍
+                </span>
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={e => handleSearch(e.target.value)}
+                  placeholder="검색... / Search... / Suche..."
+                  style={{
+                    flex: 1,
+                    background: 'none',
+                    border: 'none',
+                    outline: 'none',
+                    fontFamily: 'inherit',
+                    fontWeight: 700,
+                    fontSize: 15,
+                    color: 'var(--gray-900)',
+                  }}
+                />
+                {searchQuery && (
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    style={{
+                      background: 'var(--gray-300)',
+                      border: 'none',
+                      cursor: 'pointer',
+                      color: 'var(--gray-700)',
+                      fontSize: 11,
+                      fontWeight: 900,
+                      padding: '2px 6px',
+                      borderRadius: 999,
+                      lineHeight: 1.4,
+                      flexShrink: 0,
+                    }}
+                  >
+                    ✕
+                  </button>
+                )}
+              </div>
+            </div>
+
+            {/* 태그 버튼 행 */}
+            <div
+              style={{
+                display: 'flex',
+                gap: 8,
+                overflowX: 'auto',
+                padding: '0 16px 14px',
+                scrollbarWidth: 'none',
+              }}
+            >
+              {/* 전체 태그 */}
+              <button
+                onClick={clearAll}
+                style={{
+                  flexShrink: 0,
+                  padding: '6px 14px',
+                  borderRadius: 999,
+                  border: `2px solid ${!isFiltered ? 'var(--blue)' : 'var(--gray-300)'}`,
+                  background: !isFiltered ? 'var(--blue)' : 'var(--white)',
+                  color: !isFiltered ? 'var(--white)' : 'var(--gray-600)',
+                  fontFamily: 'inherit',
+                  fontWeight: 800,
+                  fontSize: 13,
+                  cursor: 'pointer',
+                  transition: 'all 0.15s ease',
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                전체 ({lessons.length})
+              </button>
+
+              {/* 레슨별 태그 */}
+              {tags.map(tag => {
+                const isActive = activeTag === tag.id
+                return (
+                  <button
+                    key={tag.id}
+                    onClick={() => handleTag(tag.id)}
+                    style={{
+                      flexShrink: 0,
+                      padding: '6px 14px',
+                      borderRadius: 999,
+                      border: `2px solid ${isActive ? 'var(--green)' : 'var(--gray-300)'}`,
+                      background: isActive ? 'var(--green)' : 'var(--white)',
+                      color: isActive ? 'var(--white)' : 'var(--gray-600)',
+                      fontFamily: 'inherit',
+                      fontWeight: 800,
+                      fontSize: 13,
+                      cursor: 'pointer',
+                      transition: 'all 0.15s ease',
+                      whiteSpace: 'nowrap',
+                    }}
+                  >
+                    {tag.label}
+                  </button>
+                )
+              })}
+            </div>
+          </>
+        )}
       </div>
 
       {/* ── CONTENT ── */}
@@ -53,11 +243,14 @@ export default function GrammarPage() {
         </h1>
 
         {loading ? (
+          /* 로딩 */
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 16, paddingTop: 60 }}>
             <div className="spin" style={{ width: 36, height: 36, borderRadius: '50%', border: '4px solid var(--gray-300)', borderTopColor: 'var(--blue)' }} />
             <p style={{ fontWeight: 700, color: 'var(--gray-500)', fontSize: 15 }}>레슨 불러오는 중...</p>
           </div>
+
         ) : lessons.length === 0 ? (
+          /* 데이터 없음 */
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 12, textAlign: 'center', paddingTop: 40 }}>
             <div style={{ fontSize: 64 }}>🚧</div>
             <p style={{ fontWeight: 900, fontSize: 20, color: 'var(--gray-900)' }}>{level} 레벨 준비 중!</p>
@@ -66,19 +259,51 @@ export default function GrammarPage() {
               <button className="btn btn-ghost" onClick={() => router.back()}>돌아가기</button>
             </div>
           </div>
-        ) : (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-            {lessons.map((lesson, i) => (
-              <LessonCard key={lesson.id} lesson={lesson} index={i} />
-            ))}
+
+        ) : filteredLessons.length === 0 ? (
+          /* 검색 결과 없음 */
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 12, textAlign: 'center', paddingTop: 40 }}>
+            <div style={{ fontSize: 64 }}>🔍</div>
+            <p style={{ fontWeight: 900, fontSize: 20, color: 'var(--gray-900)' }}>검색 결과 없음</p>
+            <p style={{ fontWeight: 700, fontSize: 15, color: 'var(--gray-500)', lineHeight: 1.5 }}>
+              {searchQuery
+                ? `"${searchQuery}"에 해당하는 문법이 없어요.`
+                : '해당 태그의 내용이 없어요.'}
+            </p>
+            <div style={{ marginTop: 16, width: '100%', maxWidth: 240 }}>
+              <button
+                className="btn btn-ghost"
+                onClick={clearAll}
+              >
+                전체 보기
+              </button>
+            </div>
           </div>
+
+        ) : (
+          /* 레슨 카드 목록 */
+          <>
+            {isFiltered && (
+              <p style={{ fontWeight: 700, fontSize: 13, color: 'var(--gray-500)', marginBottom: 14 }}>
+                {filteredLessons.length}개 결과
+                {searchQuery && ` · "${searchQuery}"`}
+              </p>
+            )}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+              {filteredLessons.map((lesson, i) => (
+                <LessonCard key={lesson.id} lesson={lesson} index={i} />
+              ))}
+            </div>
+          </>
         )}
       </div>
     </main>
   )
 }
 
-function LessonCard({ lesson, index }: { lesson: any, index: number }) {
+/* ── LessonCard ───────────────────────────────────── */
+
+function LessonCard({ lesson, index }: { lesson: any; index: number }) {
   const [open, setOpen] = useState(false)
 
   return (
@@ -114,6 +339,7 @@ function LessonCard({ lesson, index }: { lesson: any, index: number }) {
 
       {/* Body */}
       <div style={{ padding: '18px 18px 0' }}>
+
         {/* Explanation */}
         <p style={{ fontWeight: 700, fontSize: 15, color: 'var(--gray-900)', lineHeight: 1.65, marginBottom: 16 }}>
           {lesson.explanation}

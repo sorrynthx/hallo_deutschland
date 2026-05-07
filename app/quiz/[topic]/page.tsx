@@ -1,10 +1,10 @@
 'use client'
 
-import { useState, useEffect, use } from 'react'
+import { useState, useEffect, use, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { useLevel } from '../../contexts/LevelContext'
 
-const CARD_COUNT = 5
+/* ── sub-screens ─────────────────────────────────── */
 
 function Loader() {
   return (
@@ -28,18 +28,23 @@ function EmptyState({ onBack }: { onBack: () => void }) {
   )
 }
 
-function DoneScreen({ onBack }: { onBack: () => void }) {
+function DoneScreen({ total, onBack, onRestart }: { total: number; onBack: () => void; onRestart: () => void }) {
   return (
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '32px 24px', gap: 20, textAlign: 'center' }}>
       <div className="pop-in" style={{ fontSize: 80 }}>🎉</div>
       <p style={{ fontWeight: 900, fontSize: 26, color: 'var(--green)' }}>훌륭해요!</p>
-      <p style={{ fontWeight: 700, fontSize: 16, color: 'var(--gray-500)', lineHeight: 1.5 }}>오늘의 단어 학습을 완료했어요.</p>
-      <div style={{ marginTop: 8, width: '100%', maxWidth: 280 }}>
-        <button className="btn btn-green" onClick={onBack}>다른 토픽 학습하기</button>
+      <p style={{ fontWeight: 700, fontSize: 16, color: 'var(--gray-500)', lineHeight: 1.5 }}>
+        {total}개 단어를 모두 학습했어요.
+      </p>
+      <div style={{ marginTop: 8, width: '100%', maxWidth: 280, display: 'flex', flexDirection: 'column', gap: 10 }}>
+        <button className="btn btn-green" onClick={onRestart}>🔄&nbsp; 처음부터 다시</button>
+        <button className="btn btn-ghost" onClick={onBack}>다른 토픽 학습하기</button>
       </div>
     </div>
   )
 }
+
+/* ── main page ───────────────────────────────────── */
 
 export default function QuizPage({ params }: { params: Promise<{ topic: string }> }) {
   const router = useRouter()
@@ -51,8 +56,11 @@ export default function QuizPage({ params }: { params: Promise<{ topic: string }
   const [idx, setIdx] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [loading, setLoading] = useState(true)
-  const [showButtons, setShowButtons] = useState(false)
 
+  const tagBarRef = useRef<HTMLDivElement>(null)
+  const activeTagRef = useRef<HTMLButtonElement>(null)
+
+  /* 데이터 로드 — 전체 단어 순서대로 사용 (랜덤 5개 제한 제거) */
   useEffect(() => {
     setLoading(true)
     setIdx(0)
@@ -65,35 +73,52 @@ export default function QuizPage({ params }: { params: Promise<{ topic: string }
       })
       .then(d => {
         setTopicLabel(d.topic_label ?? topic)
-        const shuffled = [...(d.words ?? [])].sort(() => Math.random() - 0.5)
-        setWords(shuffled.slice(0, CARD_COUNT))
+        setWords(d.words ?? [])
       })
       .catch(() => setWords([]))
       .finally(() => setLoading(false))
   }, [level, topic])
 
-  const handleFlip = () => {
-    if (flipped) return
-    setFlipped(true)
-    setShowButtons(true)
-  }
+  /* 현재 카드가 바뀔 때 태그 바를 해당 태그로 스크롤 */
+  useEffect(() => {
+    if (activeTagRef.current) {
+      activeTagRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' })
+    }
+  }, [idx])
 
+  /* 카드 앞↔뒤 토글 */
+  const handleFlip = () => setFlipped(f => !f)
+
+  /* 다음 카드로 이동 */
   const handleNext = () => {
     setFlipped(false)
-    setShowButtons(false)
     setTimeout(() => setIdx(i => i + 1), 180)
   }
 
+  /* 다시 볼게요 → 앞면으로 되돌리기 */
+  const handleRetry = () => setFlipped(false)
+
+  /* 태그 클릭 → 해당 단어로 점프 */
+  const handleJump = (targetIdx: number) => {
+    if (targetIdx === idx) { setFlipped(false); return }
+    setFlipped(false)
+    setTimeout(() => setIdx(targetIdx), 180)
+  }
+
+  /* 처음부터 다시 */
+  const handleRestart = () => { setFlipped(false); setIdx(0) }
+
   const back = () => router.push('/quiz')
-  const progress = (idx / CARD_COUNT) * 100
+  const total = words.length
+  const progress = total > 0 ? (idx / total) * 100 : 0
   const word = words[idx]
-  const done = !loading && idx >= words.length && words.length > 0
+  const done = !loading && idx >= total && total > 0
 
   return (
     <main style={{ display: 'flex', flexDirection: 'column', background: 'var(--white)', height: '100dvh' }}>
 
       {/* ── TOP BAR ── */}
-      <div style={{ padding: '16px 16px 12px', display: 'flex', alignItems: 'center', gap: 14, borderBottom: '2px solid var(--gray-100)' }}>
+      <div style={{ padding: '16px 16px 12px', display: 'flex', alignItems: 'center', gap: 14, borderBottom: '2px solid var(--gray-100)', flexShrink: 0 }}>
         <button
           onClick={back}
           style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--gray-500)', fontSize: 22, fontWeight: 900, padding: 4, lineHeight: 1, flexShrink: 0 }}
@@ -115,11 +140,11 @@ export default function QuizPage({ params }: { params: Promise<{ topic: string }
       {/* ── BODY ── */}
       {loading ? <Loader /> :
         words.length === 0 ? <EmptyState onBack={back} /> :
-          done ? <DoneScreen onBack={back} /> : (
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: '20px 20px 32px' }}>
+          done ? <DoneScreen total={total} onBack={back} onRestart={handleRestart} /> : (
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', padding: '20px 20px 20px', overflow: 'hidden' }}>
 
               {/* Topic label + counter */}
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 }}>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, flexShrink: 0 }}>
                 <span style={{
                   fontWeight: 800, fontSize: 12, color: 'var(--green)',
                   background: 'var(--green-light)', border: '1.5px solid #a3d977',
@@ -129,7 +154,7 @@ export default function QuizPage({ params }: { params: Promise<{ topic: string }
                   {topicLabel}
                 </span>
                 <span style={{ fontWeight: 800, fontSize: 14, color: 'var(--gray-500)' }}>
-                  {idx + 1} / {CARD_COUNT}
+                  {idx + 1} / {total}
                 </span>
               </div>
 
@@ -137,7 +162,7 @@ export default function QuizPage({ params }: { params: Promise<{ topic: string }
               <div
                 onClick={handleFlip}
                 className="pop-in"
-                style={{ flex: 1, maxHeight: 340, cursor: flipped ? 'default' : 'pointer', perspective: '1000px' }}
+                style={{ flex: 1, cursor: 'pointer', perspective: '1000px', minHeight: 0 }}
               >
                 <div style={{
                   width: '100%', height: '100%', position: 'relative',
@@ -196,20 +221,70 @@ export default function QuizPage({ params }: { params: Promise<{ topic: string }
                         )}
                       </div>
                     )}
+                    <div style={{ marginTop: 'auto', paddingTop: 8 }}>
+                      <span style={{ fontWeight: 700, fontSize: 12, color: 'rgba(0,0,0,0.3)', background: 'rgba(255,255,255,0.5)', padding: '4px 12px', borderRadius: 999, display: 'inline-block' }}>
+                        다시 탭하면 앞면으로 🔄
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
 
               {/* ── ACTION BUTTONS ── */}
               <div style={{
-                marginTop: 20, display: 'flex', flexDirection: 'column', gap: 10,
-                opacity: showButtons ? 1 : 0,
-                pointerEvents: showButtons ? 'auto' : 'none',
+                marginTop: 14, display: 'flex', flexDirection: 'column', gap: 10,
+                flexShrink: 0,
+                opacity: flipped ? 1 : 0,
+                pointerEvents: flipped ? 'auto' : 'none',
                 transition: 'opacity 0.2s ease',
               }}>
                 <button className="btn btn-green" onClick={handleNext}>✓&nbsp; 알고 있어요</button>
-                <button className="btn btn-ghost" onClick={handleNext}>↩&nbsp; 다시 학습할게요</button>
+                <button className="btn btn-ghost" onClick={handleRetry}>↩&nbsp; 다시 볼게요</button>
               </div>
+
+              {/* ── 단어 탐색 바 ── */}
+              <div style={{ marginTop: 14, flexShrink: 0 }}>
+                <div
+                  ref={tagBarRef}
+                  style={{
+                    display: 'flex',
+                    gap: 8,
+                    overflowX: 'auto',
+                    scrollbarWidth: 'none',
+                    padding: '4px 0 2px',
+                  }}
+                >
+                  {words.map((w, i) => {
+                    const isCurrent = i === idx
+                    const isPast = i < idx
+                    return (
+                      <button
+                        key={i}
+                        ref={isCurrent ? activeTagRef : undefined}
+                        onClick={() => handleJump(i)}
+                        style={{
+                          flexShrink: 0,
+                          padding: '6px 12px',
+                          borderRadius: 999,
+                          border: `2px solid ${isCurrent ? 'var(--green)' : isPast ? 'var(--gray-200)' : 'var(--gray-300)'}`,
+                          background: isCurrent ? 'var(--green)' : isPast ? 'var(--gray-100)' : 'var(--white)',
+                          color: isCurrent ? 'var(--white)' : isPast ? 'var(--gray-400)' : 'var(--gray-700)',
+                          fontFamily: 'inherit',
+                          fontWeight: 800,
+                          fontSize: 12,
+                          cursor: 'pointer',
+                          transition: 'all 0.15s ease',
+                          whiteSpace: 'nowrap',
+                        }}
+                      >
+                        {isPast && <span style={{ marginRight: 3, fontSize: 10 }}>✓</span>}
+                        {w.word}
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+
             </div>
           )}
     </main>
