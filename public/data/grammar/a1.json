@@ -192,7 +192,50 @@
           "form": "lernen (-en)"
         }
       ]
+    },
+    {
+      "id": "gram_a1_006",
+      "topic": "Das Modalverb 'können' (조동사: ~할 수 있다)",
+      "explanation": "'können'은 '할 수 있다'라는 능력이나 가능성을 나타낼 때 사용되는 조동사입니다. A1 레벨에서 자신의 능력이나 허락을 물어볼 때 자주 사용됩니다.",
+      "examples": [
+        {
+          "german": "Ich kann gut schwimmen.",
+          "korean": "나는 수영을 잘 할 수 있습니다.",
+          "pronunciation": "이히 칸 구트 슈빔멘"
+        },
+        {
+          "german": "Können Sie mir helfen?",
+          "korean": "저를 도와주실 수 있나요?",
+          "pronunciation": "쾨넨 지 미어 헬펜?"
+        }
+      ],
+      "conjugation_table": [
+        {
+          "pronoun": "ich",
+          "form": "kann"
+        },
+        {
+          "pronoun": "du",
+          "form": "kannst"
+        },
+        {
+          "pronoun": "er/sie/es",
+          "form": "kann"
+        },
+        {
+          "pronoun": "wir",
+          "form": "können"
+        },
+        {
+          "pronoun": "ihr",
+          "form": "könnt"
+        },
+        {
+          "pronoun": "sie/Sie",
+          "form": "können"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-05-02"
+  "lastUpdated": "2026-05-09"
 }
