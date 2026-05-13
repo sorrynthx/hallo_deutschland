@@ -1,0 +1,37 @@
+{
+  "level": "A2",
+  "lessons": [
+    {
+      "id": "gram_a2_001",
+      "topic": "Das Perfekt (현재완료) - 과거 시제 표현",
+      "explanation": "독일어에서 과거의 일을 말할 때 일상 대화에서는 주로 '현재완료(Perfekt)' 시제를 사용합니다. 현재완료는 조동사 'haben' 또는 'sein'의 현재형과 문장 맨 끝에 오는 동사의 '과거분사(Partizip II)' 형태로 만듭니다. 이동이나 상태 변화를 나타내는 동사는 'sein'을, 그 외의 대부분의 동사는 'haben'을 사용합니다.",
+      "examples": [
+        {
+          "german": "Ich habe gestern ein Buch gelesen.",
+          "korean": "나는 어제 책을 읽었다.",
+          "pronunciation": "이히 하베 게스테른 아인 부흐 겔레젠"
+        },
+        {
+          "german": "Wir sind nach Berlin gefahren.",
+          "korean": "우리는 베를린으로 여행을 갔다.",
+          "pronunciation": "비어 진트 나흐 베를린 게파렌"
+        }
+      ],
+      "conjugation_table": [
+        {
+          "pronoun": "규칙 동사 (예: machen)",
+          "form": "haben + gemacht (ge + 어간 + t)"
+        },
+        {
+          "pronoun": "불규칙 동사 (예: lesen)",
+          "form": "haben + gelesen (ge + 어간 + en)"
+        },
+        {
+          "pronoun": "이동 동사 (예: fahren)",
+          "form": "sein + gefahren (ge + 어간 + en)"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-05-13"
+}
