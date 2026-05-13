@@ -1,0 +1,160 @@
+{
+  "topic": "wohnung",
+  "topic_label": "Wohnung",
+  "topic_korean": "거주지",
+  "topic_icon": "🏠",
+  "level": "a2",
+  "words": [
+    {
+      "id": "voc_a2_wohnung_001",
+      "word": "Wohnung",
+      "article": "die",
+      "plural": "Wohnungen",
+      "pronunciation": "보-눙",
+      "meaning": "아파트, 거주지",
+      "example": "Ich suche eine neue Wohnung.",
+      "example_translation": "나는 새로운 아파트를 찾고 있습니다.",
+      "example_pronunciation": "이히 주-헤 아이네 노이에 보-눙.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_002",
+      "word": "Zimmer",
+      "article": "das",
+      "plural": "Zimmer",
+      "pronunciation": "침머",
+      "meaning": "방",
+      "example": "Meine Wohnung hat drei Zimmer.",
+      "example_translation": "내 아파트는 방이 세 개 있습니다.",
+      "example_pronunciation": "마이네 보-눙 핫 드라이 침머.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_003",
+      "word": "Küche",
+      "article": "die",
+      "plural": "Küchen",
+      "pronunciation": "퀴헤",
+      "meaning": "부엌",
+      "example": "Wir kochen gerne in der Küche.",
+      "example_translation": "우리는 부엌에서 요리하는 것을 좋아합니다.",
+      "example_pronunciation": "비어 코헨 게어네 인 데어 퀴헤.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_004",
+      "word": "Wohnzimmer",
+      "article": "das",
+      "plural": "Wohnzimmer",
+      "pronunciation": "본-침머",
+      "meaning": "거실",
+      "example": "Das Sofa steht im Wohnzimmer.",
+      "example_translation": "소파는 거실에 있습니다.",
+      "example_pronunciation": "다스 조파 슈테-트 임 본-침머.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_005",
+      "word": "Schlafzimmer",
+      "article": "das",
+      "plural": "Schlafzimmer",
+      "pronunciation": "슐라프-침머",
+      "meaning": "침실",
+      "example": "Im Schlafzimmer steht ein großes Bett.",
+      "example_translation": "침실에는 큰 침대가 있습니다.",
+      "example_pronunciation": "임 슐라프-침머 슈테-트 아인 그로-쎄스 베트.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_006",
+      "word": "Badezimmer",
+      "article": "das",
+      "plural": "Badezimmer",
+      "pronunciation": "바-데-침머",
+      "meaning": "욕실",
+      "example": "Das Badezimmer hat eine Dusche.",
+      "example_translation": "욕실에는 샤워기가 있습니다.",
+      "example_pronunciation": "다스 바-데-침머 핫 아이네 두-셰.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_007",
+      "word": "Balkon",
+      "article": "der",
+      "plural": "Balkone",
+      "pronunciation": "발콘",
+      "meaning": "발코니",
+      "example": "Im Sommer sitzen wir oft auf dem Balkon.",
+      "example_translation": "여름에 우리는 자주 발코니에 앉아 있습니다.",
+      "example_pronunciation": "임 좀머 지첸 비어 오프트 아우프 뎀 발콘.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_008",
+      "word": "mieten",
+      "article": "null",
+      "plural": "-",
+      "pronunciation": "미-텐",
+      "meaning": "임대하다, 빌리다",
+      "example": "Wir möchten ein Haus mieten.",
+      "example_translation": "우리는 집을 임대하고 싶습니다.",
+      "example_pronunciation": "비어 뫼히텐 아인 하우스 미-텐.",
+      "tags": [
+        "verb",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_009",
+      "word": "Schlüssel",
+      "article": "der",
+      "plural": "Schlüssel",
+      "pronunciation": "슐뤼쎌",
+      "meaning": "열쇠",
+      "example": "Ich habe meinen Schlüssel vergessen.",
+      "example_translation": "나는 내 열쇠를 잊어버렸습니다.",
+      "example_pronunciation": "이히 하-베 마이넨 슐뤼쎌 페어게쎈.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    },
+    {
+      "id": "voc_a2_wohnung_010",
+      "word": "Miete",
+      "article": "die",
+      "plural": "Mieten",
+      "pronunciation": "미-테",
+      "meaning": "임대료, 월세",
+      "example": "Die Miete für diese Wohnung ist hoch.",
+      "example_translation": "이 아파트의 임대료는 높습니다.",
+      "example_pronunciation": "디 미-테 퓌어 디-제 보-눙 이스트 호-흐.",
+      "tags": [
+        "noun",
+        "wohnung"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-05-13"
+}
