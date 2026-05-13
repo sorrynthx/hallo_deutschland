@@ -7,7 +7,9 @@
       { "id": "beruf", "label": "Beruf", "korean": "직업", "icon": "💼" },
       { "id": "supermarkt", "label": "Supermarkt", "korean": "슈퍼마켓", "icon": "🛒" }
     ],
-    "a2": [],
+    "a2": [
+      { "id": "wohnung", "label": "Wohnung", "korean": "거주지", "icon": "🏠" }
+    ],
     "b1": [],
     "b2": []
   }
