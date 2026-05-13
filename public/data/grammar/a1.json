@@ -235,7 +235,50 @@
           "form": "können"
         }
       ]
+    },
+    {
+      "id": "gram_a1_007",
+      "topic": "Personalpronomen im Nominativ (주격 인칭대명사)",
+      "explanation": "독일어의 주격 인칭대명사는 문장의 주어 역할을 하며 '~은/는/이/가'로 해석됩니다. 대화 상대와의 관계에 따라 존칭(Sie)과 친칭(du, ihr)을 구별해서 사용해야 합니다.",
+      "examples": [
+        {
+          "german": "Ich bin Schüler.",
+          "korean": "나는 학생입니다.",
+          "pronunciation": "이히 빈 쉴러"
+        },
+        {
+          "german": "Woher kommen Sie?",
+          "korean": "당신은 어디에서 오셨습니까?",
+          "pronunciation": "보헤어 코멘 지?"
+        }
+      ],
+      "conjugation_table": [
+        {
+          "pronoun": "1. Person Singular (1인칭 단수)",
+          "form": "ich (나는)"
+        },
+        {
+          "pronoun": "2. Person Singular (2인칭 단수)",
+          "form": "du (너는)"
+        },
+        {
+          "pronoun": "3. Person Singular (3인칭 단수)",
+          "form": "er/sie/es (그는/그녀는/그것은)"
+        },
+        {
+          "pronoun": "1. Person Plural (1인칭 복수)",
+          "form": "wir (우리는)"
+        },
+        {
+          "pronoun": "2. Person Plural (2인칭 복수)",
+          "form": "ihr (너희들은)"
+        },
+        {
+          "pronoun": "3. Person Plural & Formell (3복수 및 존칭)",
+          "form": "sie/Sie (그들은/당신은)"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-05-09"
+  "lastUpdated": "2026-05-13"
 }
