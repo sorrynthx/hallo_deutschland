@@ -313,7 +313,42 @@
           "form": "die / - (없음)"
         }
       ]
+    },
+    {
+      "id": "gram_a1_009",
+      "topic": "Negation: 'nicht' und 'kein' (부정문: 'nicht'와 'kein')",
+      "explanation": "독일어에서 부정문(아니다, 안 하다)을 만들 때는 주로 'nicht'나 'kein'을 사용합니다. 'kein'은 명사(부정관사가 붙는 명사나 관사가 없는 명사)를 부정할 때 사용하며, 'nicht'는 동사, 형용사, 부사 또는 특정한 명사(정관사가 있는 명사 등)를 부정할 때 사용합니다.",
+      "examples": [
+        {
+          "german": "Ich habe kein Auto.",
+          "korean": "나는 차가 없습니다.",
+          "pronunciation": "이히 하베 카인 아우토"
+        },
+        {
+          "german": "Das ist nicht mein Buch.",
+          "korean": "이것은 내 책이 아닙니다.",
+          "pronunciation": "다스 이스트 니히트 마인 부흐"
+        }
+      ],
+      "conjugation_table": [
+        {
+          "pronoun": "Maskulin (남성)",
+          "form": "kein (1격) / keinen (4격)"
+        },
+        {
+          "pronoun": "Feminin (여성)",
+          "form": "keine (1격) / keine (4격)"
+        },
+        {
+          "pronoun": "Neutral (중성)",
+          "form": "kein (1격) / kein (4격)"
+        },
+        {
+          "pronoun": "Plural (복수)",
+          "form": "keine (1격) / keine (4격)"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-05-13"
+  "lastUpdated": "2026-05-16"
 }
